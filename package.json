@@ -7,9 +7,11 @@
     "dev": "vercel dev",
     "build": "echo 'No build required'",
     "deploy": "vercel --prod",
+    "deploy:prod": "vercel --prod",
     "preprocess": "node scripts/preprocess-v4-pipeline.js",
     "test-api": "node scripts/test-api.js",
-    "setup-pinecone": "node scripts/setup-pinecone-index.js"
+    "setup-pinecone": "node scripts/setup-pinecone-index.js",
+    "git-deploy": "git add . && git commit -m 'Update' && git push origin main"
   },
   "dependencies": {
     "@pinecone-database/pinecone": "^2.0.1",
@@ -26,8 +28,6 @@
     "vercel": "^32.7.2"
   },
   "engines": {
-    "node": "22.19.0"
-    
+    "node": "20.x"
   }
 }
-
