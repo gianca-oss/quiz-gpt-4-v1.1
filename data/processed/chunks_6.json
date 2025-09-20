@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p343_c0",
+    "page": 343,
+    "text": "Importanza GERARCHIA q La Work Breakdown Structure (WBS) può assumere diverse forme q Spesso si presenta come uno schema o una figura gerarchica q La WBS può rappresentare un progetto suddiviso in blocchi gerarchici q È un documento importante e può essere adattato per essere utilizzato in diversi modi. ü illustrare come ogni parte del progetto contribuisce in termini di prestazioni,, tempi e budget ü elencare i fornitori o i subappaltatori associati a compiti specifici ü servire come base per fare stime dei costi o stime della durata dei compiti ü essere usata per documentare che tutte le parti hanno firmato i loro vari impegni per il progetto WORK BREAKDOWN STRUCTURE",
+    "start": 0,
+    "end": 677,
+    "length": 677,
+    "hash": "ngetry"
+  },
+  {
+    "id": "p344_c0",
+    "page": 344,
+    "text": "Come la WBS aiuta il project manager q Facilita la valutazione dei costi, dei tempi e delle prestazioni tecniche dell'organizzazione in un progetto q Fornisce alla direzione informazioni appropriate per ciascun livello organizzativo q Aiuta nello sviluppo della struttura organizzativa (OBS), che assegna le responsabilità del progetto a unità organizzative e individui q Aiuta a sviluppare la programmazione, i.e. calendario e budget q Definisce i canali di comunicazione e assiste nel coordinamento dei vari elementi del progetto",
+    "start": 0,
+    "end": 531,
+    "length": 531,
+    "hash": "rqd14u"
+  },
+  {
+    "id": "p345_c0",
+    "page": 345,
+    "text": "PMI BOK (2013) Rilevanza della WBS La Work Breakdown Structure è collcata all’inizio delle fasi più importanti della pianificazione. Dalla WBS derivano: - La valutazione economica e finanziaria da budget - La gestione delle attività e lo schedule - La valutazione del rischio e dell’incertezza I risultati delle diverse fasi sono integrate nel piano generale di progetto WORK BREAKDOWN STRUCTURE",
+    "start": 0,
+    "end": 395,
+    "length": 395,
+    "hash": "kq0qrm"
+  },
+  {
+    "id": "p346_c0",
+    "page": 346,
+    "text": "Progetto Task 1 Deliverable 1 Task 2 Deliverable 2 Task 3 Deliverable 3 Subtask 1.1 Deliverable 1.1 Subtask 1.2 Deliverable 1.2 Subtask 1.3 Deliverable 1.3 Subtask 1.4 Deliverable 1.4 Subtask 2.1 Deliverable 2.1 Subtask 2.2 Deliverable 2.2 Subtask 2.3 Deliverable 2.3 Subtask 2.3.1 Deliverable 2.3.1 Subtask 1.1 Deliverable 1.1 Subtask 3.1 Deliverable 3.1 Subtask 3.2 Deliverable 3.2 Subtask 3.3 Deliverable 3.3 Subtask 2.3.2 Deliverable 2.3.2 Elementi intermedi Elementi terminali (workpackage) Project middle element terminal element ( workpackage ) HIERACHY Scomposizione progressiva (gerarchica) Il processo di costruzione di una WBS è un'attività in divenire, che scompone continuamente i compiti e i deliverable del progetto La gerarchia risultante potrebbe risultare in un albero non bilanciato, cioè una struttura con diversi livelli di profondità Si noti in questa WBS che il subtask /deliverable 2.3 sono ulteriormente suddivisi in Work Packages Questo dimostra che il compito 2.3 ha bisogno di un maggiore controllo e potrebbe essere separato in maniera più profonda WORK BREAKDOWN STRUCTURE",
+    "start": 0,
+    "end": 1102,
+    "length": 1102,
+    "hash": "q7gtqs"
+  },
+  {
+    "id": "p348_c0",
+    "page": 348,
+    "text": "GERARCHIA: UN INDICE O UN ALBERO Codifica : struttura documentale o grafica 0.0 Retail Web Site 1.0 Project Management 2.0 Requirements Gathering 3.0 Analysis & Design 4.0 Site Software Development 4.1 HTML Design and Creation 4.2 Backend Software 4.2.1 Database Implementation 4.2.2 Middleware Development 4.2.3 Security Subsystems 4.2.4 Catalog Engine 4.2.5 Transaction Processing 4.3 Graphics and Interface 4.4 Content Creation 5.0 Testing and Production WORK BREAKDOWN STRUCTURE",
+    "start": 0,
+    "end": 482,
+    "length": 482,
+    "hash": "qklyct"
+  },
+  {
+    "id": "p349_c0",
+    "page": 349,
+    "text": "STOP Quando fermarsi: i Work Package Il Work Package è il livello più basso della WBS • È output - oriented nel senso che: ü definisce il lavoro ( cosa ) ü identifica il tempo richiesto ( quanto tempo ) ü identifica una componente elementade del budget ( costo ) ü identifica le risorse necessarie ( quanto ) ü identifica il/i responsabile/i del lavoro ( chi )",
+    "start": 0,
+    "end": 360,
+    "length": 360,
+    "hash": "294c9c"
+  },
+  {
+    "id": "p350_c0",
+    "page": 350,
+    "text": "# Livello di dettaglio Il numero di livelli è influenzato da: Dimensione del progetto Numero/complessità di risorse e attività coinvolte Accuratezza e dettaglio delle stime Livello di controllo necessario In progetti di piccole/medie dimensioni 3/4 livelli di WBS sono adeguati.",
+    "start": 0,
+    "end": 278,
+    "length": 278,
+    "hash": "3q5sdr"
+  },
+  {
+    "id": "p351_c0",
+    "page": 351,
+    "text": "Elementi di costruzione q Dovrebbe essere facile da comprendere q Alcune aziende hanno standard aziendali per questi schemi q Alcuni elementi di alto livello, come il team di PM, sono inclusi nella WBS di default; altri variano in base al progetto q Ciò che spesso causa più problemi è ciò che manca q Scomponi finché non riesci a generare stime accurate q Assicurati che ogni attività corrisponda a un deliverable (prodotto/risultato da realizzare)",
+    "start": 0,
+    "end": 449,
+    "length": 449,
+    "hash": "5ic3ug"
+  },
+  {
+    "id": "p352_c0",
+    "page": 352,
+    "text": "Tecniche di costruzione q Strumenti? § Excel, Word, Project § Applicazioni per diagrammi ( Canva , Miro, Visio, etc ) § App specializzate q Riutilizzate/cercate un “template” § Modelli di WBS costruiti e consolidati nel tempo § Alcuni ambiti sono caratterizzati da WBS standard o semi - standard (template )",
+    "start": 0,
+    "end": 307,
+    "length": 307,
+    "hash": "i2s1fc"
+  },
+  {
+    "id": "p353_c0",
+    "page": 353,
+    "text": "LINEE GUIDA Tecniche di costruzione Brainstorming Generate tutte le attività che potete concepire o che necessitano di essere realizzate Raggruppatele in categorie Coordinare tutti gli ambiti/domini che caratterizzano il progetto Coinvolgere le persone che svolgeranno il lavoro (il consenso è importante!) WORK BREAKDOWN STRUCTURE",
+    "start": 0,
+    "end": 331,
+    "length": 331,
+    "hash": "exccf8"
+  },
+  {
+    "id": "p354_c0",
+    "page": 354,
+    "text": "Completezza: 100% rule (PMI, 2013) La regola del 100%... afferma che la WBS include il 100% del lavoro definito dall'ambito del progetto e cattura tutti i deliverable - interni, esterni, intermedi - in termini di lavoro da completare, compresa la gestione del progetto. La regola del 100% è uno dei principi più importanti che guidano lo sviluppo, la scomposizione e la valutazione della WBS. La regola si applica a tutti i livelli della gerarchia: la somma del lavoro al livello “figlio” deve essere uguale al 100% del lavoro rappresentato dal ‘genitore’ e la WBS non deve includere alcun lavoro che non rientri nell'ambito effettivo del progetto, cioè non può includere più del 100% del lavoro\".",
+    "start": 0,
+    "end": 697,
+    "length": 697,
+    "hash": "phy16a"
+  },
+  {
+    "id": "p356_c0",
+    "page": 356,
+    "text": "La gestione dei costi nei progetti q I progetti hanno un bilancio negativo per quanto riguarda il rispetto degli obiettivi di budget. q Nel 2014 gli Stati Uniti hanno perso 115 miliardi di dollari in progetti IT a causa di progetti cancellati e sforamenti, rispetto ai 140 miliardi di dollari del 1994. q Gli studi CHAOS del 2015 hanno mostrato che il superamento medio dei costi (la percentuale aggiuntiva o l'importo in dollari di cui i costi effettivi superano le stime) è stato del 41%. The Standish Group, ‘CHAOS Report’, various editions",
+    "start": 0,
+    "end": 543,
+    "length": 543,
+    "hash": "fwblbq"
+  },
+  {
+    "id": "p357_c0",
+    "page": 357,
+    "text": "Cost overrun nei giochi olimpici % overrun sul budget definitivo Flyvbjerg & Stewart, 2012 201 796 321 173 59 417 277 147 56 90 29 60 82 4 17 101 0 100 200 300 400 500 600 700 800 900 Grenoble 1968 Montreal 1976 Lake Placid 1980 Sarajevo 1984 Calgary 1988 Barcelona 1992 Lillehammer 1994 Atlanta 1996 Nagano 1998 Sydney 2000 Salt Lake City 2002 Athens 2004 Torino 2006 Beijing 2008 Vancouver 2010 London 2012",
+    "start": 0,
+    "end": 408,
+    "length": 408,
+    "hash": "raezj7"
+  },
+  {
+    "id": "p358_c0",
+    "page": 358,
+    "text": "Perché i project budget sono problematici q I progetti sono unici (incertezza) per definizione q Spesso scontano scarsa esperienza nella identificazione e stima delle risorse q Mancanza di “pezze d’appoggio” o di conoscenza codificata nel tempo q Molti progetti possono durare anni § Incertezza intertemporale § Incertezza su fabbisogni, disponibilità, costi delle risorse",
+    "start": 0,
+    "end": 372,
+    "length": 372,
+    "hash": "jnoebm"
+  },
+  {
+    "id": "p359_c0",
+    "page": 359,
+    "text": "Alcuni bias procedurali e decisionali q Spesso si tende ad evidenziare solo gli aspetti positivi di progetto ( showcasing e window - dressing ) q Ampliamento eccessivo e incontrollato delle attività e nelle specifiche di progetto ( scope creeping ), spesso determinato da rimodulazioni del budget q Optimistic bias e planning fallacy [ Kahneman - Tversky ] q Illusione del controllo",
+    "start": 0,
+    "end": 382,
+    "length": 382,
+    "hash": "1gfygw"
+  },
+  {
+    "id": "p360_c0",
+    "page": 360,
+    "text": "Stima Gestione dei costi di progetto: fasi Sviluppare un'approssimazione o una stima delle risorse e dei loro costi per realizzare il progetto. Le attività principali nella gestione dei costi ruotano attorno a tre fasi fondamentali: la stima dei costi, la costruzione del budget e il controllo. I primi due processi - stima e budget - si concentrano principalmente sulla fase di pianificazione del ciclo di vita. Il controllo dei costi riguarda le fasi di esecuzione e misura le differenze tra i costi di base e i costi effettivi nella realizzazione del progetto. Budgeting Allocazione della stima dei costi alle singole voci di lavoro per stabilire una base di riferimento ( baseline ) per la misurazione delle prestazioni Controllo Controllo in esecuzione utilizzando il budget come baseline",
+    "start": 0,
+    "end": 793,
+    "length": 793,
+    "hash": "qjcuvd"
+  },
+  {
+    "id": "p361_c0",
+    "page": 361,
+    "text": "Le stime dei costi sono importanti per... q supportare le decisioni sul progetto. q programmare il lavoro q determinare il costo totale del progetto q determinare se il progetto è sostenibile q sviluppare le esigenze di flusso di cassa q analizzare lo stato di avanzamento q sviluppare i budget per fasi temporali e stabilire la baseline del progetto.",
+    "start": 0,
+    "end": 351,
+    "length": 351,
+    "hash": "q7h93u"
+  },
+  {
+    "id": "p362_c0",
+    "page": 362,
+    "text": "Budgeting e stima dei costi IL BUDGET SERVE COME STANDARD DI CONFRONTO q Le procedure di budgeting devono associare l'uso delle risorse al raggiungimento degli obiettivi organizzativi, altrimenti il processo di pianificazione/controllo diventa inutile q Il budget è semplicemente il piano di progetto in un'altra forma q Per sviluppare un budget, dobbiamo: ü prevedere quali risorse il progetto richiederà ü determinare la quantità necessaria di ciascuna ü decidere quando saranno necessarie ü capire quanto costeranno - compresi gli effetti della potenziale inflazione dei prezzi BUDGET DI PROGETTO",
+    "start": 0,
+    "end": 599,
+    "length": 599,
+    "hash": "1mkhdg"
+  },
+  {
+    "id": "p363_c0",
+    "page": 363,
+    "text": "Cost Budgeting e WBS Il processo di budgeting prevede l'assegnazione della stima dei costi del progetto alle singole voci di lavoro nel tempo La WBS è un input necessario per il processo di budgeting dei costi perché definisce le voci di lavoro Obiettivo: produrre una baseline , un budget temporale che i project manager utilizzano per misurare e monitorare le prestazioni economiche",
+    "start": 0,
+    "end": 384,
+    "length": 384,
+    "hash": "m8gv52"
+  },
+  {
+    "id": "p364_c0",
+    "page": 364,
+    "text": "INIZIARE CON LE PERSONE CHE REALIZZANO LE ATTIVITÀ Bottom - Up Budgeting Si parte dalla base della WBS e i costi vengono definiti e aggregati verso l'alto Si devono aggiungere costi indiretti ed eventuali riserve In questo metodo, le attività elementari, i loro programmi e i loro budget individuali sono costruiti seguendo la WBS Le persone che svolgono il lavoro sono consultate riguardo ai tempi e ai budget per assicurare il miglior livello di accuratezza Inizialmente, le stime sono fatte in termini di risorse, come le ore di lavoro e i materiali I budget dal basso verso l'alto dovrebbero essere, e di solito lo sono, più accurati nelle attività dettagliate, ma è fondamentale che tutti gli elementi siano inclusi BUDGETING",
+    "start": 0,
+    "end": 730,
+    "length": 730,
+    "hash": "d2yziv"
+  },
+  {
+    "id": "p365_c0",
+    "page": 365,
+    "text": "Esempio: WBS a tre livelli per un progetto edilizio",
+    "start": 0,
+    "end": 51,
+    "length": 51,
+    "hash": "jjkrgq"
+  },
+  {
+    "id": "p366_c0",
+    "page": 366,
+    "text": "Sviluppo di un budget di progetto § Identificare i deliverable attesi § Prevedere i fattori necessari § Lavoro § Risorse materiali § Intangibili § Altre risorse § Stabilire il costo di accesso alle risorse § Programmare l'orizzonte temporale Quattro elementi di base Il budget mostra il valore monetario delle risorse necessarie nel tempo",
+    "start": 0,
+    "end": 338,
+    "length": 338,
+    "hash": "shmfst"
+  },
+  {
+    "id": "p367_c0",
+    "page": 367,
+    "text": "Esempio: template per raccogliere elementi di costo su un singolo workpackage",
+    "start": 0,
+    "end": 77,
+    "length": 77,
+    "hash": "ezp3d2"
+  },
+  {
+    "id": "p368_c0",
+    "page": 368,
+    "text": "Budget per fasi temporali un budget non è tale se non è sviluppato per fasi temporali o La suddivisione in fasi inizia con la stima dei tempi di un progetto. o I budget per fasi rispecchiano il modo in cui si verificherà il fabbisogno di cassa del progetto (costi) o il momento in cui ci si può aspettare i flussi di cassa del progetto. o Le variazioni di budget si verificano quando gli eventi effettivi e quelli previsti non coincidono.",
+    "start": 0,
+    "end": 438,
+    "length": 438,
+    "hash": "k86uvu"
+  },
+  {
+    "id": "p369_c0",
+    "page": 369,
+    "text": "Budget per categoria di costo (WP mancanti ) Budget mensile (€) # WBS Item 1 2 3 4 5 6 7 8 9 10 11 12 Totals 1 Project management 96000 1.1 Project manager 8000 8000 8000 8000 8000 8000 8000 8000 8000 8000 8000 8000 96000 1.2 Project team members 12000 12000 12000 12000 12000 12000 12000 12000 12000 12000 12000 12000 144000 1.3 Contractors 6027 6027 6027 6027 6027 6027 6027 6027 6027 6027 6027 66297 2 Hardware 0 2.1 Handeheld devices 30000 30000 60000 2.2 Servers 8000 8000 16000 3 Software 0 3.1 Licensed software 10000 10000 20000 3.2 Software development 60000 60000 80000 127000 127000 90000 50000 594000 4 Testing 6000 8000 12000 15000 15000 13000 69000 5 Trainig & support 0 5.1 Trainee cost 50000 50000 5.2 Travel cost 8400 8400 5.3 Project team members 24000 24000 24000 24000 24000 24000 144000 6 Reserves 10000 10000 30000 30000 60000 40000 40000 30000 3540 253540 Totals 20000 86027 92027 172027 223027 198027 185027 173027 148427 90027 80027 53567 1521237",
+    "start": 0,
+    "end": 971,
+    "length": 971,
+    "hash": "yx7yj3"
+  },
+  {
+    "id": "p370_c0",
+    "page": 370,
+    "text": "Work Element Costing q Il processo vero e proprio di costruzione di un budget tende a essere un processo semplice ma noioso q Ogni elemento di lavoro nella WBS viene valutato per il suo fabbisogno di risorse, e quindi per il costo q I costi diretti per le risorse sono imputati direttamente al progetto. La manodopera è solitamente soggetta a spese generali. Le risorse materiali e i macchinari possono essere o meno soggetti a spese generali.... q Si aggregano poi elementi di costo generale e amministrativo (G&A).",
+    "start": 0,
+    "end": 516,
+    "length": 516,
+    "hash": "bm68tb"
+  },
+  {
+    "id": "p371_c0",
+    "page": 371,
+    "text": "Tipi di costo nel budget q Costi diretti § Costi chiaramente imputabili a uno specifico pacchetto di lavoro. ü Manodopera, materiali, attrezzature e altri q Costi generali diretti (per attività) § Costi sostenuti che sono direttamente legati a un progetto ma spesso necessitano di procedure di ripartizione e attribuzione. ü Stipendi di personale amministrativo, affitti, forniture, macchinari specializzati q Costi generali e amministrativi § Costi dell'organizzazione legati al progetto che sono imputati in toto senza ripartizione",
+    "start": 0,
+    "end": 533,
+    "length": 533,
+    "hash": "iavckk"
+  },
+  {
+    "id": "p372_c0",
+    "page": 372,
+    "text": "Due tipi principali di costo q Costi diretti § Costi facilmente riconducibili al pacchetto di lavoro del progetto § Lavoro, materiali, attrezzature, gestione del progetto? q Costi indiretti § Tutti i costi diversi da quelli diretti; necessari per il corretto completamento § Gestione, assicurazione, amministrazione, ecc. q “Il PM ha di solito un certo controllo sui costi diretti, ma ha poco o nessun controllo sui costi indiretti” q “Una notevole quantità di tempo è molto spesso dedicata alla definizione e alla stima dei costi diretti, con i costi indiretti che assumono un'importanza secondaria” PMI (2013)",
+    "start": 0,
+    "end": 611,
+    "length": 611,
+    "hash": "ad24ee"
+  },
+  {
+    "id": "p373_c0",
+    "page": 373,
+    "text": "Esempio: s time e categorie di costo q Manodopera: due parti - stipendio + costi accessori (tasse oneri sociali, ecc ) q Materiali: di solito ottenuti da fornitori interni/esterni. q Attrezzature: quota di ammortamento se utilizzabili anche per altri progetti. q Subappalti e servizi: elementi eseguiti da un'azienda esterna. q Costi: assicurazioni e contratti di licenza q Spese organizzative: personale d'ufficio, affitto dell'ufficio. § Progetto interno - incluso per fornire il costo completo; § Gara d'appalto - incluso come unico mezzo per recuperarle q Riserve per rischi diversi q Margine: di solito non applicabile per progetti interni",
+    "start": 0,
+    "end": 644,
+    "length": 644,
+    "hash": "s7i7x1"
+  },
+  {
+    "id": "p374_c0",
+    "page": 374,
+    "text": "Categorie tipiche WBS Lavoro Materiali Attrezzature Servizi ... 1.1 1.1.1 1.1.2 1.2 1.2.1 1.2.2 ... ... ... ... ... ... Total",
+    "start": 0,
+    "end": 125,
+    "length": 125,
+    "hash": "j6ocsq"
+  },
+  {
+    "id": "p376_c0",
+    "page": 376,
+    "text": "Elementi di gestione delle attività q Definizione delle attività: identificare le attività specifiche che i membri del team di progetto e gli stakeholder devono svolgere per produrre i deliverable del progetto q Sequenziamento: identificare e documentare le relazioni tra le attività del progetto q Stima delle risorse delle attività: stimare quante risorse il team di progetto deve utilizzare per svolgere le attività del progetto q Stima della durata delle attività: stimare il numero di periodi di lavoro necessari per completare le singole attività q Sviluppo dello schedule: analizzare le sequenze delle attività, le stime delle risorse delle attività e le stime della durata delle attività per creare la schedulazione del progetto q Controllo: gestire le modifiche allo schedule durante la realizzazione del progetto",
+    "start": 0,
+    "end": 822,
+    "length": 822,
+    "hash": "wpfzvt"
+  },
+  {
+    "id": "p377_c0",
+    "page": 377,
+    "text": "Identificazione delle attività Lo scheduling nasce dai documenti di base di progetto ü il project charter include le date di inizio e fine e le informazioni sul budget ü la WBS aiuta a definire il contenuto in termini di attività La pianificazione delle attività comporta spesso lo sviluppo di una WBS più dettagliata e di spiegazioni per comprendere il lavoro da svolgere, in modo da poter sviluppare stime realistiche dei costi e della durata GESTIONE DELLE ATTIVITÀ",
+    "start": 0,
+    "end": 468,
+    "length": 468,
+    "hash": "iifvb9"
+  },
+  {
+    "id": "p378_c0",
+    "page": 378,
+    "text": "Elenco e attributi Un elenco di attività è una lista di attività da pianificare e comprende: il nome dell'attività un identificatore dell'attività una breve descrizione Sono spesso richieste anche ulteriori informazioni quali predecessori, successori, relazioni logiche, requisiti di risorse, vincoli, scadenze imposte e ipotesi relative all'attività. IDENTIFICAZIONE DELLE ATTIVITÀ",
+    "start": 0,
+    "end": 382,
+    "length": 382,
+    "hash": "njuq79"
+  },
+  {
+    "id": "p379_c0",
+    "page": 379,
+    "text": "Milestone Una milestone è un evento significativo che normalmente non ha durata Spesso sono necessarie diverse attività e molto lavoro per completare una milestone Sono strumenti utili per stabilire obiettivi di pianificazione e monitorare i progressi Esempi includono l'ottenimento dell'approvazione del cliente su documenti chiave o il completamento di componenti specifiche di progetto IDENTIFICAZIONE DELLE ATTIVITÀ",
+    "start": 0,
+    "end": 419,
+    "length": 419,
+    "hash": "9b3kqk"
+  },
+  {
+    "id": "p380_c0",
+    "page": 380,
+    "text": "Sequenziamento delle attività q comporta la revisione delle attività e l’individuazione delle dipendenze q l e dipendenze definiscono l’insieme di relazioni di priorità e la loro natura tra attività/compiti del progetto q è necessario determinare le dipendenze almeno per applicare l'analisi del sentiero critico",
+    "start": 0,
+    "end": 312,
+    "length": 312,
+    "hash": "zbzsug"
+  },
+  {
+    "id": "p381_c0",
+    "page": 381,
+    "text": "Quattro tipi di dipendenze Obbligatorie : inerenti alla natura del lavoro svolto su un progetto, a volte definite come logica stringente (hard logic ) Discrezionali : definite dal team di progetto; a volte definite come logica debole (soft logic ) e dovrebbero essere usate con cautela poiché potrebbero limitare le opzioni di pianificazione future Esterne : coinvolgono relazioni tra attività di progetto e non di progetto Dalle risorse : correlate a situazioni in cui emerge la scarsità di risorse e diverse attività competono per accedere alla risorsa",
+    "start": 0,
+    "end": 554,
+    "length": 554,
+    "hash": "q7ijvd"
+  },
+  {
+    "id": "p382_c0",
+    "page": 382,
+    "text": "Tipi di dipendenze q Dipendenze obbligatorie § Dipendenze a \"logica stringente\" ( hard logic ) § La natura del lavoro impone un ordine § Es: La codifica deve precedere il test § Es: I requisiti devono precedere i contratti q Dipendenze discrezionali § Dipendenze a \"logica debole\" ( soft logic ) § Determinate dal team di gestione del progetto § Orientate al processo § Es: Ordine discrezionale di osservanza di atti burocratici",
+    "start": 0,
+    "end": 428,
+    "length": 428,
+    "hash": "stxi1r"
+  },
+  {
+    "id": "p383_c0",
+    "page": 383,
+    "text": "Tipi di dipendenze q Dipendenze esterne § Al di fuori del progetto stesso § Es: attesa del rilascio di un prodotto di terze parti; approvazione di un contratto o di una convenzione q Dipendenze dalle risorse § Più attività concorrono per la stessa risorsa scarsa § Es: c’è un solo team di supporto ma molteplici attività lo richiedono",
+    "start": 0,
+    "end": 334,
+    "length": 334,
+    "hash": "zccour"
+  },
+  {
+    "id": "p384_c0",
+    "page": 384,
+    "text": "Finish - to - Start (FS) Dipendenze tra task B non può iniziare finchè A non finisce A: costruisci recinto; B: dipingi recinto Start - to - Start (SS) B non può iniziare finchè A non inizia A: getta fondamenta; B: livella cemento Finish - to - Finish (FF) B non può finire finchè A non finisce A: aggiungi cablaggio; B: ispeziona Start - to - Finish (SF) B non può finire finché A non inizia (rara)",
+    "start": 0,
+    "end": 398,
+    "length": 398,
+    "hash": "6ubd1o"
+  },
+  {
+    "id": "p387_c0",
+    "page": 387,
+    "text": "DEFINIZIONE Scheduling La conversione di un piano d'azione di progetto in un calendario operativo ü s erve come base per il monitoraggio e il controllo del progetto ü è uno strumento fondamentale per la gestione dei progetti, assieme al budget GESTIONE DELLE ATTIVITÀ",
+    "start": 0,
+    "end": 267,
+    "length": 267,
+    "hash": "b1czol"
+  },
+  {
+    "id": "p388_c0",
+    "page": 388,
+    "text": "FASI Un processo di scheduling 1) Inizia dalla WBS 2) Identifica e lista le attività 3) Considera precedenze e relazioni 4) Sviluppa diagrammi di Gantt e reticolari 5) Determina il sentiero critico SCHEDULING",
+    "start": 0,
+    "end": 208,
+    "length": 208,
+    "hash": "c64s85"
+  },
+  {
+    "id": "p389_c0",
+    "page": 389,
+    "text": "TEMPO, ATTIVITÀ, RISORSE Stima delle durate Durata include la quantità effettiva di tempo lavorato su un'attività (più il tempo già trascorso) Sforzo è il numero di giorni lavorativi o ore di lavoro richieste per completare un'attività. Lo sforzo normalmente non è uguale alla durata: cfr. tempi di attesa, setup, tempi morti, ecc.. Le persone che svolgono il lavoro dovrebbero aiutare a creare le stime e un esperto dovrebbe validarle. SCHEDULING",
+    "start": 0,
+    "end": 447,
+    "length": 447,
+    "hash": "m93e39"
+  },
+  {
+    "id": "p391_c0",
+    "page": 391,
+    "text": "Il diagramma di Gantt q Un diagramma di Gantt è un grafico a barre orizzontale sviluppato come strumento di controllo della produzione nel 1917 da Henry L. Gantt , un ingegnere e scienziato sociale americano. q Frequentemente utilizzato nella gestione dei progetti, un diagramma di Gantt fornisce una rappresentazione grafica che aiuta a pianificare, coordinare e tenere traccia di compiti specifici in un progetto. q I diagrammi di Gantt possono essere versioni semplici create su carta o versioni automatizzate più complesse create utilizzando applicazioni di gestione come Microsoft Project o Excel .",
+    "start": 0,
+    "end": 603,
+    "length": 603,
+    "hash": "z7el2r"
+  },
+  {
+    "id": "p392_c0",
+    "page": 392,
+    "text": "PROS & CONS Diagramma di Gantt Vantaggi Semplice da comprendere Immediato identificare stato e progresso Facile da gestire Strumento diffuso per comunicare lo stato del progetto a clienti o manager esterni Limiti Superficiale Non sempre è semplice comprendere relazioni e vincoli SCHEDULING",
+    "start": 0,
+    "end": 290,
+    "length": 290,
+    "hash": "9g8x3k"
+  },
+  {
+    "id": "p396_c0",
+    "page": 396,
+    "text": "Tecniche reticolari: PERT e CPM q Con l'eccezione dei diagrammi di Gantt , l'approccio più comune allo scheduling è l'uso di tecniche di rete come PERT e CPM q La Program Evaluation and Review Technique (PERT) è stata sviluppata dalla Marina degli Stati Uniti nel 1958 (non tratteremo il PERT) q Il Critical Path Method (Metodo del Sentiero Critico) è stato sviluppato da DuPont, Inc. circa nello stesso periodo q Il PERT è stato utilizzato principalmente per progetti di ricerca e sviluppo q Il CPM è stato ideato per progetti di costruzione ed è stato generalmente adottato in contesti industriali q I due metodi sono piuttosto simili",
+    "start": 0,
+    "end": 636,
+    "length": 636,
+    "hash": "xevd0h"
+  },
+  {
+    "id": "p397_c0",
+    "page": 397,
+    "text": "Terminologia q Attività - un compito specifico o un insieme di compiti richiesti dal progetto, che utilizzano risorse e richiedono tempo per essere completati. q Evento - il risultato del completamento di una o più attività. Uno stato finale identificabile che si verifica in un particolare momento. Gli eventi non utilizzano risorse. q Rete - la combinazione di tutte le attività ed eventi che definiscono il progetto e le relazioni di precedenza delle attività. q Percorso - la sequenza di attività connesse (o eventi intermedi) tra due eventi qualsiasi in una rete. q Critico - attività, eventi o fasi che, se ritardate, ritarderanno il completamento del progetto. Un percorso critico di un progetto è inteso come la sequenza di attività critiche (o più lente) che collegano l'evento di inizio del progetto al suo evento di fine.",
+    "start": 0,
+    "end": 832,
+    "length": 832,
+    "hash": "tsjr5w"
+  },
+  {
+    "id": "p398_c0",
+    "page": 398,
+    "text": "Reti e relazioni q Un'attività può trovarsi in una di queste condizioni: § avere uno o più successori ma nessun predecessore - avvia una rete § avere uno o più predecessori ma nessun successore - termina una rete § avere sia predecessori che successori - nel mezzo di una rete q Le interconnessioni dipendono dall’insieme di relazioni (hard, soft, ecc ...) descritte nella fase di sequenziamento delle attività",
+    "start": 0,
+    "end": 410,
+    "length": 410,
+    "hash": "fxkl5i"
+  },
+  {
+    "id": "p399_c0",
+    "page": 399,
+    "text": "Attività e date q Earliest finish (EF) : l a (data) più vicina in cui un'attività può terminare dall'inizio del progetto q Earliest start (ES) : la (data) più vicina in cui un'attività può iniziare dall'inizio del progetto q Latest finish (LF) : l a (data) più lontana in cui un'attività può terminare senza ritardare il progetto q Latest start (LS) : la (data) più lontana in cui un'attività può iniziare senza ritardare il progetto",
+    "start": 0,
+    "end": 433,
+    "length": 433,
+    "hash": "p6ax2u"
+  },
+  {
+    "id": "p402_c0",
+    "page": 402,
+    "text": "Critical Path Method (CPM) q Il CPM è una tecnica di rete utilizzata per prevedere la durata totale del progetto q Un percorso critico di un progetto è la serie di attività che determina il tempo più lungo entro cui il progetto può essere completato q Il percorso critico è il percorso con la minore quantità di margine totale ( slack ), pari a zero q Il margine ( slack ) è la quantità di tempo in cui un'attività può essere ritardata senza ritardare un'attività successiva o la data di completamento del progetto",
+    "start": 0,
+    "end": 514,
+    "length": 514,
+    "hash": "hcaoqw"
+  },
+  {
+    "id": "p403_c0",
+    "page": 403,
+    "text": "Calcolare il sentiero critico 1) Sviluppare un diagramma di rete adeguato 2) Aggiungere a ogni nodo la stima (certa) della durata per quella attività, per ogni attività 3) Calculare gli eventi: ES, EF, LS, LF 4) Calcolare gli slack 5) Il sentiero più lungo è quello critico 6) Se una o più attività sul sentiero critico richiedono più tempo del previsto, l'intero programma del progetto slitterà a meno che il project manager non intraprenda azioni correttive",
+    "start": 0,
+    "end": 459,
+    "length": 459,
+    "hash": "5zouvh"
+  }
+]

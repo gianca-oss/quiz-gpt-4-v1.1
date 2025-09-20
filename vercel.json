@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/analyze-v4-rag.js": {
+      "maxDuration": 30
+    }
+  }
+}

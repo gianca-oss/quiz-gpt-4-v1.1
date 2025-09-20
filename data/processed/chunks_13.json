@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p739_c0",
+    "page": 739,
+    "text": "Manutenzione predittiva • La manutenzione predittiva è una strategia di manutenzione avanzata che si basa sull' analisi continua delle condizioni operative . • I dati sono analizzati tramite predictive analytics , che consentono correlazioni complesse tra dati storici in modo da identificare pattern di probabilità. Alla base di questa applicazione, ci sono la connettività delle macchine e l’utilizzo di historians e database relazionali . Da preferire rispetto a condition - based maintenance , se si necessita di una previsione accurata dei guasti e di un’ottimizzazione più avanzata (utilizzo dati storici, modelli di analisi avanzati ). Cos’è Benefici • Manutenzione eseguita solo quando necessario • Aumento dell’ affidabilità • Estensione del ciclo di vita del macchinario Tech Costo Complessità",
+    "start": 0,
+    "end": 803,
+    "length": 803,
+    "hash": "c2v659"
+  },
+  {
+    "id": "p740_c0",
+    "page": 740,
+    "text": "Smart Quality Management System • Piattaforma software che automatizza e ottimizza i processi di gestione della qualità. • Utilizza tecnologie avanzate come il cloud, l'intelligenza artificiale, l'IoT e l'analisi dei dati per migliorare il controllo della qualità, la conformità normativa e l’efficienza operativa. • I dati sono integrati da sistemi di ispezione automatici e dotazioni di laboratorio. • Facilita l’analisi della cause di difetti e guasti. Si integra con il sistema gestionale (ERP) per una visibilità real - time. Rende possibile la gestione della qualità end - to - end se integrata con i sistemi dei fornitori. Cos’è Benefici • Visibilità end - to - end / real - time • Automazione processi di qualità • Possibile applicazione di analytics avanzati • Gestione della qualità in - line Tech Costo Complessità",
+    "start": 0,
+    "end": 825,
+    "length": 825,
+    "hash": "3wmehk"
+  },
+  {
+    "id": "p741_c0",
+    "page": 741,
+    "text": "Robot autonomi (AMR) • Possono muoversi in un ambiente non controllato senza il bisogno di guide fisiche o elettromagnetiche, identificando ostacoli e muovendosi attorno • Si connettono e operano con altri device (es. muletti), possono ricevere ordini direttamente da dispositivi portatili (es. smartphone). Hanno maggiore versatilità rispetto a LGV e AGV. Possono essere integrati con co - bots (robot collaborativi) per l’esecuzione di diversi task (oltre la movimentazione). Cos’è Benefici • Flessibilità nella produzione e nella modifica del workflow • Semplice installazione • Possono essere condivisi tra linee produttive • Opportunità per il personale di collaborare e interagire in modo sicuro Tech Costo Complessità",
+    "start": 0,
+    "end": 724,
+    "length": 724,
+    "hash": "aj4xmy"
+  },
+  {
+    "id": "p742_c0",
+    "page": 742,
+    "text": "Soft robotics • Robot flessibili e morbidi , ispirati ai movimenti e alle strutture biologiche di esseri viventi come polpi, vermi e mani umane. • Sono costituti da materiali deformabili e flessibili , come silicone, elastomeri, polimeri e tessuti intelligenti. • Funzionano con attuatori pneumatici, idraulici o materiali elettroattivi . Sono caratterizzati da movimenti più naturali e sicuri rispetto ai robot rigidi tradizionali. Ideali per interagire con esseri umani senza rischi di incidenti. Cos’è Benefici • Assemblaggi precisi e sicuri • Interazione sicura con operatori umani Tech Costo Complessità",
+    "start": 0,
+    "end": 608,
+    "length": 608,
+    "hash": "tdi93a"
+  },
+  {
+    "id": "p743_c0",
+    "page": 743,
+    "text": "Assistenti digitali • Sistema basato su intelligenza artificiale (AI) per supportare operatori, tecnici e manager nella gestione di impianti produttivi. • Può essere un chatbot , un'interfaccia vocale o un sistema integrato con dispositivi smart , migliorando efficienza, sicurezza e automazione. • Risponde a comandi vocali o testuali , facilitando l’uso per gli operatori. • Può avviare procedure, regolare parametri o inviare report automatici. Quando un sensore rileva un’anomalia, l’assistente avvisa immediatamente il tecnico via smart speaker o app, suggerisce la causa probabile e la soluzione. Se necessario, ordina automaticamente il pezzo di ricambio. I responsabili possono anche gestire impianti a distanza tramite app o comandi vocali. Cos’è Benefici • Integrazione uomo - macchina • Augmentation delle conoscenze e delle skills dei responsabili e degli operatori Tech Costo Complessità",
+    "start": 0,
+    "end": 900,
+    "length": 900,
+    "hash": "ijfj9x"
+  },
+  {
+    "id": "p744_c0",
+    "page": 744,
+    "text": "Virtual reality training • Metodo di formazione basato su realtà virtuale (VR) che permette agli operatori di simulare ambienti di lavoro realistici. • L’operatore indossa un visore VR per entrare in una fabbrica virtuale, usa controller o guanti sensorizzati per simulare movimenti reali, simula macchinari specifici, emergenze o processi produttivi. • Il sistema valuta errori e prestazioni , suggerendo miglioramenti. Integrato con IoT e AI può simulare scenari basati su dati reali . Cos’è Benefici • Nessun bisogno di utilizzare le linee di produzione per scopi di formazione • Maggiore il coinvolgimento ed efficacia della formazione • Riduzione dei tempi di formazione Tech Costo Complessità",
+    "start": 0,
+    "end": 698,
+    "length": 698,
+    "hash": "fj5xj4"
+  },
+  {
+    "id": "p745_c0",
+    "page": 745,
+    "text": "Condition - based maintenace • Manutenzione predittiva che prevede l’intervento solo quando le condizioni operative di un macchinario o di un impianto indicano un deterioramento o un’anomalia . • A differenza della manutenzione preventiva, che si basa su intervalli di tempo prestabiliti, la CBM utilizza dati in tempo reale per determinare il momento ottimale per la manutenzione. • Gli algoritmi/intelligenza artificiale analizzano i dati per identificare segni di deterioramento. Soluzione deve essere adottata con sensori e dispositivi IoT per rilevare parametri critici come temperatura, vibrazioni, pressione e usura. La CBM è un’ottima soluzione per chi vuole ridurre guasti e costi senza la complessità della manutenzione predittiva . Cos’è Benefici • Manutenzione eseguita solo quando necessario • Aumento dell’ affidabilità • Estensione del ciclo di vita del macchinario Tech Costo Complessità",
+    "start": 0,
+    "end": 903,
+    "length": 903,
+    "hash": "4x667o"
+  },
+  {
+    "id": "p746_c0",
+    "page": 746,
+    "text": "Product Lifecycle Management System • Information management system che integra dati, processi e sistemi per consentire l’organizzazione dell’informazione attraverso l’intero ciclo di vita di prodotto (concept, design, manufacturing, service e disposal ) Non può essere adottato come sistema standalone, ma deve essere integrato in sistemi come il MES e l’ERP per facilitare il trasferimento dati attraverso aree funzionali (engineering, reparti produttivi, service). Grazie a tecnologie avanzate come IoT, AI e Cloud, un sistema PLM moderno consente di centralizzare dati, integrare processi aziendali e favorire l'innovazione lungo tutto il ciclo di vita del prodotto. Cos’è Benefici • Consente una maggiore adattabilità a cambiamenti nella domanda • Abilita una maggiore comprensione delle esigenze del cliente • Consente standardizzazione e tracciabilità • Facilita l’ interazione tra funzioni Tech Costo Complessità",
+    "start": 0,
+    "end": 920,
+    "length": 920,
+    "hash": "j59e7e"
+  },
+  {
+    "id": "p747_c0",
+    "page": 747,
+    "text": "Smart sensors • Sensori wireless/IoT che permettono di raccogliere, analizzare e trasmettere dati in tempo reale • Diverse tipologie di sensori: • Macchina (vibrazione, temperatura, pressione) per rilevare anomalie nel funzionamento • Controllo di produzione (ottici, posizionamento, portata e livello) per controllo qualità, precisione, fluidi e materiali di consumo • Sostenibilità (consumo energetico, ambientali) per controllo consumi e condizioni ambientali Richiedono l’implementazione di reti industriali per lo scambio dati (IoT, 5G, Edge computing, cloud). Cos’è Benefici • Abilitano analisi basate su dati oggettivi • Consentano controllo e analisi in tempo reale Tech Costo Complessità",
+    "start": 0,
+    "end": 696,
+    "length": 696,
+    "hash": "17e2c0"
+  },
+  {
+    "id": "p748_c0",
+    "page": 748,
+    "text": "Condition monitoring system • Sistema avanzato per il monitoraggio continuo delle condizioni operative di macchine e impianti industriali. • Sistemi di sensori raccolgono diversi dati macchina e li trasferiscono a software di analisi • Esempi di analisi riguardano lubrificazione, corrosione, calibrazione, vibrazione. • Si basano su processi standard per i fermi macchina utilizzando timestamp automatici e set di cause preimpostate. Elemento base per lo sviluppo di nuovi approcci manutentivi. Gli approcci possono essere diversificati a seconda delle criticità delle macchine (es. raccolta dati periodica tramite dispositivi portatili vs. collegamento 24/7 per macchinari critici) Cos’è Benefici • Automatizza ispezioni manuale e reporting • Favorisce la visibilità all’interno dello stabilimento • Ottimizza attività manutentive e relativo magazzino • Abilita una più veloce identificazione/risoluzione dei guasti Tech Costo Complessità",
+    "start": 0,
+    "end": 940,
+    "length": 940,
+    "hash": "mddws"
+  },
+  {
+    "id": "p749_c0",
+    "page": 749,
+    "text": "Advanced process control • Tecnologia avanzata di controllo dei processi industriali che utilizza modelli matematici, intelligenza artificiale (AI) e algoritmi predittivi. • A partire dalla raccolta dati di parametri di produzione (temperatura, portata, qualità, energia), algoritmi AI/machine learning creano modelli predittivi del sistema. • Il sistema simula scenari futuri ( digital twin ) e suggerisce modifiche ai parametri operativi, regolando in tempo reale i set - point delle macchine. • Il modello viene aggiornato continuamente in base ai dati acquisiti. L'APC supera i tradizionali controlli PID (Proporzionale - Integrale - Derivativo) utilizzando dati in tempo reale e previsioni per stabilizzare il processo, migliorare l’efficienza e ridurre gli sprechi. Cos’è Benefici • Automatizza diverse attività di raccolta dati e settaggio macchina • Assicura approcci data - driven nella gestione della produzione • Ottimizza risorse/energia • Non richiede particolari training per l’operatore • Migliora la gestione dei processi e il controllo (es. di reazioni chimiche) Tech Costo Complessità",
+    "start": 0,
+    "end": 1102,
+    "length": 1102,
+    "hash": "t37270"
+  },
+  {
+    "id": "p750_c0",
+    "page": 750,
+    "text": "Palletizzatore integrato per fine linea • Sistema automatizzato progettato per impilare e organizzare prodotti o confezioni su pallet alla fine del processo produttivo. • Integrato con il resto della linea di produzione. • Il pallettizzatore raccoglie i prodotti dal nastro trasportatore , li orienta e li impila in strati per garantire stabilità. Può applicare protezioni come interfalde o film estensibile per fissare il carico. Infine, il pallet completo viene trasferito automaticamente all’area di spedizione o stoccaggio. Può essere connesso a diversi sistemi Industry 4.0 (es. Smart sensor per monitoraggio in tempo reale, MES per sincronizzazione con produzione/logistica, soft robots per interazione sicura con esseri umani). Cos’è Benefici • Automatizza processi prima svolti manualmente • Elimina i rischi legati alla movimentazione manuale di carichi pesanti • Ottimizza lo spazio e la logistica • Garantisce alta affidabilità e flessibilità Tech Costo Complessità",
+    "start": 0,
+    "end": 976,
+    "length": 976,
+    "hash": "d880im"
+  },
+  {
+    "id": "p751_c0",
+    "page": 751,
+    "text": "Receipe management system • Software utilizzato nelle industrie manifatturiere per creare, gestire e ottimizzare ricette di produzione • Il sistema definisce parametri come ingredienti, dosaggi, tempi di processo e condizioni operative. Può essere integrato con sistemi di controllo (PLC, SCADA, MES) per regolare automaticamente i parametri. Cos’è Benefici • Garantisce standardizzazione , qualità e tracciabilità • Automatizza l’esecuzione regolando i parametri • Consente l’ analisi dei dati per obiettivi di efficienza e qualità • Gestisce varianti e versioni • Garantisce la tracciabilità Tech Costo Complessità",
+    "start": 0,
+    "end": 616,
+    "length": 616,
+    "hash": "zho6k0"
+  },
+  {
+    "id": "p752_c0",
+    "page": 752,
+    "text": "Industrial cybersecurity platform • Soluzione tecnologica progettata per proteggere le infrastrutture critiche industriali da minacce informatiche • Include strumenti per la valutazione continua dei rischi e per la pianificazione di azioni preventive . • Ha funzionalità di risposta automatica a minacce, riducendo il tempo di reazione e il rischio di danni. Sono soluzioni specificamente progettate per difendere impianti di produzione, macchinari industriali, sistemi di automazione e controllo (come PLC, SCADA, DCS) da attacchi esterni, malware, e vulnerabilità interne. Ha la capacità di monitorare e proteggere anche i dispositivi IoT industriali che sono connessi alla rete aziendale. Cos’è Benefici • Garantisce il mantenimento della sicurezza operativa senza compromettere la continuità della produzione • Assicura la compliance normativa (NIST, ISO 27001) Tech Costo Complessità",
+    "start": 0,
+    "end": 888,
+    "length": 888,
+    "hash": "b95sbt"
+  },
+  {
+    "id": "p753_c0",
+    "page": 753,
+    "text": "Robot integrati per pick and place • Sistemi automatizzati utilizzati nelle linee di produzione per prelevare ( pick ) e posizionare (place) oggetti o prodotti con alta precisione e velocità • Progettati per eseguire compiti di manipolazione e trasporto di articoli tra diverse postazioni , come tra nastri trasportatori, aree di stoccaggio o macchine. • Il robot preleva un oggetto da una postazione, lo trasporta con movimenti precisi grazie a algoritmi di controllo e visione artificiale, e lo posiziona nella destinazione finale, come un altro nastro o un contenitore. Sono integrati con sistemi di automazione e controllo (PLC, SCADA) per ottimizzare il flusso di lavoro. Cos’è Benefici • Garantiscono velocità e precisione • Operano senza interruzioni, riducendo i tempi di fermi macchina • Automatizzano attività manuali pesanti, minimizzando il rischio di infortuni • Sono flessibili e possono essere facilmente riprogrammati Tech Costo Complessità",
+    "start": 0,
+    "end": 956,
+    "length": 956,
+    "hash": "1m65io"
+  },
+  {
+    "id": "p754_c0",
+    "page": 754,
+    "text": "Sistema di dosaggio automatizzato • Soluzione tecnologica utilizzata per misurare e distribuire in modo preciso e controllato quantità di materiali o sostanze, come liquidi, polveri, o componenti. • Il sistema carica il materiale, lo monitora in tempo reale tramite sensori avanzati, lo distribuisce automaticamente alla destinazione desiderata e regola i parametri per garantire precisione nel dosaggio. Il sistema è integrato con sensori, attuatori e software di controllo che ne permettono il funzionamento autonomo . Cos’è Benefici • Automatizza attività manuali • Garantisce precisione nel dosaggio • Consente di ridurre i costi di fermo e velocizza il processo • Garantisce maggiore conformità alle normative di qualità Tech Costo Complessità",
+    "start": 0,
+    "end": 748,
+    "length": 748,
+    "hash": "2r9ve6"
+  },
+  {
+    "id": "p755_c0",
+    "page": 755,
+    "text": "Vision picking system • Tecnologia avanzata che utilizza sistemi di visione artificiale (telecamere, sensori, algoritmi di computer vision) per identificare, localizzare e prelevare oggetti in modo autonomo durante il processo di picking (prelievo) in un ambiente di magazzino o di produzione. • Sistema è progettato per automatizzare il prelievo di prodotti in base alla loro posizione, dimensione e orientamento. • Il sistema di visione acquisisce immagini in tempo reale , le analizza per identificare e localizzare con precisione l'oggetto, e un braccio robotico lo preleva e lo posiziona nella destinazione desiderata. Può essere integrato con robot , trasportatori e sistemi di gestione del magazzino per ottimizzare il flusso di lavoro. Cos’è Benefici • Automatizza attività manuali • Garantisce adattabilità in ambienti complessi e dinamici • Riduce errori umani • Garantisce velocità ed efficienza Tech Costo Complessità",
+    "start": 0,
+    "end": 929,
+    "length": 929,
+    "hash": "xf6sky"
+  },
+  {
+    "id": "p756_c0",
+    "page": 756,
+    "text": "Forklift sensory system • Un sistema sensoriale per carrello elevatore è una tecnologia integrata che utilizza una serie di sensori (come sensori di distanza, telecamere, radar, e lidar) per migliorare la sicurezza, l'efficienza e l'operatività dei carrelli elevatori all'interno di ambienti di lavoro industriali e magazzini. • Fornisce al carrello elevatore una percezione avanzata dell'ambiente circostante , consentendo di rilevare ostacoli, monitorare la posizione e migliorare il controllo dei movimenti durante il sollevamento e lo spostamento di carichi. • Rileva ostacoli, monitora la posizione e l'inclinazione del carico, fornisce assistenza al conducente con avvisi e controlla costantemente lo stato del carico. . Cos’è Benefici • Migliora la sicurezza e la precisione nelle operazioni • Aumenta l’efficienza delle operazioni • Supporta l'automazione Tech Costo Complessità",
+    "start": 0,
+    "end": 886,
+    "length": 886,
+    "hash": "lcghu1"
+  },
+  {
+    "id": "p757_c0",
+    "page": 757,
+    "text": "Sistema di data streaming • Soluzione tecnologica che consente la trasmissione in tempo reale di grandi volumi di dati all'interno di un'azienda. • Questi dati vengono continuamente generati da diverse fonti aziendali, come macchine, dispositivi IoT, applicazioni, sensori, e altre fonti di dati. • Questi dati vengono trasmessi in modo continuo a piattaforme di streaming sicure come Apache Kafka o AWS Kinesis. • I dati vengono elaborati in tempo reale tramite tecnologie di stream processing. • I dati elaborati vengono archiviati su piattaforme cloud o locali per ulteriori analisi . Infine , il sistema può attivare azioni automatiche per rispondere rapidamente a eventi o situazioni aziendali . Mentre una IoT platform gestisce principalmente dispositivi e sensori , un sistema di data streaming aziendale è pensato per l'elaborazione e la gestione dei flussi di dati provenienti da molteplici fonti aziendali in tempo reale . Cos’è Benefici • Garantisce elevata scalabilità delle soluzioni • Consente di acquisire e trasmettere dati istantaneamente , per garantire decisioni basate su informazioni aggiornate. • I dati vengono trasmessi e archiviati in modo sicuro , utilizzando protocolli di sicurezza per proteggere le informazioni sensibili. Tech Costo Complessità",
+    "start": 0,
+    "end": 1274,
+    "length": 1274,
+    "hash": "3k2hic"
+  },
+  {
+    "id": "p758_c0",
+    "page": 758,
+    "text": "Stampanti 3D in manutenzione • Tecnologia che utilizza la stampa tridimensionale per produrre pezzi di ricambio, componenti o strumenti necessari per la riparazione e la manutenzione di macchinari e impianti industriali. • Il processo di stampa 3D per manutenzione inizia con la progettazione digitale del pezzo da sostituire , ottenuta tramite scansione 3D o disegno CAD . Il modello viene poi stampato strato per strato utilizzando materiali adatti come plastica o metallo . Infine , il pezzo stampato viene testato e installato per sostituire o riparare il componente danneggiato . Cos’è Benefici • Consente alle aziende di produrre in loco parti specifiche e personalizzate senza dover ricorrere a fornitori esterni o a lunghi tempi di attesa • Garantisce velocità , costi e personalizzazione • Riduce i costi di magazzino relativi ai pezzi di ricambio Tech Costo Complessità",
+    "start": 0,
+    "end": 879,
+    "length": 879,
+    "hash": "c3jste"
+  },
+  {
+    "id": "p759_c0",
+    "page": 759,
+    "text": "Digital literacy training • Programma formativo progettato per migliorare le competenze digitali di individui o gruppi, aiutandoli a utilizzare in modo efficace strumenti e tecnologie digitali. • Favorisce l’adozione e utilizzo di tecnologie avanzate come Industry 4.0, IoT e automazione industriale. • Comprende contenuti quali: alfabetizzazione digitale di base, software e strumenti per la produzione (e.g., MES, ERP, approcci manutentivi), automazione digitale e IoT, comunicazione e collaborazione digitale, sicurezza informatica e protezione dati. Viene erogato in sessioni teoriche e pratiche, adattando i contenuti a ruolo e funzione. Cos’è Benefici • Aumenta la capacità di operatori e supervisori di ricavare insights dai dati • Facilita l’individuazione di opzioni per l’automazione • Aumenta la sicurezza informativa Orga Costo Complessità",
+    "start": 0,
+    "end": 851,
+    "length": 851,
+    "hash": "pwciru"
+  },
+  {
+    "id": "p760_c0",
+    "page": 760,
+    "text": "Esperti digitali • Piano di assunzioni mirato all’integrazione di figure esperte in data science, ingegneria dei dati e tecnologie digitali. • Il piano potrebbe comprendere: • 2 - 3 data scientists , con compiti principali di sviluppo di modelli di machine learning per l’ottimizzazione dei processi produttivi, analisi predittiva su dati di produzione/manutenzione/qualità • 2 - 3 data engineers per la creazione di pipeline di dati per raccogliere e processare dati in tempo reale, gestendo database, sistemi IoT, architetture cloud e on - premise • 2 digital manufacturing engineers per lo svuluppo di soluzioni di monitoraggio intelligente delle linee produttive ( digital twin, integrazione MES) • 1 - 2 cybersecurity specialist per garantire la protezione dati aziendali Il team inoltre gestirà collaborazioni con service provider esterni. Cos’è Benefici • Soluzioni personalizzate alle esigenze dell’azienda • Riduce dipendenza da service provider esterni • Aumenta la velocità nello sviluppo delle soluzioni Orga Costo Complessità",
+    "start": 0,
+    "end": 1038,
+    "length": 1038,
+    "hash": "ubyzf4"
+  },
+  {
+    "id": "p761_c0",
+    "page": 761,
+    "text": "Digital leadership • Piano strutturato di Digital Leadership Development aiuta i manager a sviluppare competenze per integrare tecnologie avanzate, ottimizzare i processi produttivi e favorire l’innovazione. • La formazione mira allo sviluppo di competenze su tecnologie emergenti e analisi dei dati, al potenziamento delle soft skills per la gestione del cambiamento, alla creazione di una cultura aziendale orientata all’innovazione digitale. • Include l’affiancamento in progetti pilota e applicazioni pratiche. Iniziativa dedicata a middle e senior manager, responsabili IT e automazione industriale, supervisori e ingegneri di produzione. Cos’è Benefici • Consente lo sviluppo di competenze tecnologiche e capacità manageriali per guidare il cambiamento • Supporta il change management e cambio culturale Orga Costo Complessità",
+    "start": 0,
+    "end": 832,
+    "length": 832,
+    "hash": "v6v90s"
+  },
+  {
+    "id": "p762_c0",
+    "page": 762,
+    "text": "Agile project management • Creazione di un team di Agile Project Management per guidare il percorso di trasformazione digitale con un approccio flessibile, iterativo e focalizzato sul valore . • Formazione del personale chiave sui principi di Agile Project Management e sulle metodologie Scrum , Kanban e Lean . • Creazione struttura agile su misura per l’azienda • Sviluppo di strumenti e framework Favorisce approcci per sperimentare soluzioni innovative con cicli iterativi. Cos’è Benefici • Permette di ridurre i rischi , migliorare l' adattabilità e accelerare l' innovazione nei processi produttivi e digitali • Favorisce la collaborazione tra IT, produzione e operations Orga Costo Complessità",
+    "start": 0,
+    "end": 700,
+    "length": 700,
+    "hash": "utyu1e"
+  },
+  {
+    "id": "p763_c0",
+    "page": 763,
+    "text": "Organizational design IT/OT • Creazione di una struttura organizzativa integrata IT/OT • Definizione ruoli dedicati, tra cui: • Chief Information Officer (CIO) e Chief Operations Officer (COO): i due responsabili aziendali principali collaborano per garantire la sinergia tra IT e OT. • Chief Digital Officer (CDO) : Guida l’intera trasformazione digitale • IT/OT Manager : Responsabile per l'integrazione quotidiana e la gestione operativa • Creazione di team operativi misti tra IT e OT (es. per progettazione e sviluppo e manutenzione e supporto). Cos’è Benefici • Garantisce che entrambe le aree lavorino con obiettivi comuni e condivisi , pur mantenendo le rispettive competenze specialistiche • Riduce i rischi connessi all’implementazione di nuove tecnologie • Aiuta a ridurre i silos aziendali e facilita l'innovazione Orga Costo Complessità",
+    "start": 0,
+    "end": 849,
+    "length": 849,
+    "hash": "6dpmgr"
+  },
+  {
+    "id": "p764_c0",
+    "page": 764,
+    "text": "Standardizzazione processi • Revisionare e standardizzare i processi aziendali per ottimizzare le operazioni esistenti, ridurre i costi, migliorare l'efficienza e preparare l'organizzazione a integrare nuove tecnologie come IoT, AI, Big Data, e automazione. • Le attività consistono in: • Mappatura dei processi esistenti • Analisi dettagliata e identificazione delle aree di miglioramento • Standardizzazione (definizione standard operativi, documentazione, strumenti digitali a supporto, test) • Integrazione tecnologie digitali • Formazione • Introduzione, monitoraggio, miglioramento Il processo può avvenire in parallelo all’introduzione di tecnologie digitali. Cos’è Benefici • Adatta dei processi alle esigenze/opportunità della digitalizzazione • Introduce coerenza e qualità in tutte le fasi operative Orga Costo Complessità",
+    "start": 0,
+    "end": 833,
+    "length": 833,
+    "hash": "kulpit"
+  },
+  {
+    "id": "p765_c0",
+    "page": 765,
+    "text": "Industry 4.0 PMS • Performance measurement system per la misurazione, l’analisi e il miglioramento delle prestazioni aziendali in un ambiente manifatturiero digitalizzato. • Benchmarking con altre aziende manifatturiere per l’identificazione di best practice e aree di miglioramento • Identificazione KPI multilivello (individuo, reparto, plant ) per la misurazione dello stato di avanzamento dei progetti e delle performance ottenute Da sviluppare con il supporto di consulenti esterni . Di solito prevede la realizzazione di un masterplan di trasformazione digitale che indichi priorità strategiche, obiettivi e azioni chiave. Cos’è Benefici • Definisce chiaramente aspettative di performance • Consente una valutazione indipendente • Sviluppa una cultura di miglioramento continuo • Identifica aree di miglioramento Orga Costo Complessità",
+    "start": 0,
+    "end": 841,
+    "length": 841,
+    "hash": "4xl4pd"
+  },
+  {
+    "id": "p766_c0",
+    "page": 766,
+    "text": "Partnership strategy Costo • Sviluppo di una strategia di partnership per l’adozione di soluzione Industry 4.0 • Definizione degli obiettivi e identificazione dei partner tra fornitori di tecnologia , centri di ricerca e università , partner di consulenza e system integrator , start - up digitali • Definizione di accordi e struttura di governance Temi chiave sono l’ appropriabilità dell’innovazione e la gestione di eventuali dipendenze esterne . Cos’è Benefici • Accelera l’adozione delle tecnologie • Riduce i rischi collegati all’implementazione tecnologica Orga Complessità",
+    "start": 0,
+    "end": 580,
+    "length": 580,
+    "hash": "mr7d6n"
+  },
+  {
+    "id": "p767_c0",
+    "page": 767,
+    "text": "SmartTurn : key learnings • Come avete prioritizzato gli interventi tecnologici ? Quali criteri avete usato? • Come avete prioritizzato gli interventi organizzativi ? Quali criteri avete usato? • Anche in base alla vostra esperienza, quali sono i do’s and don’ts di Industry 4.0 nelle operations?",
+    "start": 0,
+    "end": 296,
+    "length": 296,
+    "hash": "2tojmw"
+  },
+  {
+    "id": "p769_c0",
+    "page": 769,
+    "text": "Do’s and don’ts : le aziende più avanzate Fonte: WEF Global Lighthouse Network Sviluppano una roadmap tecnologica con priorità chiare (attraverso più siti produttivi) 1. Prevengono il « process debt » 2. Investono nelle capability 3. Diffondono digitalizzazione 4. Pensano in modo scalare Quali processi e soluzioni devo cambiare? Quali capabilities digitali devo sviluppare (internamente)? Come coinvolgo gli operativi nella trasformazione digitale? Come posso scalare le soluzioni attraverso più siti produttivi?",
+    "start": 0,
+    "end": 514,
+    "length": 514,
+    "hash": "vxozl3"
+  },
+  {
+    "id": "p770_c0",
+    "page": 770,
+    "text": "1. Process debt : la «tassa» sull’inefficienza • «Technical debt » - Chief Information Officer (CIO) Si accumula quando, nel tempo, vengono implementate diverse soluzioni scollegate tra loro. Questo porta a un aumento dei costi necessari per correggerle e integrarle in un sistema più coeso. Alla lunga, si rende necessario pagare una sorta di “tassa” per migliorare le prestazioni complessive del sistema, un ostacolo costoso che può limitare la scalabilità delle iniziative aziendali. • « Process debt » - Chief Operating Officer (COO) Il vero valore di una nuova tecnologia non risiede solo nella tecnologia stessa, ma nei miglioramenti dei processi che essa può abilitare. Per questo motivo, esistono massime come: \" Non automatizzare un processo inefficace \" o \" Non ottimizzare ciò che non dovrebbe esistere \". Quando nuove tecnologie vengono implementate senza adeguati cambiamenti nei processi, si accumula debito di processo.",
+    "start": 0,
+    "end": 934,
+    "length": 934,
+    "hash": "h1v8um"
+  },
+  {
+    "id": "p771_c0",
+    "page": 771,
+    "text": "1. Process debt : esempio Fonte: WEF Global Lighthouse Network",
+    "start": 0,
+    "end": 62,
+    "length": 62,
+    "hash": "xuwj5c"
+  },
+  {
+    "id": "p772_c0",
+    "page": 772,
+    "text": "Human - to - Human 1. Process debt : Ripensare attività/flussi dati Human - to - Machine Machine - to - Machine • Riunioni improduttive : Assistente digitale basato su GenAI per il passaggio di consegne nei turni, ottimizzato per risolvere le problematiche di produzione. • Task - skill mismatch : \"Smart Andon \" basato su IoT, integrato con matrici di competenze per la riallocazione automatizzata dei compiti. • Inefficienze: Apprendimento automatico non supervisionato per l’allocazione della forza lavoro sulla linea, basato su esperienza, competenze, compatibilità di gruppo, dati demografici e altri parametri (es. anzianità, competenze tecniche). • Errori trasferimento dati: Federated knowledge graph per l'analisi dei dati distribuiti tra sistemi frammentati e laboratori globali, facilitando la diagnosi rapida dei difetti. • Ritardi di sincronizzazione : Algoritmo genetico per sincronizzare lo stato delle postazioni di lavoro con i compiti e i percorsi degli AGV.",
+    "start": 0,
+    "end": 976,
+    "length": 976,
+    "hash": "54vxt"
+  },
+  {
+    "id": "p773_c0",
+    "page": 773,
+    "text": "2. Capabilities : il giusto mix • La trasformazione digitale richiede skills che sono rare sul mercato Trovare competenze tecniche digitali per l’Industria 4.0 rappresenta una sfida critica per le aziende manifatturiere, a causa della rapida evoluzione delle tecnologie e della carenza di professionisti qualificati. Tecnologie come intelligenza artificiale, IoT, robotica avanzata e cybersecurity richiedono competenze specialistiche difficili da reperire nel mercato del lavoro. • Necessario sviluppare strategie di collaborazione Lo sviluppo di strategie di collaborazione ecosistemica per le aziende manifatturiere è fondamentale per affrontare le sfide della trasformazione digitale e dell’Industria 4.0. Un approccio ecosistemico prevede la creazione di reti di partner, tra cui fornitori, startup, università, centri di ricerca e altre imprese, per condividere risorse, competenze e innovazioni. I temi sono: co - sviluppo di soluzioni, piattaforme digitali condivise, formazione e upskilling congiunti.",
+    "start": 0,
+    "end": 1010,
+    "length": 1010,
+    "hash": "bpo7kh"
+  },
+  {
+    "id": "p774_c0",
+    "page": 774,
+    "text": "2. Capabilities : esempio 69 9.8 11 10.2 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Basic digital skills ICT specialists Digital skills in Europa Fonte: Digital decade 2024 report (EU) Target 2030 • 80% individui con basic digital skills • 20M ICT specialist Italia sotto media europea. Costo annuale 3 esperti AI: 0.5 Milioni Euro!",
+    "start": 0,
+    "end": 333,
+    "length": 333,
+    "hash": "yit6z"
+  },
+  {
+    "id": "p775_c0",
+    "page": 775,
+    "text": "2. Capabilities : profili Fonte: WEF Global Lighthouse Network",
+    "start": 0,
+    "end": 62,
+    "length": 62,
+    "hash": "8pk634"
+  },
+  {
+    "id": "p776_c0",
+    "page": 776,
+    "text": "2. Capabilities : mix esterno/interno Perché? Partnership esterne Sviluppo interno • Potenziare le capacità per sviluppare conoscenze o proprietà intellettuale attraverso collaborazioni esterne. • Valorizzare le competenze interne e integrarle con fornitori esterni secondo necessità. Esempio • Posizionamento guidato da machine vision e feedback di forza, in sostituzione dei fissaggi tradizionali nella saldatura. • Esperienza di formazione gamificata con realtà mista e simulazione modellata per un feedback realistico. Composizione team Commoditificazione tool AI guida internalizzazione",
+    "start": 0,
+    "end": 591,
+    "length": 591,
+    "hash": "iaqili"
+  },
+  {
+    "id": "p777_c0",
+    "page": 777,
+    "text": "2. Capabilities : mantra! Domain competence: La competenza nel dominio –– cioè, la conoscenza specializzata necessaria per la selezione delle variabili e l'ingegneria delle caratteristiche –– è fondamentale! “A key distinction is that we possess the product know - how. For any analysis, it’s crucial to have a deep understanding of your product and how it functions; without that knowledge, you will be completely lost. Without this insight, you might select variables that don’t actually impact performance, and waste months trying to derive value from them — ultimately achieving nothing. Before incorporating variables into algorithms, you must understand if they actually affect performance. If you choo se the wrong variables, you’ll only get false predictions. Suppliers won’t be able to achieve this — they don’t know our products as well as we do. They understand their own machines far better than we do. “ Intervista a responsabile di produzione Bosch per progetto di ricerca UniUD – 2021 Risultati dello studio disponibili su: Culot, G., Orzes , G., Sartor, M., & Nassimbeni , G. (2024). The data sharing conundrum: revisiting established theory in the age of digital transformation . Supply Chain Management: An International Journal , 29(7), 1 - 27.",
+    "start": 0,
+    "end": 1263,
+    "length": 1263,
+    "hash": "ll2u5f"
+  },
+  {
+    "id": "p778_c0",
+    "page": 778,
+    "text": "3. Digitalizzazione diffusa: human centricity • Non è detto che comprare la tecnologia significhi usare la tecnologia Spesso le tecnologie vengono acquistate per stimoli esterni (hype, incentivi) ma poi non utilizzate/sfruttate appieno. Guardando alle dinamiche di stabilimento, uno dei motivi è la riluttanza da parte degli operatori a cambiare le routine e gli schemi mentali. • Tecnologie Industry 4.0 prevedono un’adozione »centrata sull’umano» Human centricity nell’Industria 4.0 si riferisce a un approccio in cui la tecnologia e l'automazione sono progettate per potenziare le capacità umane, migliorare le condizioni di lavoro e aumentare il benessere degli operatori, piuttosto che semplicemente sostituire la forza lavoro. Le aziende devono ripensare l’equilibrio dei compiti della forza lavoro, trasformandola in un team di tecnici e analisti, mentre si automatizzano le attività più gravose, prive di valore aggiunto o pericolose.",
+    "start": 0,
+    "end": 942,
+    "length": 942,
+    "hash": "7mqr7g"
+  },
+  {
+    "id": "p779_c0",
+    "page": 779,
+    "text": "3. Digitalizzazione diffusa: esempi “Solutions are not just for the workforce... they are with the workforce” Foxconn Industrial Internet, Vietnam • Prima: reset dei macchinari in caso di errore, no analisi cause/soluzioni • Adozione di LLM machine failure handling system • Dashboard intuitive dove gli operatori possono essere attivi in attività di problem solving e risoluzione guasti ( - 90% riduzione fermi macchina non programmati) “Cultivating change agents is critical as they function as conduits between frontline and management in both directions.” Coca Cola, Singapore • Incontri mensili di « Show & Tell » con fornitori di macchinari e altri provider • «Sway» newsletter con aggiornamenti, success stories, esperienze con tecnologie • «Star» assignments : operatori ingaggiati per tre mesi in progetti digitali specifici",
+    "start": 0,
+    "end": 833,
+    "length": 833,
+    "hash": "rihqxz"
+  },
+  {
+    "id": "p780_c0",
+    "page": 780,
+    "text": "3. Digitalizzazione diffusa: leve Integrazione di esperienza • Piattaforma che incentiva i dipendenti a condividere idee e sfide, sfruttando insight generati dall’Intelligenza Artificiale. Sviluppo di skills Sicurezza Skill augmentation Connessione remota Tecnologie Applicazioni illustrative Digital engagement platforms , apps • Centro di formazione tecnica che ha ridotto i tempi di qualificazione per nuovi ruoli, aumentando la versatilità della forza lavoro. Digital platforms , apps, VR/AR/MR • Valutazioni ergonomiche supportate dalla tecnologia, che hanno ridotto gli infortuni muscolo - scheletrici sul lavoro e i tempi di analisi dei casi. Tool fisici, simulazione, automazione, sensori VR/AR/MR, tool fisici, connettività • Dispositivi indossabili per supportare la formazione e l' upskilling , migliorando l’efficienza operativa, riducendo le attività prive di valore aggiunto e diminuendo gli scarti. • Tecnologie AR/VR per connettere da remoto gli esperti ai tecnici, con programmi di formazione personalizzati sulle aree di miglioramento individuali. VR/AR/MR, connettività, digital platforms , apps",
+    "start": 0,
+    "end": 1114,
+    "length": 1114,
+    "hash": "itfv5c"
+  },
+  {
+    "id": "p781_c0",
+    "page": 781,
+    "text": "4. Scalabilità: sperimentare e diffondere • Le tecnologie non sono « plug&play », necessario customizzare e scalare La scalabilità in Industry 4.0 è ostacolata dalla necessità di integrare tecnologie complesse, gestire enormi quantità di dati, formare la forza lavoro, sostenere investimenti costosi e garantire la sicurezza, il tutto mentre si personalizzano i processi per adattarsi a un mercato in continua evoluzione • Presenza di roadmap strutturate aiuta, con chiara strategia di diffusione Dal punto di vista tecnologico, l’approccio è quello di strutturare soluzioni standardizzate e modulari, consentendo l’applicazione personalizzata attraverso diversi use - case/siti produttivi. Importante definire il processo di diffusione all’interno del plant /network, bilanciando sviluppo centralizzato e soluzioni che vengono suggerite «dal basso».",
+    "start": 0,
+    "end": 850,
+    "length": 850,
+    "hash": "z7s5e5"
+  },
+  {
+    "id": "p782_c0",
+    "page": 782,
+    "text": "4. Scalabilità: esempio Leonardo, Pomigliano d’Arco/Nola (NA): Progetto Nemesi • 6 asset di automazione • 3.500 nuove attrezzature • > 530.000 ore di ingegneria • > 20.000 ore di formazione sui nuovi macchinari • > 1.200 persone coinvolte in formazione • 38 workshops sull’innovazione in fabbrica • Collaborazioni con università, centri di ricerca, società di consulenza • 52 M Euro finanziamenti pubblici (65% costi ammissibili)",
+    "start": 0,
+    "end": 429,
+    "length": 429,
+    "hash": "rdlk4a"
+  },
+  {
+    "id": "p783_c0",
+    "page": 783,
+    "text": "4. Scalabilità: impostare la transizione Strategia • Allineare la senior leadership sulla visione : quale valore si desidera trarre dalla trasformazione digitale? Leadeship engagement Strategic roadmap • Definire la roadmap strategica • Base + prioritizzazione use case in base al valore • Definizione roll - out previsto (in sito/multi - sito) Siemens: Lean Digital Factory",
+    "start": 0,
+    "end": 374,
+    "length": 374,
+    "hash": "vwnhmu"
+  },
+  {
+    "id": "p784_c0",
+    "page": 784,
+    "text": "4. Scalabilità : infrastruttura dati 2 - 3x m ole dati in aziende I4.0 Fonte: WEF Global Lighthouse Network nuove connessioni con tech vendor, ottimizzazione e update frequenti Es. Unified fleet management platform AMR",
+    "start": 0,
+    "end": 218,
+    "length": 218,
+    "hash": "h7x3rk"
+  },
+  {
+    "id": "p785_c0",
+    "page": 785,
+    "text": "4. Scalabilità: aspetti tecnologici Standardizzazione Flessibilità CENTRALIZZAZIONE • Orchestrazione sviluppo e la condivisione best practice per garantire controllo centralizzato e supervisione. • Linee guida sulle migliori pratiche di integrazione API per creare pipeline di dati coerenti. • Journey services per orchestrare l’interazione tra diversi servizi di dominio. MODULARITA’ • Sistemi con componenti intercambiabili, facilmente riconfigurabili o sostituibili, per massimizzare il riutilizzo dei moduli esistenti. • Utilizzo API modulari, decoupling dell'architettura per test e implementazioni indipendenti. • Architettura a microservizi, con applicazioni leggere e autonome. ASSETTIZZAZIONE • Approccio sistematico per sviluppare, gestire e distribuire asset riutilizzabili • Si basa su manuali, procedure e strumenti modulari e universalmente accessibili, che consentono agli operatori di sfruttare il potenziale delle soluzioni digitali senza necessitare di competenze specialistiche. AUTONOMIA • Sviluppo indipendente per potenziare continuamente le capacità interne. • Utilizzo infrastrutture cloud - native, Infrastructure as code e automazione per un’architettura flessibile.",
+    "start": 0,
+    "end": 1192,
+    "length": 1192,
+    "hash": "9wbku6"
+  },
+  {
+    "id": "p786_c0",
+    "page": 786,
+    "text": "4. Scalabilità: esempio Roche: Low - Code Enablement Application Platform (“LEAP”)",
+    "start": 0,
+    "end": 82,
+    "length": 82,
+    "hash": "cnynjt"
+  },
+  {
+    "id": "p787_c0",
+    "page": 787,
+    "text": "4. Scalabilità: esempio No code Low code Utilizzatori primari Business users Developers Coding Assente Limitato Scopo Self - service per il business Sviluppo rapido per professionisti Output App semplici Tool complessi Personalizzazione Customizzazione di template Completa",
+    "start": 0,
+    "end": 273,
+    "length": 273,
+    "hash": "o7mw2x"
+  },
+  {
+    "id": "p788_c0",
+    "page": 788,
+    "text": "4. Scalabilità: esempio Agilent : Assetization AI solution library",
+    "start": 0,
+    "end": 66,
+    "length": 66,
+    "hash": "ycg1cq"
+  },
+  {
+    "id": "p789_c0",
+    "page": 789,
+    "text": "4. Scalabilità: approcci consolidati multisito Technology - led Capability - led Build and replicate Implementazione simultanea di use cases – Risorse IT/Corporate • Implementazione simultanea di use case su centinaia di linee produttive • Roll - out coordinato d funzione centrale \" Intelligent Manufacturing» • Approccio standardizzato possibile per rete IT centrale e similarità tra linee produttive CoE combina use cases / factories – Risorse Corporate • CoE identifica, formalizza e scala use cases attraverso siti produttivi • CoE con competenze/risorse digitali: condivisione best practice da siti • I siti «acquisiscono» use cases dal CoE ricevendo supporto nella customizzazione Trasformazione sito - per - sito – Risorse del sito «attivo» • Siti «campione» si trasformano, l’approccio viene poi replicato in altri siti, uno alla volta • I siti sono tipicamente molto grandi e hanno caratteristiche simili",
+    "start": 0,
+    "end": 914,
+    "length": 914,
+    "hash": "v9w05k"
+  }
+]

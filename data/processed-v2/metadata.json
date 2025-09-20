@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "created": "2025-09-01T09:08:39.140Z",
+  "source": "corso_completo.pdf",
+  "totalPages": 795,
+  "totalChunks": 598,
+  "config": {
+    "CHUNK_SIZE": 2000,
+    "CHUNK_OVERLAP": 300,
+    "MIN_WORD_LENGTH": 3,
+    "CHUNKS_PER_FILE": 50,
+    "MAX_INDEX_WORDS": 15000
+  }
+}

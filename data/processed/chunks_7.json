@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p404_c0",
+    "page": 404,
+    "text": "nodo Convenzione grafica di un singolo nodo ES LS EF LF Nome Durata",
+    "start": 0,
+    "end": 67,
+    "length": 67,
+    "hash": "rixw0y"
+  },
+  {
+    "id": "p405_c0",
+    "page": 405,
+    "text": "Disegnare la rete con sigle e durate Attività Durata Prec . A 5 - B 10 - C 7 A,B A 5 B 10 Start C 7 End",
+    "start": 0,
+    "end": 103,
+    "length": 103,
+    "hash": "hr8aod"
+  },
+  {
+    "id": "p406_c0",
+    "page": 406,
+    "text": "Calcolo degli eventi: (a) passo in avanti q Per determinare i tempi di inizio anticipato (ES) e fine anticipata (EF) per ogni attività: § Lavorare da sinistra a destra § Calcolare i tempi ES, EF in ogni percorso § Regola: quando più attività convergono, l'ES per l'attività successiva è il maggiore tra i tempi delle EF precedenti.",
+    "start": 0,
+    "end": 331,
+    "length": 331,
+    "hash": "4eh8y3"
+  },
+  {
+    "id": "p407_c0",
+    "page": 407,
+    "text": "Earliest Start e Earliest Finish q Inizia con lo start e procedi in avanti q ES è pari a: § ES = 0 per le attività senza predecessori § Altrimenti, ES = massimo EF di tutti i predecessori q EF è pari a: § EF = ES + durata ES LS EF LF Nome Durata",
+    "start": 0,
+    "end": 245,
+    "length": 245,
+    "hash": "sd8aym"
+  },
+  {
+    "id": "p408_c0",
+    "page": 408,
+    "text": "Calcolo di ES e EF A 5 B 10 0 5 0 10 Start C 7 10 17 End Attività Durata Prec . A 5 - B 10 - C 7 A,B",
+    "start": 0,
+    "end": 100,
+    "length": 100,
+    "hash": "hjorax"
+  },
+  {
+    "id": "p409_c0",
+    "page": 409,
+    "text": "Calcolo degli eventi: (b) passo indietro q Per determinare i tempi di fine più lontana (LF) e inizio più lontano (LS) per ogni attività § Lavorare da destra a sinistra § Aggiungere i tempi LF, LS in ogni percorso § Regola: quando più attività convergono, l'LF per l'attività precedente è il minimo dei tempi LS dei successori.",
+    "start": 0,
+    "end": 326,
+    "length": 326,
+    "hash": "390uuy"
+  },
+  {
+    "id": "p410_c0",
+    "page": 410,
+    "text": "Latest Start e Latest Finish q Inizia dall’ultimo nodo e lavora indietro q Calcola la coppia di LF, LS q LF è pari a: § LF = Massimo EF delle attività finali § LF = minimo LS di tutti i successori per le altre attività q LS è pari a: § LS = LF – durata ES LS EF LF Nome Durata",
+    "start": 0,
+    "end": 276,
+    "length": 276,
+    "hash": "zfxltu"
+  },
+  {
+    "id": "p411_c0",
+    "page": 411,
+    "text": "Calcolo di LF e LS Attività Durata Prec . A 5 - B 10 - C 7 A,B A 5 B 10 0 5 0 10 Start C 7 10 17 End 10 17 0 10 5 10",
+    "start": 0,
+    "end": 116,
+    "length": 116,
+    "hash": "4ia9ab"
+  },
+  {
+    "id": "p412_c0",
+    "page": 412,
+    "text": "Calcolo degli slack q Lo slack è il ritardo consentito per un'attività senza causare una violazione della scadenza del progetto e può essere calcolato come: LF−EF = LS−ES q NOTA: le attività con margine ( slack ) = 0 costituiscono il percorso critico; i ritardi in queste attività fanno ritardare il progetto",
+    "start": 0,
+    "end": 308,
+    "length": 308,
+    "hash": "6bootj"
+  },
+  {
+    "id": "p413_c0",
+    "page": 413,
+    "text": "Calcolo degli slack Attivitò LF EF Slack . A 10 5 5 B 10 10 0 C 17 17 0 A 5 B 10 0 5 0 10 Start C 7 10 17 End 10 17 0 10 5 10",
+    "start": 0,
+    "end": 125,
+    "length": 125,
+    "hash": "dg0q76"
+  },
+  {
+    "id": "p414_c0",
+    "page": 414,
+    "text": "Sentiero(i) critico(i) q Un sentiero critico del progetto è un percorso composto da attività critiche del progetto. q È importante ricordare che: § un progetto può avere più di un percorso critico, § qualsiasi percorso critico inizierà al nodo 1 e terminerà al nodo n e che § la somma delle durate delle attività che si trovano su un percorso critico è la durata del progetto.",
+    "start": 0,
+    "end": 376,
+    "length": 376,
+    "hash": "nesumy"
+  },
+  {
+    "id": "p415_c0",
+    "page": 415,
+    "text": "Opportunità di intervento sul CP q Riduzione della durata del progetto ( crashing ) q Gestione del rischio e pianificazione delle contingenze q Ottimizzazione dell’allocazione delle risorse q Negoziazione con gli stakeholder (motivare durata/ritardi) q Change management: impatto di variazioni sul CP q Sviluppo di strategie di partnership e approvigionamento",
+    "start": 0,
+    "end": 359,
+    "length": 359,
+    "hash": "29upte"
+  },
+  {
+    "id": "p416_c0",
+    "page": 416,
+    "text": "Bibliografia di massima (1) APM (2000): APM Project Management Body of Knowledge. Elton, J. and J. Roe (1998): “Bringing Discipline to Project Management,” Harvard Business Review, 76, 153 – 159. Freeman, R.E. 1984, Strategic Management: A stakeholder approach. Boston: Pitman. Friedman, A.L. & Miles, S. 2002 Developing Stakeholder Theory. Journal of Management Studies, v 39, n 1, pp 1 - 21. HBS, ed. (2004): Managing Projects Large and Small, Harvard Business School Pub. IPMA (2015): IPMA Competence Baseline, version 4. Jacobs, R. J. and R. B. Chase (2014): Operations and Supply Chain Management, McGraw - Hill, 14 ed. Larson, E. W., & Gray, C. F. (2011). Project management: The managerial process. Boston: McGraw - Hill.",
+    "start": 0,
+    "end": 728,
+    "length": 728,
+    "hash": "kl43vi"
+  },
+  {
+    "id": "p417_c0",
+    "page": 417,
+    "text": "Bibliografia di massima (2) Mitchell, R.K., Agle, B.R., & Wood, D.J. (1997) “Toward a Theory of Stakeholder Identification and Salience: Defining the Principle of Who and What Really Counts” Academy of Management Review, 22(4) pp. 853 - 886 Meredith, J. R., & Mantel, S. J. (2006). Project management: A managerial approach. Hoboken, NJ: John Wiley. OGC (2009): Managing successful projects with PRINCE2, The Stationery Office. Project Management Institute (2013): A guide to the project management body of knowledge (PMBOK Guide), Project Management Institute. Project Management Institute (2019). Practice standard for work breakdown structures. Randolph, W. A. and B. Z. Posner (1988): “What Every Manager Needs To Know About Project Management,” Sloan Management Review, 29, 65 – 73.",
+    "start": 0,
+    "end": 787,
+    "length": 787,
+    "hash": "kbl444"
+  },
+  {
+    "id": "p418_c0",
+    "page": 418,
+    "text": "Cause più frequenti di fallimento q Obiettivi e ambito ( scope ) poco chiari o mal definiti: § Scarsa comprensione degli obiettivi; definizione vaga o ambigua dei deliverable; \"Scope creep \" q Coinvolgimento insufficiente degli stakeholder: § Scarsa partecipazione attiva/commitment delle parti interessate; scarso allineamento delle aspettative q Pianificazione inadeguata: § Stime irrealistiche di tempi e costi (sottostima di durate/costi); mancanza di una pianificazione dettagliata q Comunicazione carente o inefficace: § Scarsa comunicazione trasparente e regolare tra team/stakeholder/management/clienti; conflitti da mancanza di feedback e condivisione di informazioni cruciali q Gestione delle risorse insufficiente o inadeguata: § Scarsità di risorse/competenze qualificate/adeguate; allocazione inefficace delle risorse; conflitti tra attività q Mancanza di leadership e supporto del management: § PM con scarsa leadership; supporto inadeguato del management apicale; struttura di governance inadeguata.",
+    "start": 0,
+    "end": 1014,
+    "length": 1014,
+    "hash": "rbrhjw"
+  },
+  {
+    "id": "p420_c0",
+    "page": 420,
+    "text": "Executive Master of Business Administration - EMBA Trento OTTIMIZZAZIONE DEI PROCESSI (MODULO PLQ) Prof. Giovanni Iacca giovanni.iacca@unitn.it",
+    "start": 0,
+    "end": 143,
+    "length": 143,
+    "hash": "wpnyu3"
+  },
+  {
+    "id": "p422_c0",
+    "page": 422,
+    "text": "/28 FEW WORDS ABOUT ME • 2011 Ph.D. Mathematical Information Technology, University of Jyväskylä, Finland • 2013-2018 Postdoc at: RWTH Aachen University, Germany EPFL & University of Lausanne, Switzerland INCAS3, The Netherlands • 2011-2018 Co-founder and Chief Scienti fi c Of fi cer, Cyber Dyne, Italy, 2011-2018 (now incorporated) • 2018-present - Associate Professor of Information Engineering, University of Trento - Coordinator of the Master's in Computer Science (top LM in ICT in Italy) - Deputy Coordinator of the Doctoral School in Information Engineering and Computer Science 3",
+    "start": 0,
+    "end": 588,
+    "length": 588,
+    "hash": "tok115"
+  },
+  {
+    "id": "p423_c0",
+    "page": 423,
+    "text": "/28 FEW WORDS ABOUT ME 4 https://www.censis.it/formazione/la-classi fi ca-censis-delle-universit%C3%A0-italiane-edizione-20242025/la-didattica-lauree First Phd school for no. externally funded scholarships!",
+    "start": 0,
+    "end": 206,
+    "length": 206,
+    "hash": "jok8gw"
+  },
+  {
+    "id": "p424_c0",
+    "page": 424,
+    "text": "/28 MY TEAM - EVOLUTIONARY LEARNING MACHINES 5 https://sites.google.com/site/giovanniiacca/team Currently hosting 12 Masters’ students 2 Bachelor’s students",
+    "start": 0,
+    "end": 156,
+    "length": 156,
+    "hash": "v9oj8m"
+  },
+  {
+    "id": "p425_c0",
+    "page": 425,
+    "text": "/27 RESEARCH - DIRECTIONS 6 Evolutionary computation Evolution on distributed systems Evolutionary Interpretable AI Evolutionary learning",
+    "start": 0,
+    "end": 137,
+    "length": 137,
+    "hash": "ss1yum"
+  },
+  {
+    "id": "p427_c0",
+    "page": 427,
+    "text": "/27 8 RECENT WORKS ON PROCESS OPTIMIZATION MAKE OR BUY PROBLEM",
+    "start": 0,
+    "end": 62,
+    "length": 62,
+    "hash": "pfyzl6"
+  },
+  {
+    "id": "p428_c0",
+    "page": 428,
+    "text": "/27 9 RECENT WORKS ON PROCESS OPTIMIZATION MAKE OR BUY PROBLEM",
+    "start": 0,
+    "end": 62,
+    "length": 62,
+    "hash": "6hgvnb"
+  },
+  {
+    "id": "p429_c0",
+    "page": 429,
+    "text": "/27 10 RECENT WORKS ON PROCESS OPTIMIZATION HYBRID FLOW SHOP SCHEDULING",
+    "start": 0,
+    "end": 71,
+    "length": 71,
+    "hash": "nyhcov"
+  },
+  {
+    "id": "p430_c0",
+    "page": 430,
+    "text": "/27 11 RECENT WORKS ON PROCESS OPTIMIZATION HYBRID FLOW SHOP SCHEDULING",
+    "start": 0,
+    "end": 71,
+    "length": 71,
+    "hash": "5i6dgg"
+  },
+  {
+    "id": "p432_c0",
+    "page": 432,
+    "text": "https://www.linkedin.com/pulse/la-lean-nel- fi lm-founder-manuele-baldissera/",
+    "start": 0,
+    "end": 77,
+    "length": 77,
+    "hash": "6eykdn"
+  },
+  {
+    "id": "p435_c0",
+    "page": 435,
+    "text": "OPTIMIZATION 16 WHAT IS OPTIMIZATION? Solving an optimization problem = fi nding the minimum/maximum of one/more objective functions • Decision (design) variables: x = [ x (1), x (2), ... x (n)] • Objective function(s): f ( x ) • Decision (design, search, solution) space: D • Constraints: g ( x ) and h ( x ) • (Global/local) optimum: x* IMPORTANT NOTE minimize f ( x ) = maximize - f ( x )",
+    "start": 0,
+    "end": 391,
+    "length": 391,
+    "hash": "bl986i"
+  },
+  {
+    "id": "p437_c0",
+    "page": 437,
+    "text": "OPTIMIZATION 18 A LOT OF OPTIMIZATION PROBLEMS AND METHODS!",
+    "start": 0,
+    "end": 59,
+    "length": 59,
+    "hash": "xx60q"
+  },
+  {
+    "id": "p438_c0",
+    "page": 438,
+    "text": "OPTIMIZATION 19 A LOT OF OPTIMIZATION PROBLEMS AND METHODS! • Continuous vs Combinatorial (Discrete) Optimization Depending on continuous/discrete decision variables. • Linear vs Nonlinear Optimization Depending on linear/nonlinear objective functions. • Single vs Multi-Objective Optimization Depending on one or more (usually, 2) objective functions. • Constrained vs Unconstrained Optimization Depending on the presence/absence of constraints (but, still subject to boundary constraints). • Stochastic/Dynamic vs Noiseless/Stationary Optimization Depending on the presence of noise or time-dependency on any of the problem component (decision variable, objective function, constraints).",
+    "start": 0,
+    "end": 689,
+    "length": 689,
+    "hash": "a7etsx"
+  },
+  {
+    "id": "p439_c0",
+    "page": 439,
+    "text": "20 IT’S A HARD LIFE • Optimization problems can be relatively “easy” to formulate, but very hard to solve , especially in complex applications with many variables. In fact, some features characterizing the problem can make it extremely challenging. For instance: • High non-linearities (optima are not on the constraint boundaries) • High multimodality (many local optima) • Noisy objective function (robust optimization is needed) • Approximated objective function (approximation errors must be accounted for) • Computationally expensive problems • Computationally expensive function (e.g. long FEM/CFD simulations) • Large-scale problems (“needle in a haystack”) • Limited hardware (drones, embedded systems, etc.) OPTIMIZATION",
+    "start": 0,
+    "end": 729,
+    "length": 729,
+    "hash": "xiwmo0"
+  },
+  {
+    "id": "p440_c0",
+    "page": 440,
+    "text": "OPTIMIZATION 21 ARE WE HUMANS ABLE TO OPTIMIZE? • “Algorithm”: a human being choses the points to evaluate. • Practically considerations • Humans sometimes accumulate unique experience/domain knowledge • But: • Sow reaction time • Biases • We are bad at dealing with more than 1 or 2 dimensions (usually perform 1D search)",
+    "start": 0,
+    "end": 322,
+    "length": 322,
+    "hash": "9mbxk2"
+  },
+  {
+    "id": "p441_c0",
+    "page": 441,
+    "text": "22 IT’S A HARD LIFE That’s why it’s important: 1. To understand what kind of problems we are dealing with • What kind of objective function do we have it? Do we know its properties? • What kind of constraints do we have it (if any)? • What kind of decision variables do we have it (how many)? • Etc. 2. To choose the right optimization algorithm for that problem, e.g.: • Gradient-based or gradient-free? • Local or global search? • Single or multi-objective? • Constraint or unconstrained? • Do we have computational constraints? • Etc. OPTIMIZATION",
+    "start": 0,
+    "end": 550,
+    "length": 550,
+    "hash": "5zvkf5"
+  },
+  {
+    "id": "p442_c0",
+    "page": 442,
+    "text": "OPTIMIZATION 23 A WARNING • No free lunch theorem by Wolpert and Macready (1997). • Loosely speaking: there is no reason to prefer one algorithm over another, unless we know something regarding the probability distribution over the space of possible objective functions. • In particular, if one algorithm performs better than another on one class of problems, it will perform worse on another class of problems. • More rigorously, for a given pair of algorithms A and B: where P ( x m | f , A ) is the probability that algorithm A detects the optimal solution x m for a generic objective function f and P ( x m | f , B ) is the analogue probability for algorithm B. • The performance of every pair of algorithms over all possible problems is the same.",
+    "start": 0,
+    "end": 751,
+    "length": 751,
+    "hash": "ggxhe9"
+  },
+  {
+    "id": "p444_c0",
+    "page": 444,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 25 GRID SEARCH Problems • (Exhaustive) grid search can be very expensive • Combinatorial explosion! The more parameters we have, the larger the grid. • What if every solution in the grid is computationally expensive to evaluate? E.g., run a computationally expensive simulation for each possible solution to the problem at hand. • What about continuous parameters ? • We may easily miss the optimum! • We need to discretize the parameters (important to set the right tolerance ). • Do we really know the right boundaries? • Grid search is “uninformed”: it does not use information from the search process to move towards the most promising search directions.",
+    "start": 0,
+    "end": 688,
+    "length": 688,
+    "hash": "wfl149"
+  },
+  {
+    "id": "p445_c0",
+    "page": 445,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 26 RANDOM SEARCH Main differences w.r.t. grid search • You are unlikely to keep completely missing the “good area” for a long time when randomly picking new spots. • A grid search may spend lots of time in a “bad area” as it covers exhaustively (however, this may happen also in random search). • A sampling methodology is needed (e.g. uniform). As for grid search: • Also random search is “uninformed” • Evaluations can be parallelized NOTE For a fair comparison between algorithms (in this case random vs grid search), the same “budget”, i.e., number of evaluated solutions, should be allotted.",
+    "start": 0,
+    "end": 626,
+    "length": 626,
+    "hash": "bji4b6"
+  },
+  {
+    "id": "p446_c0",
+    "page": 446,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 27 RANDOM SEARCH Main differences w.r.t. grid search",
+    "start": 0,
+    "end": 82,
+    "length": 82,
+    "hash": "xwqviz"
+  },
+  {
+    "id": "p447_c0",
+    "page": 447,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 28 CLASSIC OPTIMIZATION APPROACHES • Exact methods : the function respects some speci fi c hypotheses, e.g., it’s a linear or quadratic problem. The method converges to the exact solution after a fi nite number of steps of an iterative procedure. For instance, the simplex algorithm for Linear Programming. • Approximate iterative methods (heuristics) : the function respects some hypotheses and can be solved by applying an iterative procedure with an in fi nite number of steps . The application of the procedure for a fi nite number of steps still leads to an approximation of the optimum. Heuristic (from the Greek ευρισκω heurisk ō “I fi nd, I discover”), also called “direct”, “pattern search”, or “generate and test” methods, are techniques designed for solving a problem ( fi nding an approximate solution) when classic methods fail to fi nd any exact solution, or are too slow to do that. This is achieved by trading optimality, completeness, accuracy, or precision for speed. Usually, they are greedy algorithms .",
+    "start": 0,
+    "end": 1053,
+    "length": 1053,
+    "hash": "rncw5h"
+  },
+  {
+    "id": "p448_c0",
+    "page": 448,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 29 GLOBAL OPTIMIZATION: FIND THE GLOBAL OPTIMUM • Unimodal vs multimodal functions: one vs many optima • Approaches: • Deterministic : brute force (discretize the search space and evaluate all points ) • Stochastic : random search (start from an initial point, and perturb it “walking” randomly in the search space, otherwise just sample a new point at each step) • More advanced methods: DIRECT, basin hopping, etc. (we’ll see them next week) Local optimum Global optimum",
+    "start": 0,
+    "end": 502,
+    "length": 502,
+    "hash": "bqwl51"
+  },
+  {
+    "id": "p450_c0",
+    "page": 450,
+    "text": "ITERATED LOCAL SEARCH 31 MAIN GIST OF THE ALGORITHM • Iterated local search (ILS) is a stochastic local search method that generates a sequence of solutions generated by an embedded heuristic , leading to far better results than if one were to use repeated random trials of that heuristic.",
+    "start": 0,
+    "end": 289,
+    "length": 289,
+    "hash": "jit3cs"
+  },
+  {
+    "id": "p451_c0",
+    "page": 451,
+    "text": "ITERATED LOCAL SEARCH 32 EXAMPLE: PERMUTATION FLOW-SHOP PROBLEM (FSP) • Given: - n jobs to be processed on m machines - processing times t ij of job i on machine j - machine order for all jobs is identical - permutation FSP: same job order on all machines (differently from JSP) • Goal: minimize the completion time C max of last job (makespan) • Prototypical scheduling problem, NP-hard",
+    "start": 0,
+    "end": 387,
+    "length": 387,
+    "hash": "4f52us"
+  },
+  {
+    "id": "p452_c0",
+    "page": 452,
+    "text": "ITERATED LOCAL SEARCH 33 EXAMPLE: PERMUTATION FLOW-SHOP PROBLEM (FSP) • GenerateInitialSolution : Nawaz, Enscore and Ham (NEH) heuristic (jobs with greater total processing time should be given a greater priority than jobs with a smaller total processing time) • LocalSearch : insertion neighborhood • Perturbation : a number of swap or interchange moves • AcceptanceCriterion : accept s*’ only if f ( s*’ ) ≤ f ( s* ) swap interchange",
+    "start": 0,
+    "end": 435,
+    "length": 435,
+    "hash": "emmpbw"
+  },
+  {
+    "id": "p454_c0",
+    "page": 454,
+    "text": "SIMULATED ANNEALING FROM GREEDY SEARCH TO SIMULATED ANNEALING Most basic algorithm: Hill-Climbing/Descent (Greedy Local Search) higher than E argmin 35",
+    "start": 0,
+    "end": 151,
+    "length": 151,
+    "hash": "cahwym"
+  },
+  {
+    "id": "p455_c0",
+    "page": 455,
+    "text": "SIMULATED ANNEALING FROM GREEDY SEARCH TO SIMULATED ANNEALING Stochastic Search: Randomized Hill-Climbing/Descent < 36",
+    "start": 0,
+    "end": 118,
+    "length": 118,
+    "hash": "qqtgsc"
+  },
+  {
+    "id": "p456_c0",
+    "page": 456,
+    "text": "SIMULATED ANNEALING ISSUES WITH GREEDY/RANDOMIZED HILL-CLIMBING Highly multimodal landscape Plateaus 37",
+    "start": 0,
+    "end": 103,
+    "length": 103,
+    "hash": "hb0g17"
+  },
+  {
+    "id": "p457_c0",
+    "page": 457,
+    "text": "SIMULATED ANNEALING ≤ How to set p ? If p constant: We don’t know how to set p → Depends on the problem Decrease p as the iterations progress → We accept fewer uphill moves as we approach the global minimum Decrease p as E’ - E increases → Lower probability to move uphill if the difference on the evaluation function is high 38 FROM GREEDY SEARCH TO SIMULATED ANNEALING Probabilistic uphill (ascent) acceptance criterion",
+    "start": 0,
+    "end": 421,
+    "length": 421,
+    "hash": "4vsnzo"
+  },
+  {
+    "id": "p458_c0",
+    "page": 458,
+    "text": "SIMULATED ANNEALING 39 FROM GREEDY SEARCH TO SIMULATED ANNEALING Probabilistic uphill (ascent) acceptance criterion - Intuition E = E ( X ) E’ = E ( X’ ) E = E ( X ) E’ = E ( X’ ) E’ - E is large : It is more likely that we are around a (promising) “deep” minimum so we don’t want to move uphill too much . E’ - E is small : It is likely that we are around a “shallow” minimum that is likely to be a (uninteresting) local minimum, so we would like to move uphill to explore other parts of the landscape .",
+    "start": 0,
+    "end": 504,
+    "length": 504,
+    "hash": "nhkycm"
+  },
+  {
+    "id": "p459_c0",
+    "page": 459,
+    "text": "SIMULATED ANNEALING 40 SIMULATED ANNEALING - GENERAL SCHEME ≤ -(E’-E)/T",
+    "start": 0,
+    "end": 71,
+    "length": 71,
+    "hash": "hy4wch"
+  },
+  {
+    "id": "p460_c0",
+    "page": 460,
+    "text": "SIMULATED ANNEALING 41 INTUITION A fi nite “temperature” allows for controlled uphill steps thus enabling the search to get out of local minima. Starting from a high temperature, the search is then successively “cooled down” according to an annealing schedule. With decreasing temperature, the step width is therewith reduced thus freezing the system to the ground state. The cooling rate needs to be inverse logarithmic in time, to assure convergence.",
+    "start": 0,
+    "end": 452,
+    "length": 452,
+    "hash": "i8bc0a"
+  },
+  {
+    "id": "p461_c0",
+    "page": 461,
+    "text": "SIMULATED ANNEALING 42 EXAMPLE: TRAVELING SALESMAN PROBLEM (TSP)",
+    "start": 0,
+    "end": 64,
+    "length": 64,
+    "hash": "rqcio0"
+  },
+  {
+    "id": "p463_c0",
+    "page": 463,
+    "text": "44 METAHEURISTICS WHAT CAN WE USE FOR GLOBAL OPTIMIZATION? METAHEURISTICS! • From the ancient Greek μετα − ευρισκω meta heurisk ō , i.e., “I fi nd beyond”: algorithms that do not require any assumption on the objective function (“black-box” optimization). • Especially useful when an analytical expression of the objective function is not even available (e.g., output of simulations), or it is extremely complex (multivariate, noisy, non-differentiable, non- continuous, non-linear, etc.). COMPUTATIONAL INTELLIGENCE OPTIMIZATION (CIO) A sub fi eld of CI that studies mathematical procedures to solve optimization problems, especially in the cases when there are no hypotheses and a metaheuristic is the only option. ?",
+    "start": 0,
+    "end": 718,
+    "length": 718,
+    "hash": "5c97qr"
+  },
+  {
+    "id": "p464_c0",
+    "page": 464,
+    "text": "METAHEURISTICS 45 SOME EXAMPLES • Simulated Annealing (SA) • Evolutionary Algorithms (EAs) • Genetic Algorithms (GAs) • Evolutionary Programming (EP) • Evolution Strategies (ES) • Particle Swarm Optimization (PSO) • Ant Colony Optimization (ACO) • Bacterial Foraging Optimization (BFO) • Differential Evolution (DE) • Memetic Algorithms (MA) • Hybrid Methods",
+    "start": 0,
+    "end": 358,
+    "length": 358,
+    "hash": "o2ralb"
+  }
+]

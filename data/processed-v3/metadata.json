@@ -1,0 +1,62 @@
+{
+  "version": "3.0-text-only",
+  "processedAt": "2025-09-01T20:02:44.900Z",
+  "document": "./data/source/corso_completo.pdf",
+  "stats": {
+    "totalPages": 795,
+    "pagesWithContent": 1,
+    "totalChunks": 1,
+    "totalCharacters": 332720,
+    "avgChunkSize": 332733,
+    "totalKeywords": 20,
+    "chunksPerFile": 50,
+    "totalFiles": 1
+  },
+  "config": {
+    "chunkSize": 1500,
+    "chunkOverlap": 300,
+    "minPageLength": 50
+  },
+  "topTopics": [
+    {
+      "topic": "supply",
+      "count": 1
+    },
+    {
+      "topic": "progetto",
+      "count": 1
+    },
+    {
+      "topic": "chain",
+      "count": 1
+    },
+    {
+      "topic": "prodotto",
+      "count": 1
+    },
+    {
+      "topic": "management",
+      "count": 1
+    },
+    {
+      "topic": "attività",
+      "count": 1
+    },
+    {
+      "topic": "produzione",
+      "count": 1
+    },
+    {
+      "topic": "prodotti",
+      "count": 1
+    },
+    {
+      "topic": "optimization",
+      "count": 1
+    },
+    {
+      "topic": "fornitori",
+      "count": 1
+    }
+  ]
+}

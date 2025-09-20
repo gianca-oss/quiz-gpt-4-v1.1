@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "p598_c0",
+    "page": 598,
+    "text": "Fotocopiatrici Xerox Esempio di aggiornamento del prodotto (può essere applicato a generazioni di prodotti) Esempi L2 Modularità di prodotto",
+    "start": 0,
+    "end": 141,
+    "length": 141,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 0.7,
+      "keywords": [
+        "prodotto",
+        "fotocopiatrici",
+        "xerox",
+        "esempio",
+        "aggiornamento",
+        "essere",
+        "applicato",
+        "generazioni",
+        "prodotti",
+        "esempi"
+      ]
+    }
+  },
+  {
+    "id": "p601_c0",
+    "page": 601,
+    "text": "• Riduce la varietà dei componenti aumentando il numero di varianti del prodotto finale senza incorrere in un impatto negativo sostanziale sulle prestazioni operative (Duray et al.",
+    "start": 0,
+    "end": 181,
+    "length": 181,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 0.9,
+      "keywords": [
+        "riduce",
+        "variet",
+        "componenti",
+        "aumentando",
+        "numero",
+        "varianti",
+        "prodotto",
+        "finale",
+        "senza",
+        "incorrere"
+      ]
+    }
+  },
+  {
+    "id": "p602_c0",
+    "page": 602,
+    "text": "• Sulle prestazioni legate alle proprietà DIMENSIONE, FORMA, MASSA e MATERIALE del prodotto (moduli aggiungono a questi) • l'applicazione eccessiva del metodo di modularizzazione può portare ad un aumento indesiderato del prezzo dei prodotti stessi (Krishnapillai & Zeid, 2006) • I concorrenti possono eseguire più facilmente il REVERSE- ENGINEERING del prodotto poiché tutte le funzioni sono chiaramente separate EFFETTI NEGATIVI Effetti L2 Modularità di prodotto",
+    "start": 0,
+    "end": 465,
+    "length": 465,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 7.32,
+      "keywords": [
+        "prodotto",
+        "effetti",
+        "2006",
+        "sulle",
+        "prestazioni",
+        "legate",
+        "alle",
+        "propriet",
+        "dimensione",
+        "forma"
+      ]
+    }
+  },
+  {
+    "id": "p603_c0",
+    "page": 603,
+    "text": "Modularità di prodotto – livello maturità L2 Modularità di prodotto Modularizzazione del prodotto Livello di maturità II V 6 Nessuna modularizzazione 1 (1) In ALCUNE delle nostre famiglie di prodotti, tutti i prodotti sono stati pensati in modo tale che ciascuna funzione del prodotto sia eseguita da un blocco specifico (modulo) e non sia eseguita attraverso l'interazione di più blocchi 2 (1) Abbiamo progettato TUTTE le nostre famiglie di prodotti in modo modulare: abbiamo famiglie di moduli (ogni funzione è svolta da un solo modulo) con interfacce standardizzate 3 (1) ...............",
+    "start": 0,
+    "end": 591,
+    "length": 591,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 7.95,
+      "keywords": [
+        "prodotto",
+        "famiglie",
+        "prodotti",
+        "modularit",
+        "livello",
+        "maturit",
+        "modularizzazione",
+        "nostre",
+        "modo",
+        "funzione"
+      ]
+    }
+  },
+  {
+    "id": "p604_c0",
+    "page": 604,
+    "text": "• TRADIZIONALMENTE - sviluppo di un prodotto alla volta => mancanza di comunanza tra diversi prodotti • PUÒ SUCCEDERE che prodotti diversi utilizzino materiali diversi per gli stessi scopi o abbiano componenti con le stesse specifiche tecniche ma dimensioni diverse , per cui tali componenti non possono essere scambiati Piattaforme di prodotto L3 Piattaforme di prodotto",
+    "start": 0,
+    "end": 372,
+    "length": 372,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 11.855,
+      "keywords": [
+        "prodotto",
+        "diversi",
+        "prodotti",
+        "componenti",
+        "piattaforme",
+        "tradizionalmente",
+        "sviluppo",
+        "alla",
+        "volta",
+        "mancanza"
+      ]
+    }
+  },
+  {
+    "id": "p605_c0",
+    "page": 605,
+    "text": "Piattaforme di prodotto L3 Lo sviluppo della piattaforma di prodotto si riferisce alla definizione di un insieme di parametri di progettazione (caratteristiche, componenti, ecc. ) che formano una struttura comune da cui è possibile sviluppare e produrre in modo efficiente un flusso di prodotti derivati (famiglie di prodotti) (Suzić, Forza, et al.",
+    "start": 0,
+    "end": 349,
+    "length": 349,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.74,
+      "keywords": [
+        "prodotto",
+        "prodotti",
+        "piattaforme",
+        "sviluppo",
+        "della",
+        "piattaforma",
+        "riferisce",
+        "alla",
+        "definizione",
+        "insieme"
+      ]
+    }
+  },
+  {
+    "id": "p606_c0",
+    "page": 606,
+    "text": "Piattaforme di prodotto Piattaforme di prodotto L3 Due tipi di design del prodotto: un esempio di trailer Progettazione integrale del prodotto Progettazione modulare del prodotto",
+    "start": 0,
+    "end": 179,
+    "length": 179,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 0.89,
+      "keywords": [
+        "prodotto",
+        "piattaforme",
+        "progettazione",
+        "tipi",
+        "design",
+        "esempio",
+        "trailer",
+        "integrale",
+        "modulare"
+      ]
+    }
+  },
+  {
+    "id": "p607_c0",
+    "page": 607,
+    "text": "Piattaforme di prodotto L3 • Simultaneo sviluppo di una intera famiglia di prodotti che • risponde ad un insieme di bisogni di mercato correlati • hanno la potenzialità di condividere componenti, interfacce tra componenti, e processi di produzione • Alcuni modelli progettati subito (con piattaforma) - altri progettati successivamente Platform DeskJet 600 Ext. Better colour quality DeskJet 540C Deskwriter 540C Deskwriter 600C Deskwriter 660C Platform DeskJt 800 Ext. Get into small business market e DeskJet 850C DeskJet 855C DeskJet 500C Deskwriter 500C Ext. Color print Ext. Two jets Black, colour DeskJet 550C Deskwriter 550C Deskwriter 550C -Postscript DeskJet 510C Deskwriter 510C Ext. Portable printers DeskJet 300 Japan version DeskJet 300 DeskJet 340c Ext.",
+    "start": 0,
+    "end": 768,
+    "length": 768,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.835,
+      "keywords": [
+        "deskjet",
+        "deskwriter",
+        "550c",
+        "componenti",
+        "progettati",
+        "platform",
+        "colour",
+        "540c",
+        "500c",
+        "510c"
+      ]
+    }
+  },
+  {
+    "id": "p608_c0",
+    "page": 608,
+    "text": "Utilizzo della piattaforma di prodotto per sfruttare i segmenti di mercato L3 Piattaforme di prodotto Diverse strategie di piattaforma di prodotto Product Family Strategy and Platform Design Optimzation (de Weck,Suh and Chang, 2004)",
+    "start": 0,
+    "end": 233,
+    "length": 233,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.16,
+      "keywords": [
+        "prodotto",
+        "piattaforma",
+        "2004",
+        "utilizzo",
+        "della",
+        "sfruttare",
+        "segmenti",
+        "mercato",
+        "piattaforme",
+        "diverse"
+      ]
+    }
+  },
+  {
+    "id": "p609_c0",
+    "page": 609,
+    "text": "Famiglie dei prodotti L3 Piattaforme di prodotto • Due tipi base di famiglie di prodotti 1) Famiglie di prodotti modulari (configurabili) - in cui i singoli prodotti vengono creati aggiungendo, modificando e/o rimuovendo uno o più moduli funzionali dalla piattaforma 2) Famiglie di prodotti scalabili (parametriche) in cui il ridimensionamento di determinate dimensioni variabili viene utilizzato per \"allungare\" (aumentare le dimensioni) o \"ridurre\" (ridurre le dimensioni) la piattaforma e quindi soddisfare le esigenze di diverse nicchie di mercato • Essiste anche approccio combinato (F.",
+    "start": 0,
+    "end": 592,
+    "length": 592,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.955,
+      "keywords": [
+        "prodotti",
+        "famiglie",
+        "dimensioni",
+        "piattaforma",
+        "ridurre",
+        "piattaforme",
+        "prodotto",
+        "tipi",
+        "base",
+        "modulari"
+      ]
+    }
+  },
+  {
+    "id": "p613_c0",
+    "page": 613,
+    "text": "Piattaforma di prodotti VW (usata in VW Golf, VW Bora, VW New Beattle, Audi A3, Audi TT, Škoda Octavia etc.",
+    "start": 0,
+    "end": 108,
+    "length": 108,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.535,
+      "keywords": [
+        "audi",
+        "piattaforma",
+        "prodotti",
+        "usata",
+        "golf",
+        "bora",
+        "beattle",
+        "koda",
+        "octavia"
+      ]
+    }
+  },
+  {
+    "id": "p614_c0",
+    "page": 614,
+    "text": "• Utilizzo investimenti per tempi lunghi • Favorisce curva apprendimento • Quindi SISTEMI DI INCENTIVAZIONE per sviluppatori di prodotti che li premiano in base alle PERFORMANCE DELL'INTERA FAMIGLIA DI PRODOTTI non dei singoli prodotti • Maggiore qualità e maggiore producibilità • Porta EFFETTI DELLA STANDARDIZZAZIONE DELLE PARTI EFFETTI POSITIVI • Il design della piattaforma può allungare il TIME-TO-MARKET per i primi prodotti, ma poi ALTRI PRODOTTI DERIVATI hanno un vantaggio • Potrebbe portare al CANNIBALISMO di prodotti di fascia alta EFFETTI NEGATIVI Effetti L3 Piattaforme di prodotto",
+    "start": 0,
+    "end": 597,
+    "length": 597,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 2.98,
+      "keywords": [
+        "prodotti",
+        "effetti",
+        "maggiore",
+        "della",
+        "utilizzo",
+        "investimenti",
+        "tempi",
+        "lunghi",
+        "favorisce",
+        "curva"
+      ]
+    }
+  },
+  {
+    "id": "p615_c0",
+    "page": 615,
+    "text": "Piattaforme di prodotto – livello maturità L3 Spazio prodotto organizzato in famiglie di prodotti chiaramente distinte Livello di maturità II V 5 I prodotti non sono raggruppati in famiglie di prodotti 1 (1) UNA PORZIONE dell'assortimento di prodotti è composta da prodotti raggruppati in famiglie di prodotti in base alle somiglianze nelle funzioni del prodotto e nei processi di produzione relativi al prodotto (2) Ma il modo in cui si ottiene il clustering NON è GUIDATO dalle procedure di progettazione 2 (1) UNA PORZIONE CONSIDEREVOLE dell'assortimento di prodotti è ... idem ... (2) Il modo in cui si ottiene il clustering è GUIDATO da procedure di progettazione (3) La distinzione tra famiglie di prodotti è buona, ma può ancora essere notevolmente migliorata 3 (1) L'INTERO assortimento di prodotti è ... idem ... (2) ... idem ...",
+    "start": 0,
+    "end": 839,
+    "length": 839,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 9.190000000000001,
+      "keywords": [
+        "prodotti",
+        "prodotto",
+        "famiglie",
+        "assortimento",
+        "idem",
+        "livello",
+        "maturit",
+        "raggruppati",
+        "porzione",
+        "dell"
+      ]
+    }
+  },
+  {
+    "id": "p616_c0",
+    "page": 616,
+    "text": "Group technology L4 Group technology Group technology è un approccio di progettazione, produzione e organizzazione utilizzato per gestire la diversità attraverso un raggruppamento basato sulla similarità di parti, prodotti e attività di progettazione/produzione (Suzić, Forza, et al.",
+    "start": 0,
+    "end": 284,
+    "length": 284,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.415,
+      "keywords": [
+        "group",
+        "technology",
+        "progettazione",
+        "produzione",
+        "approccio",
+        "organizzazione",
+        "utilizzato",
+        "gestire",
+        "diversit",
+        "attraverso"
+      ]
+    }
+  },
+  {
+    "id": "p617_c0",
+    "page": 617,
+    "text": "Group technology L4 Raggruppamento parti in base alla loro forma Raggruppamento macchine in base a parti processate invece che in base a operazione eseguite Cell #1 Cell #2 Cell #3 • Filosofia generale che propone il sistematico riconoscimento e sfruttamento delle similarità • Possono esistere somiglianze tra le parti, i cicli di produzione, i processi decisionali e così via • Può essere applicata entrambi • in produzione (celle) • in progettazione • Riduzione del numero di diversi parti da processare in ciascuna postazione di lavoro Group technology",
+    "start": 0,
+    "end": 557,
+    "length": 557,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.78,
+      "keywords": [
+        "parti",
+        "base",
+        "cell",
+        "group",
+        "technology",
+        "raggruppamento",
+        "produzione",
+        "alla",
+        "loro",
+        "forma"
+      ]
+    }
+  },
+  {
+    "id": "p618_c0",
+    "page": 618,
+    "text": "Group technology L4 Assunzione della tecnologia di gruppo: Se simili per forma e materiale, c'è un'alta probabilità che i loro processi siano simili Group technology",
+    "start": 0,
+    "end": 166,
+    "length": 166,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.825,
+      "keywords": [
+        "group",
+        "technology",
+        "simili",
+        "assunzione",
+        "della",
+        "tecnologia",
+        "gruppo",
+        "forma",
+        "materiale",
+        "alta"
+      ]
+    }
+  },
+  {
+    "id": "p619_c0",
+    "page": 619,
+    "text": "1937 Sokolovskiy (URSS) - descritto le principali caratteristiche della Group technology 1959 Mitrofanov (URSS) - ha pubblicato un libro “Scientific principles of group technology” IN RISULTATO: Entro il 1965 - 800 fabbriche in URSS usato Group technology 1960 Opitz (W.",
+    "start": 0,
+    "end": 271,
+    "length": 271,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.35,
+      "keywords": [
+        "urss",
+        "group",
+        "technology",
+        "1937",
+        "1959",
+        "1960",
+        "1965",
+        "sokolovskiy",
+        "descritto",
+        "principali"
+      ]
+    }
+  },
+  {
+    "id": "p620_c0",
+    "page": 620,
+    "text": "Effetti Le caratteristiche strutturali del sistema produttivo Layout e flusso dei materiali L4 Layout per processo  Layout a celle Layout a celle Operazioni Operazioni per famiglie di parti In più macchinari sono equipaggiati con accessori progettati per famiglie di parti.",
+    "start": 0,
+    "end": 275,
+    "length": 275,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.37,
+      "keywords": [
+        "layout",
+        "celle",
+        "operazioni",
+        "famiglie",
+        "parti",
+        "effetti",
+        "caratteristiche",
+        "strutturali",
+        "sistema",
+        "produttivo"
+      ]
+    }
+  },
+  {
+    "id": "p624_c0",
+    "page": 624,
+    "text": "Questi strumenti di classificazione consentono la classificazione delle parti in gruppi in base alle loro somiglianze e la CODIFICA in modo che il recupero delle informazioni sia più semplice • GT evita di creare nuove parti se esiste già una parte simile in produzione • Rende più BREVE lo sviluppo di nuovi prodotti • RIDUCE la varietà dei pezzi da gestire => MENO CAMBI, MENO STRUMENTI, MENO SCORTE e così via • GT potrebbe ostacolare l'INNOVAZIONE di prodotti e processi EFFETTI POSITIVI EFFETTI NEGATIVI Nella progettazione Effetti L4 Group technology",
+    "start": 0,
+    "end": 557,
+    "length": 557,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 12.78,
+      "keywords": [
+        "meno",
+        "effetti",
+        "strumenti",
+        "classificazione",
+        "delle",
+        "parti",
+        "prodotti",
+        "questi",
+        "consentono",
+        "gruppi"
+      ]
+    }
+  },
+  {
+    "id": "p626_c0",
+    "page": 626,
+    "text": "GT nella produzione Layout e flusso dei materiali  Layout a celle L4 T 1 F 1 T 2 P 1 T 3 P 2 F 2 F 3 T 4 P 3 R 1 R 2 F 4 P 4 R 3 R 4 T 1 F 1 T 2 P 1 T 3 P 2 F 2 F 3 T 4 P 3 R 1 R 2 F 4 P 4 R 3 R 4 Layout a celle – i pezzi di una famiglia passano solamente per la cella dedicata Group technology",
+    "start": 0,
+    "end": 296,
+    "length": 296,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.475,
+      "keywords": [
+        "layout",
+        "celle",
+        "nella",
+        "produzione",
+        "flusso",
+        "materiali",
+        "pezzi",
+        "famiglia",
+        "passano",
+        "solamente"
+      ]
+    }
+  },
+  {
+    "id": "p627_c0",
+    "page": 627,
+    "text": "Cell layout dei flussi di materiale Nella produzione GT nella produzione L4 -Raggruppamento in famiglie di parti che hanno requisiti di lavorazione simili (OPERAZIONI, TOLLERANZE, UTENSILI e così via) - Una cella di produzione è un gruppo di macchine o processi dissimili che si trovano nelle immediate vicinanze e sono dedicati alla produzione di una famiglia di parti - Gli operatori nelle celle sono esperti nel lavoro di squadra e sono formati in modo incrociato (c ross- trained ) in modo che possano spostarsi tra le stazioni e risolvere i problemi Group technology",
+    "start": 0,
+    "end": 572,
+    "length": 572,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.855,
+      "keywords": [
+        "produzione",
+        "sono",
+        "nella",
+        "parti",
+        "nelle",
+        "modo",
+        "cell",
+        "layout",
+        "flussi",
+        "materiale"
+      ]
+    }
+  },
+  {
+    "id": "p628_c0",
+    "page": 628,
+    "text": " La cella di produzione è EFFICIENTE e FLESSIBILE allo stesso tempo  Rispetto ai JOB SHOPS => meno riatrezzaggi (riduzione dei tempi di attrezzaggio), semplificazione dei flussi di materiale (riduzione dei tempi di trasferimento), operazioni di sovrapposizione (riduzione dei tempi di esecuzione)  DIMINUZIONE DEI TEMPI DI REALIZZAZIONE, DIMINUZIONE DELLE MAGAZZINI IN CORSO  MIGLIORE SODDISFAZIONE SUL LAVORO DEGLI OPERATORI, SEMPLIFICAZIONE DELLA PIANIFICAZIONE E CONTROLLO e MIGLIORE QUALITÀ DEI PEZZI EFFETTI POSITIVI  duplicazione della macchina , necessità di nuovi strumenti e attrezzature, costi di formazione, salari dell'operatore più elevati, perdita di produzione durante l'implementazione EFFETTI NEGATIVI Nella produzione Effetti L4 Group technology",
+    "start": 0,
+    "end": 769,
+    "length": 769,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 13.84,
+      "keywords": [
+        "tempi",
+        "produzione",
+        "riduzione",
+        "effetti",
+        "semplificazione",
+        "diminuzione",
+        "migliore",
+        "della",
+        "cella",
+        "efficiente"
+      ]
+    }
+  },
+  {
+    "id": "p629_c0",
+    "page": 629,
+    "text": "Group technology – livello maturità L4 Modularità di prodotto Tempi di attrezzaggio bassi e costantemente ridotti Stabilimento con disposizione di macchine operatrici e stazioni di assemblaggio tale da massimizzare la velocità di attraversamento e l'efficienza della lavorazione di famiglie di pezzi e di prodotti Raggruppamento di parti in famiglie di parti tramite un sistema di classificazione basato sulla somiglianza Livello di maturità II V 8 7 4 Non abbiamo una visione chiara dei tempi di riattrezzaggio perché non li abbiamo mai considerati Le macchine sono raggruppate nello stabilimento in base alla loro somiglianza funzionale Le parti non sono raggruppate in famiglie utilizzando criteri di classificazione basati sulla somiglianza (forma, dimensioni e materiali, e quindi processi di produzione) 1 (1) I tempi di riattrezzaggio sono MOLTO LUNGHI E (2) Non vengono applicate riduzioni sistematiche dei tempi di riattrezzaggio (1) I macchinari di fabbricazione e le stazioni di assemblaggio sono in grado di produrre parti / prodotti diversi (all'interno di una famiglia) con un'efficienza simile E (2) I macchinari di fabbricazione e le stazioni di assemblaggio sono raggruppati in base alle famiglie di parti / prodotti a cui sono dedicati (1) Le parti SONO raggruppate in famiglie utilizzando criteri di classificazione basati sulla somiglianza (forma, dimensione e materiali, e quindi processi di produzione), (2) I criteri utilizzati NON SONO FORMALIZZATI e coincidono con l'esperienza degli ingegneri di produzione e progettazione 2 (1) I tempi di riattrezzaggio NON SONO NÉ LUNGHI NÉ BREVI E (2) Le riduzioni dei tempi di riattrezzaggio del processo sono ottenute mediante analisi continue e modifiche apportate a: tecnologia utilizzata (utilizzo di macchine con tempi di attrezzaggio ridotti, dispositivi di fissaggio, ausili di posizionamento, strumenti standardizzati, ecc. ) E organizzazione (standardizzazione di procedura di set-up, utilizzo di set-up offline, ecc.",
+    "start": 0,
+    "end": 1991,
+    "length": 1991,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 14.95,
+      "keywords": [
+        "sono",
+        "tempi",
+        "parti",
+        "famiglie",
+        "riattrezzaggio",
+        "somiglianza",
+        "macchine",
+        "stazioni",
+        "assemblaggio",
+        "prodotti"
+      ]
+    }
+  },
+  {
+    "id": "p629_c1",
+    "page": 629,
+    "text": "Group technology – livello maturità L4 Modularità di prodotto Tempi di attrezzaggio bassi e costantemente ridotti Stabilimento con disposizione di macchine operatrici e stazioni di assemblaggio tale da massimizzare la velocità di attraversamento e l'efficienza della lavorazione di famiglie di pezzi e di prodotti Raggruppamento di parti in famiglie di parti tramite un sistema di classificazione basato sulla somiglianza Livello di maturità II V 8 7 4 Non abbiamo una visione chiara dei tempi di riattrezzaggio perché non li abbiamo mai considerati Le macchine sono raggruppate nello stabilimento in base alla loro somiglianza funzionale Le parti non sono raggruppate in famiglie utilizzando criteri di classificazione basati sulla somiglianza (forma, dimensioni e materiali, e quindi processi di produzione) 1 (1) I tempi di riattrezzaggio sono MOLTO LUNGHI E (2) Non vengono applicate riduzioni sistematiche dei tempi di riattrezzaggio (1) I macchinari di fabbricazione e le stazioni di assemblaggio sono in grado di produrre parti / prodotti diversi (all'interno di una famiglia) con un'efficienza simile E (2) I macchinari di fabbricazione e le stazioni di assemblaggio sono raggruppati in base alle famiglie di parti / prodotti a cui sono dedicati (1) Le parti SONO raggruppate in famiglie utilizzando criteri di classificazione basati sulla somiglianza (forma, dimensione e materiali, e quindi processi di produzione), (2) I criteri utilizzati NON SONO FORMALIZZATI e coincidono con l'esperienza degli ingegneri di produzione e progettazione 2 (1) I tempi di riattrezzaggio NON SONO NÉ LUNGHI NÉ BREVI E (2) Le riduzioni dei tempi di riattrezzaggio del processo sono ottenute mediante analisi continue e modifiche apportate a: tecnologia utilizzata (utilizzo di macchine con tempi di attrezzaggio ridotti, dispositivi di fissaggio, ausili di posizionamento, strumenti standardizzati, ecc. ) E organizzazione (standardizzazione di procedura di set-up, utilizzo di set-up offline, ecc. ) OPPURE mediante applicazione di strumenti speciali (dedicati a famiglie di parti e / o famiglie di prodotti) (1) ...............",
+    "start": 1821,
+    "end": 3942,
+    "length": 2121,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 15,
+      "keywords": [
+        "sono",
+        "tempi",
+        "famiglie",
+        "parti",
+        "riattrezzaggio",
+        "prodotti",
+        "somiglianza",
+        "macchine",
+        "stazioni",
+        "assemblaggio"
+      ]
+    }
+  },
+  {
+    "id": "p629_c2",
+    "page": 629,
+    "text": ") E organizzazione (standardizzazione di procedura di set-up, utilizzo di set-up offline, ecc. ) OPPURE mediante applicazione di strumenti speciali (dedicati a famiglie di parti e / o famiglie di prodotti) (1) ............... E (2) ............... E (3) Il posizionamento e l'organizzazione dei macchinari di fabbricazione e delle stazioni di assemblaggio riduce al minimo il tempo impiegato da parti e prodotti per attraversarli (1) ............... E (2) Le famiglie di parti sono formate attraverso un sistema di classificazione MANUALE FORMALIZZATO e strutturato 3 (1) I tempi di riattrezzaggio sono MOLTO BREVI E (2) Le riduzioni dei tempi di riattrezzaggio del processo si ottengono con ... idem ... E mediante l'applicazione di strumenti speciali ... idem ... (1) ............... E (2) ............... E (3) ............... E (4) Abbiamo un sistema per migliorare continuamente la velocità e l'efficienza delle unità autonome nella lavorazione di parti / famiglie di prodotti (1) ...............",
+    "start": 1768,
+    "end": 2769,
+    "length": 1001,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 10.004999999999999,
+      "keywords": [
+        "famiglie",
+        "parti",
+        "prodotti",
+        "organizzazione",
+        "mediante",
+        "applicazione",
+        "strumenti",
+        "speciali",
+        "delle",
+        "sono"
+      ]
+    }
+  },
+  {
+    "id": "p630_c0",
+    "page": 630,
+    "text": "• Consente una produzione efficiente di piccoli lotti • Modifica le regole di funzionamento del sistema produttivo Riduzione del tempo di riattrezzaggio unico - Riattrezzaggio fuori linea - Riattrezzaggio separato per famiglia dei parti e riattrezzaggi parziali - Formazione dei lavoratori - Lavoratori paralleli Riduzione del numero di riattrezzaggi - Programmazione - Configurazione del prodotto - Comunanza dei parti • Riattrezzaggi sono la conseguenza inevitabile della varietà del prodotto • La riduzione del tempo di riattrezzaggio, anziché attraverso l'aumento della dimensione del lotto , può essere ottenuta con: • Miglioramento della programmazione • Riducendo il tempo di riattrezzaggio singolo attraverso miglioramenti tecnologici o miglioramenti organizzativi Approccio tradizionale Approccio innovativo EFFETTI POSITIVI Due approcci all’attrezzaggio L5 Approccio tradizionale Approccio innovativo Lotti di pezzi simili in coda SMED - Attrezzaggi veloci",
+    "start": 0,
+    "end": 967,
+    "length": 967,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 4.83,
+      "keywords": [
+        "riattrezzaggio",
+        "approccio",
+        "riduzione",
+        "tempo",
+        "riattrezzaggi",
+        "della",
+        "lotti",
+        "parti",
+        "lavoratori",
+        "programmazione"
+      ]
+    }
+  },
+  {
+    "id": "p631_c0",
+    "page": 631,
+    "text": "Riducendo i tempi di riattrezzaggio, è possibile aumentare il numero di riattrezzaggi, se necessario LA DIMENSIONE MEDIA DEL LOTTO PUÒ SCENDERE LIVELLI DI INVENTARIO INFERIORI e TEMPI DI CONSEGNA RIDOTTI EFFETTI POSITIVI Effetti L5 SMED - Attrezzaggi veloci",
+    "start": 0,
+    "end": 258,
+    "length": 258,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.285,
+      "keywords": [
+        "tempi",
+        "effetti",
+        "riducendo",
+        "riattrezzaggio",
+        "possibile",
+        "aumentare",
+        "numero",
+        "riattrezzaggi",
+        "necessario",
+        "dimensione"
+      ]
+    }
+  },
+  {
+    "id": "p633_c0",
+    "page": 633,
+    "text": "Esempi L5 SMED - Attrezzaggi veloci Cambio gomme anni '50 Cambio gomme oggi Lavoratori paralleli – Formula 1",
+    "start": 0,
+    "end": 109,
+    "length": 109,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.54,
+      "keywords": [
+        "cambio",
+        "gomme",
+        "esempi",
+        "smed",
+        "attrezzaggi",
+        "veloci",
+        "anni",
+        "oggi",
+        "lavoratori",
+        "paralleli"
+      ]
+    }
+  },
+  {
+    "id": "p634_c0",
+    "page": 634,
+    "text": "Esempi L5 Filettatura rimossa Filettatura rimossa Apertura allungata Miglioramenti tecnologici SMED - Attrezzaggi veloci",
+    "start": 0,
+    "end": 121,
+    "length": 121,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.6,
+      "keywords": [
+        "filettatura",
+        "rimossa",
+        "esempi",
+        "apertura",
+        "allungata",
+        "miglioramenti",
+        "tecnologici",
+        "smed",
+        "attrezzaggi",
+        "veloci"
+      ]
+    }
+  },
+  {
+    "id": "p637_c0",
+    "page": 637,
+    "text": "• Consente una produzione efficiente di piccoli lotti • Modifica le regole operative del sistema di produzione • È possibile cambiare gli utensili più spesso e quindi soddisfare più facilmente i requisiti di una maggiore varietà di produzione • Aumento della produttività (di attrezzature e lavoratori) – aumento della percentuale dei tempi di processo sul tempo di produzione totale • Aumento della flessibilità – più cambi possibili SMED -effetti positivi L5 EFFETTI POSITIVI SMED - Attrezzaggi veloci",
+    "start": 0,
+    "end": 504,
+    "length": 504,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 2.515,
+      "keywords": [
+        "produzione",
+        "aumento",
+        "della",
+        "smed",
+        "effetti",
+        "positivi",
+        "consente",
+        "efficiente",
+        "piccoli",
+        "lotti"
+      ]
+    }
+  },
+  {
+    "id": "p638_c0",
+    "page": 638,
+    "text": "• Minore possibilità di scarti – produzione di lotti più piccoli • Maggiore reattività agli ordini dei clienti • Riduzione delle scorte/inventario – minore necessità di scorte sempre disponibili • Migliore qualità – riduzione degli scarti all'inizio del processo • Riduzione dei tempi di consegna • Aumento della capacità delle macchine SMED L5 EFFETTI POSITIVI SMED - Attrezzaggi veloci",
+    "start": 0,
+    "end": 388,
+    "length": 388,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.935,
+      "keywords": [
+        "riduzione",
+        "minore",
+        "scarti",
+        "delle",
+        "scorte",
+        "smed",
+        "possibilit",
+        "produzione",
+        "lotti",
+        "piccoli"
+      ]
+    }
+  },
+  {
+    "id": "p639_c0",
+    "page": 639,
+    "text": "SMED – livello maturità L5 SMED - Attrezzaggi veloci Tempi di attrezzaggio bassi e costantemente ridotti Livello di maturità II V 8 Non abbiamo una visione chiara dei tempi di riattrezzaggio perché non li abbiamo mai considerati 1 (1) I tempi di riattrezzaggio sono MOLTO LUNGHI E (2) Non vengono applicate riduzioni sistematiche dei tempi di riattrezzaggio 2 (1) I tempi di riattrezzaggio NON SONO NÉ LUNGHI NÉ BREVI E (2) Le riduzioni dei tempi di riattrezzaggio del processo sono ottenute mediante analisi continue e modifiche apportate a: tecnologia utilizzata (utilizzo di macchine con tempi di attrezzaggio ridotti, dispositivi di fissaggio, ausili di posizionamento, strumenti standardizzati, ecc. ) E organizzazione (standardizzazione di procedura di set-up, utilizzo di set- up offline, ecc. ) OPPURE mediante applicazione di strumenti speciali (dedicati a famiglie di parti e / o famiglie di prodotti) 3 (1) I tempi di riattrezzaggio sono MOLTO BREVI E (2) Le riduzioni dei tempi di riattrezzaggio del processo si ottengono con ... idem ... E mediante l'applicazione di strumenti speciali ... idem ...",
+    "start": 0,
+    "end": 1112,
+    "length": 1112,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 10.555,
+      "keywords": [
+        "tempi",
+        "riattrezzaggio",
+        "sono",
+        "riduzioni",
+        "mediante",
+        "strumenti",
+        "smed",
+        "livello",
+        "maturit",
+        "attrezzaggio"
+      ]
+    }
+  },
+  {
+    "id": "p640_c0",
+    "page": 640,
+    "text": "Linee di assemblaggio a modelli misti L6 PUNTO DI VISTA TECNICO Mixed model assembly lines Linee di assemblaggio di modelli misti sono linee di montaggio in grado di produrre «unità di modelli diversi in una sequenza arbitraria e interconnessa» (Becker and Scholl 2006, 696, based on Bukchin, Dar-El, and Rubinovitz 2002) .",
+    "start": 0,
+    "end": 324,
+    "length": 324,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.615,
+      "keywords": [
+        "linee",
+        "modelli",
+        "assemblaggio",
+        "misti",
+        "2002",
+        "2006",
+        "punto",
+        "vista",
+        "tecnico",
+        "mixed"
+      ]
+    }
+  },
+  {
+    "id": "p642_c0",
+    "page": 642,
+    "text": "• Le linee di assemblaggio a modelli misti possono accettare un mix diverso di prodotti senza effetti negativi sulla produttività • Aumentano la flessibilità rispetto al mix di prodotti • Aumentano la capacità produttiva • Riducono i tempi di consegna • Minori investimenti in attrezzature per unità di prodotto prodotta • Riducono le scort (Bukchin, Dar-El, and Rubinovitz 2002; Becker and Scholl 2006) Effetti L6 Mixed model assembly lines EFFETTI POSITIVI",
+    "start": 0,
+    "end": 459,
+    "length": 459,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 7.29,
+      "keywords": [
+        "effetti",
+        "prodotti",
+        "aumentano",
+        "riducono",
+        "2002",
+        "2006",
+        "linee",
+        "assemblaggio",
+        "modelli",
+        "misti"
+      ]
+    }
+  },
+  {
+    "id": "p643_c0",
+    "page": 643,
+    "text": "• Effetti positivi su – Variabilità della domanda a monte (fornitori) – Capacità a monte (fornitori) – Scorte a monte (fornitori) – Requisiti di spazio – Tempi di cambio • Pianificazione: utilizzando MMAL, il reparto produzione aziendale può influenzare più facilmente il reparto progettazione in termini di necessità di prestare attenzione alla progettazione per l'assemblaggio. – In MMAL, la progettazione del prodotto per l'assemblaggio gioca un ruolo molto più importante rispetto alle linee di assemblaggio monomodello. • Tempo di takt più breve. • Un flusso di assemblaggio unico è un fattore determinante per la comunanza e un'architettura di prodotto comune.",
+    "start": 0,
+    "end": 667,
+    "length": 667,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 26.33,
+      "keywords": [
+        "assemblaggio",
+        "monte",
+        "fornitori",
+        "progettazione",
+        "mmal",
+        "reparto",
+        "prodotto",
+        "effetti",
+        "positivi",
+        "variabilit"
+      ]
+    }
+  },
+  {
+    "id": "p644_c0",
+    "page": 644,
+    "text": "EFFETTI NEGATIVI • Le perdite di tempo si verificano a causa di tempi di assemblaggio non uniformi dei singoli prodotti. • I sistemi di assemblaggio MMAL sono più sensibili ai disturbi che possono verificarsi e che, a causa dell'esistenza di MMAL, influenzano l'intera produzione e non solo una singola linea di modelli. • I sistemi MMAL richiedono un elevato livello di coinvolgimento nella progettazione del prodotto per funzionare correttamente.",
+    "start": 0,
+    "end": 449,
+    "length": 449,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.24,
+      "keywords": [
+        "mmal",
+        "causa",
+        "assemblaggio",
+        "sistemi",
+        "effetti",
+        "negativi",
+        "perdite",
+        "tempo",
+        "verificano",
+        "tempi"
+      ]
+    }
+  },
+  {
+    "id": "p645_c0",
+    "page": 645,
+    "text": "Linee di assemblaggio a modelli misti L6 Stabilimento con disposizione di macchine operatrici e stazioni di assemblaggio tale da massimizzare la velocità di attraversamento e l'efficienza della lavorazione di famiglie di pezzi e di prodotti Maturity level II V 7 Le macchine sono raggruppate nello stabilimento in base alla loro somiglianza funzionale 1 (1) I macchinari di fabbricazione e le stazioni di assemblaggio sono in grado di produrre parti / prodotti diversi (all'interno di una famiglia) con un'efficienza simile E (2) I macchinari di fabbricazione e le stazioni di assemblaggio sono raggruppati in base alle famiglie di parti / prodotti a cui sono dedicati 2 (1) ............... E (2) ............... E (3) Il posizionamento e l'organizzazione dei macchinari di fabbricazione e delle stazioni di assemblaggio riduce al minimo il tempo impiegato da parti e prodotti per attraversarli 3 (1) ............... E (2) ............... E (3) ...............",
+    "start": 0,
+    "end": 961,
+    "length": 961,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 9.8,
+      "keywords": [
+        "assemblaggio",
+        "stazioni",
+        "prodotti",
+        "sono",
+        "macchinari",
+        "fabbricazione",
+        "parti",
+        "stabilimento",
+        "macchine",
+        "efficienza"
+      ]
+    }
+  },
+  {
+    "id": "p646_c0",
+    "page": 646,
+    "text": "Forza and Salvador, 2003; Hvam et al. , 2008 Configuratore del prodotto L7 def. La configurazione del prodotto implica la generazione di una descrizione valida, completa e coerente (comprensiva di prezzo e termini di consegna) della variante di prodotto che il cliente è disposto ad acquistare e l'azienda si impegna a fornire ( configurazione commerciale ), e quindi tradurre tale descrizione nelle istruzioni operative necessarie per costruire quella variante di prodotto ( configurazione tecnica ) Processo di configurazione di prodotto supportato da SW CONFIGURAZIONE TECNICA/PRODUTTIVA (DISTINTA BASE, CICLO, ...",
+    "start": 0,
+    "end": 618,
+    "length": 618,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.085,
+      "keywords": [
+        "prodotto",
+        "configurazione",
+        "descrizione",
+        "variante",
+        "tecnica",
+        "2003",
+        "2008",
+        "forza",
+        "salvador",
+        "hvam"
+      ]
+    }
+  },
+  {
+    "id": "p647_c0",
+    "page": 647,
+    "text": "Configuratore del prodotto L7 def. La configurazione del prodotto implica la generazione di una descrizione valida, completa e coerente (comprensiva di prezzo e termini di consegna) della variante di prodotto che il cliente è disposto ad acquistare e l'azienda si impegna a fornire ( configurazione commerciale ), e quindi tradurre tale descrizione nelle istruzioni operative necessarie per costruire quella variante di prodotto ( configurazione tecnica ) Processo di configurazione di prodotto supportato da SW CONFIGURAZIONE TECNICA/PRODUTTIVA (DISTINTA BASE, CICLO, ...",
+    "start": 0,
+    "end": 573,
+    "length": 573,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.86,
+      "keywords": [
+        "prodotto",
+        "configurazione",
+        "descrizione",
+        "variante",
+        "tecnica",
+        "configuratore",
+        "implica",
+        "generazione",
+        "valida",
+        "completa"
+      ]
+    }
+  },
+  {
+    "id": "p648_c0",
+    "page": 648,
+    "text": "L7 • Predefinizione delle richieste di funzionalità di prodotto da accettate e da rifiutate • Predefinizione delle modalità di ottenimento di ciascuna funzionalità • Supporto IT per la presentazione delle funzionalità e per il controllo di congruità sulle scelte effettuate • Supporto IT per la produzione automatica della distinta base e del ciclo di produzione • Incrementa l’uso di componenti standard • Riduce il ricorso a personalizzazioni profonde • Riduce il carico di lavoro indiretto associato a ciascun ordine • Lo sforzo decisionale del cliente è semplificato e la sua fiducia viene incrementata Processo di configurazione di prodotto supportato da SW CONFIGURAZIONE TECNICA/PRODUTTIVA (DISTINTA BASE, CICLO, ...",
+    "start": 0,
+    "end": 724,
+    "length": 724,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.615,
+      "keywords": [
+        "delle",
+        "funzionalit",
+        "predefinizione",
+        "prodotto",
+        "supporto",
+        "produzione",
+        "distinta",
+        "base",
+        "ciclo",
+        "riduce"
+      ]
+    }
+  },
+  {
+    "id": "p650_c0",
+    "page": 650,
+    "text": "• Quindi l'idea è quella di cambiare la TRADIZIONALE gestione \"cartacea\" degli ordini e la configurazione dei prodotti con la configurazione del prodotto supportata dall'IT • Tre livelli di configuratori di prodotto: 1) Processi moderatamente automatizzati 2) Processi altamente automatizzati - uno dei due configuratori (tecnico o commerciale) è totalmente automatizzato mentre l'altro è solo supportato 3) Processi totalmente automatizzati L7 Configuratore del prodotto Configuratore del prodotto",
+    "start": 0,
+    "end": 499,
+    "length": 499,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 7.49,
+      "keywords": [
+        "prodotto",
+        "processi",
+        "automatizzati",
+        "configurazione",
+        "configuratori",
+        "totalmente",
+        "configuratore",
+        "quindi",
+        "idea",
+        "quella"
+      ]
+    }
+  },
+  {
+    "id": "p651_c0",
+    "page": 651,
+    "text": "• Maggior utilizzo di parti standard • Personalizzazione profonda ridotta • Carico di lavoro ridotto per ogni ordine (libera l'ufficio tecnico e l'ufficio commerciale - vendite) • Ridotto sforzo decisionale del cliente e maggiore fiducia del cliente EFFETTI POSITIVI • L'ATTUAZIONE/IMPLEMENTAZIONE PUÒ ESSERE MOLTO DIFFICILE, LUNGA E “DOLOSA” => RESISTENZA AL CAMBIAMENTO EFFETTI NEGATIVI L7 Configuratore del prodotto Configuratore del prodotto",
+    "start": 0,
+    "end": 446,
+    "length": 446,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 2.225,
+      "keywords": [
+        "ridotto",
+        "ufficio",
+        "cliente",
+        "effetti",
+        "configuratore",
+        "prodotto",
+        "maggior",
+        "utilizzo",
+        "parti",
+        "standard"
+      ]
+    }
+  },
+  {
+    "id": "p652_c0",
+    "page": 652,
+    "text": "Configuratore del prodotto – livello maturità L7 Configuratore di vendita Configuratore tecnico Livello di maturità II V 10 9 Clienti, venditori e addetti tecnico-commerciali (CVTC) non hanno alcun supporto strutturato per scegliere le caratteristiche specifiche del prodotto e controllarne la compatibilità Distinte basi e cicli di produzione (se presenti) sono definiti manualmente eventualmente modificando DB / CI simili (DB - distinta base CI - ciclo di produzione) 1 CVTC hanno un supporto strutturato (senza SW) per scegliere ... e controllare ...",
+    "start": 0,
+    "end": 555,
+    "length": 555,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.77,
+      "keywords": [
+        "configuratore",
+        "prodotto",
+        "livello",
+        "maturit",
+        "tecnico",
+        "cvtc",
+        "hanno",
+        "supporto",
+        "strutturato",
+        "scegliere"
+      ]
+    }
+  },
+  {
+    "id": "p653_c0",
+    "page": 653,
+    "text": "Personalizzazione del prodotto finito al più tardi L8 Form postponement \"richiede che una o più attività che danno identità al work-in progress (creando prodotti finali specifici) - le attività di differenziazione del prodotto - vengano differite lungo il processo di produzione e distribuzione\" (Suzic, Forza, et al. 2018, 871, based on Forza, Salvador, and Trentin 2008, Gar and Tang 1997) . Il rinvio della forma riduce il rischio e i costi associati alla specificazione di un mix di varietà errato in un ambiente di produzione basato sulle previsioni (Alderson 1950; Bucklin 1965; Zinn and Bowersox 1988; Whang and Lee 1998; Aviv and Federgruen 2001; Kumar and Wilson 2009) , mentre in un ambiente di produzione guidato dagli ordini , l'input del cliente sulle caratteristiche di differenziazione del prodotto è richiesto più avanti lungo il processo di evasione degli ordini (Forza, Salvador, and Trentin 2008) .",
+    "start": 0,
+    "end": 918,
+    "length": 918,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 9.585,
+      "keywords": [
+        "prodotto",
+        "produzione",
+        "forza",
+        "2008",
+        "attivit",
+        "differenziazione",
+        "lungo",
+        "processo",
+        "salvador",
+        "trentin"
+      ]
+    }
+  },
+  {
+    "id": "p654_c0",
+    "page": 654,
+    "text": "Alderson, 1950, Cost and Profit Outlook; van Hoek, 2001, JOM; Forza et al. , 2008, IJOPM Personalizzazione del prodotto finito al più tardi L8 • Cambiamenti di forma ed identità avvengono al più tardi nel processo di produzione ed evasione dell’ordine.",
+    "start": 0,
+    "end": 253,
+    "length": 253,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.26,
+      "keywords": [
+        "tardi",
+        "1950",
+        "2001",
+        "2008",
+        "alderson",
+        "cost",
+        "profit",
+        "outlook",
+        "hoek",
+        "forza"
+      ]
+    }
+  },
+  {
+    "id": "p655_c0",
+    "page": 655,
+    "text": "• Dal to-stock al to-order Attività di differenziazione prodotto Leva 5 - Personalizzazione del prodotto finito al più tardi L8 Form postponement",
+    "start": 0,
+    "end": 146,
+    "length": 146,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 0.725,
+      "keywords": [
+        "prodotto",
+        "stock",
+        "order",
+        "attivit",
+        "differenziazione",
+        "leva",
+        "personalizzazione",
+        "finito",
+        "tardi",
+        "form"
+      ]
+    }
+  },
+  {
+    "id": "p656_c0",
+    "page": 656,
+    "text": "• Più vicino al ricevimento del ordine (rimane to- stock) Attività di differenziazione prodotto Leva 5 - Personalizzazione del prodotto finito al più tardi L8 Form postponement",
+    "start": 0,
+    "end": 177,
+    "length": 177,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 0.88,
+      "keywords": [
+        "prodotto",
+        "vicino",
+        "ricevimento",
+        "ordine",
+        "rimane",
+        "stock",
+        "attivit",
+        "differenziazione",
+        "leva",
+        "personalizzazione"
+      ]
+    }
+  },
+  {
+    "id": "p657_c0",
+    "page": 657,
+    "text": "• Più vicino alla consegna dell'ordine (rimane to- order) Attività di differenziazione prodotto Leva 5 - Personalizzazione del prodotto finito al più tardi L8 Form postponement",
+    "start": 0,
+    "end": 177,
+    "length": 177,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 0.88,
+      "keywords": [
+        "prodotto",
+        "vicino",
+        "alla",
+        "consegna",
+        "dell",
+        "ordine",
+        "rimane",
+        "order",
+        "attivit",
+        "differenziazione"
+      ]
+    }
+  },
+  {
+    "id": "p658_c0",
+    "page": 658,
+    "text": "Esempio generico L8 Form postponement La creazione dell'identità del prodotto viene posticipata/ritardata alla terza operazione",
+    "start": 0,
+    "end": 128,
+    "length": 128,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 0.635,
+      "keywords": [
+        "esempio",
+        "generico",
+        "form",
+        "postponement",
+        "creazione",
+        "dell",
+        "identit",
+        "prodotto",
+        "viene",
+        "posticipata"
+      ]
+    }
+  },
+  {
+    "id": "p659_c0",
+    "page": 659,
+    "text": "Esempio L8 Form postponement Adapted from Yang, B. , & Burns, N. (2003). Implications of postponement for the supply chain. International journal of production research , 41 (9), 2075-2090. Benetton – T-shirt production DP (punto di disaccoppiamento) e rinvio della forma - consiste nel fatto che alcune attività nella catena di fornitura non vengono realizzate fino a quando non viene ricevuto un ordine dal cliente (Caux et al.",
+    "start": 0,
+    "end": 430,
+    "length": 430,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 17.145,
+      "keywords": [
+        "postponement",
+        "production",
+        "2003",
+        "2075",
+        "2090",
+        "esempio",
+        "form",
+        "adapted",
+        "from",
+        "yang"
+      ]
+    }
+  }
+]

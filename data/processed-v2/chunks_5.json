@@ -1,0 +1,1348 @@
+[
+  {
+    "id": "p321_c0",
+    "page": 321,
+    "text": "C’È UNA FORTE RELAZIONE TRA OBIETTIVI E ATTIVITÀ (LO COPRIREMO S UCCESSIVAMENTE) Delimitare l’ambito ( scope ) L'ambito ( scope ) descrive il progetto delineando i limiti delle attività e dei deliverable Gold plating - introdurre funzioni inutili per rendere più felici gli stakeholder Scope creep - cambiare lentamente l'ambito del progetto attraverso (apparentemente) piccole richieste di modifica... “già che ci siamo, possiamo aggiungere questa nuova caratteristica, funzione, attività! ” (a volte è utile scrivere ciò che non rientra nell'ambito di un progetto).",
+    "start": 0,
+    "end": 568,
+    "length": 568,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.835,
+      "keywords": [
+        "ambito",
+        "attivit",
+        "scope",
+        "progetto",
+        "forte",
+        "relazione",
+        "obiettivi",
+        "copriremo",
+        "uccessivamente",
+        "delimitare"
+      ]
+    }
+  },
+  {
+    "id": "p322_c0",
+    "page": 322,
+    "text": "Definire le priorità q Cause del trade - off § Bilanciamento nell'importanza relativa dei criteri relativi ai parametri di costo, tempo e qualità ü Budget – Costo ü Schedule – Tempo ü Qualità – Scope q Gestire i bilanciamenti § Vincolare: il parametro è fissato § Migliorare: ottimizzare rispetto agli altri § Accettare: ridurre o non raggiungere il parametro",
+    "start": 0,
+    "end": 360,
+    "length": 360,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.795,
+      "keywords": [
+        "costo",
+        "tempo",
+        "qualit",
+        "parametro",
+        "definire",
+        "priorit",
+        "cause",
+        "trade",
+        "bilanciamento",
+        "nell"
+      ]
+    }
+  },
+  {
+    "id": "p325_c0",
+    "page": 325,
+    "text": "Goal e stakeholder di progetto q Teoria degli stakeholder (Freeman 1984) § \"Il principio di chi o cosa conta veramente\" q Un filone etico (anche chi \"soffre\" per le scelte e i risultati) § Critiche: limiti all'identificabilità; teoria di Friedman e dell'agenzia § Attori (individui, organizzazioni, istituzioni, ...",
+    "start": 0,
+    "end": 316,
+    "length": 316,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 14.575,
+      "keywords": [
+        "stakeholder",
+        "teoria",
+        "1984",
+        "goal",
+        "progetto",
+        "degli",
+        "freeman",
+        "principio",
+        "cosa",
+        "conta"
+      ]
+    }
+  },
+  {
+    "id": "p326_c0",
+    "page": 326,
+    "text": "Stakeholder (parti interessate) chi è coinvolto nel progetto e/o le persone/organizzazioni i cui interessi possono essere influenzati dal progetto possono avere diverse influenze e diversi livelli di interesse nel progetto possono avere un'influenza positiva o negativa sul progetto possono essere difficili da identificare STAKEHOLDER MANAGEMENT",
+    "start": 0,
+    "end": 347,
+    "length": 347,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.73,
+      "keywords": [
+        "progetto",
+        "possono",
+        "stakeholder",
+        "essere",
+        "avere",
+        "parti",
+        "interessate",
+        "coinvolto",
+        "persone",
+        "organizzazioni"
+      ]
+    }
+  },
+  {
+    "id": "p327_c0",
+    "page": 327,
+    "text": "VALUTARE CATEGORIE DIFFERENTI Stakeholder tipici ü Cliente/Utente: persona o organizzazione che utilizzerà il risultato di un progetto ; possono esserci più livelli di utenti. ü Organizzazione realizzatrice: l'organizzazione maggiormente coinvolta nel progetto ü Team di gestione del progetto: i membri del team direttamente coinvolti nella gestione del progetto ü Sponsor: persona o gruppo che fornisce le risorse finanziarie ü Influenzatori: persone o gruppi non direttamente collegati al progetto che possono influenzare il corso di un progetto ü Oppositori del Progetto ü ...",
+    "start": 0,
+    "end": 580,
+    "length": 580,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.895,
+      "keywords": [
+        "progetto",
+        "organizzazione",
+        "persona",
+        "possono",
+        "team",
+        "gestione",
+        "direttamente",
+        "valutare",
+        "categorie",
+        "differenti"
+      ]
+    }
+  },
+  {
+    "id": "p328_c0",
+    "page": 328,
+    "text": "Definire le categorie ALCUNE DIFFICOLTÀ E PROBLEMI Sovrapposizioni tra diversi stakeholder: il cliente può essere anche lo sponsor Più clienti a diversi livelli chi sono i clienti di un nuovo farmaco? e i loro interessi? (medici, pazienti, servizio sanitario, ... ) Identificare i caratteri di un “cliente” tipico Ci sono altre caratterizzazioni/tipologie Interno/esterno Rivenditori, partner, sponsor, fornitori, ...",
+    "start": 0,
+    "end": 418,
+    "length": 418,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.085,
+      "keywords": [
+        "diversi",
+        "cliente",
+        "sponsor",
+        "clienti",
+        "sono",
+        "definire",
+        "categorie",
+        "alcune",
+        "difficolt",
+        "problemi"
+      ]
+    }
+  },
+  {
+    "id": "p329_c0",
+    "page": 329,
+    "text": "Project Stakeholder Management Project Stakeholder Management includes the processes required to identify the people, groups, or organizations that could impact or be impacted by the project, to analyze stakeholder expectations and their impact on the project, and to develop appropriate management strategies for effectively engaging stakeholders in project decisions and execution.",
+    "start": 0,
+    "end": 384,
+    "length": 384,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.915,
+      "keywords": [
+        "project",
+        "stakeholder",
+        "management",
+        "impact",
+        "includes",
+        "processes",
+        "required",
+        "identify",
+        "people",
+        "groups"
+      ]
+    }
+  },
+  {
+    "id": "p330_c0",
+    "page": 330,
+    "text": "LA PRIMA FASE DELLO STAKEHOLDER MANAGEMENT identificare Identificare gli stakeholder identificare le persone, i gruppi o le organizzazioni che potrebbero avere un impatto o essere influenzati da una decisione, un'attività o un risultato del progetto, e analizzare e documentare le informazioni rilevanti riguardanti i loro interessi, il coinvolgimento, le interdipendenze, l'influenza e il potenziale impatto sul successo del progetto STEKEHOLDER MANAGEMENT",
+    "start": 0,
+    "end": 458,
+    "length": 458,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.285,
+      "keywords": [
+        "identificare",
+        "stakeholder",
+        "management",
+        "impatto",
+        "progetto",
+        "prima",
+        "fase",
+        "dello",
+        "persone",
+        "gruppi"
+      ]
+    }
+  },
+  {
+    "id": "p331_c0",
+    "page": 331,
+    "text": "LA SECONDA FASE DELLO STAKEHOLDER MANAGEMENT Mappare: la matrice potere/interesse Mappa degli SH in termini di : § potere/influenza sul progetto § interesse nel farlo “ fully involve and satisfy those stakeholders with high levels of interest and influence ” [PMI, 2013] STAKEHOLDER MANAGEMENT",
+    "start": 0,
+    "end": 294,
+    "length": 294,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.465,
+      "keywords": [
+        "stakeholder",
+        "management",
+        "potere",
+        "interesse",
+        "2013",
+        "seconda",
+        "fase",
+        "dello",
+        "mappare",
+        "matrice"
+      ]
+    }
+  },
+  {
+    "id": "p332_c0",
+    "page": 332,
+    "text": "Espandere i profili in strategie Stakeholder Matrix Derivare le strategie dalla mappatura degli stakeholder lungo quattro configurazioni in una griglia di potere/interesse Non è solo utile in termini di comunicazione, ma fornisce anche profili strategici generali per derivare azioni coerenti",
+    "start": 0,
+    "end": 293,
+    "length": 293,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.46,
+      "keywords": [
+        "profili",
+        "strategie",
+        "stakeholder",
+        "derivare",
+        "espandere",
+        "matrix",
+        "dalla",
+        "mappatura",
+        "degli",
+        "lungo"
+      ]
+    }
+  },
+  {
+    "id": "p333_c0",
+    "page": 333,
+    "text": "Plan Stakeholder Management SUMMARIZE A MANAGEMENT PLAN : SET ACTIONS The process of developing appropriate management strategies to effectively engage stakeholders throughout the project life cycle, based on the analysis of their needs, interests, and potential impact on project success STAKEHOLDER MANAGEMENT",
+    "start": 0,
+    "end": 312,
+    "length": 312,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.555,
+      "keywords": [
+        "management",
+        "plan",
+        "stakeholder",
+        "project",
+        "summarize",
+        "actions",
+        "process",
+        "developing",
+        "appropriate",
+        "strategies"
+      ]
+    }
+  },
+  {
+    "id": "p335_c0",
+    "page": 335,
+    "text": "Partizionare il progetto q È necessario scomporre il progetto in parti gestibili q TUTTI i progetti necessitano di questa fase q Strategia Divide & Conquer q Due cause principali di fallimento del progetto § dimenticare qualcosa di fondamentale § stime “approssimative” che diventano obiettivi q In che modo la suddivisione aiuta?",
+    "start": 0,
+    "end": 331,
+    "length": 331,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 16.65,
+      "keywords": [
+        "progetto",
+        "partizionare",
+        "necessario",
+        "scomporre",
+        "parti",
+        "gestibili",
+        "tutti",
+        "progetti",
+        "necessitano",
+        "questa"
+      ]
+    }
+  },
+  {
+    "id": "p336_c0",
+    "page": 336,
+    "text": "Scomposizione ( breakdown ) del progetto q La scomposizione (gerarchica) di un problema - economico, tecnico, organizzativo - permette di ridurre la complessità § dal punto di vista della trattabilità del problema § in termini di gestione delle irreversibilità intertemporali q Ogni progetto può essere visto come un sistema complesso (le interazioni non sono pienamente riconoscibili in anticipo, i loro risultati non sono prevedibili, ecc.",
+    "start": 0,
+    "end": 442,
+    "length": 442,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.205,
+      "keywords": [
+        "scomposizione",
+        "progetto",
+        "problema",
+        "sono",
+        "breakdown",
+        "gerarchica",
+        "economico",
+        "tecnico",
+        "organizzativo",
+        "permette"
+      ]
+    }
+  },
+  {
+    "id": "p337_c0",
+    "page": 337,
+    "text": "scope Definizione dell’ambito (scope) di progetto Obiettivi Goals Vincoli Assunzioni Bisogni , aspettative Scomposizione Work Breakdown Structure INPUT TOOL OUTPUT",
+    "start": 0,
+    "end": 164,
+    "length": 164,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.8149999999999995,
+      "keywords": [
+        "scope",
+        "definizione",
+        "dell",
+        "ambito",
+        "progetto",
+        "obiettivi",
+        "goals",
+        "vincoli",
+        "assunzioni",
+        "bisogni"
+      ]
+    }
+  },
+  {
+    "id": "p339_c0",
+    "page": 339,
+    "text": "CONNESSIONI DEBOLI Design modulare Moduli: blocchi di componenti non completamente dipendenti Progettazione modulare: suddividere il progetto in blocchi di componenti che possono essere aggregati, ma: ü ogni blocco è autonomo: i cambiamenti imprevisti sono locali e non si diffondono in tutto il progetto ü ogni blocco può essere specializzato, in modo da sfruttare l'esperienza e le economie di specializzazione SCOMPOSIZIONE",
+    "start": 0,
+    "end": 427,
+    "length": 427,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.13,
+      "keywords": [
+        "modulare",
+        "blocchi",
+        "componenti",
+        "progetto",
+        "essere",
+        "ogni",
+        "blocco",
+        "connessioni",
+        "deboli",
+        "design"
+      ]
+    }
+  },
+  {
+    "id": "p340_c0",
+    "page": 340,
+    "text": "break down Divide et impera nei progetti Un metodo chiamato breakdown structure Consiste nella scomposizione del progetto in componenti sempre più dettagliate, individuando una gerarchia di elementi fino a raggiungere il livello di definizione più conveniente Un approccio gerarchico: i livelli intermedi vengono ulteriormente scomposti in modo iterativo [create] WBS: 'The process of subdividing project deliverables and project work into smaller , more manageable components ’ – PMI BOK, 2013",
+    "start": 0,
+    "end": 495,
+    "length": 495,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.470000000000001,
+      "keywords": [
+        "project",
+        "2013",
+        "break",
+        "down",
+        "divide",
+        "impera",
+        "progetti",
+        "metodo",
+        "chiamato",
+        "breakdown"
+      ]
+    }
+  },
+  {
+    "id": "p341_c0",
+    "page": 341,
+    "text": "ATTIVITÀ E DELIVERABLE (RISULTATI ATTESI) Che cosa scomporre? Le attività ( work ) La WBS è un processo formale per dividere un progetto completo in elementi più piccoli, chiamati Work Packages . Questi pacchetti possono essere ulteriormente suddivisi in elementi di lavoro ( attività ), ciascuno sufficientemente piccolo da poter essere compreso, pianificato e controllato.",
+    "start": 0,
+    "end": 375,
+    "length": 375,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.87,
+      "keywords": [
+        "attivit",
+        "work",
+        "elementi",
+        "essere",
+        "deliverable",
+        "risultati",
+        "attesi",
+        "cosa",
+        "scomporre",
+        "processo"
+      ]
+    }
+  },
+  {
+    "id": "p342_c0",
+    "page": 342,
+    "text": "Contenuto ATTIVITÀ & DELIVERABLE Uno schema gerarchico (mappa) che identifica i prodotti e gli elementi di lavoro coinvolti in un progetto Uno strumento a doppio strato: attività e deliverable (risultati) Definisce la relazione del deliverable finale (il progetto) con i suoi task e le loro relazioni con i pacchetti di lavoro È più adatto a progetti con un certo di ripetitività tra elementi piuttosto che a progetti del tutto innovativi WORK BREAKDOWN STRUCTURE",
+    "start": 0,
+    "end": 464,
+    "length": 464,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.315,
+      "keywords": [
+        "deliverable",
+        "attivit",
+        "elementi",
+        "lavoro",
+        "progetto",
+        "progetti",
+        "contenuto",
+        "schema",
+        "gerarchico",
+        "mappa"
+      ]
+    }
+  },
+  {
+    "id": "p343_c0",
+    "page": 343,
+    "text": "Importanza GERARCHIA q La Work Breakdown Structure (WBS) può assumere diverse forme q Spesso si presenta come uno schema o una figura gerarchica q La WBS può rappresentare un progetto suddiviso in blocchi gerarchici q È un documento importante e può essere adattato per essere utilizzato in diversi modi.",
+    "start": 0,
+    "end": 305,
+    "length": 305,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 16.52,
+      "keywords": [
+        "essere",
+        "importanza",
+        "gerarchia",
+        "work",
+        "breakdown",
+        "structure",
+        "assumere",
+        "diverse",
+        "forme",
+        "spesso"
+      ]
+    }
+  },
+  {
+    "id": "p344_c0",
+    "page": 344,
+    "text": "Come la WBS aiuta il project manager q Facilita la valutazione dei costi, dei tempi e delle prestazioni tecniche dell'organizzazione in un progetto q Fornisce alla direzione informazioni appropriate per ciascun livello organizzativo q Aiuta nello sviluppo della struttura organizzativa (OBS), che assegna le responsabilità del progetto a unità organizzative e individui q Aiuta a sviluppare la programmazione, i. e.",
+    "start": 0,
+    "end": 416,
+    "length": 416,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.075,
+      "keywords": [
+        "aiuta",
+        "progetto",
+        "come",
+        "project",
+        "manager",
+        "facilita",
+        "valutazione",
+        "costi",
+        "tempi",
+        "delle"
+      ]
+    }
+  },
+  {
+    "id": "p345_c0",
+    "page": 345,
+    "text": "PMI BOK (2013) Rilevanza della WBS La Work Breakdown Structure è collcata all’inizio delle fasi più importanti della pianificazione.",
+    "start": 0,
+    "end": 133,
+    "length": 133,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.66,
+      "keywords": [
+        "della",
+        "2013",
+        "rilevanza",
+        "work",
+        "breakdown",
+        "structure",
+        "collcata",
+        "inizio",
+        "delle",
+        "fasi"
+      ]
+    }
+  },
+  {
+    "id": "p346_c0",
+    "page": 346,
+    "text": "Progetto Task 1 Deliverable 1 Task 2 Deliverable 2 Task 3 Deliverable 3 Subtask 1. 1 Deliverable 1. 1 Subtask 1. 2 Deliverable 1. 2 Subtask 1. 3 Deliverable 1. 3 Subtask 1. 4 Deliverable 1. 4 Subtask 2. 1 Deliverable 2. 1 Subtask 2. 2 Deliverable 2. 2 Subtask 2. 3 Deliverable 2. 3 Subtask 2. 3. 1 Deliverable 2. 3. 1 Subtask 1. 1 Deliverable 1. 1 Subtask 3. 1 Deliverable 3. 1 Subtask 3. 2 Deliverable 3. 2 Subtask 3. 3 Deliverable 3. 3 Subtask 2. 3. 2 Deliverable 2. 3. 2 Elementi intermedi Elementi terminali (workpackage) Project middle element terminal element ( workpackage ) HIERACHY Scomposizione progressiva (gerarchica) Il processo di costruzione di una WBS è un'attività in divenire, che scompone continuamente i compiti e i deliverable del progetto La gerarchia risultante potrebbe risultare in un albero non bilanciato, cioè una struttura con diversi livelli di profondità Si noti in questa WBS che il subtask /deliverable 2. 3 sono ulteriormente suddivisi in Work Packages Questo dimostra che il compito 2.",
+    "start": 0,
+    "end": 1021,
+    "length": 1021,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 10.1,
+      "keywords": [
+        "deliverable",
+        "subtask",
+        "task",
+        "progetto",
+        "elementi",
+        "workpackage",
+        "element",
+        "intermedi",
+        "terminali",
+        "project"
+      ]
+    }
+  },
+  {
+    "id": "p348_c0",
+    "page": 348,
+    "text": "GERARCHIA: UN INDICE O UN ALBERO Codifica : struttura documentale o grafica 0. 0 Retail Web Site 1. 0 Project Management 2. 0 Requirements Gathering 3. 0 Analysis & Design 4. 0 Site Software Development 4. 1 HTML Design and Creation 4. 2 Backend Software 4. 2. 1 Database Implementation 4. 2. 2 Middleware Development 4. 2. 3 Security Subsystems 4. 2. 4 Catalog Engine 4. 2. 5 Transaction Processing 4. 3 Graphics and Interface 4. 4 Content Creation 5.",
+    "start": 0,
+    "end": 453,
+    "length": 453,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.26,
+      "keywords": [
+        "site",
+        "design",
+        "software",
+        "development",
+        "creation",
+        "gerarchia",
+        "indice",
+        "albero",
+        "codifica",
+        "struttura"
+      ]
+    }
+  },
+  {
+    "id": "p349_c0",
+    "page": 349,
+    "text": "STOP Quando fermarsi: i Work Package Il Work Package è il livello più basso della WBS • È output - oriented nel senso che: ü definisce il lavoro ( cosa ) ü identifica il tempo richiesto ( quanto tempo ) ü identifica una componente elementade del budget ( costo ) ü identifica le risorse necessarie ( quanto ) ü identifica il/i responsabile/i del lavoro ( chi )",
+    "start": 0,
+    "end": 361,
+    "length": 361,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.8,
+      "keywords": [
+        "identifica",
+        "work",
+        "package",
+        "lavoro",
+        "tempo",
+        "quanto",
+        "stop",
+        "quando",
+        "fermarsi",
+        "livello"
+      ]
+    }
+  },
+  {
+    "id": "p350_c0",
+    "page": 350,
+    "text": "# Livello di dettaglio Il numero di livelli è influenzato da: Dimensione del progetto Numero/complessità di risorse e attività coinvolte Accuratezza e dettaglio delle stime Livello di controllo necessario In progetti di piccole/medie dimensioni 3/4 livelli di WBS sono adeguati.",
+    "start": 0,
+    "end": 279,
+    "length": 279,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.39,
+      "keywords": [
+        "livello",
+        "dettaglio",
+        "numero",
+        "livelli",
+        "influenzato",
+        "dimensione",
+        "progetto",
+        "complessit",
+        "risorse",
+        "attivit"
+      ]
+    }
+  },
+  {
+    "id": "p351_c0",
+    "page": 351,
+    "text": "Elementi di costruzione q Dovrebbe essere facile da comprendere q Alcune aziende hanno standard aziendali per questi schemi q Alcuni elementi di alto livello, come il team di PM, sono inclusi nella WBS di default; altri variano in base al progetto q Ciò che spesso causa più problemi è ciò che manca q Scomponi finché non riesci a generare stime accurate q Assicurati che ogni attività corrisponda a un deliverable (prodotto/risultato da realizzare)",
+    "start": 0,
+    "end": 450,
+    "length": 450,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.245,
+      "keywords": [
+        "elementi",
+        "costruzione",
+        "dovrebbe",
+        "essere",
+        "facile",
+        "comprendere",
+        "alcune",
+        "aziende",
+        "hanno",
+        "standard"
+      ]
+    }
+  },
+  {
+    "id": "p353_c0",
+    "page": 353,
+    "text": "LINEE GUIDA Tecniche di costruzione Brainstorming Generate tutte le attività che potete concepire o che necessitano di essere realizzate Raggruppatele in categorie Coordinare tutti gli ambiti/domini che caratterizzano il progetto Coinvolgere le persone che svolgeranno il lavoro (il consenso è importante!",
+    "start": 0,
+    "end": 306,
+    "length": 306,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 16.525,
+      "keywords": [
+        "linee",
+        "guida",
+        "tecniche",
+        "costruzione",
+        "brainstorming",
+        "generate",
+        "tutte",
+        "attivit",
+        "potete",
+        "concepire"
+      ]
+    }
+  },
+  {
+    "id": "p354_c0",
+    "page": 354,
+    "text": "Completezza: 100% rule (PMI, 2013) La regola del 100%... afferma che la WBS include il 100% del lavoro definito dall'ambito del progetto e cattura tutti i deliverable - interni, esterni, intermedi - in termini di lavoro da completare, compresa la gestione del progetto. La regola del 100% è uno dei principi più importanti che guidano lo sviluppo, la scomposizione e la valutazione della WBS. La regola si applica a tutti i livelli della gerarchia: la somma del lavoro al livello “figlio” deve essere uguale al 100% del lavoro rappresentato dal ‘genitore’ e la WBS non deve includere alcun lavoro che non rientri nell'ambito effettivo del progetto, cioè non può includere più del 100% del lavoro\".",
+    "start": 0,
+    "end": 698,
+    "length": 698,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.485,
+      "keywords": [
+        "lavoro",
+        "regola",
+        "progetto",
+        "ambito",
+        "tutti",
+        "della",
+        "deve",
+        "includere",
+        "2013",
+        "completezza"
+      ]
+    }
+  },
+  {
+    "id": "p356_c0",
+    "page": 356,
+    "text": "La gestione dei costi nei progetti q I progetti hanno un bilancio negativo per quanto riguarda il rispetto degli obiettivi di budget. q Nel 2014 gli Stati Uniti hanno perso 115 miliardi di dollari in progetti IT a causa di progetti cancellati e sforamenti, rispetto ai 140 miliardi di dollari del 1994. q Gli studi CHAOS del 2015 hanno mostrato che il superamento medio dei costi (la percentuale aggiuntiva o l'importo in dollari di cui i costi effettivi superano le stime) è stato del 41%.",
+    "start": 0,
+    "end": 491,
+    "length": 491,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.45,
+      "keywords": [
+        "progetti",
+        "costi",
+        "hanno",
+        "dollari",
+        "rispetto",
+        "miliardi",
+        "1994",
+        "2014",
+        "2015",
+        "gestione"
+      ]
+    }
+  },
+  {
+    "id": "p357_c0",
+    "page": 357,
+    "text": "Cost overrun nei giochi olimpici % overrun sul budget definitivo Flyvbjerg & Stewart, 2012 201 796 321 173 59 417 277 147 56 90 29 60 82 4 17 101 0 100 200 300 400 500 600 700 800 900 Grenoble 1968 Montreal 1976 Lake Placid 1980 Sarajevo 1984 Calgary 1988 Barcelona 1992 Lillehammer 1994 Atlanta 1996 Nagano 1998 Sydney 2000 Salt Lake City 2002 Athens 2004 Torino 2006 Beijing 2008 Vancouver 2010 London 2012",
+    "start": 0,
+    "end": 409,
+    "length": 409,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.04,
+      "keywords": [
+        "2012",
+        "overrun",
+        "lake",
+        "1968",
+        "1976",
+        "1980",
+        "1984",
+        "1988",
+        "1992",
+        "1994"
+      ]
+    }
+  },
+  {
+    "id": "p358_c0",
+    "page": 358,
+    "text": "Perché i project budget sono problematici q I progetti sono unici (incertezza) per definizione q Spesso scontano scarsa esperienza nella identificazione e stima delle risorse q Mancanza di “pezze d’appoggio” o di conoscenza codificata nel tempo q Molti progetti possono durare anni § Incertezza intertemporale § Incertezza su fabbisogni, disponibilità, costi delle risorse",
+    "start": 0,
+    "end": 373,
+    "length": 373,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.86,
+      "keywords": [
+        "incertezza",
+        "sono",
+        "progetti",
+        "delle",
+        "risorse",
+        "perch",
+        "project",
+        "budget",
+        "problematici",
+        "unici"
+      ]
+    }
+  },
+  {
+    "id": "p359_c0",
+    "page": 359,
+    "text": "Alcuni bias procedurali e decisionali q Spesso si tende ad evidenziare solo gli aspetti positivi di progetto ( showcasing e window - dressing ) q Ampliamento eccessivo e incontrollato delle attività e nelle specifiche di progetto ( scope creeping ), spesso determinato da rimodulazioni del budget q Optimistic bias e planning fallacy [ Kahneman - Tversky ] q Illusione del controllo",
+    "start": 0,
+    "end": 383,
+    "length": 383,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.91,
+      "keywords": [
+        "bias",
+        "spesso",
+        "progetto",
+        "alcuni",
+        "procedurali",
+        "decisionali",
+        "tende",
+        "evidenziare",
+        "solo",
+        "aspetti"
+      ]
+    }
+  },
+  {
+    "id": "p360_c0",
+    "page": 360,
+    "text": "Stima Gestione dei costi di progetto: fasi Sviluppare un'approssimazione o una stima delle risorse e dei loro costi per realizzare il progetto. Le attività principali nella gestione dei costi ruotano attorno a tre fasi fondamentali: la stima dei costi, la costruzione del budget e il controllo. I primi due processi - stima e budget - si concentrano principalmente sulla fase di pianificazione del ciclo di vita. Il controllo dei costi riguarda le fasi di esecuzione e misura le differenze tra i costi di base e i costi effettivi nella realizzazione del progetto.",
+    "start": 0,
+    "end": 564,
+    "length": 564,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.815,
+      "keywords": [
+        "costi",
+        "stima",
+        "progetto",
+        "fasi",
+        "gestione",
+        "nella",
+        "budget",
+        "controllo",
+        "sviluppare",
+        "approssimazione"
+      ]
+    }
+  },
+  {
+    "id": "p361_c0",
+    "page": 361,
+    "text": "Le stime dei costi sono importanti per... q supportare le decisioni sul progetto. q programmare il lavoro q determinare il costo totale del progetto q determinare se il progetto è sostenibile q sviluppare le esigenze di flusso di cassa q analizzare lo stato di avanzamento q sviluppare i budget per fasi temporali e stabilire la baseline del progetto.",
+    "start": 0,
+    "end": 352,
+    "length": 352,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.755,
+      "keywords": [
+        "progetto",
+        "determinare",
+        "sviluppare",
+        "stime",
+        "costi",
+        "sono",
+        "importanti",
+        "supportare",
+        "decisioni",
+        "programmare"
+      ]
+    }
+  },
+  {
+    "id": "p362_c0",
+    "page": 362,
+    "text": "Budgeting e stima dei costi IL BUDGET SERVE COME STANDARD DI CONFRONTO q Le procedure di budgeting devono associare l'uso delle risorse al raggiungimento degli obiettivi organizzativi, altrimenti il processo di pianificazione/controllo diventa inutile q Il budget è semplicemente il piano di progetto in un'altra forma q Per sviluppare un budget, dobbiamo: ü prevedere quali risorse il progetto richiederà ü determinare la quantità necessaria di ciascuna ü decidere quando saranno necessarie ü capire quanto costeranno - compresi gli effetti della potenziale inflazione dei prezzi BUDGET DI PROGETTO",
+    "start": 0,
+    "end": 600,
+    "length": 600,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.995,
+      "keywords": [
+        "budget",
+        "progetto",
+        "budgeting",
+        "risorse",
+        "stima",
+        "costi",
+        "serve",
+        "come",
+        "standard",
+        "confronto"
+      ]
+    }
+  },
+  {
+    "id": "p363_c0",
+    "page": 363,
+    "text": "Cost Budgeting e WBS Il processo di budgeting prevede l'assegnazione della stima dei costi del progetto alle singole voci di lavoro nel tempo La WBS è un input necessario per il processo di budgeting dei costi perché definisce le voci di lavoro Obiettivo: produrre una baseline , un budget temporale che i project manager utilizzano per misurare e monitorare le prestazioni economiche",
+    "start": 0,
+    "end": 385,
+    "length": 385,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.92,
+      "keywords": [
+        "budgeting",
+        "processo",
+        "costi",
+        "voci",
+        "lavoro",
+        "cost",
+        "prevede",
+        "assegnazione",
+        "della",
+        "stima"
+      ]
+    }
+  },
+  {
+    "id": "p364_c0",
+    "page": 364,
+    "text": "INIZIARE CON LE PERSONE CHE REALIZZANO LE ATTIVITÀ Bottom - Up Budgeting Si parte dalla base della WBS e i costi vengono definiti e aggregati verso l'alto Si devono aggiungere costi indiretti ed eventuali riserve In questo metodo, le attività elementari, i loro programmi e i loro budget individuali sono costruiti seguendo la WBS Le persone che svolgono il lavoro sono consultate riguardo ai tempi e ai budget per assicurare il miglior livello di accuratezza Inizialmente, le stime sono fatte in termini di risorse, come le ore di lavoro e i materiali I budget dal basso verso l'alto dovrebbero essere, e di solito lo sono, più accurati nelle attività dettagliate, ma è fondamentale che tutti gli elementi siano inclusi BUDGETING",
+    "start": 0,
+    "end": 731,
+    "length": 731,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 18.65,
+      "keywords": [
+        "sono",
+        "attivit",
+        "budget",
+        "persone",
+        "budgeting",
+        "costi",
+        "verso",
+        "alto",
+        "loro",
+        "lavoro"
+      ]
+    }
+  },
+  {
+    "id": "p366_c0",
+    "page": 366,
+    "text": "Sviluppo di un budget di progetto § Identificare i deliverable attesi § Prevedere i fattori necessari § Lavoro § Risorse materiali § Intangibili § Altre risorse § Stabilire il costo di accesso alle risorse § Programmare l'orizzonte temporale Quattro elementi di base Il budget mostra il valore monetario delle risorse necessarie nel tempo",
+    "start": 0,
+    "end": 339,
+    "length": 339,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.69,
+      "keywords": [
+        "risorse",
+        "budget",
+        "sviluppo",
+        "progetto",
+        "identificare",
+        "deliverable",
+        "attesi",
+        "prevedere",
+        "fattori",
+        "necessari"
+      ]
+    }
+  },
+  {
+    "id": "p368_c0",
+    "page": 368,
+    "text": "Budget per fasi temporali un budget non è tale se non è sviluppato per fasi temporali o La suddivisione in fasi inizia con la stima dei tempi di un progetto. o I budget per fasi rispecchiano il modo in cui si verificherà il fabbisogno di cassa del progetto (costi) o il momento in cui ci si può aspettare i flussi di cassa del progetto. o Le variazioni di budget si verificano quando gli eventi effettivi e quelli previsti non coincidono.",
+    "start": 0,
+    "end": 439,
+    "length": 439,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.19,
+      "keywords": [
+        "budget",
+        "fasi",
+        "progetto",
+        "temporali",
+        "cassa",
+        "tale",
+        "sviluppato",
+        "suddivisione",
+        "inizia",
+        "stima"
+      ]
+    }
+  },
+  {
+    "id": "p369_c0",
+    "page": 369,
+    "text": "Budget per categoria di costo (WP mancanti ) Budget mensile (€) # WBS Item 1 2 3 4 5 6 7 8 9 10 11 12 Totals 1 Project management 96000 1. 1 Project manager 8000 8000 8000 8000 8000 8000 8000 8000 8000 8000 8000 8000 96000 1. 2 Project team members 12000 12000 12000 12000 12000 12000 12000 12000 12000 12000 12000 12000 144000 1. 3 Contractors 6027 6027 6027 6027 6027 6027 6027 6027 6027 6027 6027 66297 2 Hardware 0 2. 1 Handeheld devices 30000 30000 60000 2. 2 Servers 8000 8000 16000 3 Software 0 3. 1 Licensed software 10000 10000 20000 3. 2 Software development 60000 60000 80000 127000 127000 90000 50000 594000 4 Testing 6000 8000 12000 15000 15000 13000 69000 5 Trainig & support 0 5. 1 Trainee cost 50000 50000 5. 2 Travel cost 8400 8400 5.",
+    "start": 0,
+    "end": 752,
+    "length": 752,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.754999999999999,
+      "keywords": [
+        "8000",
+        "12000",
+        "6027",
+        "50000",
+        "60000",
+        "project",
+        "software",
+        "8400",
+        "10000",
+        "15000"
+      ]
+    }
+  },
+  {
+    "id": "p370_c0",
+    "page": 370,
+    "text": "Work Element Costing q Il processo vero e proprio di costruzione di un budget tende a essere un processo semplice ma noioso q Ogni elemento di lavoro nella WBS viene valutato per il suo fabbisogno di risorse, e quindi per il costo q I costi diretti per le risorse sono imputati direttamente al progetto. La manodopera è solitamente soggetta a spese generali. Le risorse materiali e i macchinari possono essere o meno soggetti a spese generali.... q Si aggregano poi elementi di costo generale e amministrativo (G&A).",
+    "start": 0,
+    "end": 517,
+    "length": 517,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.58,
+      "keywords": [
+        "risorse",
+        "processo",
+        "essere",
+        "costo",
+        "spese",
+        "generali",
+        "work",
+        "element",
+        "costing",
+        "vero"
+      ]
+    }
+  },
+  {
+    "id": "p371_c0",
+    "page": 371,
+    "text": "Tipi di costo nel budget q Costi diretti § Costi chiaramente imputabili a uno specifico pacchetto di lavoro. ü Manodopera, materiali, attrezzature e altri q Costi generali diretti (per attività) § Costi sostenuti che sono direttamente legati a un progetto ma spesso necessitano di procedure di ripartizione e attribuzione.",
+    "start": 0,
+    "end": 323,
+    "length": 323,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.61,
+      "keywords": [
+        "costi",
+        "diretti",
+        "tipi",
+        "costo",
+        "budget",
+        "chiaramente",
+        "imputabili",
+        "specifico",
+        "pacchetto",
+        "lavoro"
+      ]
+    }
+  },
+  {
+    "id": "p372_c0",
+    "page": 372,
+    "text": "Due tipi principali di costo q Costi diretti § Costi facilmente riconducibili al pacchetto di lavoro del progetto § Lavoro, materiali, attrezzature, gestione del progetto? q Costi indiretti § Tutti i costi diversi da quelli diretti; necessari per il corretto completamento § Gestione, assicurazione, amministrazione, ecc.",
+    "start": 0,
+    "end": 322,
+    "length": 322,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.605,
+      "keywords": [
+        "costi",
+        "diretti",
+        "lavoro",
+        "progetto",
+        "gestione",
+        "tipi",
+        "principali",
+        "costo",
+        "facilmente",
+        "riconducibili"
+      ]
+    }
+  },
+  {
+    "id": "p373_c0",
+    "page": 373,
+    "text": "Esempio: s time e categorie di costo q Manodopera: due parti - stipendio + costi accessori (tasse oneri sociali, ecc ) q Materiali: di solito ottenuti da fornitori interni/esterni. q Attrezzature: quota di ammortamento se utilizzabili anche per altri progetti. q Subappalti e servizi: elementi eseguiti da un'azienda esterna. q Costi: assicurazioni e contratti di licenza q Spese organizzative: personale d'ufficio, affitto dell'ufficio.",
+    "start": 0,
+    "end": 438,
+    "length": 438,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.185,
+      "keywords": [
+        "costi",
+        "ufficio",
+        "esempio",
+        "time",
+        "categorie",
+        "costo",
+        "manodopera",
+        "parti",
+        "stipendio",
+        "accessori"
+      ]
+    }
+  },
+  {
+    "id": "p374_c0",
+    "page": 374,
+    "text": "Categorie tipiche WBS Lavoro Materiali Attrezzature Servizi ... 1. 1 1. 1. 1 1. 1. 2 1. 2 1. 2. 1 1. 2. 2 ... ... ... ... ... ...",
+    "start": 0,
+    "end": 130,
+    "length": 130,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.645,
+      "keywords": [
+        "categorie",
+        "tipiche",
+        "lavoro",
+        "materiali",
+        "attrezzature",
+        "servizi"
+      ]
+    }
+  },
+  {
+    "id": "p376_c0",
+    "page": 376,
+    "text": "Elementi di gestione delle attività q Definizione delle attività: identificare le attività specifiche che i membri del team di progetto e gli stakeholder devono svolgere per produrre i deliverable del progetto q Sequenziamento: identificare e documentare le relazioni tra le attività del progetto q Stima delle risorse delle attività: stimare quante risorse il team di progetto deve utilizzare per svolgere le attività del progetto q Stima della durata delle attività: stimare il numero di periodi di lavoro necessari per completare le singole attività q Sviluppo dello schedule: analizzare le sequenze delle attività, le stime delle risorse delle attività e le stime della durata delle attività per creare la schedulazione del progetto q Controllo: gestire le modifiche allo schedule durante la realizzazione del progetto",
+    "start": 0,
+    "end": 823,
+    "length": 823,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 9.11,
+      "keywords": [
+        "attivit",
+        "delle",
+        "progetto",
+        "risorse",
+        "identificare",
+        "team",
+        "svolgere",
+        "stima",
+        "stimare",
+        "della"
+      ]
+    }
+  },
+  {
+    "id": "p377_c0",
+    "page": 377,
+    "text": "Identificazione delle attività Lo scheduling nasce dai documenti di base di progetto ü il project charter include le date di inizio e fine e le informazioni sul budget ü la WBS aiuta a definire il contenuto in termini di attività La pianificazione delle attività comporta spesso lo sviluppo di una WBS più dettagliata e di spiegazioni per comprendere il lavoro da svolgere, in modo da poter sviluppare stime realistiche dei costi e della durata GESTIONE DELLE ATTIVITÀ",
+    "start": 0,
+    "end": 469,
+    "length": 469,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.34,
+      "keywords": [
+        "attivit",
+        "delle",
+        "identificazione",
+        "scheduling",
+        "nasce",
+        "documenti",
+        "base",
+        "progetto",
+        "project",
+        "charter"
+      ]
+    }
+  },
+  {
+    "id": "p378_c0",
+    "page": 378,
+    "text": "Elenco e attributi Un elenco di attività è una lista di attività da pianificare e comprende: il nome dell'attività un identificatore dell'attività una breve descrizione Sono spesso richieste anche ulteriori informazioni quali predecessori, successori, relazioni logiche, requisiti di risorse, vincoli, scadenze imposte e ipotesi relative all'attività.",
+    "start": 0,
+    "end": 352,
+    "length": 352,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.755,
+      "keywords": [
+        "attivit",
+        "elenco",
+        "dell",
+        "attributi",
+        "lista",
+        "pianificare",
+        "comprende",
+        "nome",
+        "identificatore",
+        "breve"
+      ]
+    }
+  },
+  {
+    "id": "p379_c0",
+    "page": 379,
+    "text": "Milestone Una milestone è un evento significativo che normalmente non ha durata Spesso sono necessarie diverse attività e molto lavoro per completare una milestone Sono strumenti utili per stabilire obiettivi di pianificazione e monitorare i progressi Esempi includono l'ottenimento dell'approvazione del cliente su documenti chiave o il completamento di componenti specifiche di progetto IDENTIFICAZIONE DELLE ATTIVITÀ",
+    "start": 0,
+    "end": 420,
+    "length": 420,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 12.095,
+      "keywords": [
+        "milestone",
+        "sono",
+        "attivit",
+        "evento",
+        "significativo",
+        "normalmente",
+        "durata",
+        "spesso",
+        "necessarie",
+        "diverse"
+      ]
+    }
+  },
+  {
+    "id": "p380_c0",
+    "page": 380,
+    "text": "Sequenziamento delle attività q comporta la revisione delle attività e l’individuazione delle dipendenze q l e dipendenze definiscono l’insieme di relazioni di priorità e la loro natura tra attività/compiti del progetto q è necessario determinare le dipendenze almeno per applicare l'analisi del sentiero critico",
+    "start": 0,
+    "end": 313,
+    "length": 313,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.56,
+      "keywords": [
+        "delle",
+        "attivit",
+        "dipendenze",
+        "sequenziamento",
+        "comporta",
+        "revisione",
+        "individuazione",
+        "definiscono",
+        "insieme",
+        "relazioni"
+      ]
+    }
+  }
+]

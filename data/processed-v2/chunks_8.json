@@ -1,0 +1,1343 @@
+[
+  {
+    "id": "p525_c0",
+    "page": 525,
+    "text": "GENERAL DEFINITION • A quadratic programming problem minimizes a quadratic function of n variables subject to m linear inequality or equality constraints. In compact notation, a QP problem is: where c is a vector ( n x 1), A is an m x n matrix, and Q is a symmetric n x n matrix. • As for LP, it is also possible to use an inequality form with Ax ≤ b with maximization of f(x).",
+    "start": 0,
+    "end": 378,
+    "length": 378,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.885,
+      "keywords": [
+        "quadratic",
+        "problem",
+        "inequality",
+        "matrix",
+        "with",
+        "general",
+        "definition",
+        "programming",
+        "minimizes",
+        "function"
+      ]
+    }
+  },
+  {
+    "id": "p526_c0",
+    "page": 526,
+    "text": "A MORE CONCRETE EXAMPLE - MEAN-VARIANCE PORTFOLIO THEORY • The archetypical example of QP problems is the portfolio optimization problem, as per the original mean-variance formulation proposed by Markowitz, 1952. The problem is essentially the following: How can we split our investment between these assets in an appropriate way? • To proceed with Markowitz mean-variance portfolio optimization we need some notation, let: ‣ N be the number of assets (e. g. stocks) available ‣ μ i be the expected return of asset i ‣ ρ ij be the correlation between the returns for assets i and j (-1 ≤ ρ i j ≤ +1) ‣ s i be the standard deviation in return for asset i • Then the decision variables are: w i the proportion of the total investment associated with (invested in) asset i (0 ≤ w i ≤ 1) • Note: this formulation is completely general – provided we have a price history for an “asset” that can be included. So, we could consider making up a portfolio from stocks, commodities (e. g. oil, metals), bonds, etc.",
+    "start": 0,
+    "end": 1005,
+    "length": 1005,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 15.02,
+      "keywords": [
+        "portfolio",
+        "asset",
+        "mean",
+        "variance",
+        "assets",
+        "example",
+        "optimization",
+        "problem",
+        "formulation",
+        "markowitz"
+      ]
+    }
+  },
+  {
+    "id": "p527_c0",
+    "page": 527,
+    "text": "A MORE CONCRETE EXAMPLE - MEAN-VARIANCE PORTFOLIO THEORY • The objective function minimizes the total variance (risk) associated with the portfolio. • The fi rst constraint ensures that the portfolio has an expected return of R (note that some formulation replace equality with inequality ≥ R). • The second constraint ensures that the proportions add to one. • The third constraint is simply the non-negativity constraint.",
+    "start": 0,
+    "end": 424,
+    "length": 424,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.115,
+      "keywords": [
+        "constraint",
+        "portfolio",
+        "that",
+        "variance",
+        "with",
+        "ensures",
+        "more",
+        "concrete",
+        "example",
+        "mean"
+      ]
+    }
+  },
+  {
+    "id": "p533_c0",
+    "page": 533,
+    "text": "USE CASES 114 • HR & Organization: 3 • Logistics & Supply Chain: 2 • Manufacturing & Operations: 4 • Marketing & Sales: 2 • Finance & Admin Processes: 3 • Strategic Planning / Product Portfolio: 1 • Energy & Facilities: 1 • Event / Resource Scheduling: 1 USE CASE CATEGORIES • Scheduling / Workforce Planning • Vehicle Routing / Logistics • Linear / Integer Programming • Multi-objective Optimization • Work fl ow / Process Optimization • Combinatorial and Constraint-based Models OPTIMIZATION PROBLEM TYPES",
+    "start": 0,
+    "end": 508,
+    "length": 508,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.535,
+      "keywords": [
+        "optimization",
+        "logistics",
+        "planning",
+        "scheduling",
+        "cases",
+        "organization",
+        "supply",
+        "chain",
+        "manufacturing",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "p534_c0",
+    "page": 534,
+    "text": "USE CASES 115 • Variables: Time slots, assignments, quantities, work fl ows, budgets • Variable types: Mostly discrete, some continuous • Constraints: Resource capacity, legal, budgetary, technical, and organizational • Constraint strength: Mix of hard (e. g. , legal) and soft (e. g. , training) DECISION VARIABLES AND CONSTRAINTS USE OF OPTIMIZATION TOOLS • Explicit optimization tools: 0 • Heuristics / Ad hoc: ~4 (implied) • Manual / Spreadsheet-based: majority • Opportunities: ERP integration, solver tools, etc.",
+    "start": 0,
+    "end": 519,
+    "length": 519,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.59,
+      "keywords": [
+        "tools",
+        "variables",
+        "constraints",
+        "legal",
+        "optimization",
+        "cases",
+        "time",
+        "slots",
+        "assignments",
+        "quantities"
+      ]
+    }
+  },
+  {
+    "id": "p535_c0",
+    "page": 535,
+    "text": "USE CASES 116 USE CASE OVERVIEW Domain Objec , ve Op , miza , on Type Method Used HR Minimize costs, Op 1 mize shi 3 s Scheduling Manual Logis 1 cs Op 1 mize routes Rou 1 ng/Combinatorial None Manufacturing Reduce costs, Improve throughput Scheduling, MIP None Marke 1 ng Maximize ROI Mul 1 -objec 1 ve Spreadsheet Finance/ Admin Digitalize processes Work fl ow/Process ERP proposed",
+    "start": 0,
+    "end": 383,
+    "length": 383,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.91,
+      "keywords": [
+        "objec",
+        "costs",
+        "mize",
+        "scheduling",
+        "none",
+        "cases",
+        "case",
+        "overview",
+        "domain",
+        "miza"
+      ]
+    }
+  },
+  {
+    "id": "p536_c0",
+    "page": 536,
+    "text": "USE CASES 117 1. Scheduling & Sequencing (Operations & Field Service) Core Task: Assigning when and by whom tasks should be done. Examples: Production lines, project execution, and technician dispatch. 2. Routing & Logistics Core Task: Designing the most ef fi cient paths for vehicles or goods. Example: Delivery fl eet management. 3. Resource Allocation & Design Core Task: Assigning limited resources (money, space, assets) to competing activities. Examples: Financial planning, facility layout. 4. Process & Work fl ow Improvement Core Task: Redesigning a sequence of business activities to be faster, cheaper, or more compliant. Examples: Employee onboarding, invoice processing, and qualitative HR goals.",
+    "start": 0,
+    "end": 711,
+    "length": 711,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 8.55,
+      "keywords": [
+        "core",
+        "task",
+        "examples",
+        "assigning",
+        "activities",
+        "cases",
+        "scheduling",
+        "sequencing",
+        "operations",
+        "field"
+      ]
+    }
+  },
+  {
+    "id": "p537_c0",
+    "page": 537,
+    "text": "CATEGORY 1 - SCHEDULING AND SEQUENCING 118 Problems where the main challenge is managing time, tasks, and resources to meet deadlines ef fi ciently. These are often the most complex but highest-impact optimization problems in operations. Example Use Case Problem: A multi-stage manufacturing process with long lead times (4-8 weeks). The goal is to reduce this total time. Formalization: This problem can be formulated as a Job-Shop Scheduling Problem (JSSP). Objective Function: Minimize the Makespan, the time when the last job is completed. Decision Variables: The start time for each operation of every job on each machine. Key Constraints: Phase Precedence, Resource Capacity (one job per machine at a time), Resource Allocation (speci fi c jobs to speci fi c presses), Batching (furnace limits). Suggested Optimization Approach: Current Method: Experience-based priority rules. Formal Method: Model as a Mixed-Integer Linear Program (MILP) for small instances. For realistic scale, use heuristics/metaheuristics (Genetic Algorithms, Tabu Search) or specialized scheduling software.",
+    "start": 0,
+    "end": 1088,
+    "length": 1088,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 20.435,
+      "keywords": [
+        "time",
+        "scheduling",
+        "problem",
+        "problems",
+        "optimization",
+        "this",
+        "each",
+        "machine",
+        "resource",
+        "speci"
+      ]
+    }
+  },
+  {
+    "id": "p538_c0",
+    "page": 538,
+    "text": "CATEGORY 2 - ROUTING AND LOGISTICS 119 These problems focus on optimizing physical movement to minimize distance, time, or cost. Example Use Case Problem: Organize ef fi cient logistics from German warehouses to an Italian hub, and from the hub to ~450 retailers. Formalization: This problem can be formulated as a Vehicle Routing Problem (VRP). Objective Function: Minimize total transportation cost (distance, vehicles, external fees). Decision Variables: Which vehicle visits which customer in what sequence? Key Constraints: Vehicle Capacity (garment volume), Visit Once (each retailer), Time Windows (business hours, driver availability), Depot (routes start/end at the hub). Suggested Optimization Approach: Current Method: Manual planning. Formal Method: Use specialized VRP solvers that employ heuristics and metaheuristics to fi nd high-quality solutions quickly, yielding signi fi cant cost savings.",
+    "start": 0,
+    "end": 910,
+    "length": 910,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 9.545,
+      "keywords": [
+        "cost",
+        "problem",
+        "vehicle",
+        "routing",
+        "logistics",
+        "minimize",
+        "distance",
+        "time",
+        "from",
+        "which"
+      ]
+    }
+  },
+  {
+    "id": "p539_c0",
+    "page": 539,
+    "text": "CATEGORY 3 - RESOURCE ALLOCATION 120 This category deals with the optimal assignment of fi nite resources, from fi nancial capital to physical space. Example Use Case Problem: Optimize corporate liquidity to minimize bank borrowing costs while meeting all payment obligations. Formalization: A Multi-Period Cash Flow Optimization problem, solvable with Linear Programming (LP). Objective Function: Minimize total fi nancing cost Decision Variables: Cash to hold, amount to borrow from each line, timing of payments. Key Constraints: Cash Balance Equation, Non-Negativity of cash, Credit Limits (plafond), Payment Deadlines. Suggested Optimization Approach: Current Method: ERP-integrated forecasting. Formal Method: An LP model (buildable in Excel Solver or Python) can proactively recommend the cheapest funding strategy on a rolling basis.",
+    "start": 0,
+    "end": 842,
+    "length": 842,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 4.205,
+      "keywords": [
+        "cash",
+        "category",
+        "with",
+        "from",
+        "problem",
+        "minimize",
+        "payment",
+        "optimization",
+        "method",
+        "resource"
+      ]
+    }
+  },
+  {
+    "id": "p540_c0",
+    "page": 540,
+    "text": "CATEGORY 4 - PROCESS/WORKFLOW IMPROVEMENT 121 These cases focus on redesigning complex administrative or operational processes for ef fi ciency, compliance, and cost savings. Example Use Case Problem: The current Excel-based process for planning, tracking, and updating employee training is time-consuming and hard to maintain. Formalization: This is a Constrained Scheduling and Assignment problem embedded within a process improvement need. Objective Functions: (1) Maintain 100% compliance with mandatory training. (2) Minimize training costs. (3) Maximize employee development. Decision Variables: Which employees are assigned to which training sessions; the schedule for each training session. Constraints: Mandatory renewal deadlines; minimum number of participants for courses; creating homogeneous classes; budget limits; not taking too many people from one department at the same time. Suggested Optimization Approach: 1. Process First: Digitize the process with a dedicated Human Resources Information System (HRIS) or a Learning Management System (LMS) to replace Excel. This solves the tracking and data management problem. 2. Then Optimize: Once the data are structured, an optimization model can be built to create the annual training schedule. This is a complex assignment problem that can be solved with constraint programming or integer programming to create optimal class groups that respect all the stated fi nancial and organizational constraints.",
+    "start": 0,
+    "end": 1468,
+    "length": 1468,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 12.335,
+      "keywords": [
+        "training",
+        "process",
+        "problem",
+        "this",
+        "with",
+        "improvement",
+        "complex",
+        "compliance",
+        "excel",
+        "tracking"
+      ]
+    }
+  },
+  {
+    "id": "p541_c0",
+    "page": 541,
+    "text": "TO SUMMARIZE 122 1. Many industrial problems are Scheduling Problems in disguise . The most common and complex challenges revolve around managing time and resources (Projects, Production, Field Service). These problems are hard but have mature solutions. 2. Optimization starts with Process Mapping . For problems like onboarding or procurement, the fi rst step is always to map the existing process before applying technology. 3. There's a gap between “What Is” and “What's Possible” . Most use cases rely on experience, spreadsheets, or basic ERP modules. There is a signi fi cant opportunity to create value by adopting formal optimization tools (e. g. , VRP solvers, scheduling heuristics, LP models). 4. Not all optimization is mathematical . For strategic HR or resource bottleneck issues, the \"optimal\" solution isn't a number. It's a strategic decision, like a training program or a change management initiative. 5. Data & dynamics are the real challenge . Many of you rightly noted that your environments are unpredictable. Successful optimization initiatives must account for this, often by using dynamic or stochastic models that can re-optimize quickly when things change.",
+    "start": 0,
+    "end": 1185,
+    "length": 1185,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 10.92,
+      "keywords": [
+        "problems",
+        "optimization",
+        "many",
+        "scheduling",
+        "most",
+        "process",
+        "like",
+        "there",
+        "what",
+        "models"
+      ]
+    }
+  },
+  {
+    "id": "p543_c0",
+    "page": 543,
+    "text": "• Optimization is essential in many processes. However, only a few companies take advantage of optimization algorithms (lack of data, lack of expertise, human factors). • Several industrial processes (e. g. , in logistics, scheduling, layout optimization, HR management, etc. ) can be mapped to well-known optimization problems for which several powerful algorithms exist. • Existing optimization software (e. g. , Gurobi, IBM CPLEX, Google OR-Tools) offers general-purpose tools including several of these optimization algorithms, but requires experts to model the industrial problem and pick the right algorithm for it. • Specialized software, e. g. , for scheduling (e. g. , CyberPlan) and process simulation (e. g. , FlexSim, AnyLogic, etc. ), either integrates optimization algorithms or can be connected to external optimizers to fi nd effective solutions to complex industrial problems ( simulation-based optimization ). • Machine Learning algorithms can be used to extract patterns in company data (e. g. , collected from ERP, MES, etc. ) to build models of the processes of interest and then optimize them with the algorithms we have seen.",
+    "start": 0,
+    "end": 1149,
+    "length": 1149,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": true,
+      "importance": 5.74,
+      "keywords": [
+        "optimization",
+        "algorithms",
+        "processes",
+        "several",
+        "industrial",
+        "lack",
+        "data",
+        "scheduling",
+        "problems",
+        "software"
+      ]
+    }
+  },
+  {
+    "id": "p544_c0",
+    "page": 544,
+    "text": "• In many organizations, objectives and constraints are “in the head” of the domain experts (e. g. , planner, HR, etc. ). They aren't formalized (and may be hard to formalize), or they rely on data that are not digitized yet (e. g. , oral/paper knowledge). • Optimality is often luxury. What you really want is to avoid “insanely ineffective decisions”. • “Talk in euros/dollars. ” - Not always is the economic advantage of process optimization immediately grasped. In many cases, the advantage is indirect, or does not produce an immediate return. But, in the long term, it will certainly pay off!",
+    "start": 0,
+    "end": 599,
+    "length": 599,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 2.99,
+      "keywords": [
+        "many",
+        "they",
+        "advantage",
+        "organizations",
+        "objectives",
+        "constraints",
+        "head",
+        "domain",
+        "experts",
+        "planner"
+      ]
+    }
+  },
+  {
+    "id": "p546_c0",
+    "page": 546,
+    "text": "Agenda 1. Introduzione corso 2. Paradigmi di produzione 3. I quattro approcci a customizzazione 4. Leve di Mass customization/Product variety management • L1 – Standardizzazione delle parti • L2 - Modularità di prodotto • L3 - Piattaforme di prodotto • L4 - Group technology • L5 - Attrezzaggi veloci • L6 - Linee di assemblaggio a modelli misti • L7 - Configuratori del prodotto • L8 - Personalizzazione del prodotto finito al più tardi (Form postponement) • L9 - Virtual build-to-order (VBTO) 5.",
+    "start": 0,
+    "end": 498,
+    "length": 498,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.484999999999999,
+      "keywords": [
+        "prodotto",
+        "agenda",
+        "introduzione",
+        "corso",
+        "paradigmi",
+        "produzione",
+        "quattro",
+        "approcci",
+        "customizzazione",
+        "leve"
+      ]
+    }
+  },
+  {
+    "id": "p548_c0",
+    "page": 548,
+    "text": "Conoscenze acquisite • Scopo del corso:  Capire il contesto dell' elevata varietà di prodotti  Capire le che complesse conseguenze questo contesto porta alle aziende  Sviluppare la capacità di affrontare le problematiche dell'elevata varietà di prodotti nel futuro lavoro nell'industria da una prospettiva olistica",
+    "start": 0,
+    "end": 318,
+    "length": 318,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.585,
+      "keywords": [
+        "capire",
+        "contesto",
+        "dell",
+        "elevata",
+        "variet",
+        "prodotti",
+        "conoscenze",
+        "acquisite",
+        "scopo",
+        "corso"
+      ]
+    }
+  },
+  {
+    "id": "p549_c0",
+    "page": 549,
+    "text": "Materiali didattici • Appunti e materiale didattico forniti a lezione:  Presentazioni  Appunti delle lezioni che costituiscono la base del corso  Articoli pertinenti sugli argomenti • Leteratura:  Koren, Y. (2010). The global manufacturing revolution: product-process- business integration and reconfigurable systems. John Wiley & Sons.  Forza, C. , & Salvador, F. (2006). Product information management for mass customization: connecting customer, front-office and back-office for fast and efficient customization. Palgrave Macmillan.  Hvam, L. , Mortensen, N. H. , & Riis, J. (2008). Product customization. Springer Science & Business Media.  Suzic, N. , & Forza, C. (2023). Development of mass customization implementation guidelines for small and medium enterprises (SMEs). Production Planning & Control, 34(6), 543-571.",
+    "start": 0,
+    "end": 832,
+    "length": 832,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 19.155,
+      "keywords": [
+        "customization",
+        "product",
+        "appunti",
+        "business",
+        "forza",
+        "mass",
+        "office",
+        "2006",
+        "2008",
+        "2010"
+      ]
+    }
+  },
+  {
+    "id": "p551_c0",
+    "page": 551,
+    "text": "Paradigmi di produzione Paradigma - un quadro filosofico e teorico di una scuola o disciplina scientifica all'interno del quale vengono formulate teorie, leggi e generalizzazioni e gli esperimenti condotti a loro supporto (Merriam-Webster) Esempi • Il paradigma freudiano della psicoanalisi • Un nuovo studio che sfida l'attuale paradigma evolutivo",
+    "start": 0,
+    "end": 349,
+    "length": 349,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.74,
+      "keywords": [
+        "paradigma",
+        "paradigmi",
+        "produzione",
+        "quadro",
+        "filosofico",
+        "teorico",
+        "scuola",
+        "disciplina",
+        "scientifica",
+        "interno"
+      ]
+    }
+  },
+  {
+    "id": "p553_c0",
+    "page": 553,
+    "text": "Paradigmi di produzione • Definizione: Un paradigma di produzione è un modello di produzione integrato rivoluzionario che nasce in risposta ai mutevoli imperativi sociali e di mercato ed è reso possibile dalla creazione di un nuovo tipo di sistema di produzione . Imperativi (bisogni) sociali e di mercato? (es.",
+    "start": 0,
+    "end": 312,
+    "length": 312,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 6.555,
+      "keywords": [
+        "produzione",
+        "imperativi",
+        "sociali",
+        "mercato",
+        "paradigmi",
+        "definizione",
+        "paradigma",
+        "modello",
+        "integrato",
+        "rivoluzionario"
+      ]
+    }
+  },
+  {
+    "id": "p554_c0",
+    "page": 554,
+    "text": "Varietà del prodotto (soddisfare gli imperativi sociali) Paradigmi di produzione • Paradigma di produzione (modello) The new paradigm must be supported by the new production technologies that make it possible Imperativi di mercato Nuove tecnologie abilitanti Imperativi sociali PRODURRE VENDERE PROGETTARE Volume di produzione (soddisfare la domanda del mercato) Paradigma di produzione Architettura del prodotto Modello di business Sistema produttivo",
+    "start": 0,
+    "end": 452,
+    "length": 452,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.255,
+      "keywords": [
+        "produzione",
+        "imperativi",
+        "prodotto",
+        "soddisfare",
+        "sociali",
+        "paradigma",
+        "modello",
+        "mercato",
+        "variet",
+        "paradigmi"
+      ]
+    }
+  },
+  {
+    "id": "p555_c0",
+    "page": 555,
+    "text": "Paradigmi di produzione • Tre elementi fondamentali di un'impresa manifatturiera: progettazione, produzione e vendita PRODURRE VENDERE PROGETTARE",
+    "start": 0,
+    "end": 146,
+    "length": 146,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.725,
+      "keywords": [
+        "produzione",
+        "paradigmi",
+        "elementi",
+        "fondamentali",
+        "impresa",
+        "manifatturiera",
+        "progettazione",
+        "vendita",
+        "produrre",
+        "vendere"
+      ]
+    }
+  },
+  {
+    "id": "p556_c0",
+    "page": 556,
+    "text": "Paradigmi di produzione • Ogni paradigma di produzione affronta tre elementi fondamentali: Progettazione, Produzione e Vendita.",
+    "start": 0,
+    "end": 128,
+    "length": 128,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.635,
+      "keywords": [
+        "produzione",
+        "paradigmi",
+        "ogni",
+        "paradigma",
+        "affronta",
+        "elementi",
+        "fondamentali",
+        "progettazione",
+        "vendita"
+      ]
+    }
+  },
+  {
+    "id": "p557_c0",
+    "page": 557,
+    "text": "Paradigmi di produzione • Quindi la sequenza è: Progettare Produrre Vendere La sequenza di questi tre elementi è sempre la stessa?",
+    "start": 0,
+    "end": 131,
+    "length": 131,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.65,
+      "keywords": [
+        "sequenza",
+        "paradigmi",
+        "produzione",
+        "quindi",
+        "progettare",
+        "produrre",
+        "vendere",
+        "questi",
+        "elementi",
+        "sempre"
+      ]
+    }
+  },
+  {
+    "id": "p558_c0",
+    "page": 558,
+    "text": "Paradigmi di produzione • QUATTRO PRINCIPALI PARADIGMI PRODUTTIVI 1. Il paradigma della produzione artigianale (The Craft Production Paradigm) 2. Il paradigma della produzione di massa 3. Il paradigma di Mass Customization (personalizzazione di massa) 4.",
+    "start": 0,
+    "end": 255,
+    "length": 255,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.27,
+      "keywords": [
+        "produzione",
+        "paradigma",
+        "paradigmi",
+        "della",
+        "massa",
+        "quattro",
+        "principali",
+        "produttivi",
+        "artigianale",
+        "craft"
+      ]
+    }
+  },
+  {
+    "id": "p559_c0",
+    "page": 559,
+    "text": "Produzione artigianale • Lavoratori qualificati e formati • Macchine multiuso • Realizziamo esattamente il prodotto per cui il cliente paga • Un prodotto alla volta 1",
+    "start": 0,
+    "end": 167,
+    "length": 167,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.83,
+      "keywords": [
+        "prodotto",
+        "produzione",
+        "artigianale",
+        "lavoratori",
+        "qualificati",
+        "formati",
+        "macchine",
+        "multiuso",
+        "realizziamo",
+        "esattamente"
+      ]
+    }
+  },
+  {
+    "id": "p560_c0",
+    "page": 560,
+    "text": "Produzione di massa • È apparsa all' inizio del XX secolo - Ford • Flusso di materiali coordinato attraverso linee di produzione che realizzano componenti ad alta precisione e li assemblano • Le linee sono costituite da attrezzature specializzate dedicate all'assemblaggio, al trasporto e alla finitura dei prodotti • Le operazioni all'interno della linea sono ottimizzate per ottenere economie di scala 2 Economia di scala: il costo di produzione cresce in modo meno che proporzionale rispetto alla scala dei macchinari",
+    "start": 0,
+    "end": 521,
+    "length": 521,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.6,
+      "keywords": [
+        "produzione",
+        "scala",
+        "linee",
+        "sono",
+        "alla",
+        "massa",
+        "apparsa",
+        "inizio",
+        "secolo",
+        "ford"
+      ]
+    }
+  },
+  {
+    "id": "p561_c0",
+    "page": 561,
+    "text": "Mass Customization 3 • Un paradigma generato da bisogni sociali • Con l'arricchimento della società , è emersa la necessità di un maggior numero di varianti di prodotto • I produttori offrono \"opzioni\" ai loro prodotti standard tra cui il cliente può scegliere e creare il proprio prodotto • L'obiettivo del paradigma: aumentare la varietà mantenendo basso il prezzo",
+    "start": 0,
+    "end": 367,
+    "length": 367,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.83,
+      "keywords": [
+        "paradigma",
+        "prodotto",
+        "mass",
+        "customization",
+        "generato",
+        "bisogni",
+        "sociali",
+        "arricchimento",
+        "della",
+        "societ"
+      ]
+    }
+  },
+  {
+    "id": "p563_c0",
+    "page": 563,
+    "text": "Produzione globale 4 • Il paradigma produttivo del futuro  Regionalizzazione - causata principalmente dalle differenze culturali  Personalizzazione - guidata dal desiderio dei clienti di avere qualcosa su misura per loro, ma senza pagare il prezzo artigianale del prodotto",
+    "start": 0,
+    "end": 275,
+    "length": 275,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.37,
+      "keywords": [
+        "produzione",
+        "globale",
+        "paradigma",
+        "produttivo",
+        "futuro",
+        "regionalizzazione",
+        "causata",
+        "principalmente",
+        "dalle",
+        "differenze"
+      ]
+    }
+  },
+  {
+    "id": "p564_c0",
+    "page": 564,
+    "text": "Varietà e quantità del prodotto per variante Industria automobilistica (I driver dei nuovi paradigmi sono le esigenze del mercato e della società)",
+    "start": 0,
+    "end": 147,
+    "length": 147,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.73,
+      "keywords": [
+        "variet",
+        "quantit",
+        "prodotto",
+        "variante",
+        "industria",
+        "automobilistica",
+        "driver",
+        "nuovi",
+        "paradigmi",
+        "sono"
+      ]
+    }
+  },
+  {
+    "id": "p569_c0",
+    "page": 569,
+    "text": "Caratteristiche di quattro paradigmi di produzione Produzione globale Mass customization Produzione di massa Produzione artigianale Paradigma Prodotti regionali Prodotti personalizzati Alta varietà dei prodotti Alta qualità Prodotti a basso prezzo Prodotti unici Imperativi sociali Fluttuante Instabile Costante Domanda mercato Elevata velocità di risposta Ampia varietà Basso prezzo del prodotto Soddisfare il desiderio dei clienti Oggettivo paradigma Tecnologia dell'informazione e Internet Computer Parti intercambiabili Elettricità Leva tecnologica Sistemi riconfigurabili Sistemi flessibili Operazioni LEAN Linea di montaggio mobile Macchine dedicate Macchine utensili azionate elettricamente Sistema produttivo Altamente modulare Modulare Unificata Architettura del prodotto Pull Push-Pull Push Pull Principio di business model",
+    "start": 0,
+    "end": 834,
+    "length": 834,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 12.165,
+      "keywords": [
+        "prodotti",
+        "produzione",
+        "pull",
+        "paradigma",
+        "alta",
+        "variet",
+        "basso",
+        "prezzo",
+        "prodotto",
+        "sistemi"
+      ]
+    }
+  },
+  {
+    "id": "p572_c0",
+    "page": 572,
+    "text": "I quattro approcci a customizzazione The four faces of mass customization (Gilmore and Pine, 1997) Il cliente può ritirare gli occhiali finiti in 1 ora!!!!",
+    "start": 0,
+    "end": 156,
+    "length": 156,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.775,
+      "keywords": [
+        "1997",
+        "quattro",
+        "approcci",
+        "customizzazione",
+        "four",
+        "faces",
+        "mass",
+        "customization",
+        "gilmore",
+        "pine"
+      ]
+    }
+  },
+  {
+    "id": "p578_c0",
+    "page": 578,
+    "text": "Tendenze di mercato: prodotti standardizzati vs customizzati Quota di mercato dei prodotti standardizzati vs customizzati (Schuler & Buehlmann, 2003)",
+    "start": 0,
+    "end": 150,
+    "length": 150,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.745,
+      "keywords": [
+        "mercato",
+        "prodotti",
+        "standardizzati",
+        "customizzati",
+        "2003",
+        "tendenze",
+        "quota",
+        "schuler",
+        "buehlmann"
+      ]
+    }
+  },
+  {
+    "id": "p579_c0",
+    "page": 579,
+    "text": "35 Che cosa è la Mass Customization? Mass customization (MC) è definita come la capacità di un’organizzazione di fornire prodotti e servizi customizzati che soddisfano le esigenze idiosincratiche di ciascun cliente senza compromessi considerevoli in termini di costi, consegna e qualità (Suzic et al. (2018), basato su Pine 1993; Liu, Shah, and Schroeder 2006; Squire et al.",
+    "start": 0,
+    "end": 375,
+    "length": 375,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 6.87,
+      "keywords": [
+        "mass",
+        "customization",
+        "1993",
+        "2006",
+        "2018",
+        "cosa",
+        "definita",
+        "come",
+        "capacit",
+        "organizzazione"
+      ]
+    }
+  },
+  {
+    "id": "p580_c0",
+    "page": 580,
+    "text": "Chocomize - Customizzazione artigianale Customizzazione artigianale vs Mass customization Mass Customization",
+    "start": 0,
+    "end": 109,
+    "length": 109,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.54,
+      "keywords": [
+        "customizzazione",
+        "artigianale",
+        "mass",
+        "customization",
+        "chocomize"
+      ]
+    }
+  },
+  {
+    "id": "p581_c0",
+    "page": 581,
+    "text": "Sviluppo dei sistemi di produzione nel tempo e modalità di emergere del produttore MC Diventare produttore MC",
+    "start": 0,
+    "end": 110,
+    "length": 110,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.545,
+      "keywords": [
+        "produttore",
+        "sviluppo",
+        "sistemi",
+        "produzione",
+        "tempo",
+        "modalit",
+        "emergere",
+        "diventare"
+      ]
+    }
+  },
+  {
+    "id": "p582_c0",
+    "page": 582,
+    "text": "The name of the game – Varietà efficiente Diversi modi per superare il compromesso tra prestazioni operative e variabilità del prodotto",
+    "start": 0,
+    "end": 136,
+    "length": 136,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.675,
+      "keywords": [
+        "name",
+        "game",
+        "variet",
+        "efficiente",
+        "diversi",
+        "modi",
+        "superare",
+        "compromesso",
+        "prestazioni",
+        "operative"
+      ]
+    }
+  },
+  {
+    "id": "p583_c0",
+    "page": 583,
+    "text": "Cos'è la mass customization? • Mass customization sfida il presupposto \"taglia unica\" della produzione di massa: 1) Esigenze peculiari dei clienti : l'azienda deve essere in grado di identificare gli attributi del prodotto in cui le esigenze dei clienti divergono 2) Efficienza della produzione di massa - In grado di offrire ai clienti ciò che desiderano, idealmente senza penalità in termini di costi , tempi e qualità - Prezzo, velocità e qualità paragonabili alla produzione di massa 3) Ridurre al minimo la complessità della scelta - supportare ogni cliente nell'identificazione della sua soluzione .",
+    "start": 0,
+    "end": 606,
+    "length": 606,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.025,
+      "keywords": [
+        "della",
+        "produzione",
+        "massa",
+        "clienti",
+        "mass",
+        "customization",
+        "esigenze",
+        "grado",
+        "qualit",
+        "sfida"
+      ]
+    }
+  },
+  {
+    "id": "p584_c0",
+    "page": 584,
+    "text": "Le leve di Mass Customization • I principali leve di MC: • L1 – Standardizzazione delle parti • L2 - Modularità di prodotto • L3 - Piattaforme di prodotto • L4 - Group technology • L5 - Attrezzaggi veloci • L6 - Linee di assemblaggio a modelli misti • L7 - Configuratori del prodotto • L8 - Personalizzazione del prodotto finito al più tardi (Form postponement) • L9 - Virtual build-to-order (VBTO) MC Approccio olistico alla gestione varietà prodotti",
+    "start": 0,
+    "end": 452,
+    "length": 452,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.255,
+      "keywords": [
+        "prodotto",
+        "leve",
+        "mass",
+        "customization",
+        "principali",
+        "standardizzazione",
+        "delle",
+        "parti",
+        "modularit",
+        "piattaforme"
+      ]
+    }
+  },
+  {
+    "id": "p585_c0",
+    "page": 585,
+    "text": "MASS PRODUCTION PRODUZIONE ARTIGIANALE (PERSONALIZZATA) MASS CUSTOMIZATION   Per lavorare su: -Prodotti esistenti -Nuovi prodotti Percorsi verso la personalizzazione di massa e le migliori pratiche MC PRODURRE VENDERE PROGETTARE",
+    "start": 0,
+    "end": 231,
+    "length": 231,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.15,
+      "keywords": [
+        "mass",
+        "prodotti",
+        "production",
+        "produzione",
+        "artigianale",
+        "personalizzata",
+        "customization",
+        "lavorare",
+        "esistenti",
+        "nuovi"
+      ]
+    }
+  },
+  {
+    "id": "p586_c0",
+    "page": 586,
+    "text": "Standardizzazione delle parti L1 Standardizzazione delle parti La standardizzazione delle parti è un approccio di progettazione e produzione in cui due o più componenti diversi di un prodotto o di più prodotti/generazioni di prodotti vengono sostituiti da un componente comune in grado di svolgere le funzioni di tutti i componenti che sostituisce (Suzić, Forza, et al. 2018, 871 based on Perera, Nagarur, and Tabucanon 1999; Swaminathan 2001; Caux, David, and Pierreval 2006).",
+    "start": 0,
+    "end": 478,
+    "length": 478,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.385,
+      "keywords": [
+        "standardizzazione",
+        "delle",
+        "parti",
+        "componenti",
+        "prodotti",
+        "1999",
+        "2001",
+        "2006",
+        "2018",
+        "approccio"
+      ]
+    }
+  },
+  {
+    "id": "p587_c0",
+    "page": 587,
+    "text": "- La standardizzazione delle parti significa aumentare il grado di comunanza di una determinata parte nella gamma di prodotti di un'azienda -Si riferisce a componenti o materiali acquistati e realizzati internamente La varietà del prodotto ( varietà esterna ) porta all'aumento della varietà interna , che si riduce al numero di parti Standardizzazione delle parti L1 Standardizzazione delle parti",
+    "start": 0,
+    "end": 398,
+    "length": 398,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.985,
+      "keywords": [
+        "parti",
+        "standardizzazione",
+        "delle",
+        "variet",
+        "significa",
+        "aumentare",
+        "grado",
+        "comunanza",
+        "determinata",
+        "parte"
+      ]
+    }
+  },
+  {
+    "id": "p589_c0",
+    "page": 589,
+    "text": "Standardizzazione delle parti a posteriori - risultato di una riprogettazione delle parti La standardizzazione delle parti a priori - per l'introduzione di NUOVI PRODOTTI - consente il CARRY OVER del pezzo/i Esempio L1 La situazione prima di standardizzazione delle parti (6 viti) La situazione dopo di standardizzazione delle parti (3 viti) Standardizzazione delle parti",
+    "start": 0,
+    "end": 372,
+    "length": 372,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 1.855,
+      "keywords": [
+        "delle",
+        "parti",
+        "standardizzazione",
+        "situazione",
+        "viti",
+        "posteriori",
+        "risultato",
+        "riprogettazione",
+        "priori",
+        "introduzione"
+      ]
+    }
+  },
+  {
+    "id": "p590_c0",
+    "page": 590,
+    "text": "L1 • I componenti standardizzati sono generalmente meno costosi • Attenuano gli effetti della proliferazione dei prodotti sulla complessità di prodotto e processo (Swaminathan 2001; Heese and Swaminathan 2006) • Riduce le scorte e l'incertezza dei tempi di consegna (Ma, Wang, and Liu 2002; B. Yang, Burns, and Backhouse 2004) • Riduce il livello delle scorte di sicurezza necessarie per soddisfare il livello di servizio (Baker 1985; Hillier 1999; Hillier 2002a; Hillier 2002b) • Riduce i costi di produzione attraverso economie di scala (Fong, Fu, and Li 2004) EFFETTI POSITIVI Standardizzazione delle parti Effetti positivi Livello di servizio - rappresenta la probabilità di non esaurire le scorte e di non perdere vendite.",
+    "start": 0,
+    "end": 728,
+    "length": 728,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.635,
+      "keywords": [
+        "effetti",
+        "riduce",
+        "scorte",
+        "livello",
+        "hillier",
+        "2004",
+        "swaminathan",
+        "delle",
+        "servizio",
+        "positivi"
+      ]
+    }
+  },
+  {
+    "id": "p591_c0",
+    "page": 591,
+    "text": "L1 • riduzione dei costi di ricerca e sviluppo • introduzione più rapida di nuovi prodotti • riduzione dei costi amministrativi grazie al ridotto numero di componenti • consente di \"tirare\" più facilmente i pezzi nell'assemblaggio (invece di ordinarli e attenderli) grazie alla riduzione del numero di tipi di pezzi al livello in cui l'organizzazione della loro produzione può essere commutata sul principio PULL (Anderson, 2004b) Standardizzazione delle parti Effetti EFFETTI POSITIVI",
+    "start": 0,
+    "end": 486,
+    "length": 486,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 10.425,
+      "keywords": [
+        "riduzione",
+        "costi",
+        "grazie",
+        "numero",
+        "pezzi",
+        "effetti",
+        "ricerca",
+        "sviluppo",
+        "introduzione",
+        "rapida"
+      ]
+    }
+  },
+  {
+    "id": "p592_c0",
+    "page": 592,
+    "text": "Potrebbero verificarsi ECCESSIONI DI ABILITÀ/FUNZIONI/CARATTERISTICHE -quando il pezzo viene utilizzato per scopi molto diversi -AUMENTO DEI COSTI -PROGETTAZIONE SUPERIORE Potrebbe fare l'azienda mancare di ADOTTARE MIGLIORI TECNOLOGIE e PERDERE SULLA DIFFERENZIAZIONE PERCEPITA DEL PRODOTTO da parte del cliente=> CANIBALIZZAZIONE DI PRODOTTI DI FASCIA ALTA DA PARTE DI QUELLI DI BASSA FASCIA I costi di progettazione in eccesso , tuttavia, possono essere giustificati a causa dei risparmi economici derivanti dalla riduzione degli investimenti in attrezzature, dalle minori scorte di sicurezza necessarie per garantire un determinato livello di servizio e dalla ridotta complessità degli acquisti, della gestione dei materiali, della garanzia della qualità o del supporto post-vendita.",
+    "start": 0,
+    "end": 788,
+    "length": 788,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 13.935,
+      "keywords": [
+        "della",
+        "costi",
+        "progettazione",
+        "parte",
+        "fascia",
+        "dalla",
+        "degli",
+        "potrebbero",
+        "verificarsi",
+        "eccessioni"
+      ]
+    }
+  },
+  {
+    "id": "p593_c0",
+    "page": 593,
+    "text": "Standardizzazione delle parti: Limitazione quotidiana dell'introduzione di nuove parti Standardizzazione delle parti: razionalizzazione periodica per eliminare le parti non più necessarie Livello di maturità II V 2 1 NESSUNA attenzione viene prestata alla proliferazione di parti da parte di: (1) ingegneri di progettazione / produzione e personale addetto agli acquisti e (2) l'organizzazione Mai fatto 1 L'attenzione alla proliferazione delle parti è prestata da: (1) ingegneri di progettazione / produzione e personale addetto agli acquisti (2a) NESSUNA guida alla standardizzazione delle parti (2b) NESSUN supporto SW per la standardizzazione delle parti Abbiamo standardizzato le parti e abbiamo eliminato le parti non più necessarie MA questa è stata un'iniziativa isolata 2 (1, 2a) Esistono linee guida per la standardizzazione delle parti per ingegneri di progettazione / produzione e personale addetto agli acquisti e vengono applicate IN QUALCHE MODO (2b) NESSUN supporto SW (1) Esiste una procedura sistematica per eliminare le parti non più necessarie E (2) Questa procedura viene eseguita periodicamente su ALCUNE famiglie di parti 3 (1, 2a) Le linee guida per gli ingegneri di progettazione / produzione e il personale addetto agli acquisti esistono e vengono applicate in modo molto RIGOROSO, (2b) È presente un supporto SW (1) ...............",
+    "start": 0,
+    "end": 1359,
+    "length": 1359,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 19.79,
+      "keywords": [
+        "parti",
+        "delle",
+        "standardizzazione",
+        "ingegneri",
+        "progettazione",
+        "produzione",
+        "personale",
+        "addetto",
+        "agli",
+        "acquisti"
+      ]
+    }
+  },
+  {
+    "id": "p594_c0",
+    "page": 594,
+    "text": "Modularità di prodotto L2 Modularità di prodotto Modularizzazione del prodotto è un concetto di progettazione del prodotto in cui i prodotti di una famiglia di prodotti sono suddivisi in moduli di prodotto altamente indipendenti (o debolmente accoppiati) e preferibilmente specifici per funzione con interfacce standardizzate ed elevata combinabilità (Suzić, Forza, et al. 2018, 871 based on Sanchez and Mahoney 1996; Baldwin and Clark 1997; Duray et al. 2000; Schilling 2000; Langlois 2002; Salvador, Forza, and Rungtusanatham 2002b; Hsuan Mikkola and Skjøtt-Larsen 2004; Salvador 2007).",
+    "start": 0,
+    "end": 589,
+    "length": 589,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.9399999999999995,
+      "keywords": [
+        "prodotto",
+        "2000",
+        "modularit",
+        "prodotti",
+        "forza",
+        "salvador",
+        "1996",
+        "1997",
+        "2002",
+        "2004"
+      ]
+    }
+  },
+  {
+    "id": "p595_c0",
+    "page": 595,
+    "text": "Modularità di prodotto L2 • Ciascuna funzione è implementata da un componente distinto dedicato • Interfacce standardizzate • È possibile cambiare qualsiasi componente del prodotto senza dover modificare i componenti che interagiscono con questo • Maggiore efficienza in progettazione, approvvigionamento e produzione Due tipi di design del prodotto: un esempio di trailer Progettazione integrale del prodotto Progettazione modulare del prodotto Funzioni: • aerodinamica • contenimento del car • copertura Modularità di prodotto",
+    "start": 0,
+    "end": 529,
+    "length": 529,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.64,
+      "keywords": [
+        "prodotto",
+        "progettazione",
+        "modularit",
+        "componente",
+        "ciascuna",
+        "funzione",
+        "implementata",
+        "distinto",
+        "dedicato",
+        "interfacce"
+      ]
+    }
+  },
+  {
+    "id": "p596_c0",
+    "page": 596,
+    "text": "Tipi di modularità L2 Modularità di prodotto Kratochvil and Carson (2005) based on Ulrich and Tung (1991)",
+    "start": 0,
+    "end": 106,
+    "length": 106,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.525,
+      "keywords": [
+        "modularit",
+        "1991",
+        "2005",
+        "tipi",
+        "prodotto",
+        "kratochvil",
+        "carson",
+        "based",
+        "ulrich",
+        "tung"
+      ]
+    }
+  },
+  {
+    "id": "p597_c0",
+    "page": 597,
+    "text": "Parti Moduli Prodotti Form postponement (rinvio della forma) Effetti L2 Modularità di prodotto Assembly to order (ATO)",
+    "start": 0,
+    "end": 119,
+    "length": 119,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.59,
+      "keywords": [
+        "parti",
+        "moduli",
+        "prodotti",
+        "form",
+        "postponement",
+        "rinvio",
+        "della",
+        "forma",
+        "effetti",
+        "modularit"
+      ]
+    }
+  }
+]

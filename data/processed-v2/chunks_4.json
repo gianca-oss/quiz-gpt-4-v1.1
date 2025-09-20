@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "p236_c0",
+    "page": 236,
+    "text": "q Facciamo macchine elettriche per uso civile, industriale e marino – motori asincroni e alternatori – fino a 5 MW di potenza q La vera sfida per la nostra supply chain è sincronizzare i flussi a monte e a valle della nostra azienda q Sul piano locale applichiamo il JIT, il lean manufacturing, ecc . e mettiamo ben in tiro i processi q Poi andiamo ad acquistare in Cina e tutto il sistema va in crisi ... CITANDO UN MANAGER...",
+    "start": 0,
+    "end": 428,
+    "length": 428,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.135,
+      "keywords": [
+        "nostra",
+        "facciamo",
+        "macchine",
+        "elettriche",
+        "civile",
+        "industriale",
+        "marino",
+        "motori",
+        "asincroni",
+        "alternatori"
+      ]
+    }
+  },
+  {
+    "id": "p237_c0",
+    "page": 237,
+    "text": "q Supply network globale, tempi lunghi à molte attività “al buio” q Frequenti modifiche dei piani di acquisto, produzione, spedizione Ø Il cliente all’ultimo momento modifica gli ordini rispetto alle previsioni Ø Pianificazione complessa, difficile stimare a priori quantità/tempi per i prodotti nuovi Ø Difficoltà di allineamento con gli altri membri del supply network (“tra ordine e consegna c’è il buio”) I PROBLEMI PER LA PMI DELL’ESEMPIO SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 468,
+    "length": 468,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.335,
+      "keywords": [
+        "supply",
+        "network",
+        "tempi",
+        "buio",
+        "globale",
+        "lunghi",
+        "molte",
+        "attivit",
+        "frequenti",
+        "modifiche"
+      ]
+    }
+  },
+  {
+    "id": "p238_c0",
+    "page": 238,
+    "text": "q Romano, P . e Danese , P . , Supply Chain Management , McGraw - Hill, 2023 ( 3 ed) q Chopra, S . e Meindl , P . , Supply Chain Management : Strategy, Planning and Operation , Prentice Hall, 2019 ( 7 ed) q Simchi - Levi, D . , Kaminsky, P . e Simchi - Levi, E . , Designing and Managing the Supply Chain : Concepts, Strategies, and Case Studies , Irwin McGraw - Hill, 2007 ( 3 ed) q Romano, P . , Gestione dei materiali nelle operations , CEDAM, 2009 q Slack, N . , Brandon - Jones, A . e Johnstron R .",
+    "start": 0,
+    "end": 504,
+    "length": 504,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.515,
+      "keywords": [
+        "supply",
+        "chain",
+        "romano",
+        "management",
+        "mcgraw",
+        "hill",
+        "simchi",
+        "levi",
+        "2007",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "p242_c0",
+    "page": 242,
+    "text": "come il nuovo paradigma per l’industria nell’UE, basato su 3 pilastri: → ridurre l’inquinamento dei processi produttivi e aumentarne la → “maggiore robustezza nella produzione industriale, capace di momenti di crisi” Centralità dell’essere umano → ripensare il ruolo dell’operatore umano all’interno della fabbrica, potenziandolo con nuove tecnologie digitali, con un focus prioritario sul benessere piuttosto che sull’efficienza",
+    "start": 0,
+    "end": 430,
+    "length": 430,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.145,
+      "keywords": [
+        "dell",
+        "umano",
+        "come",
+        "nuovo",
+        "paradigma",
+        "industria",
+        "nell",
+        "basato",
+        "pilastri",
+        "ridurre"
+      ]
+    }
+  },
+  {
+    "id": "p243_c0",
+    "page": 243,
+    "text": "▪ ▪ ▪ L’Europa e l’Italia stanno iniziando ad affrontare • • Aumento dell’età media e degli anni lavorati della popolazione attiva •",
+    "start": 0,
+    "end": 133,
+    "length": 133,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.66,
+      "keywords": [
+        "europa",
+        "italia",
+        "stanno",
+        "iniziando",
+        "affrontare",
+        "aumento",
+        "dell",
+        "media",
+        "degli",
+        "anni"
+      ]
+    }
+  },
+  {
+    "id": "p244_c0",
+    "page": 244,
+    "text": "ruolo dell’operatore umano nell’industria è considerare L’affaticamento fisico L’ è l’utilizzo della propria capacità muscolare sotto sforzo durante l’esecuzione di attività manuali: • • Lo sforzo muscolare dipende da fattori ergonomici e caratteristiche dell’attività da",
+    "start": 0,
+    "end": 272,
+    "length": 272,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.355,
+      "keywords": [
+        "dell",
+        "muscolare",
+        "sforzo",
+        "attivit",
+        "ruolo",
+        "operatore",
+        "umano",
+        "nell",
+        "industria",
+        "considerare"
+      ]
+    }
+  },
+  {
+    "id": "p248_c0",
+    "page": 248,
+    "text": "OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle ➢ ➢ Valutare l’impatto delle operazioni industriali sul benessere fisico di un operatore durante il l’esecuzione del dell’operatore.",
+    "start": 0,
+    "end": 201,
+    "length": 201,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1,
+      "keywords": [
+        "durante",
+        "esecuzione",
+        "delle",
+        "operatore",
+        "obbiettivo",
+        "correlare",
+        "segnali",
+        "acquisiti",
+        "valutare",
+        "impatto"
+      ]
+    }
+  },
+  {
+    "id": "p253_c0",
+    "page": 253,
+    "text": "Ogni antenna e’ in grado di coprire un’area di circa 10 mq L’accuratezza di posizionamento dell’operatore rispetto ad entità nel tempo dall’operatore",
+    "start": 0,
+    "end": 150,
+    "length": 150,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.745,
+      "keywords": [
+        "operatore",
+        "ogni",
+        "antenna",
+        "grado",
+        "coprire",
+        "area",
+        "circa",
+        "accuratezza",
+        "posizionamento",
+        "dell"
+      ]
+    }
+  },
+  {
+    "id": "p255_c0",
+    "page": 255,
+    "text": "Il sistema digitale fornito all’operatore consente di correlare i movimenti dell’operatore alle varie fasi",
+    "start": 0,
+    "end": 107,
+    "length": 107,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.53,
+      "keywords": [
+        "operatore",
+        "sistema",
+        "digitale",
+        "fornito",
+        "consente",
+        "correlare",
+        "movimenti",
+        "dell",
+        "alle",
+        "varie"
+      ]
+    }
+  },
+  {
+    "id": "p266_c0",
+    "page": 266,
+    "text": "Ruolo dell’operatore algoritmi che compongono questa tecnologia, l’operatore deve passare la mano dopo l’esecuzione del compito.",
+    "start": 0,
+    "end": 129,
+    "length": 129,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.64,
+      "keywords": [
+        "operatore",
+        "ruolo",
+        "dell",
+        "algoritmi",
+        "compongono",
+        "questa",
+        "tecnologia",
+        "deve",
+        "passare",
+        "mano"
+      ]
+    }
+  },
+  {
+    "id": "p267_c0",
+    "page": 267,
+    "text": "OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle operazioni i valori di affaticamento dichiarati dall’operatore.",
+    "start": 0,
+    "end": 132,
+    "length": 132,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.655,
+      "keywords": [
+        "obbiettivo",
+        "correlare",
+        "segnali",
+        "acquisiti",
+        "durante",
+        "esecuzione",
+        "delle",
+        "operazioni",
+        "valori",
+        "affaticamento"
+      ]
+    }
+  },
+  {
+    "id": "p268_c0",
+    "page": 268,
+    "text": "FASE DEL PROCESSO PARAMETRI DI MOVIMENTO PARAMETRI FISIOLOGICI STRUMENTI/ COMPONENTI LIVELLI DI AFFATICAMENTO PERCEPITO • dell’operatore • Strumento A Strumento B Strumento C OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle operazioni i valori di affaticamento dichiarati dall’operatore.",
+    "start": 0,
+    "end": 307,
+    "length": 307,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.53,
+      "keywords": [
+        "strumento",
+        "parametri",
+        "affaticamento",
+        "operatore",
+        "fase",
+        "processo",
+        "movimento",
+        "fisiologici",
+        "strumenti",
+        "componenti"
+      ]
+    }
+  },
+  {
+    "id": "p269_c0",
+    "page": 269,
+    "text": "FASE DEL PROCESSO PARAMETRI DI MOVIMENTO PARAMETRI FISIOLOGICI STRUMENTI/ COMPONENTI Chiave dinamometrica Box con dadi Avvitatore L IVELLO DI FATICA PERCEPITA OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle operazioni i valori di affaticamento dichiarati dall’operatore.",
+    "start": 0,
+    "end": 291,
+    "length": 291,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.45,
+      "keywords": [
+        "parametri",
+        "fase",
+        "processo",
+        "movimento",
+        "fisiologici",
+        "strumenti",
+        "componenti",
+        "chiave",
+        "dinamometrica",
+        "dadi"
+      ]
+    }
+  },
+  {
+    "id": "p270_c0",
+    "page": 270,
+    "text": "FASE DEL PROCESSO PARAMETRI DI MOVIMENTO PARAMETRI FISIOLOGICI STRUMENTI/ COMPONENTI Chiave dinamometrica Box con dadi Avvitatore l’andamento L IVELLO DI FATICA PERCEPITA OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle operazioni i valori di affaticamento dichiarati dall’operatore.",
+    "start": 0,
+    "end": 303,
+    "length": 303,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.51,
+      "keywords": [
+        "parametri",
+        "fase",
+        "processo",
+        "movimento",
+        "fisiologici",
+        "strumenti",
+        "componenti",
+        "chiave",
+        "dinamometrica",
+        "dadi"
+      ]
+    }
+  },
+  {
+    "id": "p275_c0",
+    "page": 275,
+    "text": "Grazie per l’attenzione Responsabile del Corso di Laurea Magistrale in Ingegneria Gestionale dell’Università di Trento",
+    "start": 0,
+    "end": 119,
+    "length": 119,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.59,
+      "keywords": [
+        "grazie",
+        "attenzione",
+        "responsabile",
+        "corso",
+        "laurea",
+        "magistrale",
+        "ingegneria",
+        "gestionale",
+        "dell",
+        "universit"
+      ]
+    }
+  },
+  {
+    "id": "p278_c0",
+    "page": 278,
+    "text": "L’esercizio in classe: realizzare un Project Charter “Il project charter è [il processo di sviluppo di] un documento che formalmente autorizza un progetto o una fase e documenta i requisiti iniziali che soddisfano le esigenze e le aspettative degli stakeholder. Stabilisce una partnership tra l'organizzazione esecutrice e il cliente. Il project charter approvato formalmente avvia il progetto.",
+    "start": 0,
+    "end": 395,
+    "length": 395,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.97,
+      "keywords": [
+        "project",
+        "charter",
+        "formalmente",
+        "progetto",
+        "esercizio",
+        "classe",
+        "realizzare",
+        "processo",
+        "sviluppo",
+        "documento"
+      ]
+    }
+  },
+  {
+    "id": "p279_c0",
+    "page": 279,
+    "text": "DOCUMENTO DI SINTESI DEL PROGETTO Contenuto Una possibile checklist ü Obiettivi, limiti, vincoli ü Indicatori di performance (KPI) ü Stakeholder rilevanti ü WBS • risultati attesi (deliverable) • principali attività (work package) ü Budget di massima ü Calendario (schedule ) STRUTTURA DI UN PROJEC CHARTER",
+    "start": 0,
+    "end": 307,
+    "length": 307,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.53,
+      "keywords": [
+        "documento",
+        "sintesi",
+        "progetto",
+        "contenuto",
+        "possibile",
+        "checklist",
+        "obiettivi",
+        "limiti",
+        "vincoli",
+        "indicatori"
+      ]
+    }
+  },
+  {
+    "id": "p280_c0",
+    "page": 280,
+    "text": "Benefici attesi del project charter q Realizzato durante o alla fine dell’ideazione o pianificazione q Accettazione formale (impegno sulle risorse) q Comunicazione (partner, investitori, utenti, ...",
+    "start": 0,
+    "end": 199,
+    "length": 199,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.99,
+      "keywords": [
+        "benefici",
+        "attesi",
+        "project",
+        "charter",
+        "realizzato",
+        "durante",
+        "alla",
+        "fine",
+        "dell",
+        "ideazione"
+      ]
+    }
+  },
+  {
+    "id": "p282_c0",
+    "page": 282,
+    "text": "il nocciolo della questione (HBS, 2004) “. . . a project, namely , a set of activities that (1) aims to produce a unique deliverable (for example , a new commercial airframe ) and (2) is time - bound within clear beginning and ending points ” (PMI, 2013, p. 3) “A project is a temporary endeavor undertaken to create a unique product, service, or result . The temporary nature of projects indicates that a project has a definite beginning and end . The end is reached when the project’s objectives have been achieved or when the project is terminated because its objectives will not or cannot be met , or when the need for the project no longer exists .",
+    "start": 0,
+    "end": 654,
+    "length": 654,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.265,
+      "keywords": [
+        "project",
+        "when",
+        "that",
+        "unique",
+        "beginning",
+        "temporary",
+        "objectives",
+        "2004",
+        "2013",
+        "nocciolo"
+      ]
+    }
+  },
+  {
+    "id": "p283_c0",
+    "page": 283,
+    "text": "Ha una serie di obiettivi stabiliti Ha una durata definita con un inizio e una fine Spesso richiede la partecipazione di tutta l'organizzazione Implica il fare qualcosa che non è mai stato fatto prima Ha requisiti specifici di tempo, costo e performance È fortemente orientato verso gli stakeholder Caratteristiche principali Che cosa è progetto?",
+    "start": 0,
+    "end": 347,
+    "length": 347,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.73,
+      "keywords": [
+        "serie",
+        "obiettivi",
+        "stabiliti",
+        "durata",
+        "definita",
+        "inizio",
+        "fine",
+        "spesso",
+        "richiede",
+        "partecipazione"
+      ]
+    }
+  },
+  {
+    "id": "p284_c0",
+    "page": 284,
+    "text": "Caratteristiche generali dei progetti [1] Comportano il superamento dei confini funzionali/culturali/organizzativi [2] Prospettive: pianificazione e controllo, direzione, motivazione, direzione [3] Soddisfazione degli SH; vincoli e obiettivi tecnici,/economici e temporali [4] Terminati al completamento degli obiettivi di performance O R G A N I Z Z A Z I O N E , M A N A G E M E N T , R I S U L T A T I C O S A S O N O I P R O G E T T I",
+    "start": 0,
+    "end": 439,
+    "length": 439,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.19,
+      "keywords": [
+        "direzione",
+        "degli",
+        "obiettivi",
+        "caratteristiche",
+        "generali",
+        "progetti",
+        "comportano",
+        "superamento",
+        "confini",
+        "funzionali"
+      ]
+    }
+  },
+  {
+    "id": "p285_c0",
+    "page": 285,
+    "text": "Differenze Confronto con i processi P R O D O T T I / P R O C E S S I R I P E T I T I V I Più obiettivi tra loro coerenti Sempre in corso Risorse relativamente omogenee Stabili, per integrare sforzi e attività Certezza su prestazioni, costi, tempi Almeno parte dell'organizzazione è di linea Importanza della prassi consolidata Rafforzano lo status quo P R O G E T T I Un insieme di obiettivi da definire (conflitti) Una sola volta - durata limitata Eterogenei nelle risorse e nelle competenze Necessità di soluzioni per integrare le attività Incertezza su prestazioni, costi, tempi Scarsa organizzazione di linea Violano le pratiche consolidate Sfidano lo status quo I P R O G E T T I S O N O A T T I V I T À U N I C H E",
+    "start": 0,
+    "end": 722,
+    "length": 722,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.605,
+      "keywords": [
+        "obiettivi",
+        "risorse",
+        "integrare",
+        "attivit",
+        "prestazioni",
+        "costi",
+        "tempi",
+        "organizzazione",
+        "linea",
+        "status"
+      ]
+    }
+  },
+  {
+    "id": "p286_c0",
+    "page": 286,
+    "text": "Confronti Lavoro routinario e progetti A t t i v i t à r i p e t i t i v e o d i r o u t i n e Prendere appunti in classe Inserire quotidianamente gli incassi delle vendite nel registro corrispettivi Rispondere a una richiesta di fornitura Esercitarsi con le scale al pianoforte Assemblare un iPod Apple in uno stabilimento di produzione Attaccare le etichette su un prodotto P r o g e t t i Scrivere una tesina Introdurre una soluzione di contabilità analitica o industriale Progettare un sistema di supply chain Scrivere un nuovo pezzo per pianoforte Progettare un iPod di 2x4 pollici, collegabile con PC, con capacità di 10.",
+    "start": 0,
+    "end": 628,
+    "length": 628,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.135,
+      "keywords": [
+        "pianoforte",
+        "ipod",
+        "scrivere",
+        "progettare",
+        "confronti",
+        "lavoro",
+        "routinario",
+        "progetti",
+        "prendere",
+        "appunti"
+      ]
+    }
+  },
+  {
+    "id": "p287_c0",
+    "page": 287,
+    "text": "Dove stanno i progetti Attività sviluppate attraverso una logica di progetto Beni e servizi unici, caratterizzati da un elevato grado di differenziazione delle caratteristiche o delle competenze richieste Settori tipici: grandi edifici e costruzioni, impiantistica; software; servizi personalizzati; consulenza Alcune fasi del ciclo di vita di prodotti o aziende Fasi iniziali del ciclo di vita di un'azienda/prodotto, che comportano trasformazioni significative del business Fasi o attività: progettazione e sviluppo di nuovi beni e servizi",
+    "start": 0,
+    "end": 542,
+    "length": 542,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.705,
+      "keywords": [
+        "servizi",
+        "fasi",
+        "attivit",
+        "beni",
+        "delle",
+        "ciclo",
+        "vita",
+        "dove",
+        "stanno",
+        "progetti"
+      ]
+    }
+  },
+  {
+    "id": "p288_c0",
+    "page": 288,
+    "text": "Questo è il progetto di una casa balloon - frame , una soluzione altamente standardizzata e modulare finalizzata alla realizzazione di edifici residenziali in tempi molto rapidi e con costi molto bassi. Questo design ha un potenziale molto basso di soddisfare bisogni e aspettative, soprattutto se paragonato ad altre soluzioni con maggiore varietà e potenziale di differenziazione. È più simile a un processo ripetitivo di produzione di massa che a un progetto. Ma... Ma... Q U E S T O È U N P R O G E T T O ?",
+    "start": 0,
+    "end": 511,
+    "length": 511,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.55,
+      "keywords": [
+        "molto",
+        "questo",
+        "progetto",
+        "potenziale",
+        "casa",
+        "balloon",
+        "frame",
+        "soluzione",
+        "altamente",
+        "standardizzata"
+      ]
+    }
+  },
+  {
+    "id": "p289_c0",
+    "page": 289,
+    "text": "Budget ($ Milioni) Ore/uomo (migliaia) Piccolo (1 - 10) 24 - 240 Medio (11 - 75) 240 – 1. 200 Grande (80 - 200) 1. 200 – 3. 000 Super (250 - 600) 3. 000 – 6. 000 Mega (1. 000 – 3. 000) 10. 000 – 24.",
+    "start": 0,
+    "end": 199,
+    "length": 199,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 15.99,
+      "keywords": [
+        "budget",
+        "milioni",
+        "uomo",
+        "migliaia",
+        "piccolo",
+        "medio",
+        "grande",
+        "super",
+        "mega"
+      ]
+    }
+  },
+  {
+    "id": "p290_c0",
+    "page": 290,
+    "text": "workstation (Grandi) Progetti Apple’s new iPhone (15,16,17, ... ) The Line – NEOM (Arabia Saudita) Dubai Palm island Brenner Basis Tunnel UK Biobank : IA per prevenzione/diagnosi precoce Los Angeles Olympics 2028 “The Volume” by Lucasfilm (The Mandalorian ) ...",
+    "start": 0,
+    "end": 262,
+    "length": 262,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.305,
+      "keywords": [
+        "2028",
+        "workstation",
+        "grandi",
+        "progetti",
+        "apple",
+        "iphone",
+        "line",
+        "neom",
+        "arabia",
+        "saudita"
+      ]
+    }
+  },
+  {
+    "id": "p292_c0",
+    "page": 292,
+    "text": "PMI COS’È IL PROJECT MANAGEMENT Project management is “the application of knowledge, skills, tools, and techniques to project activities to meet project requirements. ” (PMI, V Edition, 2013, p.",
+    "start": 0,
+    "end": 195,
+    "length": 195,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.97,
+      "keywords": [
+        "project",
+        "management",
+        "2013",
+        "application",
+        "knowledge",
+        "skills",
+        "tools",
+        "techniques",
+        "activities",
+        "meet"
+      ]
+    }
+  },
+  {
+    "id": "p293_c0",
+    "page": 293,
+    "text": "Project Management vs/ Process Management “ Ultimately, the parallels between process and project management give way to a fundamental difference: process management seeks to eliminate variability whereas project management must accept variability because each project is unique ” Elton, J. & Roe, J. (1998) “Bringing Discipline to Project Management”, Harvard Business Review , March - April, pp.",
+    "start": 0,
+    "end": 398,
+    "length": 398,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.985,
+      "keywords": [
+        "management",
+        "project",
+        "process",
+        "variability",
+        "1998",
+        "ultimately",
+        "parallels",
+        "between",
+        "give",
+        "fundamental"
+      ]
+    }
+  },
+  {
+    "id": "p294_c0",
+    "page": 294,
+    "text": "Alcuni esempi di scarsa maturità ü Il 65% dei progetti di sviluppo hardware e/o software fallisce (studio condotto da Peat Marwick su oltre 300 grandi aziende) ü Solo il 2,5% delle aziende globali ha successo nei progetti; oltre il 50% dei progetti aziendali globali fallisce (Price Water House Survey, 2004) ü Il 42% dei progetti di ricostruzione dell'IRAQ è terminato a causa di cattiva gestione (The Special Inspector General for Iraq Reconstruction ) U N R A C C O N T O D I F A L L I M E N T I",
+    "start": 0,
+    "end": 499,
+    "length": 499,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.49,
+      "keywords": [
+        "progetti",
+        "fallisce",
+        "oltre",
+        "aziende",
+        "globali",
+        "iraq",
+        "2004",
+        "alcuni",
+        "esempi",
+        "scarsa"
+      ]
+    }
+  },
+  {
+    "id": "p295_c0",
+    "page": 295,
+    "text": "1994 2009 2010 2011 2012 2013 2014 2015 completati 16% 26% 28% 29% 27% 31% 28% 29% modificati 53% 54% 50% 49% 56% 50% 55% 52% falliti 16% 20% 22% 22% 17% 19% 17% 19% Scarsa performance: alta percentuale di progetti annullati, con budget o piani rivisti; solo un terzo dei progetti realizzati secondo le previsioni di tempo e di budget. Motivi: “requisiti” incompleti (qualità), mancanza di coinvolgimento del cliente, aspettative irrealistiche, pianificazione insufficiente, risorse inadeguate, scarso supporto manageriale, . . .",
+    "start": 0,
+    "end": 530,
+    "length": 530,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 2.645,
+      "keywords": [
+        "progetti",
+        "budget",
+        "1994",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015"
+      ]
+    }
+  },
+  {
+    "id": "p296_c0",
+    "page": 296,
+    "text": "ü Metodologia formale minima ü Stime affidabili ü Legacy e buone pratiche ü Altri criteri: controllo ferquente , pianificazione adeguata, personale competente e la coinvolgimento (ownership) ü Supporto apicale ü Coinvolgimento dei “clienti” ü Manager di progetto esperti ü Obiettivi chiari ü Ambito di attività ridotto al minimo ü Infrastruttura informativa e di comunicazione (non necessariamente digitale) Successo Cosa aiuta il successo nel PM CONDIZIONI DI PROGETTO CONDIZIONI D’IMPRESA PROJECT MANAGEMENT",
+    "start": 0,
+    "end": 510,
+    "length": 510,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.545,
+      "keywords": [
+        "coinvolgimento",
+        "progetto",
+        "successo",
+        "condizioni",
+        "metodologia",
+        "formale",
+        "minima",
+        "stime",
+        "affidabili",
+        "legacy"
+      ]
+    }
+  },
+  {
+    "id": "p297_c0",
+    "page": 297,
+    "text": "METODOLOGIE INTEGRATE E FORMALI q Project Management Institute (PMI, 2008): metodologia di processo strutturata su dieci aree q International Project Management Association (IPMA, 2015): focalizzata su skill e competenze richieste dal PM; q PRINCE2 (OGC, 2009): sviluppata in UK e focalizzata su progetti di information technology q Association of Project Management (APM, 2000): metodologia generalista sviluppata in UK e strutturata su sette aree q Harvard Business School (HBS, 2004): approccio di processo sviluppato ad Harvard, articolato in due fasi: planning e monitoring",
+    "start": 0,
+    "end": 579,
+    "length": 579,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.890000000000001,
+      "keywords": [
+        "project",
+        "management",
+        "metodologia",
+        "processo",
+        "strutturata",
+        "aree",
+        "association",
+        "focalizzata",
+        "sviluppata",
+        "harvard"
+      ]
+    }
+  },
+  {
+    "id": "p299_c0",
+    "page": 299,
+    "text": "QUATTRO CORE, QUATTRO FACILITANTI, UNA INTEGRAZIONE Aree di Project Management Obiettivo principale : trasformare esigenze e aspettative in risultati Quattro funzioni core : Scope , Tempo, Costo, Qualità Quattro funzioni facilitanti : Risorse umane, Rischio, Comunicazione, Approvvigionamento PROJECT MANAGEMENT INSTITUTE",
+    "start": 0,
+    "end": 322,
+    "length": 322,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.605,
+      "keywords": [
+        "quattro",
+        "core",
+        "facilitanti",
+        "project",
+        "management",
+        "funzioni",
+        "integrazione",
+        "aree",
+        "obiettivo",
+        "principale"
+      ]
+    }
+  },
+  {
+    "id": "p300_c0",
+    "page": 300,
+    "text": "Persone: come individui e team Impegnare risorse Comunicare e informare Costruire accordi Valutare rischio e creatività Identificare un obiettivo preciso Definire goal e KPI Identificare i punti di controllo, i costi, le attività e le relazioni Programmare il calendario Attività Attività di un project manager PLANNING MANAGING PROJECT MANAGER Randolph, W . A. & B. Z . Posner (1988) “ What Every Manager Needs To Know About Project Management,” Sloan Management Review , 29, 65 – 73.",
+    "start": 0,
+    "end": 486,
+    "length": 486,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 7.425,
+      "keywords": [
+        "attivit",
+        "project",
+        "manager",
+        "identificare",
+        "management",
+        "1988",
+        "persone",
+        "come",
+        "individui",
+        "team"
+      ]
+    }
+  },
+  {
+    "id": "p301_c0",
+    "page": 301,
+    "text": "DUE MONDI NON SEPARABILI Dimensione tecnica e socioculturale Conoscenza tecnica e di dominio Skills e competenze soft THE PROJECT MANAGEMENT PROCESS",
+    "start": 0,
+    "end": 149,
+    "length": 149,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.74,
+      "keywords": [
+        "tecnica",
+        "mondi",
+        "separabili",
+        "dimensione",
+        "socioculturale",
+        "conoscenza",
+        "dominio",
+        "skills",
+        "competenze",
+        "soft"
+      ]
+    }
+  },
+  {
+    "id": "p303_c0",
+    "page": 303,
+    "text": "Project Life Cycle “the only thing that uniquely distinguishes projects from non - projects” \"La sequenza delle fasi attraverso le quali il progetto si evolve . È assolutamente fondamentale per la gestione dei progetti ... influisce in modo significativo sulla struttura del progetto . Il ciclo di vita di base segue una sequenza generica comune : Opportunità, Progettazione e sviluppo, Produzione, Consegna e Valutazione post - progetto . La formulazione esatta varia a seconda dei settori e delle organizzazioni . Tra una fase e l'altra dovrebbero esserci dei punti di valutazione e di approvazione\" .",
+    "start": 0,
+    "end": 604,
+    "length": 604,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 23.015,
+      "keywords": [
+        "progetto",
+        "projects",
+        "sequenza",
+        "delle",
+        "valutazione",
+        "project",
+        "life",
+        "cycle",
+        "only",
+        "thing"
+      ]
+    }
+  },
+  {
+    "id": "p304_c0",
+    "page": 304,
+    "text": "• No design • No planning • Scarso controllo • Semplice • Rischioso • Costoso Ciclo non formalizzato",
+    "start": 0,
+    "end": 101,
+    "length": 101,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 0.5,
+      "keywords": [
+        "design",
+        "planning",
+        "scarso",
+        "controllo",
+        "semplice",
+        "rischioso",
+        "costoso",
+        "ciclo",
+        "formalizzato"
+      ]
+    }
+  },
+  {
+    "id": "p306_c0",
+    "page": 306,
+    "text": "Fasi del Project Management CONFRONTO CON I LUCIDI PRECEDENT: LA DEFINIZIONE VARIA TRA DOMINI E SETTORI Ideazione Statement iniziale Obiettivi Alternative Pianificazione Piano organizzativo e delle risorse Budget di progetto Scheduling Realizzazione e controllo Report e stato di avanzamento Azioni correttive Metriche : tempo, costi , qualità Chiusura Finalizzazione e documentazione Post mortem e legacy PROJECT LIFE CYCLE",
+    "start": 0,
+    "end": 425,
+    "length": 425,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.12,
+      "keywords": [
+        "project",
+        "fasi",
+        "management",
+        "confronto",
+        "lucidi",
+        "precedent",
+        "definizione",
+        "varia",
+        "domini",
+        "settori"
+      ]
+    }
+  },
+  {
+    "id": "p307_c0",
+    "page": 307,
+    "text": "ESEMPIO: FASI NELLO SVILUPPO DI UN NUOVO PRODOTTO lineare È un processo lineare concept design requirements analysis architecture design prototyping test and launch Come abbiamo visto, le fasi del ciclo di vita di un progetto sono ordinate linearmente e procedono nel tempo secondo un determinato ordine sequenziale.",
+    "start": 0,
+    "end": 317,
+    "length": 317,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": true,
+      "importance": 1.58,
+      "keywords": [
+        "fasi",
+        "lineare",
+        "design",
+        "esempio",
+        "nello",
+        "sviluppo",
+        "nuovo",
+        "prodotto",
+        "processo",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "p308_c0",
+    "page": 308,
+    "text": "Definizione iniziale dell'idea Definizione degli obiettivi e piano preliminare Implementazione e controllo i n corso d'opera • Valutazione Finale Proposta iniziale Pianificazione delle attività e delle risorse Revisione e ridefinizione del progetto Manutenzione e servizi post consegna Fattibilità e valutazioni preliminari identificazione e *scelta d e l l e risorse Accettazione Realizzazione « C o m p e n e",
+    "start": 0,
+    "end": 411,
+    "length": 411,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.05,
+      "keywords": [
+        "definizione",
+        "iniziale",
+        "delle",
+        "risorse",
+        "dell",
+        "idea",
+        "degli",
+        "obiettivi",
+        "piano",
+        "preliminare"
+      ]
+    }
+  },
+  {
+    "id": "p309_c0",
+    "page": 309,
+    "text": "SFORZI E RISORSE SONO CARATTERIZZATI DA UNA DINAMICA LENTO - RAPI DO - LENTO evoluzione Costo, sforzo, intensità di lavoro Inizialmente, le risorse destinate a un progetto tendono a crescere lentamente, fino a quando si assumono decisioni preparatorie e progettuali dominanti Nella fase di pianificazione, l'allocazione delle risorse aumenta molto rapidamente, e il tasso massimo viene raggiunto durante l'esecuzione del progetto Nella fase finale, i costi e le risorse rallentano costantemente fino alla conclusione del progetto THE PROJECT LIFE CYCLE",
+    "start": 0,
+    "end": 553,
+    "length": 553,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.76,
+      "keywords": [
+        "risorse",
+        "progetto",
+        "lento",
+        "fino",
+        "nella",
+        "fase",
+        "sforzi",
+        "sono",
+        "caratterizzati",
+        "dinamica"
+      ]
+    }
+  },
+  {
+    "id": "p311_c0",
+    "page": 311,
+    "text": "iterativo Ha anche aspetti iterativi Molte attività del ciclo di vita del progetto non sono intrinsecamente lineari, ma piuttosto caratterizzate da evoluzione progressiva quindi, le pratiche manageriali devono dare conto di c icli e dinamiche iterative PROJECT LIFE CYCLE engineering stage production stage inception elaboration construction transition idea architecture prototype product ESEMPIO: FASI DELLO SVILUPPO DI UN NUOVO PRODOTTO",
+    "start": 0,
+    "end": 439,
+    "length": 439,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.19,
+      "keywords": [
+        "stage",
+        "iterativo",
+        "anche",
+        "aspetti",
+        "iterativi",
+        "molte",
+        "attivit",
+        "ciclo",
+        "vita",
+        "progetto"
+      ]
+    }
+  },
+  {
+    "id": "p312_c0",
+    "page": 312,
+    "text": "CICLO DI VITA LINEARE CON ITERAZIONI LOCALI Un approccio misto: il modello HBS Ha due vantaggi principali 1. Tiene conto delle iterazioni e degli aggiustamenti che normalmente si verificano nelle fasi di pianificazione e di esecuzione 2. Alla fine di ogni fase, i punti di controllo ( gate ) verificano i risultati parziali e permettono al progetto di passare alla fase successiva ( modello stage/gate ) PROJECT LIFE CYCLE HBS, ed.",
+    "start": 0,
+    "end": 432,
+    "length": 432,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.154999999999999,
+      "keywords": [
+        "iterazioni",
+        "modello",
+        "verificano",
+        "alla",
+        "fase",
+        "gate",
+        "ciclo",
+        "vita",
+        "lineare",
+        "locali"
+      ]
+    }
+  },
+  {
+    "id": "p314_c0",
+    "page": 314,
+    "text": "DOMANDE POSITIVE E NEGATIVE Definire gli obiettivi di progetto Prima di iniziare il progetto, è utile definire chiaramente gli obiettivi del progetto. Cosa deve fare il progetto? Cosa non deve fare il progetto?",
+    "start": 0,
+    "end": 211,
+    "length": 211,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.05,
+      "keywords": [
+        "progetto",
+        "definire",
+        "obiettivi",
+        "cosa",
+        "deve",
+        "fare",
+        "domande",
+        "positive",
+        "negative",
+        "prima"
+      ]
+    }
+  },
+  {
+    "id": "p315_c0",
+    "page": 315,
+    "text": "PMI PM, obiettivi, stakeholder Project Management “... is the application of knowledge, skills, tools and techniques to project activities in order to meet or exceed stakeholders needs and expectations from a project” PMI Body of Knowledge, (PMBOK Guide), 2013, p.",
+    "start": 0,
+    "end": 265,
+    "length": 265,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.32,
+      "keywords": [
+        "project",
+        "knowledge",
+        "2013",
+        "obiettivi",
+        "stakeholder",
+        "management",
+        "application",
+        "skills",
+        "tools",
+        "techniques"
+      ]
+    }
+  },
+  {
+    "id": "p316_c0",
+    "page": 316,
+    "text": "Requisiti : definiscono le caratteristiche dettagliate dei risultati attesi Ambito : definisce i confini del progetto e determina i deliverable del Progetto Goal: definiscono misure di performance del progetto Obiettivi del progetto : legano il progetto agli obiettivi dell'organizzazione A HIERARCHY OF MOTIVATIONS goal Struttura di obiettivi DARE SIGNIFICATO AL PROGETTO Obiettivi Goal Ambito Requisiti",
+    "start": 0,
+    "end": 405,
+    "length": 405,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.02,
+      "keywords": [
+        "progetto",
+        "obiettivi",
+        "goal",
+        "requisiti",
+        "definiscono",
+        "ambito",
+        "caratteristiche",
+        "dettagliate",
+        "risultati",
+        "attesi"
+      ]
+    }
+  },
+  {
+    "id": "p317_c0",
+    "page": 317,
+    "text": "DEVONO ESSERE MISURABILI Goal ü Finalità o scopi finali del progetto, cioè misure oggettive che determinano il successo del progetto ü Spesso determinati dallo sponsor del progetto o dal team ü Non superare e non fissare troppi obiettivi DARE SIGNIFICATO AL PROGETTO",
+    "start": 0,
+    "end": 267,
+    "length": 267,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.33,
+      "keywords": [
+        "progetto",
+        "devono",
+        "essere",
+        "misurabili",
+        "goal",
+        "finalit",
+        "scopi",
+        "finali",
+        "misure",
+        "oggettive"
+      ]
+    }
+  },
+  {
+    "id": "p318_c0",
+    "page": 318,
+    "text": "Renderli SMART CRITERI GENERALI PER IDENTIFICARE I GOAL Specifici : chiari e concisi Misurabili : metriche semplice per capire se l'obiettivo è stato raggiunto . Magari una data, un numero o una formula (ma mantenetela semplice! ) Accettati : i goal devono essere sufficientemente specifici che il team è consapevole di poterli raggiungere Realistici :goal non realistici creano aspettative irrealistiche e rendono il team frustrato o apatico . Time - bound : deve avere un inizio e una fine; se non è possibile stabilire una fine, siete sicuri che stiamo parlando di un lavoro operativo ?",
+    "start": 0,
+    "end": 590,
+    "length": 590,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.945,
+      "keywords": [
+        "goal",
+        "specifici",
+        "semplice",
+        "team",
+        "realistici",
+        "fine",
+        "renderli",
+        "smart",
+        "criteri",
+        "generali"
+      ]
+    }
+  },
+  {
+    "id": "p319_c0",
+    "page": 319,
+    "text": "Misurare e classificare i goal q Iron triangle : tempo, costi, qualità (è la più difficile da misurare) q Ambito e soddisfazione del cliente q ...",
+    "start": 0,
+    "end": 147,
+    "length": 147,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.73,
+      "keywords": [
+        "misurare",
+        "classificare",
+        "goal",
+        "iron",
+        "triangle",
+        "tempo",
+        "costi",
+        "qualit",
+        "difficile",
+        "ambito"
+      ]
+    }
+  }
+]

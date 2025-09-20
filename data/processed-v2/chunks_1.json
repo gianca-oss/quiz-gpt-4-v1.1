@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "p59_c0",
+    "page": 59,
+    "text": "2 ➢ La strategia competitiva ➢ Il processo d’acquisto ➢ I drivers decisionali del Supply Management ➢ L’Analisi strategica del contesto operativo ➢ Principi di valutazione dei fornitori ➢ Supplier Development e Supplier Improvement ➢ Partnership ➢ Principi di Supply Chain Risk Management ➢ Il VMI PROGRAMMA Supply Management",
+    "start": 0,
+    "end": 326,
+    "length": 326,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.625,
+      "keywords": [
+        "supply",
+        "management",
+        "principi",
+        "supplier",
+        "strategia",
+        "competitiva",
+        "processo",
+        "acquisto",
+        "drivers",
+        "decisionali"
+      ]
+    }
+  },
+  {
+    "id": "p60_c0",
+    "page": 60,
+    "text": "3 Schema inerente il paradigma della strategia competitiva CLIENTI CONCORRENZA IMPRESA FORNITORI Ricerca d ella massima differenziazione rispetto alla concorrenza nel soddisfare le esigenze della clientela Tratto da: Albino Russo F.",
+    "start": 0,
+    "end": 233,
+    "length": 233,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.16,
+      "keywords": [
+        "della",
+        "concorrenza",
+        "schema",
+        "inerente",
+        "paradigma",
+        "strategia",
+        "competitiva",
+        "clienti",
+        "impresa",
+        "fornitori"
+      ]
+    }
+  },
+  {
+    "id": "p61_c0",
+    "page": 61,
+    "text": "4 Schema delle cinque forze competitive di Porter (*) (*) Schema tratto, rielaborato ed adattato da : Porter M . E . , 1995 , Il vantaggio competitivo , Ed .",
+    "start": 0,
+    "end": 158,
+    "length": 158,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 0.785,
+      "keywords": [
+        "schema",
+        "porter",
+        "1995",
+        "delle",
+        "cinque",
+        "forze",
+        "competitive",
+        "tratto",
+        "rielaborato",
+        "adattato"
+      ]
+    }
+  },
+  {
+    "id": "p64_c0",
+    "page": 64,
+    "text": "7 DEFINIZIONE DELLE SPECIFICHE START SELEZIONE DEI FORNITORI NEGOZIAZIONE DEI CONTRATTI IL PROCESSO LOGICO DI ACQUISTO Tratto, rielaborato tradotto ed ed adattato da APICS - ASCM – CPIM certification path GESTIONE DEL CICLO DI ACQUISTO GESTIONE DEI CONTRATTI MONITORAGGIO DELLE PERFORMANCES DEI FORNITORI Feedback PIANIFICAZIONE ESECUZIONE CONTROLLO",
+    "start": 0,
+    "end": 350,
+    "length": 350,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 6.745,
+      "keywords": [
+        "delle",
+        "fornitori",
+        "contratti",
+        "acquisto",
+        "gestione",
+        "definizione",
+        "specifiche",
+        "start",
+        "selezione",
+        "negoziazione"
+      ]
+    }
+  },
+  {
+    "id": "p65_c0",
+    "page": 65,
+    "text": "8 REPERIMENTO INFORMAZIONI START RICHIESTA DI OFFERTA (RDO) ANALISI E NEGOZIAZIONE EMISSIONE E GESTIONE DELL’ORDINE EXPEDITING, MONITORAGGIO E SOLLECITO DELL’ORDINE END RICHIESTA DI ACQUISTO RICEVIMENTO FORNITURA PAGAMENTO FATTURE A A IL PROCESSO OPERATIVO DI ACQUISTO Tratto, rielaborato ed adattato da: Albino Russo F. , Panizzolo R.",
+    "start": 0,
+    "end": 336,
+    "length": 336,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.675,
+      "keywords": [
+        "richiesta",
+        "dell",
+        "ordine",
+        "acquisto",
+        "reperimento",
+        "informazioni",
+        "start",
+        "offerta",
+        "analisi",
+        "negoziazione"
+      ]
+    }
+  },
+  {
+    "id": "p67_c0",
+    "page": 67,
+    "text": "10 Le domande fondamentali a cui occorre rispondere quando occorre impostare una supply base efficace ed efficiente possono essere classificate nei seguenti raggruppamenti : 1 ) Quali fornitori? 2 ) Quanti fornitori? 3 ) Dove selezionare i fornitori? 4 ) Quanto tempo deve durare la relazione di fornitura?",
+    "start": 0,
+    "end": 307,
+    "length": 307,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.53,
+      "keywords": [
+        "fornitori",
+        "occorre",
+        "domande",
+        "fondamentali",
+        "rispondere",
+        "quando",
+        "impostare",
+        "supply",
+        "base",
+        "efficace"
+      ]
+    }
+  },
+  {
+    "id": "p68_c0",
+    "page": 68,
+    "text": "11 Conseguentemente le politiche di approvvigionamento dovranno essere impostate tenendo conto : 5 ) Delle tipologie di fornitura 6 ) Delle tipologie di fornitori 7 ) Del ciclo di vita del prodotto I DRIVERS DECISIONALI DEL SUPPLY MANAGEMENT",
+    "start": 0,
+    "end": 242,
+    "length": 242,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.205,
+      "keywords": [
+        "delle",
+        "tipologie",
+        "conseguentemente",
+        "politiche",
+        "approvvigionamento",
+        "dovranno",
+        "essere",
+        "impostate",
+        "tenendo",
+        "conto"
+      ]
+    }
+  },
+  {
+    "id": "p70_c0",
+    "page": 70,
+    "text": "13 2 ) Quanti Fornitori ? I DRIVERS DECISIONALI DEL SUPPLY MANAGEMENT Multiple Sourcing: – Si evita la dipendenza da un solo fornitore – Si opera in un regime di concorrenza tra i fornitori favorendo l’efficienza e l’efficacia – Si mitigano i rischi di supply disruptions – Si aumenta la flessibilità (mix, volumi, etc ....",
+    "start": 0,
+    "end": 324,
+    "length": 324,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.615,
+      "keywords": [
+        "fornitori",
+        "supply",
+        "quanti",
+        "drivers",
+        "decisionali",
+        "management",
+        "multiple",
+        "sourcing",
+        "evita",
+        "dipendenza"
+      ]
+    }
+  },
+  {
+    "id": "p71_c0",
+    "page": 71,
+    "text": "14 3 ) Dove selezionare i fornitori ? I DRIVERS DECISIONALI DEL SUPPLY MANAGEMENT Local Sourcing: – A parità di condizioni di prezzo/prodotto – Quando i costi logistici incidono molto – Quando occorre mantenere un «profilo di rischio basso» – Quando occorrono interazioni frequenti (sviluppo prodotto, etc ....",
+    "start": 0,
+    "end": 311,
+    "length": 311,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.55,
+      "keywords": [
+        "quando",
+        "prodotto",
+        "dove",
+        "selezionare",
+        "fornitori",
+        "drivers",
+        "decisionali",
+        "supply",
+        "management",
+        "local"
+      ]
+    }
+  },
+  {
+    "id": "p74_c0",
+    "page": 74,
+    "text": "17 L’ente preposto agli acquisti deve sempre impostare le proprie attività in modo da gestire al meglio la VALUE CHAIN aziendale L’ANALISI STRATEGICA DEL CONTESTO OPERATIVO",
+    "start": 0,
+    "end": 173,
+    "length": 173,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.86,
+      "keywords": [
+        "ente",
+        "preposto",
+        "agli",
+        "acquisti",
+        "deve",
+        "sempre",
+        "impostare",
+        "proprie",
+        "attivit",
+        "modo"
+      ]
+    }
+  },
+  {
+    "id": "p75_c0",
+    "page": 75,
+    "text": "18 E’ quindi fondamentale essere in grado di valutare strategicamente il contesto operativo in cui si opera e le correlazioni tra le varie strategie aziendali da porre in essere L’ANALISI STRATEGICA DEL CONTESTO OPERATIVO",
+    "start": 0,
+    "end": 222,
+    "length": 222,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 16.105,
+      "keywords": [
+        "essere",
+        "contesto",
+        "operativo",
+        "quindi",
+        "fondamentale",
+        "grado",
+        "valutare",
+        "strategicamente",
+        "opera",
+        "correlazioni"
+      ]
+    }
+  },
+  {
+    "id": "p76_c0",
+    "page": 76,
+    "text": "19 VALUTAZIONE DEL TIPO DI SUPPLY CHAIN IN CUI SI DOVRA’ O SI DEVE OPERARE START VALUTAZIONE E STRUTTURAZIONE DEI PROCESSI OPERATIVI APPLICAZIONE DEGLI STRUMENTI QUANTITATIVI ANALISI DELLE ANAGRAFICHE FORNITORI END A A IL PROCESSO DI ANALISI E VALUTAZIONE STRATEGICA DEL CONTESTO OPERATIVO ANALISI DI PARETO DETERMINAZIONE E CALCOLO DEI “KPI” ANALISI E VALUTAZIONE DELLA REPORTISTICA FINANZIARIA B B APPLICAZIONE DEGLI STRUMENTI QUALITATIVI DETERMINAZIONE DELLA MATRICE DI COMPATIBILITA’ PRODOTTO/SUPPLY CHAIN DETERMINAZIONE DELLA MATRICE DI KRALJIC C C DETERMINAZIONE DELLA MATRICE DELLE MACROAREE DI ACQUISTO DETERMINAZIONE DELLA MATRICE DELLE MACROPOLITICHE DI ACQUISTO QUADRO DI SINTESI GENERALE SINTESI QUANTITATIVA SINTESI QUALITATIVA DETERMINAZIONE DI STRATEGIE, ORIENTAMENTI, DECISIONI E LINEE GUIDA 19",
+    "start": 0,
+    "end": 811,
+    "length": 811,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 4.05,
+      "keywords": [
+        "determinazione",
+        "della",
+        "valutazione",
+        "analisi",
+        "matrice",
+        "delle",
+        "sintesi",
+        "supply",
+        "chain",
+        "applicazione"
+      ]
+    }
+  },
+  {
+    "id": "p77_c0",
+    "page": 77,
+    "text": "20 MATRICE DI COMPATIBILITA’ PRODOTTO/SUPPLY CHAIN PRODOTTO “FUNZIONALE” PRODOTTO “CUSTOMIZZATO” SUPPLY CHAIN EFFICIENTE SUPPLY CHAIN REATTIVA OK OK NO NO Tratto, adattato e tradotto da: What is the right supply chain for your product? - Marshall L.",
+    "start": 0,
+    "end": 250,
+    "length": 250,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.245,
+      "keywords": [
+        "supply",
+        "chain",
+        "prodotto",
+        "matrice",
+        "compatibilita",
+        "funzionale",
+        "customizzato",
+        "efficiente",
+        "reattiva",
+        "tratto"
+      ]
+    }
+  },
+  {
+    "id": "p78_c0",
+    "page": 78,
+    "text": "21 Correlazione tra la strategia di Supply Chain e la strategia Competitiva Aziendale STRATEGIA COMPETITIVA STRATEGIA DI SUPPLY CHAIN STRUTTURA DELLA SUPPLY CHAIN EFFICIENZA REATTIVITA’ TRASPORTI PRODUZIONE LEAD TIME GESTIONE SCORTE ACQUISTI GESTIONE SCORTE TRASPORTI INFORMAZIONI FACILITIES DRIVERS Tratto, adattato e tradotto da: “Supply Chain Management - Strategy, Planning and Operation ” – Sunil Chopra /Peter Meindl - Ed. Prentice Hall – 2001 e da Albino Russo F. , Panizzolo R.",
+    "start": 0,
+    "end": 486,
+    "length": 486,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.425,
+      "keywords": [
+        "strategia",
+        "supply",
+        "chain",
+        "competitiva",
+        "trasporti",
+        "gestione",
+        "scorte",
+        "2001",
+        "correlazione",
+        "aziendale"
+      ]
+    }
+  },
+  {
+    "id": "p79_c0",
+    "page": 79,
+    "text": "22 Spesso all’interno della stessa azienda (o gruppo) possono coesistere differenti Supply Chain e, conseguentemente, possono esistere processi focalizzati su target molto diversi SUPPLY CHAIN EFFICIENTE E SUPPLY CHAIN REATTIVA",
+    "start": 0,
+    "end": 228,
+    "length": 228,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.135,
+      "keywords": [
+        "supply",
+        "chain",
+        "possono",
+        "spesso",
+        "interno",
+        "della",
+        "stessa",
+        "azienda",
+        "gruppo",
+        "coesistere"
+      ]
+    }
+  },
+  {
+    "id": "p80_c0",
+    "page": 80,
+    "text": "23 DIFFERENZE TRA PROCESSO EFFICIENTE E PROCESSO REATTIVO IN OTTICA DI SUPPLY CHAIN PROCESSO EFFICIENTE PROCESSO REATTIVO Scopo primario Domanda di approvvigionamento prevedibile al minor costo possibile Risposte e reazioni rapide nei confronti di una domanda imprevedibile allo scopo di minimizzare giacenze, obsolescenze e perdite di opportunità commerciali Focus della produzione Mantenere un elevato tasso di utilizzo dei mezzi e degli impianti di produzione Predisporre la capacità di generare polmoni (buffer) e di impostare processi produttivi flessibili Strategia di gestione scorte Realizzare un’alta rotazione e minimizzare le scorte attraverso la supply chain Predisporre polmoni (buffer) significativi di prodotti finiti e/o di parti e/o di semilavorati Focus del lead time (tempi di consegna) Accorciare o allungare il lead time in modo da diminuire i costi Investire aggressivamente in modo da ridurre il lead time il più possibile Approccio alla scelta dei fornitori Selezione in base a prezzo e qualità Selezione in base a velocità, flessibilità e qualità Strategia di progettazione del prodotto Massimizzare le performances e minimizzare i costi Utilizzare una progettazione “modulare” in modo da posporre il più possibile la differenziazione di prodotto",
+    "start": 0,
+    "end": 1272,
+    "length": 1272,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.355,
+      "keywords": [
+        "processo",
+        "possibile",
+        "minimizzare",
+        "lead",
+        "time",
+        "modo",
+        "efficiente",
+        "reattivo",
+        "supply",
+        "chain"
+      ]
+    }
+  },
+  {
+    "id": "p81_c0",
+    "page": 81,
+    "text": "24 ANALISI DEL PORTAFOGLIO ACQUISTI Analisi del Portafoglio Acquisti Analisi Quantitativa Analisi Qualitativa Analisi di Posizionamento",
+    "start": 0,
+    "end": 136,
+    "length": 136,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.675,
+      "keywords": [
+        "analisi",
+        "portafoglio",
+        "acquisti",
+        "quantitativa",
+        "qualitativa",
+        "posizionamento"
+      ]
+    }
+  },
+  {
+    "id": "p82_c0",
+    "page": 82,
+    "text": "25 ANALISI DI PARETO Il “ Principio di Pareto o ABC ”, afferma che, considerando grandi numeri, la maggior parte degli effetti è dovuta ad un numero ristretto di cause . Conseguentemente, tramite l’ Analisi di Pareto , è possibile analizzare un insieme di dati in modo da determinare le poche variabili (fra le tante in esame) che influenzano in modo significativo i risultati finali di un determinato fenomeno .",
+    "start": 0,
+    "end": 413,
+    "length": 413,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 10.06,
+      "keywords": [
+        "pareto",
+        "analisi",
+        "modo",
+        "principio",
+        "afferma",
+        "considerando",
+        "grandi",
+        "numeri",
+        "maggior",
+        "parte"
+      ]
+    }
+  },
+  {
+    "id": "p83_c0",
+    "page": 83,
+    "text": "26 ANALISI DI PARETO E’ la rappresentazione in forma grafica degli aspetti prioritari di un problema, quelli su cui cioè, concentrare gli sforzi, che da origine al cosiddetto “Diagramma di Pareto” . La distribuzione dei dati assume la caratteristica denominata “ 80 / 20 ” o “ 60 / 30 / 10 ”, ecc ... . dove si vede che la maggioranza degli effetti e generata da una minoranza di eventi .",
+    "start": 0,
+    "end": 389,
+    "length": 389,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.94,
+      "keywords": [
+        "pareto",
+        "degli",
+        "analisi",
+        "rappresentazione",
+        "forma",
+        "grafica",
+        "aspetti",
+        "prioritari",
+        "problema",
+        "quelli"
+      ]
+    }
+  },
+  {
+    "id": "p85_c0",
+    "page": 85,
+    "text": "28 F O R N IT O R E F A T T U R A T OD I A C Q U IS T O A G G R E G A T ON E LP E R IO D OD I T E M P OT A L F A 1 . 6 0 0 . 0 0 0 ,0 0 B E T A 9 0 0 . 0 0 0 ,0 0 C L A S S EA G A M M A 7 0 0 . 0 0 0 ,0 0 D E L T A 3 0 0 . 0 0 0 ,0 0 E T A 5 0 . 0 0 0 ,0 0 T E T A 4 0 . 0 0 0 ,0 0 IO T A 3 0 . 0 0 0 ,0 0 C L A S S EB P H I 1 5 . 0 0 0 ,0 0 P S I 1 0 . 0 0 0 ,0 0 C H I 5 . 0 0 0 ,0 0 R O 1 . 0 0 0 ,0 0 O M E G A 6 0 0 ,0 0 C L A S S EC O M IC R O N 2 0 0 ,0 0 E N N E S IM O 1 8 0 ,0 0 A L T R I F O R N IT O R I 1 5 0 ,0 0 T O T A L E 3 . 6 5 2 . 1 3 0 ,0 0 DIAGRAMMA DI PARETO O ABC STRUMENTI QUANTITATIVI Tratto da: Albino Russo F. , Panizzolo R.",
+    "start": 0,
+    "end": 653,
+    "length": 653,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.26,
+      "keywords": [
+        "diagramma",
+        "pareto",
+        "strumenti",
+        "quantitativi",
+        "tratto",
+        "albino",
+        "russo",
+        "panizzolo"
+      ]
+    }
+  },
+  {
+    "id": "p86_c0",
+    "page": 86,
+    "text": "29 DIAGRAMMA DI PARETO O ABC ALFA ; 1. 600. 000,00 ; 44% BETA ; 900. 000,00 ; 25% GAMMA ; 700. 000,00 ; 19% DELTA ; 300. 000,00 ; 8% ETA ; 50. 000,00 ; 1,4% TETA ; 40. 000,00 ; 1,1% IOTA ; 30. 000,00 ; 1% PHI ; 15. 000,00 ; 0,4% PSI ; 10. 000,00 ; 0,3% CHI ; 5. 000,00 ; 0,1% RO ; 1. 000,00 ; 0,03% OMEGA ; 600,00 ; 0,02% OMICRON ; 200,00 ; 0,005% ENNESIMO ; 180,00 ; 0,0049% ALTRI FORNITORI ; 150,00 ; 0,004% FATTURATO DI ACQUISTO AGGREGATO NEL PERIODO DI TEMPO T STRUMENTI QUANTITATIVI Tratto da: Albino Russo F. , Panizzolo R.",
+    "start": 0,
+    "end": 530,
+    "length": 530,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.645,
+      "keywords": [
+        "diagramma",
+        "pareto",
+        "alfa",
+        "beta",
+        "gamma",
+        "delta",
+        "teta",
+        "iota",
+        "omega",
+        "omicron"
+      ]
+    }
+  },
+  {
+    "id": "p88_c0",
+    "page": 88,
+    "text": "31 ➢ Numero di fornitori per classe merceologica ➢ Fatturato di acquisto per classe merceologica ➢ Fatturato di acquisto per fornitore (Esempio precedente) ➢ Numero di ordini per fornitore ➢ Numero di ordini per classe merceologica ➢ Numero di richieste di acquisto per classe merceologica ➢ Distribuzione pagamenti per fornitore ➢ Distribuzione di pagamenti per classe merceologica ➢ Altre applicazioni ritenute significative ANALISI DI PARETO STRUMENTI QUANTITATIVI",
+    "start": 0,
+    "end": 468,
+    "length": 468,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.335,
+      "keywords": [
+        "classe",
+        "merceologica",
+        "numero",
+        "acquisto",
+        "fornitore",
+        "fatturato",
+        "ordini",
+        "distribuzione",
+        "pagamenti",
+        "fornitori"
+      ]
+    }
+  },
+  {
+    "id": "p89_c0",
+    "page": 89,
+    "text": "32 INDICATORI DI GESTIONE FORNITORI INDICATORI DI GESTIONE/SODDISFAZIONE CLIENTI INTERNI Entrambe le tipologie saranno esaminate in forma aggregata tramite il raggruppamento dei KPI utili alla gestione delle Operazioni di Acquisto ed al raggruppamento dei KPI utili alla gestione dei fornitori .",
+    "start": 0,
+    "end": 296,
+    "length": 296,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.475,
+      "keywords": [
+        "gestione",
+        "indicatori",
+        "fornitori",
+        "raggruppamento",
+        "utili",
+        "alla",
+        "soddisfazione",
+        "clienti",
+        "interni",
+        "entrambe"
+      ]
+    }
+  },
+  {
+    "id": "p91_c0",
+    "page": 91,
+    "text": "34 LEGENDA : oac : Ordine di acquisto rda : Richiesta di acquisto gg : Giorni KPI CALCOLO DEL KPI MISURA E INTERPRETAZIONE LIVELLO DI SERVIZIO AL CLIENTE INTERNO Σgg. (Data consegna concordata oac – Data consegna richiesta rda) Σnumero righe oac Misura la capacità di soddisfa re le richieste dei clienti interni Più basso è l’indicatore, migliore è la performance TEMPO DI EVASIONE RDA Σgg. (Data oac – Data ricezione rda) Σnumero righe rda Misura il tempo medio di evasione dell e rda Più basso è l’indicatore, migliore è la performance TEMPO DISPONIBILE PER EVASIONE RDA Σgg. (Data consegna richiesta rda – Data ricezione rda) Σnumero righe rda Misura il tempo medio effettivo disponibile per l’evasione delle rda Questo non è un indicatore assoluto, bensì serve per tarare il precedente. SCOSTAMENTO DA BDGT ACQUISTI Σ(Importo riga budget) x (quantità riga oac) Σ(Importo riga oac) x (quantità riga oac) Misura i risparmi con seguiti in base alle rda Più alto è l’indicatore, rispetto al totale di budget, migliore è la performance GRADO DI COPERTURA Valore acquistato a fronte degli accordi stabiliti Valore acquistato totale Misura in che % gli accordi stipula ti coprono le esigenze di acquisto L’ideale è 1. Più basso è l’indicatore, peggiore è la performance ACQUISTI « MAVERICK » Valore acquistato in deroga e regolarizzato Valore acquistato totale Misura in che % gli acquisti vengono gesti ti dall’ente preposto L’ideale è 0.",
+    "start": 0,
+    "end": 1438,
+    "length": 1438,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 12.184999999999999,
+      "keywords": [
+        "misura",
+        "data",
+        "indicatore",
+        "performance",
+        "tempo",
+        "evasione",
+        "riga",
+        "valore",
+        "acquistato",
+        "acquisto"
+      ]
+    }
+  },
+  {
+    "id": "p91_c1",
+    "page": 91,
+    "text": "SCOSTAMENTO DA BDGT ACQUISTI Σ(Importo riga budget) x (quantità riga oac) Σ(Importo riga oac) x (quantità riga oac) Misura i risparmi con seguiti in base alle rda Più alto è l’indicatore, rispetto al totale di budget, migliore è la performance GRADO DI COPERTURA Valore acquistato a fronte degli accordi stabiliti Valore acquistato totale Misura in che % gli accordi stipula ti coprono le esigenze di acquisto L’ideale è 1.  Più basso è l’indicatore, peggiore è la performance ACQUISTI « MAVERICK » Valore acquistato in deroga e regolarizzato Valore acquistato totale Misura in che % gli acquisti vengono gesti ti dall’ente preposto L’ideale è 0. Più basso è l’indicatore, migliore è la performance ESPOSIZIONE FORNITORI Termine medio di pagamento nei confronti dei fornitori Misura il tempo medio di pagamento nei confronti dei fornitori Più alto è l’indicat ore, migliore è la performance GRADO DI INNOVAZIONE PARCO FORNITORI N° fornitori nuovi N° fornitori totali Misura il grado di innovazione del parco fornitori Un’innovaz ione totale del parco fornitori non è necessariamente indicatore di qualità EVOLUZIONE PARCO FORNITORI ( N° fornitori alla data X - N° fornitori alla data X – 1) N° fornitori alla data X - 1 Misura l’evoluzione quantitativa d el parco fornitori Il numero ideale di fornitori non esiste in senso assoluto, ma dipende dai contesti * 100 * 100 * 100 * 100 KPI INERENTI LE OPERAZIONI DI ACQUISTO Tratto da: Albino Russo F. , Panizzolo R.",
+    "start": 1148,
+    "end": 2611,
+    "length": 1463,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 22.31,
+      "keywords": [
+        "fornitori",
+        "misura",
+        "parco",
+        "riga",
+        "indicatore",
+        "totale",
+        "performance",
+        "valore",
+        "acquistato",
+        "acquisti"
+      ]
+    }
+  },
+  {
+    "id": "p92_c0",
+    "page": 92,
+    "text": "35 KPI CALCOLO DEL KPI MISURA E INTERPRETAZIONE GR ADO DI COERENZA DELLA ESPOSIZIONE FORNITORI Termine medio di pagamento nei confronti dei fornitori Termine benchmark di pagamento nei confronti dei fornitori Misura il grado di conformità dei termini di pagamento nei confronti dei fornitori , in funzione di un benchmark Più alt o è l’indicatore, migli ore è la performance KPI INERENTI LE OPERAZIONI DI ACQUISTO Tratto da: Albino Russo F. , Panizzolo R.",
+    "start": 0,
+    "end": 456,
+    "length": 456,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.275,
+      "keywords": [
+        "fornitori",
+        "pagamento",
+        "confronti",
+        "misura",
+        "termine",
+        "benchmark",
+        "calcolo",
+        "interpretazione",
+        "coerenza",
+        "della"
+      ]
+    }
+  },
+  {
+    "id": "p93_c0",
+    "page": 93,
+    "text": "36 REPORTISTICA FINANZIARIA La reportistica finanziaria tipicamente utilizzata per effettuare questo tipo di analisi consiste, a titolo indicativo e non esaustivo, nei seguenti documenti : STRUMENTI QUANTITATIVI",
+    "start": 0,
+    "end": 212,
+    "length": 212,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.055,
+      "keywords": [
+        "reportistica",
+        "finanziaria",
+        "tipicamente",
+        "utilizzata",
+        "effettuare",
+        "questo",
+        "tipo",
+        "analisi",
+        "consiste",
+        "titolo"
+      ]
+    }
+  },
+  {
+    "id": "p94_c0",
+    "page": 94,
+    "text": "37 REPORTISTICA FINANZIARIA ➢ Budget acquisti e vendite ➢ Forecast acquisti e vendite ➢ Cash Flow ➢ Medie di pagamento fornitori, espresse in giorni e valore, suddivise per classi merceologiche, fornitori, ecc ... ➢ Eventuali bilanci di fornitori e specifici KPIs ➢ Piani di delocalizzazione, riorganizzazione, investimento, ecc ...",
+    "start": 0,
+    "end": 333,
+    "length": 333,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.66,
+      "keywords": [
+        "fornitori",
+        "acquisti",
+        "vendite",
+        "reportistica",
+        "finanziaria",
+        "budget",
+        "forecast",
+        "cash",
+        "flow",
+        "medie"
+      ]
+    }
+  },
+  {
+    "id": "p95_c0",
+    "page": 95,
+    "text": "38 REPORTISTICA FINANZIARIA La reportistica finanziaria si avvale inoltre di una serie di KPI specifici, che risultano utili sia per comprendere lo stato finanziario del fornitore esaminato, sia della propria azienda : STRUMENTI QUANTITATIVI",
+    "start": 0,
+    "end": 242,
+    "length": 242,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.205,
+      "keywords": [
+        "reportistica",
+        "finanziaria",
+        "avvale",
+        "inoltre",
+        "serie",
+        "specifici",
+        "risultano",
+        "utili",
+        "comprendere",
+        "stato"
+      ]
+    }
+  },
+  {
+    "id": "p96_c0",
+    "page": 96,
+    "text": "39 INDICATORI ECONOMICO/FINANZIARI Questa tipologia di indicatori risulta particolarmente utile nella valutazione della solidità finanziaria dei fornitori e della loro capacità di sostenere il business .",
+    "start": 0,
+    "end": 204,
+    "length": 204,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.015,
+      "keywords": [
+        "indicatori",
+        "della",
+        "economico",
+        "finanziari",
+        "questa",
+        "tipologia",
+        "risulta",
+        "particolarmente",
+        "utile",
+        "nella"
+      ]
+    }
+  },
+  {
+    "id": "p97_c0",
+    "page": 97,
+    "text": "40 LIQUIDITY RATIOS Tali indicatori permettono di comprendere il livello di liquidità (o di cassa che dir si voglia) che il fornitore ha a disposizione. I principali indicatori utilizzabili sono i seguenti: Quick Ratio Tale indicatore è conosciuto anche come Acid Ratio o Acid Test Liquidità (cash) + Attività + Crediti a breve ed a lungo termine _________________________________________________________________________________________________________________ Passività a breve ed a lungo termine Generalmente, in ambito industriale, tale indicatore dovrebbe assumere un valore compreso tra 0,9 e 1. Valori inferiori indicano problemi di cash flow mentre, valori superiori, indicano problemi di “asset management”.",
+    "start": 0,
+    "end": 716,
+    "length": 716,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": true,
+      "importance": 8.575,
+      "keywords": [
+        "indicatori",
+        "liquidit",
+        "ratio",
+        "tale",
+        "indicatore",
+        "acid",
+        "cash",
+        "breve",
+        "lungo",
+        "termine"
+      ]
+    }
+  },
+  {
+    "id": "p98_c0",
+    "page": 98,
+    "text": "41 ACTIVITY RATIOS Tali indicatori permettono di comprendere il livello di “impieghi” e di immobilizzi del fornitore. I principali indicatori utilizzabili sono i seguenti: Inventory Turns Costo del venduto ___________________________________________________________________________ Scorta media nel periodo di riferimento Più il valore è elevato, migliore è l’indicazione che se ne trae.",
+    "start": 0,
+    "end": 388,
+    "length": 388,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.935,
+      "keywords": [
+        "indicatori",
+        "activity",
+        "ratios",
+        "tali",
+        "permettono",
+        "comprendere",
+        "livello",
+        "impieghi",
+        "immobilizzi",
+        "fornitore"
+      ]
+    }
+  },
+  {
+    "id": "p99_c0",
+    "page": 99,
+    "text": "42 PROFITABILITY RATIOS Tali indicatori permettono di comprendere se l’attività svolta dal fornitore è profittevole. I principali indicatori utilizzabili sono i seguenti: Return On Sales (ROS) Risultato netto ___________________________________________________________________________ Vendite Più il valore è elevato, migliore è l’indicazione che se ne trae.",
+    "start": 0,
+    "end": 359,
+    "length": 359,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.79,
+      "keywords": [
+        "indicatori",
+        "profitability",
+        "ratios",
+        "tali",
+        "permettono",
+        "comprendere",
+        "attivit",
+        "svolta",
+        "fornitore",
+        "profittevole"
+      ]
+    }
+  },
+  {
+    "id": "p100_c0",
+    "page": 100,
+    "text": "43 DEBT RATIOS Tali indicatori permettono di comprendere il rapporto tra debiti e capitale proprio del fornitore ed anche se riesce a pagare gli interessi. I principali indicatori utilizzabili sono i seguenti: Debt to Equity Passività totali ______________________________________ Equity Più il valore è elevato, più il fornitore è esposto a rischi finanziari a lungo termine.",
+    "start": 0,
+    "end": 377,
+    "length": 377,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 1.88,
+      "keywords": [
+        "debt",
+        "indicatori",
+        "fornitore",
+        "equity",
+        "ratios",
+        "tali",
+        "permettono",
+        "comprendere",
+        "rapporto",
+        "debiti"
+      ]
+    }
+  },
+  {
+    "id": "p101_c0",
+    "page": 101,
+    "text": "44 DEBT RATIOS Interest coverage Risultato operativo ____________________________________________ Spese per interessi Misure la capacità di pagare le spese per gli interessi ed il suo valore dovrebbe essere maggiore di 3.",
+    "start": 0,
+    "end": 222,
+    "length": 222,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.105,
+      "keywords": [
+        "spese",
+        "interessi",
+        "debt",
+        "ratios",
+        "interest",
+        "coverage",
+        "risultato",
+        "operativo",
+        "____________________________________________",
+        "misure"
+      ]
+    }
+  },
+  {
+    "id": "p103_c0",
+    "page": 103,
+    "text": "46 ANAGRAFICHE FORNITORI Le anagrafiche fornitori sono dei documenti, non necessariamente cartacei, in cui sono riportate tutte le informazioni generali e peculiari dei fornitori quali, a titolo indicativo e non esaustivo : STRUMENTI QUANTITATIVI",
+    "start": 0,
+    "end": 247,
+    "length": 247,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.23,
+      "keywords": [
+        "fornitori",
+        "anagrafiche",
+        "sono",
+        "documenti",
+        "necessariamente",
+        "cartacei",
+        "riportate",
+        "tutte",
+        "informazioni",
+        "generali"
+      ]
+    }
+  },
+  {
+    "id": "p104_c0",
+    "page": 104,
+    "text": "47 ANAGRAFICHE FORNITORI ➢ Ragione Sociale, indirizzo, recapiti vari e personale di contatto/management ➢ Fatturato di acquisto ➢ Fatturato generale del fornitore esaminato ➢ Classi merceologiche trattate ➢ Eventuali rating/ranking e valutazioni qualitative ➢ KPI specifici del fornitore ➢ Altre informazioni ritenute sensibili ( attrezzature,personale , certificazioni, altri clienti forniti, ecc ...",
+    "start": 0,
+    "end": 402,
+    "length": 402,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.005,
+      "keywords": [
+        "personale",
+        "fatturato",
+        "fornitore",
+        "anagrafiche",
+        "fornitori",
+        "ragione",
+        "sociale",
+        "indirizzo",
+        "recapiti",
+        "vari"
+      ]
+    }
+  },
+  {
+    "id": "p105_c0",
+    "page": 105,
+    "text": "48 Matrice di Kraljic ALTA REPERIBILITA’ BASSA REPERIBILITA’ ALTA IMPORTANZA ACQUISTI DI LEVA Enfasi sulla competitività Negoziazione Controllo economico ACQUISTI STRATEGICI Enfasi sulla integrazione Garanzia di approvvigionamento Contratti a lungo termine Relazioni di partnership Controllo economico BASSA IMPORTANZA ACQUISTI NON CRITICI Enfasi sulla ottimizzazione Comparazione economica Ottimizzazione della gestione ACQUISTI COLLI DI BOTTIGLIA Enfasi sulla stabilità Garanzia di approvvigionamento Contratti a lungo termine STRUMENTI QUALITATIVI Tratto da: Albino Russo F. , Panizzolo R.",
+    "start": 0,
+    "end": 593,
+    "length": 593,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.96,
+      "keywords": [
+        "acquisti",
+        "enfasi",
+        "sulla",
+        "alta",
+        "reperibilita",
+        "bassa",
+        "importanza",
+        "controllo",
+        "economico",
+        "garanzia"
+      ]
+    }
+  },
+  {
+    "id": "p107_c0",
+    "page": 107,
+    "text": "50 50 A prescindere dalla sterminata bibliografia in merito, tutti i metodi ed i sistemi di valutazione rientrano nelle seguenti tipologie : VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 167,
+    "length": 167,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 0.83,
+      "keywords": [
+        "valutazione",
+        "prescindere",
+        "dalla",
+        "sterminata",
+        "bibliografia",
+        "merito",
+        "tutti",
+        "metodi",
+        "sistemi",
+        "rientrano"
+      ]
+    }
+  },
+  {
+    "id": "p108_c0",
+    "page": 108,
+    "text": "51 Metodi e sistemi di valutazione delle POTENZIALITA’ del fornitore, detti anche metodi e sistemi di valutazione EX ANTE 51 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 151,
+    "length": 151,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.75,
+      "keywords": [
+        "valutazione",
+        "metodi",
+        "sistemi",
+        "delle",
+        "potenzialita",
+        "fornitore",
+        "detti",
+        "anche",
+        "ante",
+        "fornitori"
+      ]
+    }
+  },
+  {
+    "id": "p109_c0",
+    "page": 109,
+    "text": "52 Metodi e sistemi di valutazione delle PERFORMANCES/PRESTAZIONI del fornitore, detti anche metodi e sistemi di valutazione EX POST 52 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 162,
+    "length": 162,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.805,
+      "keywords": [
+        "valutazione",
+        "metodi",
+        "sistemi",
+        "delle",
+        "performances",
+        "prestazioni",
+        "fornitore",
+        "detti",
+        "anche",
+        "post"
+      ]
+    }
+  },
+  {
+    "id": "p110_c0",
+    "page": 110,
+    "text": "53 Per la qualificazione dei fornitori (attività ex ante) è quindi indispensabile definire i parametri e le condizioni di base e fondamentali per il successo dell’azienda, da cui i fornitori stessi assolutamente non possono prescindere 53 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 265,
+    "length": 265,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.32,
+      "keywords": [
+        "fornitori",
+        "qualificazione",
+        "attivit",
+        "ante",
+        "quindi",
+        "indispensabile",
+        "definire",
+        "parametri",
+        "condizioni",
+        "base"
+      ]
+    }
+  },
+  {
+    "id": "p111_c0",
+    "page": 111,
+    "text": "54 Da cui generalmente discende un’intensa attività di estensione di check list, documentazione da richiedere, reperire, analizzare e compilare e di visite di auditing presso i potenziali fornitori stessi 54 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 234,
+    "length": 234,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.165,
+      "keywords": [
+        "fornitori",
+        "generalmente",
+        "discende",
+        "intensa",
+        "attivit",
+        "estensione",
+        "check",
+        "list",
+        "documentazione",
+        "richiedere"
+      ]
+    }
+  },
+  {
+    "id": "p112_c0",
+    "page": 112,
+    "text": "55 Dopodichè occorre confermare l’eventuale valutazione positiva del fornitore potenziale tramite fasi pilota e ordini di prova, fino ad arrivare alla valutazione vera e propria delle forniture effettive 55 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 233,
+    "length": 233,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.16,
+      "keywords": [
+        "valutazione",
+        "dopodich",
+        "occorre",
+        "confermare",
+        "eventuale",
+        "positiva",
+        "fornitore",
+        "potenziale",
+        "tramite",
+        "fasi"
+      ]
+    }
+  },
+  {
+    "id": "p113_c0",
+    "page": 113,
+    "text": "56 Fatto questo che richiede la necessità dell’implementazione di un sistema di valutazione delle performances del fornitore (ex post) 56 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 164,
+    "length": 164,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.815,
+      "keywords": [
+        "valutazione",
+        "fatto",
+        "questo",
+        "richiede",
+        "necessit",
+        "dell",
+        "implementazione",
+        "sistema",
+        "delle",
+        "performances"
+      ]
+    }
+  },
+  {
+    "id": "p114_c0",
+    "page": 114,
+    "text": "57 Ragionando in ottica di processo, l’esperienza e le “best practices” hanno dimostrato che la soluzione migliore consiste nell’implementazione di sistemi di valutazione integrata 57 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 210,
+    "length": 210,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.045,
+      "keywords": [
+        "valutazione",
+        "ragionando",
+        "ottica",
+        "processo",
+        "esperienza",
+        "best",
+        "practices",
+        "hanno",
+        "dimostrato",
+        "soluzione"
+      ]
+    }
+  },
+  {
+    "id": "p115_c0",
+    "page": 115,
+    "text": "58 I sistemi di valutazione integrata si fondano sul principio che la parte di qualificazione rappresenta, in caso di accettazione preliminare nel parco fornitori del fornitore di interesse, la base “ex ante” della valutazione, 58 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 257,
+    "length": 257,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 9.28,
+      "keywords": [
+        "valutazione",
+        "fornitori",
+        "sistemi",
+        "integrata",
+        "fondano",
+        "principio",
+        "parte",
+        "qualificazione",
+        "rappresenta",
+        "caso"
+      ]
+    }
+  },
+  {
+    "id": "p116_c0",
+    "page": 116,
+    "text": "59 che è sicuramente fondamentale per essere presi in considerazione all’interno del parco fornitori stesso, ma che non è assolutamente sufficiente per restarci, a meno di valutazioni positive delle performances (ex post) 59 VALUTAZIONE DEI FORNITORI",
+    "start": 0,
+    "end": 251,
+    "length": 251,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 16.25,
+      "keywords": [
+        "fornitori",
+        "sicuramente",
+        "fondamentale",
+        "essere",
+        "presi",
+        "considerazione",
+        "interno",
+        "parco",
+        "stesso",
+        "assolutamente"
+      ]
+    }
+  },
+  {
+    "id": "p117_c0",
+    "page": 117,
+    "text": "60 STRUTTURA DI UN SISTEMA DI VALUTAZIONE INTEGRATO Un efficace sistema di valutazione dei fornitori è bene che risulti strutturato in funzione dei seguenti steps : 1 ) Definizione del perimetro di valutazione ; 2 ) Definizione degli indici di valutazione ; 3 ) Definizione della metodologia di valutazione ; 4 ) Rating, ovvero definizione dei criteri per l’attribuzione dei punteggi agli indici di valutazione ; 5 ) Ranking, ovvero definizione dei criteri per la classificazione finale .",
+    "start": 0,
+    "end": 489,
+    "length": 489,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 7.4399999999999995,
+      "keywords": [
+        "valutazione",
+        "definizione",
+        "sistema",
+        "indici",
+        "ovvero",
+        "criteri",
+        "struttura",
+        "integrato",
+        "efficace",
+        "fornitori"
+      ]
+    }
+  },
+  {
+    "id": "p119_c0",
+    "page": 119,
+    "text": "62 Le attività di Supplier Development si basano sul relativo deployment , il quale è un processo atto a creare e rendere operativa una struttura interfunzionale avente lo specifico scopo di seguire e gestire lo sviluppo dei fornitori in tutte le loro peculiarità ed in tutti i loro aspetti ritenuti essenziali per la riuscita del prodotto finale SUPPLIER DEVELOPMENT E SUPPLIER IMPROVEMENT",
+    "start": 0,
+    "end": 391,
+    "length": 391,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.95,
+      "keywords": [
+        "supplier",
+        "development",
+        "loro",
+        "attivit",
+        "basano",
+        "relativo",
+        "deployment",
+        "quale",
+        "processo",
+        "atto"
+      ]
+    }
+  }
+]

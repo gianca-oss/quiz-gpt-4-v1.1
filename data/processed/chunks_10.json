@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p581_c0",
+    "page": 581,
+    "text": "Sviluppo dei sistemi di produzione nel tempo e modalità di emergere del produttore MC Diventare produttore MC",
+    "start": 0,
+    "end": 109,
+    "length": 109,
+    "hash": "4oxd93"
+  },
+  {
+    "id": "p582_c0",
+    "page": 582,
+    "text": "The name of the game – Varietà efficiente Diversi modi per superare il compromesso tra prestazioni operative e variabilità del prodotto",
+    "start": 0,
+    "end": 135,
+    "length": 135,
+    "hash": "6lmr4p"
+  },
+  {
+    "id": "p583_c0",
+    "page": 583,
+    "text": "Cos'è la mass customization? • Mass customization sfida il presupposto \"taglia unica\" della produzione di massa: 1) Esigenze peculiari dei clienti : l'azienda deve essere in grado di identificare gli attributi del prodotto in cui le esigenze dei clienti divergono 2) Efficienza della produzione di massa - In grado di offrire ai clienti ciò che desiderano, idealmente senza penalità in termini di costi , tempi e qualità - Prezzo, velocità e qualità paragonabili alla produzione di massa 3) Ridurre al minimo la complessità della scelta - supportare ogni cliente nell'identificazione della sua soluzione . Semplificazione del processo di navigazione dell'assortimento prodotti dell'azienda • TUTTAVIA adattarsi perfettamente a queste condizioni non è realistico e possiamo parlare di un continuum tra produzione di massa e mass customization MC",
+    "start": 0,
+    "end": 844,
+    "length": 844,
+    "hash": "2f7an2"
+  },
+  {
+    "id": "p584_c0",
+    "page": 584,
+    "text": "Le leve di Mass Customization • I principali leve di MC: • L1 – Standardizzazione delle parti • L2 - Modularità di prodotto • L3 - Piattaforme di prodotto • L4 - Group technology • L5 - Attrezzaggi veloci • L6 - Linee di assemblaggio a modelli misti • L7 - Configuratori del prodotto • L8 - Personalizzazione del prodotto finito al più tardi (Form postponement) • L9 - Virtual build-to-order (VBTO) MC Approccio olistico alla gestione varietà prodotti",
+    "start": 0,
+    "end": 451,
+    "length": 451,
+    "hash": "m30725"
+  },
+  {
+    "id": "p585_c0",
+    "page": 585,
+    "text": "MASS PRODUCTION PRODUZIONE ARTIGIANALE (PERSONALIZZATA) MASS CUSTOMIZATION   Per lavorare su: -Prodotti esistenti -Nuovi prodotti Percorsi verso la personalizzazione di massa e le migliori pratiche MC PRODURRE VENDERE PROGETTARE",
+    "start": 0,
+    "end": 230,
+    "length": 230,
+    "hash": "mtmn3s"
+  },
+  {
+    "id": "p586_c0",
+    "page": 586,
+    "text": "Standardizzazione delle parti L1 Standardizzazione delle parti La standardizzazione delle parti è un approccio di progettazione e produzione in cui due o più componenti diversi di un prodotto o di più prodotti/generazioni di prodotti vengono sostituiti da un componente comune in grado di svolgere le funzioni di tutti i componenti che sostituisce (Suzić, Forza, et al. 2018, 871 based on Perera, Nagarur, and Tabucanon 1999; Swaminathan 2001; Caux, David, and Pierreval 2006).",
+    "start": 0,
+    "end": 477,
+    "length": 477,
+    "hash": "7ffo0l"
+  },
+  {
+    "id": "p587_c0",
+    "page": 587,
+    "text": "- La standardizzazione delle parti significa aumentare il grado di comunanza di una determinata parte nella gamma di prodotti di un'azienda -Si riferisce a componenti o materiali acquistati e realizzati internamente La varietà del prodotto ( varietà esterna ) porta all'aumento della varietà interna , che si riduce al numero di parti Standardizzazione delle parti L1 Standardizzazione delle parti",
+    "start": 0,
+    "end": 397,
+    "length": 397,
+    "hash": "6eal2u"
+  },
+  {
+    "id": "p588_c0",
+    "page": 588,
+    "text": "Perché si verifica la proliferazione di parti/componenti? EFFETTO POSITIVO Leva 2 – Standardizzazione delle parti L1 • Incrementano le economie di scala • Standardizzazione di parti, componenti e processi • All'interno di un prodotto • In diversi prodotti PROLIFERAZIONE COMPONENTI METODI DI PROGETTAZIONE NON NORMALIZZATI BISOGNI CLIENTI DIFFERENZIATI CAMBIAMENTO COMPONENTI D’ACQUISTO IDEE CREATIVE O NECESSITÀ DEL MARKETING PRESSIONE DISTRIBUZIONE REGOLAMENTAZIONI CAMBIAMENTO FORNITORE O MOLTEPLICI FORNITORI DIFFERENZE FRA STABILIMENTI Standardizzazione delle parti",
+    "start": 0,
+    "end": 570,
+    "length": 570,
+    "hash": "dslhae"
+  },
+  {
+    "id": "p589_c0",
+    "page": 589,
+    "text": "Standardizzazione delle parti a posteriori - risultato di una riprogettazione delle parti La standardizzazione delle parti a priori - per l'introduzione di NUOVI PRODOTTI - consente il CARRY OVER del pezzo/i Esempio L1 La situazione prima di standardizzazione delle parti (6 viti) La situazione dopo di standardizzazione delle parti (3 viti) Standardizzazione delle parti",
+    "start": 0,
+    "end": 371,
+    "length": 371,
+    "hash": "1mlp77"
+  },
+  {
+    "id": "p590_c0",
+    "page": 590,
+    "text": "L1 • I componenti standardizzati sono generalmente meno costosi • Attenuano gli effetti della proliferazione dei prodotti sulla complessità di prodotto e processo (Swaminathan 2001; Heese and Swaminathan 2006) • Riduce le scorte e l'incertezza dei tempi di consegna (Ma, Wang, and Liu 2002; B. Yang, Burns, and Backhouse 2004) • Riduce il livello delle scorte di sicurezza necessarie per soddisfare il livello di servizio (Baker 1985; Hillier 1999; Hillier 2002a; Hillier 2002b) • Riduce i costi di produzione attraverso economie di scala (Fong, Fu, and Li 2004) EFFETTI POSITIVI Standardizzazione delle parti Effetti positivi Livello di servizio - rappresenta la probabilità di non esaurire le scorte e di non perdere vendite.",
+    "start": 0,
+    "end": 727,
+    "length": 727,
+    "hash": "rjuqev"
+  },
+  {
+    "id": "p591_c0",
+    "page": 591,
+    "text": "L1 • riduzione dei costi di ricerca e sviluppo • introduzione più rapida di nuovi prodotti • riduzione dei costi amministrativi grazie al ridotto numero di componenti • consente di \"tirare\" più facilmente i pezzi nell'assemblaggio (invece di ordinarli e attenderli) grazie alla riduzione del numero di tipi di pezzi al livello in cui l'organizzazione della loro produzione può essere commutata sul principio PULL (Anderson, 2004b) Standardizzazione delle parti Effetti EFFETTI POSITIVI",
+    "start": 0,
+    "end": 485,
+    "length": 485,
+    "hash": "aibfve"
+  },
+  {
+    "id": "p592_c0",
+    "page": 592,
+    "text": "Potrebbero verificarsi ECCESSIONI DI ABILITÀ/FUNZIONI/CARATTERISTICHE -quando il pezzo viene utilizzato per scopi molto diversi -AUMENTO DEI COSTI -PROGETTAZIONE SUPERIORE Potrebbe fare l'azienda mancare di ADOTTARE MIGLIORI TECNOLOGIE e PERDERE SULLA DIFFERENZIAZIONE PERCEPITA DEL PRODOTTO da parte del cliente=> CANIBALIZZAZIONE DI PRODOTTI DI FASCIA ALTA DA PARTE DI QUELLI DI BASSA FASCIA I costi di progettazione in eccesso , tuttavia, possono essere giustificati a causa dei risparmi economici derivanti dalla riduzione degli investimenti in attrezzature, dalle minori scorte di sicurezza necessarie per garantire un determinato livello di servizio e dalla ridotta complessità degli acquisti, della gestione dei materiali, della garanzia della qualità o del supporto post-vendita. Possibili EFFETTI NEGATIVI Effetti L1 Standardizzazione delle parti",
+    "start": 0,
+    "end": 855,
+    "length": 855,
+    "hash": "gwxjgh"
+  },
+  {
+    "id": "p593_c0",
+    "page": 593,
+    "text": "Standardizzazione delle parti: Limitazione quotidiana dell'introduzione di nuove parti Standardizzazione delle parti: razionalizzazione periodica per eliminare le parti non più necessarie Livello di maturità II V 2 1 NESSUNA attenzione viene prestata alla proliferazione di parti da parte di: (1) ingegneri di progettazione / produzione e personale addetto agli acquisti e (2) l'organizzazione Mai fatto 1 L'attenzione alla proliferazione delle parti è prestata da: (1) ingegneri di progettazione / produzione e personale addetto agli acquisti (2a) NESSUNA guida alla standardizzazione delle parti (2b) NESSUN supporto SW per la standardizzazione delle parti Abbiamo standardizzato le parti e abbiamo eliminato le parti non più necessarie MA questa è stata un'iniziativa isolata 2 (1, 2a) Esistono linee guida per la standardizzazione delle parti per ingegneri di progettazione / produzione e personale addetto agli acquisti e vengono applicate IN QUALCHE MODO (2b) NESSUN supporto SW (1) Esiste una procedura sistematica per eliminare le parti non più necessarie E (2) Questa procedura viene eseguita periodicamente su ALCUNE famiglie di parti 3 (1, 2a) Le linee guida per gli ingegneri di progettazione / produzione e il personale addetto agli acquisti esistono e vengono applicate in modo molto RIGOROSO, (2b) È presente un supporto SW (1) ...............",
+    "start": 0,
+    "end": 1358,
+    "length": 1358,
+    "hash": "7kdz1s"
+  },
+  {
+    "id": "p593_c1",
+    "page": 593,
+    "text": "GOROSO, (2b) È presente un supporto SW (1) ............... E (2) Questa procedura viene eseguita periodicamente su TUTTE le famiglie di parti 4 Standardizzazione delle parti – livello di maturità L1 Standardizzazione delle parti",
+    "start": 1300,
+    "end": 1528,
+    "length": 228,
+    "hash": "3eh0ou"
+  },
+  {
+    "id": "p594_c0",
+    "page": 594,
+    "text": "Modularità di prodotto L2 Modularità di prodotto Modularizzazione del prodotto è un concetto di progettazione del prodotto in cui i prodotti di una famiglia di prodotti sono suddivisi in moduli di prodotto altamente indipendenti (o debolmente accoppiati) e preferibilmente specifici per funzione con interfacce standardizzate ed elevata combinabilità (Suzić, Forza, et al. 2018, 871 based on Sanchez and Mahoney 1996; Baldwin and Clark 1997; Duray et al. 2000; Schilling 2000; Langlois 2002; Salvador, Forza, and Rungtusanatham 2002b; Hsuan Mikkola and Skjøtt-Larsen 2004; Salvador 2007).",
+    "start": 0,
+    "end": 588,
+    "length": 588,
+    "hash": "n6rsgm"
+  },
+  {
+    "id": "p595_c0",
+    "page": 595,
+    "text": "Modularità di prodotto L2 • Ciascuna funzione è implementata da un componente distinto dedicato • Interfacce standardizzate • È possibile cambiare qualsiasi componente del prodotto senza dover modificare i componenti che interagiscono con questo • Maggiore efficienza in progettazione, approvvigionamento e produzione Due tipi di design del prodotto: un esempio di trailer Progettazione integrale del prodotto Progettazione modulare del prodotto Funzioni: • aerodinamica • contenimento del car • copertura Modularità di prodotto",
+    "start": 0,
+    "end": 528,
+    "length": 528,
+    "hash": "wmzdkl"
+  },
+  {
+    "id": "p596_c0",
+    "page": 596,
+    "text": "Tipi di modularità L2 Modularità di prodotto Kratochvil and Carson (2005) based on Ulrich and Tung (1991)",
+    "start": 0,
+    "end": 105,
+    "length": 105,
+    "hash": "bxtcxc"
+  },
+  {
+    "id": "p597_c0",
+    "page": 597,
+    "text": "Parti Moduli Prodotti Form postponement (rinvio della forma) Effetti L2 Modularità di prodotto Assembly to order (ATO)",
+    "start": 0,
+    "end": 118,
+    "length": 118,
+    "hash": "q65pyo"
+  },
+  {
+    "id": "p598_c0",
+    "page": 598,
+    "text": "Fotocopiatrici Xerox Esempio di aggiornamento del prodotto (può essere applicato a generazioni di prodotti) Esempi L2 Modularità di prodotto",
+    "start": 0,
+    "end": 140,
+    "length": 140,
+    "hash": "rcvkf3"
+  },
+  {
+    "id": "p599_c0",
+    "page": 599,
+    "text": "Modularizzazione della cabina del camion – Scania (Sweden) (Nilsson, 2010) Esempi L2 Operations",
+    "start": 0,
+    "end": 95,
+    "length": 95,
+    "hash": "36p5if"
+  },
+  {
+    "id": "p601_c0",
+    "page": 601,
+    "text": "• Riduce la varietà dei componenti aumentando il numero di varianti del prodotto finale senza incorrere in un impatto negativo sostanziale sulle prestazioni operative (Duray et al. 2000; Salvador, Forza, and Rungtusanatham 2002) • Le attività di progettazione e le attività di configurazione del prodotto sono facilitate una volta che un prodotto è stato modularizzato (Salvador, Forza, and Rungtusanatham 2002) • È possibile apportare modifiche a qualsiasi dato componente del prodotto senza dover modificare quelli interagenti • Maggiore efficienza nella progettazione, approvvigionamento e produzione • La modularizzazione del prodotto porta, attraverso la condivisione dei moduli, i vantaggi della standardizzazione delle parti EFFETTI POSITIVI Effetti L2 Modularità di prodotto",
+    "start": 0,
+    "end": 782,
+    "length": 782,
+    "hash": "i5ttpo"
+  },
+  {
+    "id": "p602_c0",
+    "page": 602,
+    "text": "• Sulle prestazioni legate alle proprietà DIMENSIONE, FORMA, MASSA e MATERIALE del prodotto (moduli aggiungono a questi) • l'applicazione eccessiva del metodo di modularizzazione può portare ad un aumento indesiderato del prezzo dei prodotti stessi (Krishnapillai & Zeid, 2006) • I concorrenti possono eseguire più facilmente il REVERSE- ENGINEERING del prodotto poiché tutte le funzioni sono chiaramente separate EFFETTI NEGATIVI Effetti L2 Modularità di prodotto",
+    "start": 0,
+    "end": 464,
+    "length": 464,
+    "hash": "9tkbzb"
+  },
+  {
+    "id": "p603_c0",
+    "page": 603,
+    "text": "Modularità di prodotto – livello maturità L2 Modularità di prodotto Modularizzazione del prodotto Livello di maturità II V 6 Nessuna modularizzazione 1 (1) In ALCUNE delle nostre famiglie di prodotti, tutti i prodotti sono stati pensati in modo tale che ciascuna funzione del prodotto sia eseguita da un blocco specifico (modulo) e non sia eseguita attraverso l'interazione di più blocchi 2 (1) Abbiamo progettato TUTTE le nostre famiglie di prodotti in modo modulare: abbiamo famiglie di moduli (ogni funzione è svolta da un solo modulo) con interfacce standardizzate 3 (1) ............... E (2) I nostri moduli possono avere una durata maggiore rispetto alle singole famiglie di prodotti (esistono piattaforme di prodotto) 4",
+    "start": 0,
+    "end": 726,
+    "length": 726,
+    "hash": "6h1ui2"
+  },
+  {
+    "id": "p604_c0",
+    "page": 604,
+    "text": "• TRADIZIONALMENTE - sviluppo di un prodotto alla volta => mancanza di comunanza tra diversi prodotti • PUÒ SUCCEDERE che prodotti diversi utilizzino materiali diversi per gli stessi scopi o abbiano componenti con le stesse specifiche tecniche ma dimensioni diverse , per cui tali componenti non possono essere scambiati Piattaforme di prodotto L3 Piattaforme di prodotto",
+    "start": 0,
+    "end": 371,
+    "length": 371,
+    "hash": "6hydxe"
+  },
+  {
+    "id": "p605_c0",
+    "page": 605,
+    "text": "Piattaforme di prodotto L3 Lo sviluppo della piattaforma di prodotto si riferisce alla definizione di un insieme di parametri di progettazione (caratteristiche, componenti, ecc.) che formano una struttura comune da cui è possibile sviluppare e produrre in modo efficiente un flusso di prodotti derivati (famiglie di prodotti) (Suzić, Forza, et al. 2018, 871 based on Meyer and Lehnerd (1997); Robertson and Ulrich (1998); Gonzalez-Zugasti, Otto, and Baker (2000); Simpson, Maier, and Mistree (2001); Simpson (2004)) Product platform development",
+    "start": 0,
+    "end": 544,
+    "length": 544,
+    "hash": "8hhzfm"
+  },
+  {
+    "id": "p606_c0",
+    "page": 606,
+    "text": "Piattaforme di prodotto Piattaforme di prodotto L3 Due tipi di design del prodotto: un esempio di trailer Progettazione integrale del prodotto Progettazione modulare del prodotto",
+    "start": 0,
+    "end": 178,
+    "length": 178,
+    "hash": "6qiv7t"
+  },
+  {
+    "id": "p607_c0",
+    "page": 607,
+    "text": "Piattaforme di prodotto L3 • Simultaneo sviluppo di una intera famiglia di prodotti che • risponde ad un insieme di bisogni di mercato correlati • hanno la potenzialità di condividere componenti, interfacce tra componenti, e processi di produzione • Alcuni modelli progettati subito (con piattaforma) - altri progettati successivamente Platform DeskJet 600 Ext. Better colour quality DeskJet 540C Deskwriter 540C Deskwriter 600C Deskwriter 660C Platform DeskJt 800 Ext. Get into small business market e DeskJet 850C DeskJet 855C DeskJet 500C Deskwriter 500C Ext. Color print Ext. Two jets Black, colour DeskJet 550C Deskwriter 550C Deskwriter 550C -Postscript DeskJet 510C Deskwriter 510C Ext. Portable printers DeskJet 300 Japan version DeskJet 300 DeskJet 340c Ext. Production process improvement , DeskJet 560C Deskwriter 560C DeskJet 520C Deskwriter 520C DeskJet DeskJet Plus Deskwriter (Macintosh) Deskwriter Appletalk DeskJet 500 Platform DeskJet 500 time Piattaforme di prodotto",
+    "start": 0,
+    "end": 985,
+    "length": 985,
+    "hash": "vidl0y"
+  },
+  {
+    "id": "p608_c0",
+    "page": 608,
+    "text": "Utilizzo della piattaforma di prodotto per sfruttare i segmenti di mercato L3 Piattaforme di prodotto Diverse strategie di piattaforma di prodotto Product Family Strategy and Platform Design Optimzation (de Weck,Suh and Chang, 2004)",
+    "start": 0,
+    "end": 232,
+    "length": 232,
+    "hash": "vwfule"
+  },
+  {
+    "id": "p609_c0",
+    "page": 609,
+    "text": "Famiglie dei prodotti L3 Piattaforme di prodotto • Due tipi base di famiglie di prodotti 1) Famiglie di prodotti modulari (configurabili) - in cui i singoli prodotti vengono creati aggiungendo, modificando e/o rimuovendo uno o più moduli funzionali dalla piattaforma 2) Famiglie di prodotti scalabili (parametriche) in cui il ridimensionamento di determinate dimensioni variabili viene utilizzato per \"allungare\" (aumentare le dimensioni) o \"ridurre\" (ridurre le dimensioni) la piattaforma e quindi soddisfare le esigenze di diverse nicchie di mercato • Essiste anche approccio combinato (F. Fogliatto, 2011) Famiglia di prodotti Sony – basata sulla piattaforma modulare di prodotti Famiglia di prodotti Boeing – basata sulla piattaforma scalabile di prodotti",
+    "start": 0,
+    "end": 759,
+    "length": 759,
+    "hash": "rhhpu1"
+  },
+  {
+    "id": "p610_c0",
+    "page": 610,
+    "text": "Famiglia di prodotti di fotocamere Kodak Esempi L3 Piattaforme di prodotto",
+    "start": 0,
+    "end": 74,
+    "length": 74,
+    "hash": "rsq0ck"
+  },
+  {
+    "id": "p611_c0",
+    "page": 611,
+    "text": "Famiglia di prodotti (utensili elettrici Black e Decker) Esempi L3 Piattaforme di prodotto",
+    "start": 0,
+    "end": 90,
+    "length": 90,
+    "hash": "7z5qsn"
+  },
+  {
+    "id": "p612_c0",
+    "page": 612,
+    "text": "Mappa della piattaforma di prodotto dei prodotti Gillette Esempi L3 Piattaforme di prodotto",
+    "start": 0,
+    "end": 91,
+    "length": 91,
+    "hash": "7zo976"
+  },
+  {
+    "id": "p613_c0",
+    "page": 613,
+    "text": "Piattaforma di prodotti VW (usata in VW Golf, VW Bora, VW New Beattle, Audi A3, Audi TT, Škoda Octavia etc. (Harlou, 2006) Esempi L3 Piattaforme di prodotto",
+    "start": 0,
+    "end": 156,
+    "length": 156,
+    "hash": "h8ssy8"
+  },
+  {
+    "id": "p614_c0",
+    "page": 614,
+    "text": "• Utilizzo investimenti per tempi lunghi • Favorisce curva apprendimento • Quindi SISTEMI DI INCENTIVAZIONE per sviluppatori di prodotti che li premiano in base alle PERFORMANCE DELL'INTERA FAMIGLIA DI PRODOTTI non dei singoli prodotti • Maggiore qualità e maggiore producibilità • Porta EFFETTI DELLA STANDARDIZZAZIONE DELLE PARTI EFFETTI POSITIVI • Il design della piattaforma può allungare il TIME-TO-MARKET per i primi prodotti, ma poi ALTRI PRODOTTI DERIVATI hanno un vantaggio • Potrebbe portare al CANNIBALISMO di prodotti di fascia alta EFFETTI NEGATIVI Effetti L3 Piattaforme di prodotto",
+    "start": 0,
+    "end": 596,
+    "length": 596,
+    "hash": "8l0or6"
+  },
+  {
+    "id": "p615_c0",
+    "page": 615,
+    "text": "Piattaforme di prodotto – livello maturità L3 Spazio prodotto organizzato in famiglie di prodotti chiaramente distinte Livello di maturità II V 5 I prodotti non sono raggruppati in famiglie di prodotti 1 (1) UNA PORZIONE dell'assortimento di prodotti è composta da prodotti raggruppati in famiglie di prodotti in base alle somiglianze nelle funzioni del prodotto e nei processi di produzione relativi al prodotto (2) Ma il modo in cui si ottiene il clustering NON è GUIDATO dalle procedure di progettazione 2 (1) UNA PORZIONE CONSIDEREVOLE dell'assortimento di prodotti è ... idem ... (2) Il modo in cui si ottiene il clustering è GUIDATO da procedure di progettazione (3) La distinzione tra famiglie di prodotti è buona, ma può ancora essere notevolmente migliorata 3 (1) L'INTERO assortimento di prodotti è ... idem ... (2) ... idem ... e queste procedure di progettazione sono PROFONDAMENTE ASSORBITE dall'intera organizzazione (3) Le famiglie di prodotti sono CHIARAMENTE DISTINTE e non si sovrappongono 4 Piattaforme di prodotto",
+    "start": 0,
+    "end": 1033,
+    "length": 1033,
+    "hash": "h34v9j"
+  },
+  {
+    "id": "p616_c0",
+    "page": 616,
+    "text": "Group technology L4 Group technology Group technology è un approccio di progettazione, produzione e organizzazione utilizzato per gestire la diversità attraverso un raggruppamento basato sulla similarità di parti, prodotti e attività di progettazione/produzione (Suzić, Forza, et al. 2018, 871 based on Kusiak 1987; Burbidge 1992; Wemmerlov and Johnson 1997; Selim, Askin, and Vakharia 1998; Xu, Zhang, and Huang 2014)",
+    "start": 0,
+    "end": 418,
+    "length": 418,
+    "hash": "zvji0"
+  },
+  {
+    "id": "p617_c0",
+    "page": 617,
+    "text": "Group technology L4 Raggruppamento parti in base alla loro forma Raggruppamento macchine in base a parti processate invece che in base a operazione eseguite Cell #1 Cell #2 Cell #3 • Filosofia generale che propone il sistematico riconoscimento e sfruttamento delle similarità • Possono esistere somiglianze tra le parti, i cicli di produzione, i processi decisionali e così via • Può essere applicata entrambi • in produzione (celle) • in progettazione • Riduzione del numero di diversi parti da processare in ciascuna postazione di lavoro Group technology",
+    "start": 0,
+    "end": 556,
+    "length": 556,
+    "hash": "1snhnm"
+  },
+  {
+    "id": "p618_c0",
+    "page": 618,
+    "text": "Group technology L4 Assunzione della tecnologia di gruppo: Se simili per forma e materiale, c'è un'alta probabilità che i loro processi siano simili Group technology",
+    "start": 0,
+    "end": 165,
+    "length": 165,
+    "hash": "8rqp5e"
+  },
+  {
+    "id": "p619_c0",
+    "page": 619,
+    "text": "1937 Sokolovskiy (URSS) - descritto le principali caratteristiche della Group technology 1959 Mitrofanov (URSS) - ha pubblicato un libro “Scientific principles of group technology” IN RISULTATO: Entro il 1965 - 800 fabbriche in URSS usato Group technology 1960 Opitz (W. Germany) - svilupto “Part classification and coding system” per pezzi lavorati Storia di group technology L4 Group technology",
+    "start": 0,
+    "end": 396,
+    "length": 396,
+    "hash": "enxpr9"
+  },
+  {
+    "id": "p620_c0",
+    "page": 620,
+    "text": "Effetti Le caratteristiche strutturali del sistema produttivo Layout e flusso dei materiali L4 Layout per processo  Layout a celle Layout a celle Operazioni Operazioni per famiglie di parti In più macchinari sono equipaggiati con accessori progettati per famiglie di parti. Quindi non è necessario il tempo di set-up con cambio di ogni tipo di parte Group technology",
+    "start": 0,
+    "end": 367,
+    "length": 367,
+    "hash": "wwc8bu"
+  },
+  {
+    "id": "p621_c0",
+    "page": 621,
+    "text": "Come si applica? Le caratteristiche strutturali del sistema produttivo Layout e flusso dei materiali L4 In progettazione - Classification and coding system Per poter applicare GT, è necessario CONSERVARE E RECUPERARE EFFICIENTEMENTE le informazioni sul prodotto e/o sul processo => ottenuto dal SISTEMA DI CLASSIFICAZIONE E CODIFICA  Layout a celle Group technology",
+    "start": 0,
+    "end": 366,
+    "length": 366,
+    "hash": "uu59yc"
+  },
+  {
+    "id": "p622_c0",
+    "page": 622,
+    "text": "Come si applica? Le caratteristiche strutturali del sistema produttivo Layout e flusso dei materiali L4  Layout a celle Parte complesso Parte complesso PC Group technology",
+    "start": 0,
+    "end": 172,
+    "length": 172,
+    "hash": "s2hzek"
+  },
+  {
+    "id": "p623_c0",
+    "page": 623,
+    "text": "Come si applica? Le caratteristiche strutturali del sistema produttivo Layout e flusso dei materiali L4  Layout a celle Pezzo complesso Group technology",
+    "start": 0,
+    "end": 153,
+    "length": 153,
+    "hash": "qws0sk"
+  },
+  {
+    "id": "p624_c0",
+    "page": 624,
+    "text": "Questi strumenti di classificazione consentono la classificazione delle parti in gruppi in base alle loro somiglianze e la CODIFICA in modo che il recupero delle informazioni sia più semplice • GT evita di creare nuove parti se esiste già una parte simile in produzione • Rende più BREVE lo sviluppo di nuovi prodotti • RIDUCE la varietà dei pezzi da gestire => MENO CAMBI, MENO STRUMENTI, MENO SCORTE e così via • GT potrebbe ostacolare l'INNOVAZIONE di prodotti e processi EFFETTI POSITIVI EFFETTI NEGATIVI Nella progettazione Effetti L4 Group technology",
+    "start": 0,
+    "end": 556,
+    "length": 556,
+    "hash": "ky9h49"
+  },
+  {
+    "id": "p625_c0",
+    "page": 625,
+    "text": "Layout per reparti GT nella produzione L4 Group technology",
+    "start": 0,
+    "end": 58,
+    "length": 58,
+    "hash": "nlyqcv"
+  },
+  {
+    "id": "p626_c0",
+    "page": 626,
+    "text": "GT nella produzione Layout e flusso dei materiali  Layout a celle L4 T 1 F 1 T 2 P 1 T 3 P 2 F 2 F 3 T 4 P 3 R 1 R 2 F 4 P 4 R 3 R 4 T 1 F 1 T 2 P 1 T 3 P 2 F 2 F 3 T 4 P 3 R 1 R 2 F 4 P 4 R 3 R 4 Layout a celle – i pezzi di una famiglia passano solamente per la cella dedicata Group technology",
+    "start": 0,
+    "end": 295,
+    "length": 295,
+    "hash": "k6byl2"
+  },
+  {
+    "id": "p627_c0",
+    "page": 627,
+    "text": "Cell layout dei flussi di materiale Nella produzione GT nella produzione L4 -Raggruppamento in famiglie di parti che hanno requisiti di lavorazione simili (OPERAZIONI, TOLLERANZE, UTENSILI e così via) - Una cella di produzione è un gruppo di macchine o processi dissimili che si trovano nelle immediate vicinanze e sono dedicati alla produzione di una famiglia di parti - Gli operatori nelle celle sono esperti nel lavoro di squadra e sono formati in modo incrociato (c ross- trained ) in modo che possano spostarsi tra le stazioni e risolvere i problemi Group technology",
+    "start": 0,
+    "end": 571,
+    "length": 571,
+    "hash": "5hnvus"
+  },
+  {
+    "id": "p628_c0",
+    "page": 628,
+    "text": " La cella di produzione è EFFICIENTE e FLESSIBILE allo stesso tempo  Rispetto ai JOB SHOPS => meno riatrezzaggi (riduzione dei tempi di attrezzaggio), semplificazione dei flussi di materiale (riduzione dei tempi di trasferimento), operazioni di sovrapposizione (riduzione dei tempi di esecuzione)  DIMINUZIONE DEI TEMPI DI REALIZZAZIONE, DIMINUZIONE DELLE MAGAZZINI IN CORSO  MIGLIORE SODDISFAZIONE SUL LAVORO DEGLI OPERATORI, SEMPLIFICAZIONE DELLA PIANIFICAZIONE E CONTROLLO e MIGLIORE QUALITÀ DEI PEZZI EFFETTI POSITIVI  duplicazione della macchina , necessità di nuovi strumenti e attrezzature, costi di formazione, salari dell'operatore più elevati, perdita di produzione durante l'implementazione EFFETTI NEGATIVI Nella produzione Effetti L4 Group technology",
+    "start": 0,
+    "end": 768,
+    "length": 768,
+    "hash": "yj1qjm"
+  },
+  {
+    "id": "p629_c0",
+    "page": 629,
+    "text": "Group technology – livello maturità L4 Modularità di prodotto Tempi di attrezzaggio bassi e costantemente ridotti Stabilimento con disposizione di macchine operatrici e stazioni di assemblaggio tale da massimizzare la velocità di attraversamento e l'efficienza della lavorazione di famiglie di pezzi e di prodotti Raggruppamento di parti in famiglie di parti tramite un sistema di classificazione basato sulla somiglianza Livello di maturità II V 8 7 4 Non abbiamo una visione chiara dei tempi di riattrezzaggio perché non li abbiamo mai considerati Le macchine sono raggruppate nello stabilimento in base alla loro somiglianza funzionale Le parti non sono raggruppate in famiglie utilizzando criteri di classificazione basati sulla somiglianza (forma, dimensioni e materiali, e quindi processi di produzione) 1 (1) I tempi di riattrezzaggio sono MOLTO LUNGHI E (2) Non vengono applicate riduzioni sistematiche dei tempi di riattrezzaggio (1) I macchinari di fabbricazione e le stazioni di assemblaggio sono in grado di produrre parti / prodotti diversi (all'interno di una famiglia) con un'efficienza simile E (2) I macchinari di fabbricazione e le stazioni di assemblaggio sono raggruppati in base alle famiglie di parti / prodotti a cui sono dedicati (1) Le parti SONO raggruppate in famiglie utilizzando criteri di classificazione basati sulla somiglianza (forma, dimensione e materiali, e quindi processi di produzione), (2) I criteri utilizzati NON SONO FORMALIZZATI e coincidono con l'esperien",
+    "start": 0,
+    "end": 1500,
+    "length": 1500,
+    "hash": "d2aomg"
+  },
+  {
+    "id": "p629_c1",
+    "page": 629,
+    "text": "izzando criteri di classificazione basati sulla somiglianza (forma, dimensione e materiali, e quindi processi di produzione), (2) I criteri utilizzati NON SONO FORMALIZZATI e coincidono con l'esperienza degli ingegneri di produzione e progettazione 2 (1) I tempi di riattrezzaggio NON SONO NÉ LUNGHI NÉ BREVI E (2) Le riduzioni dei tempi di riattrezzaggio del processo sono ottenute mediante analisi continue e modifiche apportate a: tecnologia utilizzata (utilizzo di macchine con tempi di attrezzaggio ridotti, dispositivi di fissaggio, ausili di posizionamento, strumenti standardizzati, ecc.) E organizzazione (standardizzazione di procedura di set-up, utilizzo di set-up offline, ecc.) OPPURE mediante applicazione di strumenti speciali (dedicati a famiglie di parti e / o famiglie di prodotti) (1) ............... E (2) ............... E (3) Il posizionamento e l'organizzazione dei macchinari di fabbricazione e delle stazioni di assemblaggio riduce al minimo il tempo impiegato da parti e prodotti per attraversarli (1) ............... E (2) Le famiglie di parti sono formate attraverso un sistema di classificazione MANUALE FORMALIZZATO e strutturato 3 (1) I tempi di riattrezzaggio sono MOLTO BREVI E (2) Le riduzioni dei tempi di riattrezzaggio del processo si ottengono con ... idem ... E mediante l'applicazione di strumenti speciali ... idem ... (1) ............... E (2) ............... E (3) ...............",
+    "start": 1300,
+    "end": 2723,
+    "length": 1423,
+    "hash": "9gm2ct"
+  }
+]

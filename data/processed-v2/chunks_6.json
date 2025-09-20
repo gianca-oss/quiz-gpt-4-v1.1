@@ -1,0 +1,1351 @@
+[
+  {
+    "id": "p381_c0",
+    "page": 381,
+    "text": "Quattro tipi di dipendenze Obbligatorie : inerenti alla natura del lavoro svolto su un progetto, a volte definite come logica stringente (hard logic ) Discrezionali : definite dal team di progetto; a volte definite come logica debole (soft logic ) e dovrebbero essere usate con cautela poiché potrebbero limitare le opzioni di pianificazione future Esterne : coinvolgono relazioni tra attività di progetto e non di progetto Dalle risorse : correlate a situazioni in cui emerge la scarsità di risorse e diverse attività competono per accedere alla risorsa",
+    "start": 0,
+    "end": 555,
+    "length": 555,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.77,
+      "keywords": [
+        "progetto",
+        "definite",
+        "alla",
+        "volte",
+        "come",
+        "logica",
+        "logic",
+        "attivit",
+        "risorse",
+        "quattro"
+      ]
+    }
+  },
+  {
+    "id": "p382_c0",
+    "page": 382,
+    "text": "Tipi di dipendenze q Dipendenze obbligatorie § Dipendenze a \"logica stringente\" ( hard logic ) § La natura del lavoro impone un ordine § Es: La codifica deve precedere il test § Es: I requisiti devono precedere i contratti q Dipendenze discrezionali § Dipendenze a \"logica debole\" ( soft logic ) § Determinate dal team di gestione del progetto § Orientate al processo § Es: Ordine discrezionale di osservanza di atti burocratici",
+    "start": 0,
+    "end": 429,
+    "length": 429,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.14,
+      "keywords": [
+        "dipendenze",
+        "logica",
+        "logic",
+        "ordine",
+        "precedere",
+        "tipi",
+        "obbligatorie",
+        "stringente",
+        "hard",
+        "natura"
+      ]
+    }
+  },
+  {
+    "id": "p383_c0",
+    "page": 383,
+    "text": "Tipi di dipendenze q Dipendenze esterne § Al di fuori del progetto stesso § Es: attesa del rilascio di un prodotto di terze parti; approvazione di un contratto o di una convenzione q Dipendenze dalle risorse § Più attività concorrono per la stessa risorsa scarsa § Es: c’è un solo team di supporto ma molteplici attività lo richiedono",
+    "start": 0,
+    "end": 335,
+    "length": 335,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.67,
+      "keywords": [
+        "dipendenze",
+        "attivit",
+        "tipi",
+        "esterne",
+        "fuori",
+        "progetto",
+        "stesso",
+        "attesa",
+        "rilascio",
+        "prodotto"
+      ]
+    }
+  },
+  {
+    "id": "p384_c0",
+    "page": 384,
+    "text": "Finish - to - Start (FS) Dipendenze tra task B non può iniziare finchè A non finisce A: costruisci recinto; B: dipingi recinto Start - to - Start (SS) B non può iniziare finchè A non inizia A: getta fondamenta; B: livella cemento Finish - to - Finish (FF) B non può finire finchè A non finisce A: aggiungi cablaggio; B: ispeziona Start - to - Finish (SF) B non può finire finché A non inizia (rara)",
+    "start": 0,
+    "end": 399,
+    "length": 399,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.99,
+      "keywords": [
+        "finish",
+        "start",
+        "finch",
+        "iniziare",
+        "finisce",
+        "recinto",
+        "inizia",
+        "finire",
+        "dipendenze",
+        "task"
+      ]
+    }
+  },
+  {
+    "id": "p387_c0",
+    "page": 387,
+    "text": "DEFINIZIONE Scheduling La conversione di un piano d'azione di progetto in un calendario operativo ü s erve come base per il monitoraggio e il controllo del progetto ü è uno strumento fondamentale per la gestione dei progetti, assieme al budget GESTIONE DELLE ATTIVITÀ",
+    "start": 0,
+    "end": 268,
+    "length": 268,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 21.335,
+      "keywords": [
+        "progetto",
+        "gestione",
+        "definizione",
+        "scheduling",
+        "conversione",
+        "piano",
+        "azione",
+        "calendario",
+        "operativo",
+        "erve"
+      ]
+    }
+  },
+  {
+    "id": "p388_c0",
+    "page": 388,
+    "text": "FASI Un processo di scheduling 1) Inizia dalla WBS 2) Identifica e lista le attività 3) Considera precedenze e relazioni 4) Sviluppa diagrammi di Gantt e reticolari 5) Determina il sentiero critico SCHEDULING",
+    "start": 0,
+    "end": 209,
+    "length": 209,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.04,
+      "keywords": [
+        "scheduling",
+        "fasi",
+        "processo",
+        "inizia",
+        "dalla",
+        "identifica",
+        "lista",
+        "attivit",
+        "considera",
+        "precedenze"
+      ]
+    }
+  },
+  {
+    "id": "p389_c0",
+    "page": 389,
+    "text": "TEMPO, ATTIVITÀ, RISORSE Stima delle durate Durata include la quantità effettiva di tempo lavorato su un'attività (più il tempo già trascorso) Sforzo è il numero di giorni lavorativi o ore di lavoro richieste per completare un'attività. Lo sforzo normalmente non è uguale alla durata: cfr. tempi di attesa, setup, tempi morti, ecc.. Le persone che svolgono il lavoro dovrebbero aiutare a creare le stime e un esperto dovrebbe validarle.",
+    "start": 0,
+    "end": 437,
+    "length": 437,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.18,
+      "keywords": [
+        "tempo",
+        "attivit",
+        "durata",
+        "sforzo",
+        "lavoro",
+        "tempi",
+        "risorse",
+        "stima",
+        "delle",
+        "durate"
+      ]
+    }
+  },
+  {
+    "id": "p391_c0",
+    "page": 391,
+    "text": "Il diagramma di Gantt q Un diagramma di Gantt è un grafico a barre orizzontale sviluppato come strumento di controllo della produzione nel 1917 da Henry L. Gantt , un ingegnere e scienziato sociale americano. q Frequentemente utilizzato nella gestione dei progetti, un diagramma di Gantt fornisce una rappresentazione grafica che aiuta a pianificare, coordinare e tenere traccia di compiti specifici in un progetto. q I diagrammi di Gantt possono essere versioni semplici create su carta o versioni automatizzate più complesse create utilizzando applicazioni di gestione come Microsoft Project o Excel .",
+    "start": 0,
+    "end": 604,
+    "length": 604,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.015,
+      "keywords": [
+        "gantt",
+        "diagramma",
+        "come",
+        "gestione",
+        "versioni",
+        "create",
+        "1917",
+        "grafico",
+        "barre",
+        "orizzontale"
+      ]
+    }
+  },
+  {
+    "id": "p392_c0",
+    "page": 392,
+    "text": "PROS & CONS Diagramma di Gantt Vantaggi Semplice da comprendere Immediato identificare stato e progresso Facile da gestire Strumento diffuso per comunicare lo stato del progetto a clienti o manager esterni Limiti Superficiale Non sempre è semplice comprendere relazioni e vincoli SCHEDULING",
+    "start": 0,
+    "end": 291,
+    "length": 291,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.45,
+      "keywords": [
+        "semplice",
+        "comprendere",
+        "stato",
+        "pros",
+        "cons",
+        "diagramma",
+        "gantt",
+        "vantaggi",
+        "immediato",
+        "identificare"
+      ]
+    }
+  },
+  {
+    "id": "p396_c0",
+    "page": 396,
+    "text": "Tecniche reticolari: PERT e CPM q Con l'eccezione dei diagrammi di Gantt , l'approccio più comune allo scheduling è l'uso di tecniche di rete come PERT e CPM q La Program Evaluation and Review Technique (PERT) è stata sviluppata dalla Marina degli Stati Uniti nel 1958 (non tratteremo il PERT) q Il Critical Path Method (Metodo del Sentiero Critico) è stato sviluppato da DuPont, Inc.",
+    "start": 0,
+    "end": 385,
+    "length": 385,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 1.92,
+      "keywords": [
+        "pert",
+        "tecniche",
+        "1958",
+        "reticolari",
+        "eccezione",
+        "diagrammi",
+        "gantt",
+        "approccio",
+        "comune",
+        "allo"
+      ]
+    }
+  },
+  {
+    "id": "p397_c0",
+    "page": 397,
+    "text": "Terminologia q Attività - un compito specifico o un insieme di compiti richiesti dal progetto, che utilizzano risorse e richiedono tempo per essere completati. q Evento - il risultato del completamento di una o più attività. Uno stato finale identificabile che si verifica in un particolare momento. Gli eventi non utilizzano risorse. q Rete - la combinazione di tutte le attività ed eventi che definiscono il progetto e le relazioni di precedenza delle attività. q Percorso - la sequenza di attività connesse (o eventi intermedi) tra due eventi qualsiasi in una rete. q Critico - attività, eventi o fasi che, se ritardate, ritarderanno il completamento del progetto. Un percorso critico di un progetto è inteso come la sequenza di attività critiche (o più lente) che collegano l'evento di inizio del progetto al suo evento di fine.",
+    "start": 0,
+    "end": 833,
+    "length": 833,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 4.16,
+      "keywords": [
+        "attivit",
+        "progetto",
+        "eventi",
+        "evento",
+        "utilizzano",
+        "risorse",
+        "completamento",
+        "rete",
+        "percorso",
+        "sequenza"
+      ]
+    }
+  },
+  {
+    "id": "p398_c0",
+    "page": 398,
+    "text": "Reti e relazioni q Un'attività può trovarsi in una di queste condizioni: § avere uno o più successori ma nessun predecessore - avvia una rete § avere uno o più predecessori ma nessun successore - termina una rete § avere sia predecessori che successori - nel mezzo di una rete q Le interconnessioni dipendono dall’insieme di relazioni (hard, soft, ecc ...",
+    "start": 0,
+    "end": 356,
+    "length": 356,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.775,
+      "keywords": [
+        "avere",
+        "rete",
+        "relazioni",
+        "successori",
+        "nessun",
+        "predecessori",
+        "reti",
+        "attivit",
+        "trovarsi",
+        "queste"
+      ]
+    }
+  },
+  {
+    "id": "p399_c0",
+    "page": 399,
+    "text": "Attività e date q Earliest finish (EF) : l a (data) più vicina in cui un'attività può terminare dall'inizio del progetto q Earliest start (ES) : la (data) più vicina in cui un'attività può iniziare dall'inizio del progetto q Latest finish (LF) : l a (data) più lontana in cui un'attività può terminare senza ritardare il progetto q Latest start (LS) : la (data) più lontana in cui un'attività può iniziare senza ritardare il progetto",
+    "start": 0,
+    "end": 434,
+    "length": 434,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.165,
+      "keywords": [
+        "attivit",
+        "data",
+        "progetto",
+        "earliest",
+        "finish",
+        "vicina",
+        "terminare",
+        "dall",
+        "inizio",
+        "start"
+      ]
+    }
+  },
+  {
+    "id": "p402_c0",
+    "page": 402,
+    "text": "Critical Path Method (CPM) q Il CPM è una tecnica di rete utilizzata per prevedere la durata totale del progetto q Un percorso critico di un progetto è la serie di attività che determina il tempo più lungo entro cui il progetto può essere completato q Il percorso critico è il percorso con la minore quantità di margine totale ( slack ), pari a zero q Il margine ( slack ) è la quantità di tempo in cui un'attività può essere ritardata senza ritardare un'attività successiva o la data di completamento del progetto",
+    "start": 0,
+    "end": 515,
+    "length": 515,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.57,
+      "keywords": [
+        "progetto",
+        "percorso",
+        "attivit",
+        "totale",
+        "critico",
+        "tempo",
+        "essere",
+        "quantit",
+        "margine",
+        "slack"
+      ]
+    }
+  },
+  {
+    "id": "p403_c0",
+    "page": 403,
+    "text": "Calcolare il sentiero critico 1) Sviluppare un diagramma di rete adeguato 2) Aggiungere a ogni nodo la stima (certa) della durata per quella attività, per ogni attività 3) Calculare gli eventi: ES, EF, LS, LF 4) Calcolare gli slack 5) Il sentiero più lungo è quello critico 6) Se una o più attività sul sentiero critico richiedono più tempo del previsto, l'intero programma del progetto slitterà a meno che il project manager non intraprenda azioni correttive",
+    "start": 0,
+    "end": 460,
+    "length": 460,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.295,
+      "keywords": [
+        "sentiero",
+        "critico",
+        "attivit",
+        "calcolare",
+        "ogni",
+        "sviluppare",
+        "diagramma",
+        "rete",
+        "adeguato",
+        "aggiungere"
+      ]
+    }
+  },
+  {
+    "id": "p406_c0",
+    "page": 406,
+    "text": "Calcolo degli eventi: (a) passo in avanti q Per determinare i tempi di inizio anticipato (ES) e fine anticipata (EF) per ogni attività: § Lavorare da sinistra a destra § Calcolare i tempi ES, EF in ogni percorso § Regola: quando più attività convergono, l'ES per l'attività successiva è il maggiore tra i tempi delle EF precedenti.",
+    "start": 0,
+    "end": 332,
+    "length": 332,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.655,
+      "keywords": [
+        "tempi",
+        "attivit",
+        "ogni",
+        "calcolo",
+        "degli",
+        "eventi",
+        "passo",
+        "avanti",
+        "determinare",
+        "inizio"
+      ]
+    }
+  },
+  {
+    "id": "p407_c0",
+    "page": 407,
+    "text": "Earliest Start e Earliest Finish q Inizia con lo start e procedi in avanti q ES è pari a: § ES = 0 per le attività senza predecessori § Altrimenti, ES = massimo EF di tutti i predecessori q EF è pari a: § EF = ES + durata ES LS EF LF Nome Durata",
+    "start": 0,
+    "end": 246,
+    "length": 246,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.225,
+      "keywords": [
+        "earliest",
+        "start",
+        "pari",
+        "predecessori",
+        "durata",
+        "finish",
+        "inizia",
+        "procedi",
+        "avanti",
+        "attivit"
+      ]
+    }
+  },
+  {
+    "id": "p409_c0",
+    "page": 409,
+    "text": "Calcolo degli eventi: (b) passo indietro q Per determinare i tempi di fine più lontana (LF) e inizio più lontano (LS) per ogni attività § Lavorare da destra a sinistra § Aggiungere i tempi LF, LS in ogni percorso § Regola: quando più attività convergono, l'LF per l'attività precedente è il minimo dei tempi LS dei successori.",
+    "start": 0,
+    "end": 327,
+    "length": 327,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.63,
+      "keywords": [
+        "tempi",
+        "attivit",
+        "ogni",
+        "calcolo",
+        "degli",
+        "eventi",
+        "passo",
+        "indietro",
+        "determinare",
+        "fine"
+      ]
+    }
+  },
+  {
+    "id": "p410_c0",
+    "page": 410,
+    "text": "Latest Start e Latest Finish q Inizia dall’ultimo nodo e lavora indietro q Calcola la coppia di LF, LS q LF è pari a: § LF = Massimo EF delle attività finali § LF = minimo LS di tutti i successori per le altre attività q LS è pari a: § LS = LF – durata ES LS EF LF Nome Durata",
+    "start": 0,
+    "end": 277,
+    "length": 277,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.379999999999999,
+      "keywords": [
+        "latest",
+        "pari",
+        "attivit",
+        "durata",
+        "start",
+        "finish",
+        "inizia",
+        "dall",
+        "ultimo",
+        "nodo"
+      ]
+    }
+  },
+  {
+    "id": "p412_c0",
+    "page": 412,
+    "text": "Calcolo degli slack q Lo slack è il ritardo consentito per un'attività senza causare una violazione della scadenza del progetto e può essere calcolato come: LF−EF = LS−ES q NOTA: le attività con margine ( slack ) = 0 costituiscono il percorso critico; i ritardi in queste attività fanno ritardare il progetto",
+    "start": 0,
+    "end": 309,
+    "length": 309,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 11.54,
+      "keywords": [
+        "slack",
+        "attivit",
+        "progetto",
+        "calcolo",
+        "degli",
+        "ritardo",
+        "consentito",
+        "senza",
+        "causare",
+        "violazione"
+      ]
+    }
+  },
+  {
+    "id": "p414_c0",
+    "page": 414,
+    "text": "Sentiero(i) critico(i) q Un sentiero critico del progetto è un percorso composto da attività critiche del progetto. q È importante ricordare che: § un progetto può avere più di un percorso critico, § qualsiasi percorso critico inizierà al nodo 1 e terminerà al nodo n e che § la somma delle durate delle attività che si trovano su un percorso critico è la durata del progetto.",
+    "start": 0,
+    "end": 377,
+    "length": 377,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 24.88,
+      "keywords": [
+        "critico",
+        "progetto",
+        "percorso",
+        "sentiero",
+        "attivit",
+        "nodo",
+        "delle",
+        "composto",
+        "critiche",
+        "importante"
+      ]
+    }
+  },
+  {
+    "id": "p415_c0",
+    "page": 415,
+    "text": "Opportunità di intervento sul CP q Riduzione della durata del progetto ( crashing ) q Gestione del rischio e pianificazione delle contingenze q Ottimizzazione dell’allocazione delle risorse q Negoziazione con gli stakeholder (motivare durata/ritardi) q Change management: impatto di variazioni sul CP q Sviluppo di strategie di partnership e approvigionamento",
+    "start": 0,
+    "end": 360,
+    "length": 360,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.795,
+      "keywords": [
+        "durata",
+        "delle",
+        "opportunit",
+        "intervento",
+        "riduzione",
+        "della",
+        "progetto",
+        "crashing",
+        "gestione",
+        "rischio"
+      ]
+    }
+  },
+  {
+    "id": "p416_c0",
+    "page": 416,
+    "text": "Bibliografia di massima (1) APM (2000): APM Project Management Body of Knowledge. Elton, J. and J. Roe (1998): “Bringing Discipline to Project Management,” Harvard Business Review, 76, 153 – 159. Freeman, R. E. 1984, Strategic Management: A stakeholder approach. Boston: Pitman. Friedman, A. L. & Miles, S. 2002 Developing Stakeholder Theory. Journal of Management Studies, v 39, n 1, pp 1 - 21. HBS, ed. (2004): Managing Projects Large and Small, Harvard Business School Pub. IPMA (2015): IPMA Competence Baseline, version 4. Jacobs, R. J. and R. B. Chase (2014): Operations and Supply Chain Management, McGraw - Hill, 14 ed. Larson, E. W. , & Gray, C. F. (2011). Project management: The managerial process. Boston: McGraw - Hill.",
+    "start": 0,
+    "end": 732,
+    "length": 732,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 18.655,
+      "keywords": [
+        "management",
+        "project",
+        "harvard",
+        "business",
+        "stakeholder",
+        "boston",
+        "ipma",
+        "mcgraw",
+        "hill",
+        "1984"
+      ]
+    }
+  },
+  {
+    "id": "p417_c0",
+    "page": 417,
+    "text": "Bibliografia di massima (2) Mitchell, R. K. , Agle, B. R. , & Wood, D. J. (1997) “Toward a Theory of Stakeholder Identification and Salience: Defining the Principle of Who and What Really Counts” Academy of Management Review, 22(4) pp. 853 - 886 Meredith, J. R. , & Mantel, S. J. (2006). Project management: A managerial approach. Hoboken, NJ: John Wiley. OGC (2009): Managing successful projects with PRINCE2, The Stationery Office. Project Management Institute (2013): A guide to the project management body of knowledge (PMBOK Guide), Project Management Institute. Project Management Institute (2019). Practice standard for work breakdown structures. Randolph, W. A. and B. Z. Posner (1988): “What Every Manager Needs To Know About Project Management,” Sloan Management Review, 29, 65 – 73.",
+    "start": 0,
+    "end": 794,
+    "length": 794,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 18.965,
+      "keywords": [
+        "management",
+        "project",
+        "institute",
+        "what",
+        "review",
+        "guide",
+        "1988",
+        "1997",
+        "2006",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "p418_c0",
+    "page": 418,
+    "text": "Cause più frequenti di fallimento q Obiettivi e ambito ( scope ) poco chiari o mal definiti: § Scarsa comprensione degli obiettivi; definizione vaga o ambigua dei deliverable; \"Scope creep \" q Coinvolgimento insufficiente degli stakeholder: § Scarsa partecipazione attiva/commitment delle parti interessate; scarso allineamento delle aspettative q Pianificazione inadeguata: § Stime irrealistiche di tempi e costi (sottostima di durate/costi); mancanza di una pianificazione dettagliata q Comunicazione carente o inefficace: § Scarsa comunicazione trasparente e regolare tra team/stakeholder/management/clienti; conflitti da mancanza di feedback e condivisione di informazioni cruciali q Gestione delle risorse insufficiente o inadeguata: § Scarsità di risorse/competenze qualificate/adeguate; allocazione inefficace delle risorse; conflitti tra attività q Mancanza di leadership e supporto del management: § PM con scarsa leadership; supporto inadeguato del management apicale; struttura di governance inadeguata.",
+    "start": 0,
+    "end": 1015,
+    "length": 1015,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 10.07,
+      "keywords": [
+        "scarsa",
+        "delle",
+        "inadeguata",
+        "mancanza",
+        "management",
+        "risorse",
+        "obiettivi",
+        "scope",
+        "degli",
+        "insufficiente"
+      ]
+    }
+  },
+  {
+    "id": "p420_c0",
+    "page": 420,
+    "text": "Executive Master of Business Administration - EMBA Trento OTTIMIZZAZIONE DEI PROCESSI (MODULO PLQ) Prof. Giovanni Iacca giovanni. iacca@unitn.",
+    "start": 0,
+    "end": 143,
+    "length": 143,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.71,
+      "keywords": [
+        "giovanni",
+        "iacca",
+        "executive",
+        "master",
+        "business",
+        "administration",
+        "emba",
+        "trento",
+        "ottimizzazione",
+        "processi"
+      ]
+    }
+  },
+  {
+    "id": "p423_c0",
+    "page": 423,
+    "text": "/28 FEW WORDS ABOUT ME 4 https://www. censis. it/formazione/la-classi fi ca-censis-delle-universit%C3%A0-italiane-edizione-20242025/la-didattica-lauree First Phd school for no. externally funded scholarships!",
+    "start": 0,
+    "end": 209,
+    "length": 209,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.04,
+      "keywords": [
+        "censis",
+        "20242025",
+        "words",
+        "about",
+        "https",
+        "formazione",
+        "classi",
+        "delle",
+        "universit",
+        "italiane"
+      ]
+    }
+  },
+  {
+    "id": "p425_c0",
+    "page": 425,
+    "text": "/27 RESEARCH - DIRECTIONS 6 Evolutionary computation Evolution on distributed systems Evolutionary Interpretable AI Evolutionary learning",
+    "start": 0,
+    "end": 138,
+    "length": 138,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.685,
+      "keywords": [
+        "evolutionary",
+        "research",
+        "directions",
+        "computation",
+        "evolution",
+        "distributed",
+        "systems",
+        "interpretable",
+        "learning"
+      ]
+    }
+  },
+  {
+    "id": "p435_c0",
+    "page": 435,
+    "text": "OPTIMIZATION 16 WHAT IS OPTIMIZATION? Solving an optimization problem = fi nding the minimum/maximum of one/more objective functions • Decision (design) variables: x = [ x (1), x (2), ...",
+    "start": 0,
+    "end": 188,
+    "length": 188,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 15.935,
+      "keywords": [
+        "optimization",
+        "what",
+        "solving",
+        "problem",
+        "nding",
+        "minimum",
+        "maximum",
+        "more",
+        "objective",
+        "functions"
+      ]
+    }
+  },
+  {
+    "id": "p438_c0",
+    "page": 438,
+    "text": "OPTIMIZATION 19 A LOT OF OPTIMIZATION PROBLEMS AND METHODS! • Continuous vs Combinatorial (Discrete) Optimization Depending on continuous/discrete decision variables. • Linear vs Nonlinear Optimization Depending on linear/nonlinear objective functions. • Single vs Multi-Objective Optimization Depending on one or more (usually, 2) objective functions. • Constrained vs Unconstrained Optimization Depending on the presence/absence of constraints (but, still subject to boundary constraints). • Stochastic/Dynamic vs Noiseless/Stationary Optimization Depending on the presence of noise or time-dependency on any of the problem component (decision variable, objective function, constraints).",
+    "start": 0,
+    "end": 690,
+    "length": 690,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 8.445,
+      "keywords": [
+        "optimization",
+        "depending",
+        "objective",
+        "constraints",
+        "continuous",
+        "discrete",
+        "decision",
+        "linear",
+        "nonlinear",
+        "functions"
+      ]
+    }
+  },
+  {
+    "id": "p439_c0",
+    "page": 439,
+    "text": "20 IT’S A HARD LIFE • Optimization problems can be relatively “easy” to formulate, but very hard to solve , especially in complex applications with many variables. In fact, some features characterizing the problem can make it extremely challenging. For instance: • High non-linearities (optima are not on the constraint boundaries) • High multimodality (many local optima) • Noisy objective function (robust optimization is needed) • Approximated objective function (approximation errors must be accounted for) • Computationally expensive problems • Computationally expensive function (e. g. long FEM/CFD simulations) • Large-scale problems (“needle in a haystack”) • Limited hardware (drones, embedded systems, etc.",
+    "start": 0,
+    "end": 717,
+    "length": 717,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 8.58,
+      "keywords": [
+        "problems",
+        "function",
+        "hard",
+        "optimization",
+        "many",
+        "high",
+        "optima",
+        "objective",
+        "computationally",
+        "expensive"
+      ]
+    }
+  },
+  {
+    "id": "p440_c0",
+    "page": 440,
+    "text": "OPTIMIZATION 21 ARE WE HUMANS ABLE TO OPTIMIZE? • “Algorithm”: a human being choses the points to evaluate.",
+    "start": 0,
+    "end": 108,
+    "length": 108,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.535,
+      "keywords": [
+        "optimization",
+        "humans",
+        "able",
+        "optimize",
+        "algorithm",
+        "human",
+        "being",
+        "choses",
+        "points",
+        "evaluate"
+      ]
+    }
+  },
+  {
+    "id": "p441_c0",
+    "page": 441,
+    "text": "22 IT’S A HARD LIFE That’s why it’s important: 1. To understand what kind of problems we are dealing with • What kind of objective function do we have it? Do we know its properties? • What kind of constraints do we have it (if any)? • What kind of decision variables do we have it (how many)? • Etc. 2. To choose the right optimization algorithm for that problem, e. g. : • Gradient-based or gradient-free? • Local or global search? • Single or multi-objective? • Constraint or unconstrained? • Do we have computational constraints? • Etc.",
+    "start": 0,
+    "end": 540,
+    "length": 540,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.695,
+      "keywords": [
+        "what",
+        "kind",
+        "have",
+        "that",
+        "objective",
+        "constraints",
+        "gradient",
+        "hard",
+        "life",
+        "important"
+      ]
+    }
+  },
+  {
+    "id": "p442_c0",
+    "page": 442,
+    "text": "OPTIMIZATION 23 A WARNING • No free lunch theorem by Wolpert and Macready (1997). • Loosely speaking: there is no reason to prefer one algorithm over another, unless we know something regarding the probability distribution over the space of possible objective functions. • In particular, if one algorithm performs better than another on one class of problems, it will perform worse on another class of problems. • More rigorously, for a given pair of algorithms A and B: where P ( x m | f , A ) is the probability that algorithm A detects the optimal solution x m for a generic objective function f and P ( x m | f , B ) is the analogue probability for algorithm B. • The performance of every pair of algorithms over all possible problems is the same.",
+    "start": 0,
+    "end": 752,
+    "length": 752,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.754999999999999,
+      "keywords": [
+        "algorithm",
+        "over",
+        "another",
+        "probability",
+        "problems",
+        "possible",
+        "objective",
+        "class",
+        "pair",
+        "algorithms"
+      ]
+    }
+  },
+  {
+    "id": "p444_c0",
+    "page": 444,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 25 GRID SEARCH Problems • (Exhaustive) grid search can be very expensive • Combinatorial explosion! The more parameters we have, the larger the grid. • What if every solution in the grid is computationally expensive to evaluate? E. g. , run a computationally expensive simulation for each possible solution to the problem at hand. • What about continuous parameters ? • We may easily miss the optimum! • We need to discretize the parameters (important to set the right tolerance ). • Do we really know the right boundaries? • Grid search is “uninformed”: it does not use information from the search process to move towards the most promising search directions.",
+    "start": 0,
+    "end": 691,
+    "length": 691,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.45,
+      "keywords": [
+        "grid",
+        "search",
+        "expensive",
+        "parameters",
+        "what",
+        "solution",
+        "computationally",
+        "right",
+        "basic",
+        "optimization"
+      ]
+    }
+  },
+  {
+    "id": "p445_c0",
+    "page": 445,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 26 RANDOM SEARCH Main differences w. r. t. grid search • You are unlikely to keep completely missing the “good area” for a long time when randomly picking new spots. • A grid search may spend lots of time in a “bad area” as it covers exhaustively (however, this may happen also in random search). • A sampling methodology is needed (e. g. uniform). As for grid search: • Also random search is “uninformed” • Evaluations can be parallelized NOTE For a fair comparison between algorithms (in this case random vs grid search), the same “budget”, i. e. , number of evaluated solutions, should be allotted.",
+    "start": 0,
+    "end": 632,
+    "length": 632,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.155,
+      "keywords": [
+        "search",
+        "random",
+        "grid",
+        "algorithms",
+        "area",
+        "time",
+        "this",
+        "also",
+        "basic",
+        "optimization"
+      ]
+    }
+  },
+  {
+    "id": "p447_c0",
+    "page": 447,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 28 CLASSIC OPTIMIZATION APPROACHES • Exact methods : the function respects some speci fi c hypotheses, e. g. , it’s a linear or quadratic problem. The method converges to the exact solution after a fi nite number of steps of an iterative procedure. For instance, the simplex algorithm for Linear Programming. • Approximate iterative methods (heuristics) : the function respects some hypotheses and can be solved by applying an iterative procedure with an in fi nite number of steps . The application of the procedure for a fi nite number of steps still leads to an approximation of the optimum. Heuristic (from the Greek ευρισκω heurisk ō “I fi nd, I discover”), also called “direct”, “pattern search”, or “generate and test” methods, are techniques designed for solving a problem ( fi nding an approximate solution) when classic methods fail to fi nd any exact solution, or are too slow to do that. This is achieved by trading optimality, completeness, accuracy, or precision for speed. Usually, they are greedy algorithms .",
+    "start": 0,
+    "end": 1056,
+    "length": 1056,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.275,
+      "keywords": [
+        "methods",
+        "exact",
+        "solution",
+        "nite",
+        "number",
+        "steps",
+        "iterative",
+        "procedure",
+        "optimization",
+        "algorithms"
+      ]
+    }
+  },
+  {
+    "id": "p448_c0",
+    "page": 448,
+    "text": "BASIC OPTIMIZATION ALGORITHMS 29 GLOBAL OPTIMIZATION: FIND THE GLOBAL OPTIMUM • Unimodal vs multimodal functions: one vs many optima • Approaches: • Deterministic : brute force (discretize the search space and evaluate all points ) • Stochastic : random search (start from an initial point, and perturb it “walking” randomly in the search space, otherwise just sample a new point at each step) • More advanced methods: DIRECT, basin hopping, etc.",
+    "start": 0,
+    "end": 447,
+    "length": 447,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.23,
+      "keywords": [
+        "search",
+        "optimization",
+        "global",
+        "space",
+        "point",
+        "basic",
+        "algorithms",
+        "find",
+        "optimum",
+        "unimodal"
+      ]
+    }
+  },
+  {
+    "id": "p450_c0",
+    "page": 450,
+    "text": "ITERATED LOCAL SEARCH 31 MAIN GIST OF THE ALGORITHM • Iterated local search (ILS) is a stochastic local search method that generates a sequence of solutions generated by an embedded heuristic , leading to far better results than if one were to use repeated random trials of that heuristic.",
+    "start": 0,
+    "end": 290,
+    "length": 290,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.445,
+      "keywords": [
+        "local",
+        "search",
+        "iterated",
+        "that",
+        "heuristic",
+        "main",
+        "gist",
+        "algorithm",
+        "stochastic",
+        "method"
+      ]
+    }
+  },
+  {
+    "id": "p451_c0",
+    "page": 451,
+    "text": "ITERATED LOCAL SEARCH 32 EXAMPLE: PERMUTATION FLOW-SHOP PROBLEM (FSP) • Given: - n jobs to be processed on m machines - processing times t ij of job i on machine j - machine order for all jobs is identical - permutation FSP: same job order on all machines (differently from JSP) • Goal: minimize the completion time C max of last job (makespan) • Prototypical scheduling problem, NP-hard",
+    "start": 0,
+    "end": 388,
+    "length": 388,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.935,
+      "keywords": [
+        "permutation",
+        "problem",
+        "jobs",
+        "machines",
+        "machine",
+        "order",
+        "iterated",
+        "local",
+        "search",
+        "example"
+      ]
+    }
+  },
+  {
+    "id": "p452_c0",
+    "page": 452,
+    "text": "ITERATED LOCAL SEARCH 33 EXAMPLE: PERMUTATION FLOW-SHOP PROBLEM (FSP) • GenerateInitialSolution : Nawaz, Enscore and Ham (NEH) heuristic (jobs with greater total processing time should be given a greater priority than jobs with a smaller total processing time) • LocalSearch : insertion neighborhood • Perturbation : a number of swap or interchange moves • AcceptanceCriterion : accept s*’ only if f ( s*’ ) ≤ f ( s* ) swap interchange",
+    "start": 0,
+    "end": 436,
+    "length": 436,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.175,
+      "keywords": [
+        "jobs",
+        "with",
+        "greater",
+        "total",
+        "processing",
+        "time",
+        "swap",
+        "interchange",
+        "iterated",
+        "local"
+      ]
+    }
+  },
+  {
+    "id": "p454_c0",
+    "page": 454,
+    "text": "SIMULATED ANNEALING FROM GREEDY SEARCH TO SIMULATED ANNEALING Most basic algorithm: Hill-Climbing/Descent (Greedy Local Search) higher than E argmin 35",
+    "start": 0,
+    "end": 152,
+    "length": 152,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.755,
+      "keywords": [
+        "simulated",
+        "annealing",
+        "greedy",
+        "search",
+        "from",
+        "most",
+        "basic",
+        "algorithm",
+        "hill",
+        "climbing"
+      ]
+    }
+  },
+  {
+    "id": "p455_c0",
+    "page": 455,
+    "text": "SIMULATED ANNEALING FROM GREEDY SEARCH TO SIMULATED ANNEALING Stochastic Search: Randomized Hill-Climbing/Descent < 36",
+    "start": 0,
+    "end": 119,
+    "length": 119,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.59,
+      "keywords": [
+        "simulated",
+        "annealing",
+        "search",
+        "from",
+        "greedy",
+        "stochastic",
+        "randomized",
+        "hill",
+        "climbing",
+        "descent"
+      ]
+    }
+  },
+  {
+    "id": "p456_c0",
+    "page": 456,
+    "text": "SIMULATED ANNEALING ISSUES WITH GREEDY/RANDOMIZED HILL-CLIMBING Highly multimodal landscape Plateaus 37",
+    "start": 0,
+    "end": 104,
+    "length": 104,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.515,
+      "keywords": [
+        "simulated",
+        "annealing",
+        "issues",
+        "with",
+        "greedy",
+        "randomized",
+        "hill",
+        "climbing",
+        "highly",
+        "multimodal"
+      ]
+    }
+  },
+  {
+    "id": "p458_c0",
+    "page": 458,
+    "text": "SIMULATED ANNEALING 39 FROM GREEDY SEARCH TO SIMULATED ANNEALING Probabilistic uphill (ascent) acceptance criterion - Intuition E = E ( X ) E’ = E ( X’ ) E = E ( X ) E’ = E ( X’ ) E’ - E is large : It is more likely that we are around a (promising) “deep” minimum so we don’t want to move uphill too much . E’ - E is small : It is likely that we are around a “shallow” minimum that is likely to be a (uninteresting) local minimum, so we would like to move uphill to explore other parts of the landscape .",
+    "start": 0,
+    "end": 505,
+    "length": 505,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 12.52,
+      "keywords": [
+        "uphill",
+        "likely",
+        "that",
+        "minimum",
+        "simulated",
+        "annealing",
+        "around",
+        "move",
+        "from",
+        "greedy"
+      ]
+    }
+  },
+  {
+    "id": "p460_c0",
+    "page": 460,
+    "text": "SIMULATED ANNEALING 41 INTUITION A fi nite “temperature” allows for controlled uphill steps thus enabling the search to get out of local minima. Starting from a high temperature, the search is then successively “cooled down” according to an annealing schedule. With decreasing temperature, the step width is therewith reduced thus freezing the system to the ground state. The cooling rate needs to be inverse logarithmic in time, to assure convergence.",
+    "start": 0,
+    "end": 453,
+    "length": 453,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.26,
+      "keywords": [
+        "temperature",
+        "annealing",
+        "thus",
+        "search",
+        "simulated",
+        "intuition",
+        "nite",
+        "allows",
+        "controlled",
+        "uphill"
+      ]
+    }
+  },
+  {
+    "id": "p463_c0",
+    "page": 463,
+    "text": "44 METAHEURISTICS WHAT CAN WE USE FOR GLOBAL OPTIMIZATION? METAHEURISTICS! • From the ancient Greek μετα − ευρισκω meta heurisk ō , i. e. , “I fi nd beyond”: algorithms that do not require any assumption on the objective function (“black-box” optimization). • Especially useful when an analytical expression of the objective function is not even available (e. g. , output of simulations), or it is extremely complex (multivariate, noisy, non-differentiable, non- continuous, non-linear, etc. ). COMPUTATIONAL INTELLIGENCE OPTIMIZATION (CIO) A sub fi eld of CI that studies mathematical procedures to solve optimization problems, especially in the cases when there are no hypotheses and a metaheuristic is the only option. ?",
+    "start": 0,
+    "end": 724,
+    "length": 724,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.615,
+      "keywords": [
+        "optimization",
+        "metaheuristics",
+        "that",
+        "objective",
+        "function",
+        "especially",
+        "when",
+        "what",
+        "global",
+        "from"
+      ]
+    }
+  },
+  {
+    "id": "p464_c0",
+    "page": 464,
+    "text": "METAHEURISTICS 45 SOME EXAMPLES • Simulated Annealing (SA) • Evolutionary Algorithms (EAs) • Genetic Algorithms (GAs) • Evolutionary Programming (EP) • Evolution Strategies (ES) • Particle Swarm Optimization (PSO) • Ant Colony Optimization (ACO) • Bacterial Foraging Optimization (BFO) • Differential Evolution (DE) • Memetic Algorithms (MA) • Hybrid Methods",
+    "start": 0,
+    "end": 359,
+    "length": 359,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.79,
+      "keywords": [
+        "algorithms",
+        "optimization",
+        "evolutionary",
+        "evolution",
+        "metaheuristics",
+        "some",
+        "examples",
+        "simulated",
+        "annealing",
+        "genetic"
+      ]
+    }
+  },
+  {
+    "id": "p466_c0",
+    "page": 466,
+    "text": "EVOLUTIONARY COMPUTATION 47 WHAT IS EVOLUTIONARY COMPUTATION? A broad set of general-purpose computational techniques that attempt to copy the process of natural evolution → generally called Evolutionary Algorithms or Arti fi cial Evolution algorithms WHY COPYING NATURAL EVOLUTION?",
+    "start": 0,
+    "end": 283,
+    "length": 283,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.41,
+      "keywords": [
+        "evolutionary",
+        "evolution",
+        "computation",
+        "natural",
+        "algorithms",
+        "what",
+        "broad",
+        "general",
+        "purpose",
+        "computational"
+      ]
+    }
+  },
+  {
+    "id": "p467_c0",
+    "page": 467,
+    "text": "EVOLUTIONARY COMPUTATION 48 SIMILARITIES BETWEEN NATURAL AND ARTIFICIAL EVOLUTION • Individual : encodes a potential (candidate) solution for a given problem problem: phenotype (computer program, object shape, electronic circuit, robot, etc. ) + genotype (i. e.",
+    "start": 0,
+    "end": 262,
+    "length": 262,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.305,
+      "keywords": [
+        "problem",
+        "evolutionary",
+        "computation",
+        "similarities",
+        "between",
+        "natural",
+        "artificial",
+        "evolution",
+        "individual",
+        "encodes"
+      ]
+    }
+  }
+]

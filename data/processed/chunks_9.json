@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p520_c0",
+    "page": 520,
+    "text": "101 INEQUALITY FORM An optimization problem like linear programming, except that variables are required to take on integer values: Not a convex problem , because of integer constraint (set of all integers is not a convex set). We can also consider Mixed Integer (Linear) Programming (MILP) problems, which contain both integer and non-integer variables: INTEGER (LINEAR) PROGRAMMING",
+    "start": 0,
+    "end": 382,
+    "length": 382,
+    "hash": "39ne4p"
+  },
+  {
+    "id": "p521_c0",
+    "page": 521,
+    "text": "102 SOLVING ILP PROBLEMS Naïve solution (exhaustive search): given 2 n possible assignments of all the n variables in x , just try each one, return the solution with minimum objective value out of those that satisfy constraints. In the worst case, we can’t do any better than this, but often it is possible to solve the problem much faster in practice. Key idea: relaxing integer constraints I.e., consider an alternative LP problem where we relax the constraint x ∈ {0,1} n to be x * ∈ [0,1] n : Key point #1 : if the solution to this LP x * has all integer values, then it is also the solution to the integer program. Key point #2 : the optimal objective for the linear program is lower than that of the corresponding integer program. Both points follow trivially from the fact that {0,1} n ⊂ [0,1] n . INTEGER (LINEAR) PROGRAMMING",
+    "start": 0,
+    "end": 833,
+    "length": 833,
+    "hash": "ay481u"
+  },
+  {
+    "id": "p522_c0",
+    "page": 522,
+    "text": "103 BRANCH AND BOUND The branch and bound algorithm is a greedy informed search applied using LP relaxation to provide bounds on the search tree. LP relaxation is a quickly-computable approximation which gives us a lower bound on the true solution. INTEGER (LINEAR) PROGRAMMING",
+    "start": 0,
+    "end": 277,
+    "length": 277,
+    "hash": "3de2l3"
+  },
+  {
+    "id": "p523_c0",
+    "page": 523,
+    "text": "104 MANY PROBLEMS AND APPLICATIONS CAN BE TACKLED BY ILP • Path planning with obstacles • Many problems in game theory • Constraint satisfaction problems • (Exact) most likely assignment in graphical models • Scheduling and unit commitment NOTES Extremely well-developed set of commercial solvers are available (free for academic use), e.g., CPLEX. Gurobi, or LocalSolver. For better ef fi ciency these tools often use proprietary “pre-solve” problem simpli fi cation methods, relaxations based on simplex and other LP solvers, branch and bound, and cutting plane generation methods. Open source notably lags behind in this area, with few exceptions such as SCIP ( http://scip.zib.de/ ). INTEGER (LINEAR) PROGRAMMING",
+    "start": 0,
+    "end": 716,
+    "length": 716,
+    "hash": "qu6c5f"
+  },
+  {
+    "id": "p525_c0",
+    "page": 525,
+    "text": "GENERAL DEFINITION • A quadratic programming problem minimizes a quadratic function of n variables subject to m linear inequality or equality constraints. In compact notation, a QP problem is: where c is a vector ( n x 1), A is an m x n matrix, and Q is a symmetric n x n matrix. • As for LP, it is also possible to use an inequality form with Ax ≤ b with maximization of f(x). QUADRATIC PROGRAMMING 106 ( ) ( ) ( ) 1 19 31 2 0 19 32 Minimize Subject to T T f x c x x Qx Ax b x = + - = ³ -",
+    "start": 0,
+    "end": 489,
+    "length": 489,
+    "hash": "mix2y3"
+  },
+  {
+    "id": "p526_c0",
+    "page": 526,
+    "text": "A MORE CONCRETE EXAMPLE - MEAN-VARIANCE PORTFOLIO THEORY • The archetypical example of QP problems is the portfolio optimization problem, as per the original mean-variance formulation proposed by Markowitz, 1952. The problem is essentially the following: How can we split our investment between these assets in an appropriate way? • To proceed with Markowitz mean-variance portfolio optimization we need some notation, let: ‣ N be the number of assets (e.g. stocks) available ‣ μ i be the expected return of asset i ‣ ρ ij be the correlation between the returns for assets i and j (-1 ≤ ρ i j ≤ +1) ‣ s i be the standard deviation in return for asset i • Then the decision variables are: w i the proportion of the total investment associated with (invested in) asset i (0 ≤ w i ≤ 1) • Note: this formulation is completely general – provided we have a price history for an “asset” that can be included. So, we could consider making up a portfolio from stocks, commodities (e.g. oil, metals), bonds, etc. QUADRATIC PROGRAMMING 107",
+    "start": 0,
+    "end": 1028,
+    "length": 1028,
+    "hash": "vgu5p5"
+  },
+  {
+    "id": "p527_c0",
+    "page": 527,
+    "text": "A MORE CONCRETE EXAMPLE - MEAN-VARIANCE PORTFOLIO THEORY • The objective function minimizes the total variance (risk) associated with the portfolio. • The fi rst constraint ensures that the portfolio has an expected return of R (note that some formulation replace equality with inequality ≥ R). • The second constraint ensures that the proportions add to one. • The third constraint is simply the non-negativity constraint. QUADRATIC PROGRAMMING 108",
+    "start": 0,
+    "end": 449,
+    "length": 449,
+    "hash": "3v4f8y"
+  },
+  {
+    "id": "p529_c0",
+    "page": 529,
+    "text": "https://burrito.gurobi.com/burrito-game/ THE BURRITO OPTIMIZATION GAME (B Y GUROBI)",
+    "start": 0,
+    "end": 83,
+    "length": 83,
+    "hash": "tx34w0"
+  },
+  {
+    "id": "p530_c0",
+    "page": 530,
+    "text": "https://www.gurobi.com/burrito-optimization-game-guide/ THE BURRITO OPTIMIZATION GAME (B Y GUROBI)",
+    "start": 0,
+    "end": 98,
+    "length": 98,
+    "hash": "brzjg5"
+  },
+  {
+    "id": "p531_c0",
+    "page": 531,
+    "text": "https://demos.gurobi.com/traveling-salesman/doc/ OTHER EXAMPLES BY GUROBI",
+    "start": 0,
+    "end": 73,
+    "length": 73,
+    "hash": "di2wn2"
+  },
+  {
+    "id": "p533_c0",
+    "page": 533,
+    "text": "USE CASES 114 • HR & Organization: 3 • Logistics & Supply Chain: 2 • Manufacturing & Operations: 4 • Marketing & Sales: 2 • Finance & Admin Processes: 3 • Strategic Planning / Product Portfolio: 1 • Energy & Facilities: 1 • Event / Resource Scheduling: 1 USE CASE CATEGORIES • Scheduling / Workforce Planning • Vehicle Routing / Logistics • Linear / Integer Programming • Multi-objective Optimization • Work fl ow / Process Optimization • Combinatorial and Constraint-based Models OPTIMIZATION PROBLEM TYPES",
+    "start": 0,
+    "end": 507,
+    "length": 507,
+    "hash": "kfq29v"
+  },
+  {
+    "id": "p534_c0",
+    "page": 534,
+    "text": "USE CASES 115 • Variables: Time slots, assignments, quantities, work fl ows, budgets • Variable types: Mostly discrete, some continuous • Constraints: Resource capacity, legal, budgetary, technical, and organizational • Constraint strength: Mix of hard (e.g., legal) and soft (e.g., training) DECISION VARIABLES AND CONSTRAINTS USE OF OPTIMIZATION TOOLS • Explicit optimization tools: 0 • Heuristics / Ad hoc: ~4 (implied) • Manual / Spreadsheet-based: majority • Opportunities: ERP integration, solver tools, etc. DECISION VARIABLES AND CONSTRAINTS • Low (1–5 variables): 2 cases • Medium (6–20 variables): 11 cases • High (>20 variables): 4 cases",
+    "start": 0,
+    "end": 648,
+    "length": 648,
+    "hash": "7uxlxo"
+  },
+  {
+    "id": "p535_c0",
+    "page": 535,
+    "text": "USE CASES 116 USE CASE OVERVIEW Domain Objec , ve Op , miza , on Type Method Used HR Minimize costs, Op 1 mize shi 3 s Scheduling Manual Logis 1 cs Op 1 mize routes Rou 1 ng/Combinatorial None Manufacturing Reduce costs, Improve throughput Scheduling, MIP None Marke 1 ng Maximize ROI Mul 1 -objec 1 ve Spreadsheet Finance/ Admin Digitalize processes Work fl ow/Process ERP proposed",
+    "start": 0,
+    "end": 382,
+    "length": 382,
+    "hash": "aen8kh"
+  },
+  {
+    "id": "p536_c0",
+    "page": 536,
+    "text": "USE CASES 117 1. Scheduling & Sequencing (Operations & Field Service) Core Task: Assigning when and by whom tasks should be done. Examples: Production lines, project execution, and technician dispatch. 2. Routing & Logistics Core Task: Designing the most ef fi cient paths for vehicles or goods. Example: Delivery fl eet management. 3. Resource Allocation & Design Core Task: Assigning limited resources (money, space, assets) to competing activities. Examples: Financial planning, facility layout. 4. Process & Work fl ow Improvement Core Task: Redesigning a sequence of business activities to be faster, cheaper, or more compliant. Examples: Employee onboarding, invoice processing, and qualitative HR goals.",
+    "start": 0,
+    "end": 710,
+    "length": 710,
+    "hash": "7j17zf"
+  },
+  {
+    "id": "p537_c0",
+    "page": 537,
+    "text": "CATEGORY 1 - SCHEDULING AND SEQUENCING 118 Problems where the main challenge is managing time, tasks, and resources to meet deadlines ef fi ciently. These are often the most complex but highest-impact optimization problems in operations. Example Use Case Problem: A multi-stage manufacturing process with long lead times (4-8 weeks). The goal is to reduce this total time. Formalization: This problem can be formulated as a Job-Shop Scheduling Problem (JSSP). Objective Function: Minimize the Makespan, the time when the last job is completed. Decision Variables: The start time for each operation of every job on each machine. Key Constraints: Phase Precedence, Resource Capacity (one job per machine at a time), Resource Allocation (speci fi c jobs to speci fi c presses), Batching (furnace limits). Suggested Optimization Approach: Current Method: Experience-based priority rules. Formal Method: Model as a Mixed-Integer Linear Program (MILP) for small instances. For realistic scale, use heuristics/metaheuristics (Genetic Algorithms, Tabu Search) or specialized scheduling software.",
+    "start": 0,
+    "end": 1087,
+    "length": 1087,
+    "hash": "za0ug"
+  },
+  {
+    "id": "p538_c0",
+    "page": 538,
+    "text": "CATEGORY 2 - ROUTING AND LOGISTICS 119 These problems focus on optimizing physical movement to minimize distance, time, or cost. Example Use Case Problem: Organize ef fi cient logistics from German warehouses to an Italian hub, and from the hub to ~450 retailers. Formalization: This problem can be formulated as a Vehicle Routing Problem (VRP). Objective Function: Minimize total transportation cost (distance, vehicles, external fees). Decision Variables: Which vehicle visits which customer in what sequence? Key Constraints: Vehicle Capacity (garment volume), Visit Once (each retailer), Time Windows (business hours, driver availability), Depot (routes start/end at the hub). Suggested Optimization Approach: Current Method: Manual planning. Formal Method: Use specialized VRP solvers that employ heuristics and metaheuristics to fi nd high-quality solutions quickly, yielding signi fi cant cost savings.",
+    "start": 0,
+    "end": 909,
+    "length": 909,
+    "hash": "ei8d42"
+  },
+  {
+    "id": "p539_c0",
+    "page": 539,
+    "text": "CATEGORY 3 - RESOURCE ALLOCATION 120 This category deals with the optimal assignment of fi nite resources, from fi nancial capital to physical space. Example Use Case Problem: Optimize corporate liquidity to minimize bank borrowing costs while meeting all payment obligations. Formalization: A Multi-Period Cash Flow Optimization problem, solvable with Linear Programming (LP). Objective Function: Minimize total fi nancing cost Decision Variables: Cash to hold, amount to borrow from each line, timing of payments. Key Constraints: Cash Balance Equation, Non-Negativity of cash, Credit Limits (plafond), Payment Deadlines. Suggested Optimization Approach: Current Method: ERP-integrated forecasting. Formal Method: An LP model (buildable in Excel Solver or Python) can proactively recommend the cheapest funding strategy on a rolling basis.",
+    "start": 0,
+    "end": 841,
+    "length": 841,
+    "hash": "hzjb4"
+  },
+  {
+    "id": "p540_c0",
+    "page": 540,
+    "text": "CATEGORY 4 - PROCESS/WORKFLOW IMPROVEMENT 121 These cases focus on redesigning complex administrative or operational processes for ef fi ciency, compliance, and cost savings. Example Use Case Problem: The current Excel-based process for planning, tracking, and updating employee training is time-consuming and hard to maintain. Formalization: This is a Constrained Scheduling and Assignment problem embedded within a process improvement need. Objective Functions: (1) Maintain 100% compliance with mandatory training. (2) Minimize training costs. (3) Maximize employee development. Decision Variables: Which employees are assigned to which training sessions; the schedule for each training session. Constraints: Mandatory renewal deadlines; minimum number of participants for courses; creating homogeneous classes; budget limits; not taking too many people from one department at the same time. Suggested Optimization Approach: 1. Process First: Digitize the process with a dedicated Human Resources Information System (HRIS) or a Learning Management System (LMS) to replace Excel. This solves the tracking and data management problem. 2. Then Optimize: Once the data are structured, an optimization model can be built to create the annual training schedule. This is a complex assignment problem that can be solved with constraint programming or integer programming to create optimal class groups that respect all the stated fi nancial and organizational constraints.",
+    "start": 0,
+    "end": 1467,
+    "length": 1467,
+    "hash": "30a4v8"
+  },
+  {
+    "id": "p541_c0",
+    "page": 541,
+    "text": "TO SUMMARIZE 122 1. Many industrial problems are Scheduling Problems in disguise . The most common and complex challenges revolve around managing time and resources (Projects, Production, Field Service). These problems are hard but have mature solutions. 2. Optimization starts with Process Mapping . For problems like onboarding or procurement, the fi rst step is always to map the existing process before applying technology. 3. There's a gap between “What Is” and “What's Possible” . Most use cases rely on experience, spreadsheets, or basic ERP modules. There is a signi fi cant opportunity to create value by adopting formal optimization tools (e.g., VRP solvers, scheduling heuristics, LP models). 4. Not all optimization is mathematical . For strategic HR or resource bottleneck issues, the \"optimal\" solution isn't a number. It's a strategic decision, like a training program or a change management initiative. 5. Data & dynamics are the real challenge . Many of you rightly noted that your environments are unpredictable. Successful optimization initiatives must account for this, often by using dynamic or stochastic models that can re-optimize quickly when things change.",
+    "start": 0,
+    "end": 1182,
+    "length": 1182,
+    "hash": "k6xlix"
+  },
+  {
+    "id": "p543_c0",
+    "page": 543,
+    "text": "• Optimization is essential in many processes. However, only a few companies take advantage of optimization algorithms (lack of data, lack of expertise, human factors). • Several industrial processes (e.g., in logistics, scheduling, layout optimization, HR management, etc.) can be mapped to well-known optimization problems for which several powerful algorithms exist. • Existing optimization software (e.g., Gurobi, IBM CPLEX, Google OR-Tools) offers general-purpose tools including several of these optimization algorithms, but requires experts to model the industrial problem and pick the right algorithm for it. • Specialized software, e.g., for scheduling (e.g., CyberPlan) and process simulation (e.g., FlexSim, AnyLogic, etc.), either integrates optimization algorithms or can be connected to external optimizers to fi nd effective solutions to complex industrial problems ( simulation-based optimization ). • Machine Learning algorithms can be used to extract patterns in company data (e.g., collected from ERP, MES, etc.) to build models of the processes of interest and then optimize them with the algorithms we have seen. TAKE-HOME MESSAGES AND OPPORTUNITIES 124",
+    "start": 0,
+    "end": 1174,
+    "length": 1174,
+    "hash": "7o6kek"
+  },
+  {
+    "id": "p544_c0",
+    "page": 544,
+    "text": "• In many organizations, objectives and constraints are “in the head” of the domain experts (e.g., planner, HR, etc.). They aren't formalized (and may be hard to formalize), or they rely on data that are not digitized yet (e.g., oral/paper knowledge). • Optimality is often luxury. What you really want is to avoid “insanely ineffective decisions”. • “Talk in euros/dollars.” - Not always is the economic advantage of process optimization immediately grasped. In many cases, the advantage is indirect, or does not produce an immediate return. But, in the long term, it will certainly pay off! TAKE-HOME MESSAGES AND OPPORTUNITIES 125",
+    "start": 0,
+    "end": 633,
+    "length": 633,
+    "hash": "c0rk7r"
+  },
+  {
+    "id": "p545_c0",
+    "page": 545,
+    "text": "Mass Customization / Product variety management Nikola Suzic nikola.suzic@unitn.it Department of Industrial Engineering",
+    "start": 0,
+    "end": 119,
+    "length": 119,
+    "hash": "yfzfds"
+  },
+  {
+    "id": "p546_c0",
+    "page": 546,
+    "text": "Agenda 1. Introduzione corso 2. Paradigmi di produzione 3. I quattro approcci a customizzazione 4. Leve di Mass customization/Product variety management • L1 – Standardizzazione delle parti • L2 - Modularità di prodotto • L3 - Piattaforme di prodotto • L4 - Group technology • L5 - Attrezzaggi veloci • L6 - Linee di assemblaggio a modelli misti • L7 - Configuratori del prodotto • L8 - Personalizzazione del prodotto finito al più tardi (Form postponement) • L9 - Virtual build-to-order (VBTO) 5. Modello maturità MC – con esercizio Approccio olistico alla gestione varietà prodotti",
+    "start": 0,
+    "end": 583,
+    "length": 583,
+    "hash": "unskfc"
+  },
+  {
+    "id": "p548_c0",
+    "page": 548,
+    "text": "Conoscenze acquisite • Scopo del corso:  Capire il contesto dell' elevata varietà di prodotti  Capire le che complesse conseguenze questo contesto porta alle aziende  Sviluppare la capacità di affrontare le problematiche dell'elevata varietà di prodotti nel futuro lavoro nell'industria da una prospettiva olistica",
+    "start": 0,
+    "end": 317,
+    "length": 317,
+    "hash": "wc86zq"
+  },
+  {
+    "id": "p549_c0",
+    "page": 549,
+    "text": "Materiali didattici • Appunti e materiale didattico forniti a lezione:  Presentazioni  Appunti delle lezioni che costituiscono la base del corso  Articoli pertinenti sugli argomenti • Leteratura:  Koren, Y. (2010). The global manufacturing revolution: product-process- business integration and reconfigurable systems. John Wiley & Sons.  Forza, C., & Salvador, F. (2006). Product information management for mass customization: connecting customer, front-office and back-office for fast and efficient customization. Palgrave Macmillan.  Hvam, L., Mortensen, N. H., & Riis, J. (2008). Product customization. Springer Science & Business Media.  Suzic, N., & Forza, C. (2023). Development of mass customization implementation guidelines for small and medium enterprises (SMEs). Production Planning & Control, 34(6), 543-571.",
+    "start": 0,
+    "end": 827,
+    "length": 827,
+    "hash": "3u3nuk"
+  },
+  {
+    "id": "p551_c0",
+    "page": 551,
+    "text": "Paradigmi di produzione Paradigma - un quadro filosofico e teorico di una scuola o disciplina scientifica all'interno del quale vengono formulate teorie, leggi e generalizzazioni e gli esperimenti condotti a loro supporto (Merriam-Webster) Esempi • Il paradigma freudiano della psicoanalisi • Un nuovo studio che sfida l'attuale paradigma evolutivo",
+    "start": 0,
+    "end": 348,
+    "length": 348,
+    "hash": "h1himw"
+  },
+  {
+    "id": "p552_c0",
+    "page": 552,
+    "text": "Paradigmi di produzione Che cos'è un paradigma di produzione?",
+    "start": 0,
+    "end": 61,
+    "length": 61,
+    "hash": "gnzl62"
+  },
+  {
+    "id": "p553_c0",
+    "page": 553,
+    "text": "Paradigmi di produzione • Definizione: Un paradigma di produzione è un modello di produzione integrato rivoluzionario che nasce in risposta ai mutevoli imperativi sociali e di mercato ed è reso possibile dalla creazione di un nuovo tipo di sistema di produzione . Imperativi (bisogni) sociali e di mercato? (es. prodotti a basso prezzo) RISPOSTA DELL'INDUSTRIA: L'integrazione di un nuovo sistema di produzione con un nuovo modello di business e un'architettura di prodotto crea un nuovo paradigma di produzione PRODURRE VENDERE PROGETTARE",
+    "start": 0,
+    "end": 539,
+    "length": 539,
+    "hash": "lbktpv"
+  },
+  {
+    "id": "p554_c0",
+    "page": 554,
+    "text": "Varietà del prodotto (soddisfare gli imperativi sociali) Paradigmi di produzione • Paradigma di produzione (modello) The new paradigm must be supported by the new production technologies that make it possible Imperativi di mercato Nuove tecnologie abilitanti Imperativi sociali PRODURRE VENDERE PROGETTARE Volume di produzione (soddisfare la domanda del mercato) Paradigma di produzione Architettura del prodotto Modello di business Sistema produttivo",
+    "start": 0,
+    "end": 451,
+    "length": 451,
+    "hash": "wkij3s"
+  },
+  {
+    "id": "p555_c0",
+    "page": 555,
+    "text": "Paradigmi di produzione • Tre elementi fondamentali di un'impresa manifatturiera: progettazione, produzione e vendita PRODURRE VENDERE PROGETTARE",
+    "start": 0,
+    "end": 145,
+    "length": 145,
+    "hash": "74z08x"
+  },
+  {
+    "id": "p556_c0",
+    "page": 556,
+    "text": "Paradigmi di produzione • Ogni paradigma di produzione affronta tre elementi fondamentali: Progettazione, Produzione e Vendita.  Progettare : Progettazione del prodotto e delle sue funzioni per soddisfare specifiche esigenze sociali  Produrre : Realizzazione del prodotto tramite un sistema produttivo in grado di rispondere rapidamente alle esigenze e alle opportunità del mercato  Vendere : Vendita di prodotti ai clienti al fine di soddisfare i loro bisogni e generare profitto per l'azienda",
+    "start": 0,
+    "end": 497,
+    "length": 497,
+    "hash": "sruvat"
+  },
+  {
+    "id": "p557_c0",
+    "page": 557,
+    "text": "Paradigmi di produzione • Quindi la sequenza è: Progettare Produrre Vendere La sequenza di questi tre elementi è sempre la stessa?",
+    "start": 0,
+    "end": 130,
+    "length": 130,
+    "hash": "gvdr02"
+  },
+  {
+    "id": "p558_c0",
+    "page": 558,
+    "text": "Paradigmi di produzione • QUATTRO PRINCIPALI PARADIGMI PRODUTTIVI 1. Il paradigma della produzione artigianale (The Craft Production Paradigm) 2. Il paradigma della produzione di massa 3. Il paradigma di Mass Customization (personalizzazione di massa) 4. Il paradigma di produzione globale a) Produzione regionalizzata b) Produzione personalizzata",
+    "start": 0,
+    "end": 347,
+    "length": 347,
+    "hash": "yyxw28"
+  },
+  {
+    "id": "p559_c0",
+    "page": 559,
+    "text": "Produzione artigianale • Lavoratori qualificati e formati • Macchine multiuso • Realizziamo esattamente il prodotto per cui il cliente paga • Un prodotto alla volta 1",
+    "start": 0,
+    "end": 166,
+    "length": 166,
+    "hash": "fbuliv"
+  },
+  {
+    "id": "p560_c0",
+    "page": 560,
+    "text": "Produzione di massa • È apparsa all' inizio del XX secolo - Ford • Flusso di materiali coordinato attraverso linee di produzione che realizzano componenti ad alta precisione e li assemblano • Le linee sono costituite da attrezzature specializzate dedicate all'assemblaggio, al trasporto e alla finitura dei prodotti • Le operazioni all'interno della linea sono ottimizzate per ottenere economie di scala 2 Economia di scala: il costo di produzione cresce in modo meno che proporzionale rispetto alla scala dei macchinari",
+    "start": 0,
+    "end": 520,
+    "length": 520,
+    "hash": "8anz7p"
+  },
+  {
+    "id": "p561_c0",
+    "page": 561,
+    "text": "Mass Customization 3 • Un paradigma generato da bisogni sociali • Con l'arricchimento della società , è emersa la necessità di un maggior numero di varianti di prodotto • I produttori offrono \"opzioni\" ai loro prodotti standard tra cui il cliente può scegliere e creare il proprio prodotto • L'obiettivo del paradigma: aumentare la varietà mantenendo basso il prezzo",
+    "start": 0,
+    "end": 366,
+    "length": 366,
+    "hash": "izfdef"
+  },
+  {
+    "id": "p562_c0",
+    "page": 562,
+    "text": "Mass Customization 3 MASS PRODUCTION CUSTOMIZATION MASS CUSTOMIZATION",
+    "start": 0,
+    "end": 69,
+    "length": 69,
+    "hash": "ws91yj"
+  },
+  {
+    "id": "p563_c0",
+    "page": 563,
+    "text": "Produzione globale 4 • Il paradigma produttivo del futuro  Regionalizzazione - causata principalmente dalle differenze culturali  Personalizzazione - guidata dal desiderio dei clienti di avere qualcosa su misura per loro, ma senza pagare il prezzo artigianale del prodotto",
+    "start": 0,
+    "end": 274,
+    "length": 274,
+    "hash": "rlymcb"
+  },
+  {
+    "id": "p564_c0",
+    "page": 564,
+    "text": "Varietà e quantità del prodotto per variante Industria automobilistica (I driver dei nuovi paradigmi sono le esigenze del mercato e della società)",
+    "start": 0,
+    "end": 146,
+    "length": 146,
+    "hash": "ytlsk4"
+  },
+  {
+    "id": "p568_c0",
+    "page": 568,
+    "text": "Il ruolo del cliente nei quattro paradigmi Grandi aspettative!!!",
+    "start": 0,
+    "end": 64,
+    "length": 64,
+    "hash": "kqzd6v"
+  },
+  {
+    "id": "p569_c0",
+    "page": 569,
+    "text": "Caratteristiche di quattro paradigmi di produzione Produzione globale Mass customization Produzione di massa Produzione artigianale Paradigma Prodotti regionali Prodotti personalizzati Alta varietà dei prodotti Alta qualità Prodotti a basso prezzo Prodotti unici Imperativi sociali Fluttuante Instabile Costante Domanda mercato Elevata velocità di risposta Ampia varietà Basso prezzo del prodotto Soddisfare il desiderio dei clienti Oggettivo paradigma Tecnologia dell'informazione e Internet Computer Parti intercambiabili Elettricità Leva tecnologica Sistemi riconfigurabili Sistemi flessibili Operazioni LEAN Linea di montaggio mobile Macchine dedicate Macchine utensili azionate elettricamente Sistema produttivo Altamente modulare Modulare Unificata Architettura del prodotto Pull Push-Pull Push Pull Principio di business model",
+    "start": 0,
+    "end": 833,
+    "length": 833,
+    "hash": "clxoza"
+  },
+  {
+    "id": "p571_c0",
+    "page": 571,
+    "text": "I quattro approcci a customizzazione The four faces of mass customization (Gilmore and Pine, 1997)",
+    "start": 0,
+    "end": 98,
+    "length": 98,
+    "hash": "zaulw7"
+  },
+  {
+    "id": "p572_c0",
+    "page": 572,
+    "text": "I quattro approcci a customizzazione The four faces of mass customization (Gilmore and Pine, 1997) Il cliente può ritirare gli occhiali finiti in 1 ora!!!!",
+    "start": 0,
+    "end": 155,
+    "length": 155,
+    "hash": "wh24vy"
+  },
+  {
+    "id": "p573_c0",
+    "page": 573,
+    "text": "I quattro approcci a customizzazione The four faces of mass customization (Gilmore and Pine, 1997)",
+    "start": 0,
+    "end": 98,
+    "length": 98,
+    "hash": "zaulw7"
+  },
+  {
+    "id": "p574_c0",
+    "page": 574,
+    "text": "I quattro approcci a customizzazione The four faces of mass customization (Gilmore and Pine, 1997)",
+    "start": 0,
+    "end": 98,
+    "length": 98,
+    "hash": "zaulw7"
+  },
+  {
+    "id": "p575_c0",
+    "page": 575,
+    "text": "I quattro approcci a customizzazione The four faces of mass customization (Gilmore and Pine, 1997)",
+    "start": 0,
+    "end": 98,
+    "length": 98,
+    "hash": "zaulw7"
+  },
+  {
+    "id": "p577_c0",
+    "page": 577,
+    "text": "33 Che cosa è la Mass Customization? Tendenze • Sviluppo del mercato • Esplosione di varietà di prodotti 33 Sviluppo del mercato Davis(1987) Mercati locali Mercato di massa Mercato segmentat o Nicchie di mercato Mercati MC (personalizzazione di mass)",
+    "start": 0,
+    "end": 250,
+    "length": 250,
+    "hash": "lltu8h"
+  },
+  {
+    "id": "p578_c0",
+    "page": 578,
+    "text": "Tendenze di mercato: prodotti standardizzati vs customizzati Quota di mercato dei prodotti standardizzati vs customizzati (Schuler & Buehlmann, 2003)",
+    "start": 0,
+    "end": 149,
+    "length": 149,
+    "hash": "uzslrv"
+  },
+  {
+    "id": "p579_c0",
+    "page": 579,
+    "text": "35 Che cosa è la Mass Customization? Mass customization (MC) è definita come la capacità di un’organizzazione di fornire prodotti e servizi customizzati che soddisfano le esigenze idiosincratiche di ciascun cliente senza compromessi considerevoli in termini di costi, consegna e qualità (Suzic et al. (2018), basato su Pine 1993; Liu, Shah, and Schroeder 2006; Squire et al. 2006) 35",
+    "start": 0,
+    "end": 383,
+    "length": 383,
+    "hash": "ooiekr"
+  },
+  {
+    "id": "p580_c0",
+    "page": 580,
+    "text": "Chocomize - Customizzazione artigianale Customizzazione artigianale vs Mass customization Mass Customization",
+    "start": 0,
+    "end": 108,
+    "length": 108,
+    "hash": "z2wlil"
+  }
+]

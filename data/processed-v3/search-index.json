@@ -1,0 +1,205 @@
+{
+  "keywords": {
+    "supply": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 1
+      }
+    ],
+    "progetto": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 2
+      }
+    ],
+    "chain": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 3
+      }
+    ],
+    "prodotto": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 4
+      }
+    ],
+    "management": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 5
+      }
+    ],
+    "attività": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 6
+      }
+    ],
+    "produzione": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 7
+      }
+    ],
+    "prodotti": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 8
+      }
+    ],
+    "optimization": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 9
+      }
+    ],
+    "fornitori": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 10
+      }
+    ],
+    "dell": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 11
+      }
+    ],
+    "come": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 12
+      }
+    ],
+    "tempo": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 13
+      }
+    ],
+    "parti": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 14
+      }
+    ],
+    "dati": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 15
+      }
+    ],
+    "costi": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 16
+      }
+    ],
+    "gestione": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 17
+      }
+    ],
+    "project": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 18
+      }
+    ],
+    "lean": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 19
+      }
+    ],
+    "essere": [
+      {
+        "chunkId": "chunk_0",
+        "pages": [
+          1
+        ],
+        "relevance": 20
+      }
+    ]
+  },
+  "pageToChunks": {
+    "1": [
+      "chunk_0"
+    ]
+  },
+  "statistics": {
+    "totalKeywords": 20,
+    "avgChunkSize": 332733,
+    "topicDistribution": {
+      "supply": 1,
+      "progetto": 1,
+      "chain": 1,
+      "prodotto": 1,
+      "management": 1,
+      "attività": 1,
+      "produzione": 1,
+      "prodotti": 1,
+      "optimization": 1,
+      "fornitori": 1
+    }
+  }
+}

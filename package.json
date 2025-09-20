@@ -1,0 +1,32 @@
+{
+  "name": "quiz-assistant-v4",
+  "version": "4.0.0",
+  "description": "Quiz Assistant con RAG, GPT-4 Vision e Pinecone",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build required'",
+    "deploy": "vercel --prod",
+    "preprocess": "node scripts/preprocess-v4-pipeline.js",
+    "test-api": "node scripts/test-api.js",
+    "setup-pinecone": "node scripts/setup-pinecone-index.js"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^2.0.1",
+    "openai": "^4.28.0",
+    "dotenv": "^16.4.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-lib": "^1.17.1",
+    "pdf2pic": "^3.1.2",
+    "sharp": "^0.33.2",
+    "tesseract.js": "^5.0.4",
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "vercel": "^32.7.2",
+    "@types/node": "^20.11.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

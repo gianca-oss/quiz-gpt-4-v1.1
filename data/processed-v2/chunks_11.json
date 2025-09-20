@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "p738_c0",
+    "page": 738,
+    "text": "IoT Platform • Infrastruttura software progettata per connettere dispositivi intelligenti a Internet , raccogliere e analizzare dati. • Consente il controllo remoto degli oggetti connessi. • Supporta il provisioning, l'aggiornamento del firmware e il monitoraggio dello stato dei dispositivi IoT. • Riceve i dati dai sensori e dispositivi connessi, li elabora in tempo reale o li memorizza per analisi successive. • Fornisce strumenti di analisi avanzata e dashboard per interpretare i dati raccolti e generare insight utili. • Può essere collegata a sistemi aziendali, applicazioni cloud e intelligenza artificiale per automatizzare processi e prendere decisioni intelligenti. Un'IoT Platform predilige il real - time processing per il monitoraggio e il controllo immediato. Può inviare i dati raccolti a un Data Lake per essere conservati e analizzati nel lungo periodo.",
+    "start": 0,
+    "end": 873,
+    "length": 873,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 4.36,
+      "keywords": [
+        "dati",
+        "dispositivi",
+        "platform",
+        "intelligenti",
+        "controllo",
+        "connessi",
+        "monitoraggio",
+        "analisi",
+        "raccolti",
+        "essere"
+      ]
+    }
+  },
+  {
+    "id": "p739_c0",
+    "page": 739,
+    "text": "Manutenzione predittiva • La manutenzione predittiva è una strategia di manutenzione avanzata che si basa sull' analisi continua delle condizioni operative . • I dati sono analizzati tramite predictive analytics , che consentono correlazioni complesse tra dati storici in modo da identificare pattern di probabilità. Alla base di questa applicazione, ci sono la connettività delle macchine e l’utilizzo di historians e database relazionali . Da preferire rispetto a condition - based maintenance , se si necessita di una previsione accurata dei guasti e di un’ottimizzazione più avanzata (utilizzo dati storici, modelli di analisi avanzati ).",
+    "start": 0,
+    "end": 643,
+    "length": 643,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.21,
+      "keywords": [
+        "manutenzione",
+        "dati",
+        "predittiva",
+        "avanzata",
+        "analisi",
+        "delle",
+        "sono",
+        "storici",
+        "utilizzo",
+        "strategia"
+      ]
+    }
+  },
+  {
+    "id": "p740_c0",
+    "page": 740,
+    "text": "Smart Quality Management System • Piattaforma software che automatizza e ottimizza i processi di gestione della qualità. • Utilizza tecnologie avanzate come il cloud, l'intelligenza artificiale, l'IoT e l'analisi dei dati per migliorare il controllo della qualità, la conformità normativa e l’efficienza operativa. • I dati sono integrati da sistemi di ispezione automatici e dotazioni di laboratorio. • Facilita l’analisi della cause di difetti e guasti. Si integra con il sistema gestionale (ERP) per una visibilità real - time. Rende possibile la gestione della qualità end - to - end se integrata con i sistemi dei fornitori.",
+    "start": 0,
+    "end": 630,
+    "length": 630,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.145,
+      "keywords": [
+        "della",
+        "qualit",
+        "gestione",
+        "analisi",
+        "dati",
+        "sistemi",
+        "smart",
+        "quality",
+        "management",
+        "system"
+      ]
+    }
+  },
+  {
+    "id": "p741_c0",
+    "page": 741,
+    "text": "Robot autonomi (AMR) • Possono muoversi in un ambiente non controllato senza il bisogno di guide fisiche o elettromagnetiche, identificando ostacoli e muovendosi attorno • Si connettono e operano con altri device (es. muletti), possono ricevere ordini direttamente da dispositivi portatili (es. smartphone). Hanno maggiore versatilità rispetto a LGV e AGV. Possono essere integrati con co - bots (robot collaborativi) per l’esecuzione di diversi task (oltre la movimentazione).",
+    "start": 0,
+    "end": 478,
+    "length": 478,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.385,
+      "keywords": [
+        "possono",
+        "robot",
+        "autonomi",
+        "muoversi",
+        "ambiente",
+        "controllato",
+        "senza",
+        "bisogno",
+        "guide",
+        "fisiche"
+      ]
+    }
+  },
+  {
+    "id": "p742_c0",
+    "page": 742,
+    "text": "Soft robotics • Robot flessibili e morbidi , ispirati ai movimenti e alle strutture biologiche di esseri viventi come polpi, vermi e mani umane. • Sono costituti da materiali deformabili e flessibili , come silicone, elastomeri, polimeri e tessuti intelligenti. • Funzionano con attuatori pneumatici, idraulici o materiali elettroattivi . Sono caratterizzati da movimenti più naturali e sicuri rispetto ai robot rigidi tradizionali. Ideali per interagire con esseri umani senza rischi di incidenti.",
+    "start": 0,
+    "end": 499,
+    "length": 499,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.49,
+      "keywords": [
+        "robot",
+        "flessibili",
+        "movimenti",
+        "esseri",
+        "come",
+        "sono",
+        "materiali",
+        "soft",
+        "robotics",
+        "morbidi"
+      ]
+    }
+  },
+  {
+    "id": "p743_c0",
+    "page": 743,
+    "text": "Assistenti digitali • Sistema basato su intelligenza artificiale (AI) per supportare operatori, tecnici e manager nella gestione di impianti produttivi. • Può essere un chatbot , un'interfaccia vocale o un sistema integrato con dispositivi smart , migliorando efficienza, sicurezza e automazione. • Risponde a comandi vocali o testuali , facilitando l’uso per gli operatori. • Può avviare procedure, regolare parametri o inviare report automatici. Quando un sensore rileva un’anomalia, l’assistente avvisa immediatamente il tecnico via smart speaker o app, suggerisce la causa probabile e la soluzione. Se necessario, ordina automaticamente il pezzo di ricambio. I responsabili possono anche gestire impianti a distanza tramite app o comandi vocali.",
+    "start": 0,
+    "end": 750,
+    "length": 750,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.745,
+      "keywords": [
+        "sistema",
+        "operatori",
+        "impianti",
+        "smart",
+        "comandi",
+        "vocali",
+        "assistenti",
+        "digitali",
+        "basato",
+        "intelligenza"
+      ]
+    }
+  },
+  {
+    "id": "p744_c0",
+    "page": 744,
+    "text": "Virtual reality training • Metodo di formazione basato su realtà virtuale (VR) che permette agli operatori di simulare ambienti di lavoro realistici. • L’operatore indossa un visore VR per entrare in una fabbrica virtuale, usa controller o guanti sensorizzati per simulare movimenti reali, simula macchinari specifici, emergenze o processi produttivi. • Il sistema valuta errori e prestazioni , suggerendo miglioramenti. Integrato con IoT e AI può simulare scenari basati su dati reali .",
+    "start": 0,
+    "end": 488,
+    "length": 488,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.435,
+      "keywords": [
+        "simulare",
+        "virtuale",
+        "reali",
+        "virtual",
+        "reality",
+        "training",
+        "metodo",
+        "formazione",
+        "basato",
+        "realt"
+      ]
+    }
+  },
+  {
+    "id": "p745_c0",
+    "page": 745,
+    "text": "Condition - based maintenace • Manutenzione predittiva che prevede l’intervento solo quando le condizioni operative di un macchinario o di un impianto indicano un deterioramento o un’anomalia . • A differenza della manutenzione preventiva, che si basa su intervalli di tempo prestabiliti, la CBM utilizza dati in tempo reale per determinare il momento ottimale per la manutenzione. • Gli algoritmi/intelligenza artificiale analizzano i dati per identificare segni di deterioramento. Soluzione deve essere adottata con sensori e dispositivi IoT per rilevare parametri critici come temperatura, vibrazioni, pressione e usura. La CBM è un’ottima soluzione per chi vuole ridurre guasti e costi senza la complessità della manutenzione predittiva .",
+    "start": 0,
+    "end": 743,
+    "length": 743,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.71,
+      "keywords": [
+        "manutenzione",
+        "predittiva",
+        "deterioramento",
+        "della",
+        "tempo",
+        "dati",
+        "soluzione",
+        "condition",
+        "based",
+        "maintenace"
+      ]
+    }
+  },
+  {
+    "id": "p746_c0",
+    "page": 746,
+    "text": "Product Lifecycle Management System • Information management system che integra dati, processi e sistemi per consentire l’organizzazione dell’informazione attraverso l’intero ciclo di vita di prodotto (concept, design, manufacturing, service e disposal ) Non può essere adottato come sistema standalone, ma deve essere integrato in sistemi come il MES e l’ERP per facilitare il trasferimento dati attraverso aree funzionali (engineering, reparti produttivi, service). Grazie a tecnologie avanzate come IoT, AI e Cloud, un sistema PLM moderno consente di centralizzare dati, integrare processi aziendali e favorire l'innovazione lungo tutto il ciclo di vita del prodotto.",
+    "start": 0,
+    "end": 671,
+    "length": 671,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.35,
+      "keywords": [
+        "dati",
+        "come",
+        "management",
+        "system",
+        "processi",
+        "sistemi",
+        "attraverso",
+        "ciclo",
+        "vita",
+        "prodotto"
+      ]
+    }
+  },
+  {
+    "id": "p747_c0",
+    "page": 747,
+    "text": "Smart sensors • Sensori wireless/IoT che permettono di raccogliere, analizzare e trasmettere dati in tempo reale • Diverse tipologie di sensori: • Macchina (vibrazione, temperatura, pressione) per rilevare anomalie nel funzionamento • Controllo di produzione (ottici, posizionamento, portata e livello) per controllo qualità, precisione, fluidi e materiali di consumo • Sostenibilità (consumo energetico, ambientali) per controllo consumi e condizioni ambientali Richiedono l’implementazione di reti industriali per lo scambio dati (IoT, 5G, Edge computing, cloud).",
+    "start": 0,
+    "end": 566,
+    "length": 566,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.825,
+      "keywords": [
+        "controllo",
+        "sensori",
+        "dati",
+        "consumo",
+        "ambientali",
+        "smart",
+        "sensors",
+        "wireless",
+        "permettono",
+        "raccogliere"
+      ]
+    }
+  },
+  {
+    "id": "p748_c0",
+    "page": 748,
+    "text": "Condition monitoring system • Sistema avanzato per il monitoraggio continuo delle condizioni operative di macchine e impianti industriali. • Sistemi di sensori raccolgono diversi dati macchina e li trasferiscono a software di analisi • Esempi di analisi riguardano lubrificazione, corrosione, calibrazione, vibrazione. • Si basano su processi standard per i fermi macchina utilizzando timestamp automatici e set di cause preimpostate. Elemento base per lo sviluppo di nuovi approcci manutentivi. Gli approcci possono essere diversificati a seconda delle criticità delle macchine (es. raccolta dati periodica tramite dispositivi portatili vs.",
+    "start": 0,
+    "end": 642,
+    "length": 642,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.205,
+      "keywords": [
+        "delle",
+        "macchine",
+        "dati",
+        "macchina",
+        "analisi",
+        "approcci",
+        "condition",
+        "monitoring",
+        "system",
+        "sistema"
+      ]
+    }
+  },
+  {
+    "id": "p749_c0",
+    "page": 749,
+    "text": "Advanced process control • Tecnologia avanzata di controllo dei processi industriali che utilizza modelli matematici, intelligenza artificiale (AI) e algoritmi predittivi. • A partire dalla raccolta dati di parametri di produzione (temperatura, portata, qualità, energia), algoritmi AI/machine learning creano modelli predittivi del sistema. • Il sistema simula scenari futuri ( digital twin ) e suggerisce modifiche ai parametri operativi, regolando in tempo reale i set - point delle macchine. • Il modello viene aggiornato continuamente in base ai dati acquisiti. L'APC supera i tradizionali controlli PID (Proporzionale - Integrale - Derivativo) utilizzando dati in tempo reale e previsioni per stabilizzare il processo, migliorare l’efficienza e ridurre gli sprechi. Cos’è Benefici • Automatizza diverse attività di raccolta dati e settaggio macchina • Assicura approcci data - driven nella gestione della produzione • Ottimizza risorse/energia • Non richiede particolari training per l’operatore • Migliora la gestione dei processi e il controllo (es.",
+    "start": 0,
+    "end": 1058,
+    "length": 1058,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 5.285,
+      "keywords": [
+        "dati",
+        "controllo",
+        "processi",
+        "modelli",
+        "algoritmi",
+        "predittivi",
+        "raccolta",
+        "parametri",
+        "produzione",
+        "energia"
+      ]
+    }
+  },
+  {
+    "id": "p750_c0",
+    "page": 750,
+    "text": "Palletizzatore integrato per fine linea • Sistema automatizzato progettato per impilare e organizzare prodotti o confezioni su pallet alla fine del processo produttivo. • Integrato con il resto della linea di produzione. • Il pallettizzatore raccoglie i prodotti dal nastro trasportatore , li orienta e li impila in strati per garantire stabilità. Può applicare protezioni come interfalde o film estensibile per fissare il carico. Infine, il pallet completo viene trasferito automaticamente all’area di spedizione o stoccaggio. Può essere connesso a diversi sistemi Industry 4. 0 (es. Smart sensor per monitoraggio in tempo reale, MES per sincronizzazione con produzione/logistica, soft robots per interazione sicura con esseri umani).",
+    "start": 0,
+    "end": 736,
+    "length": 736,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 8.675,
+      "keywords": [
+        "integrato",
+        "fine",
+        "linea",
+        "prodotti",
+        "pallet",
+        "produzione",
+        "palletizzatore",
+        "sistema",
+        "automatizzato",
+        "progettato"
+      ]
+    }
+  },
+  {
+    "id": "p751_c0",
+    "page": 751,
+    "text": "Receipe management system • Software utilizzato nelle industrie manifatturiere per creare, gestire e ottimizzare ricette di produzione • Il sistema definisce parametri come ingredienti, dosaggi, tempi di processo e condizioni operative. Può essere integrato con sistemi di controllo (PLC, SCADA, MES) per regolare automaticamente i parametri.",
+    "start": 0,
+    "end": 343,
+    "length": 343,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 1.71,
+      "keywords": [
+        "parametri",
+        "receipe",
+        "management",
+        "system",
+        "software",
+        "utilizzato",
+        "nelle",
+        "industrie",
+        "manifatturiere",
+        "creare"
+      ]
+    }
+  },
+  {
+    "id": "p752_c0",
+    "page": 752,
+    "text": "Industrial cybersecurity platform • Soluzione tecnologica progettata per proteggere le infrastrutture critiche industriali da minacce informatiche • Include strumenti per la valutazione continua dei rischi e per la pianificazione di azioni preventive . • Ha funzionalità di risposta automatica a minacce, riducendo il tempo di reazione e il rischio di danni. Sono soluzioni specificamente progettate per difendere impianti di produzione, macchinari industriali, sistemi di automazione e controllo (come PLC, SCADA, DCS) da attacchi esterni, malware, e vulnerabilità interne. Ha la capacità di monitorare e proteggere anche i dispositivi IoT industriali che sono connessi alla rete aziendale.",
+    "start": 0,
+    "end": 692,
+    "length": 692,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.455,
+      "keywords": [
+        "industriali",
+        "proteggere",
+        "minacce",
+        "sono",
+        "industrial",
+        "cybersecurity",
+        "platform",
+        "soluzione",
+        "tecnologica",
+        "progettata"
+      ]
+    }
+  },
+  {
+    "id": "p753_c0",
+    "page": 753,
+    "text": "Robot integrati per pick and place • Sistemi automatizzati utilizzati nelle linee di produzione per prelevare ( pick ) e posizionare (place) oggetti o prodotti con alta precisione e velocità • Progettati per eseguire compiti di manipolazione e trasporto di articoli tra diverse postazioni , come tra nastri trasportatori, aree di stoccaggio o macchine. • Il robot preleva un oggetto da una postazione, lo trasporta con movimenti precisi grazie a algoritmi di controllo e visione artificiale, e lo posiziona nella destinazione finale, come un altro nastro o un contenitore. Sono integrati con sistemi di automazione e controllo (PLC, SCADA) per ottimizzare il flusso di lavoro.",
+    "start": 0,
+    "end": 677,
+    "length": 677,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.38,
+      "keywords": [
+        "robot",
+        "integrati",
+        "pick",
+        "place",
+        "sistemi",
+        "come",
+        "controllo",
+        "automatizzati",
+        "utilizzati",
+        "nelle"
+      ]
+    }
+  },
+  {
+    "id": "p754_c0",
+    "page": 754,
+    "text": "Sistema di dosaggio automatizzato • Soluzione tecnologica utilizzata per misurare e distribuire in modo preciso e controllato quantità di materiali o sostanze, come liquidi, polveri, o componenti. • Il sistema carica il materiale, lo monitora in tempo reale tramite sensori avanzati, lo distribuisce automaticamente alla destinazione desiderata e regola i parametri per garantire precisione nel dosaggio. Il sistema è integrato con sensori, attuatori e software di controllo che ne permettono il funzionamento autonomo .",
+    "start": 0,
+    "end": 521,
+    "length": 521,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.6,
+      "keywords": [
+        "sistema",
+        "dosaggio",
+        "sensori",
+        "automatizzato",
+        "soluzione",
+        "tecnologica",
+        "utilizzata",
+        "misurare",
+        "distribuire",
+        "modo"
+      ]
+    }
+  },
+  {
+    "id": "p755_c0",
+    "page": 755,
+    "text": "Vision picking system • Tecnologia avanzata che utilizza sistemi di visione artificiale (telecamere, sensori, algoritmi di computer vision) per identificare, localizzare e prelevare oggetti in modo autonomo durante il processo di picking (prelievo) in un ambiente di magazzino o di produzione. • Sistema è progettato per automatizzare il prelievo di prodotti in base alla loro posizione, dimensione e orientamento. • Il sistema di visione acquisisce immagini in tempo reale , le analizza per identificare e localizzare con precisione l'oggetto, e un braccio robotico lo preleva e lo posiziona nella destinazione desiderata. Può essere integrato con robot , trasportatori e sistemi di gestione del magazzino per ottimizzare il flusso di lavoro.",
+    "start": 0,
+    "end": 744,
+    "length": 744,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.715,
+      "keywords": [
+        "vision",
+        "picking",
+        "sistemi",
+        "visione",
+        "identificare",
+        "localizzare",
+        "prelievo",
+        "magazzino",
+        "sistema",
+        "system"
+      ]
+    }
+  },
+  {
+    "id": "p756_c0",
+    "page": 756,
+    "text": "Forklift sensory system • Un sistema sensoriale per carrello elevatore è una tecnologia integrata che utilizza una serie di sensori (come sensori di distanza, telecamere, radar, e lidar) per migliorare la sicurezza, l'efficienza e l'operatività dei carrelli elevatori all'interno di ambienti di lavoro industriali e magazzini. • Fornisce al carrello elevatore una percezione avanzata dell'ambiente circostante , consentendo di rilevare ostacoli, monitorare la posizione e migliorare il controllo dei movimenti durante il sollevamento e lo spostamento di carichi. • Rileva ostacoli, monitora la posizione e l'inclinazione del carico, fornisce assistenza al conducente con avvisi e controlla costantemente lo stato del carico. .",
+    "start": 0,
+    "end": 727,
+    "length": 727,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.63,
+      "keywords": [
+        "carrello",
+        "elevatore",
+        "sensori",
+        "migliorare",
+        "fornisce",
+        "ostacoli",
+        "posizione",
+        "carico",
+        "forklift",
+        "sensory"
+      ]
+    }
+  },
+  {
+    "id": "p757_c0",
+    "page": 757,
+    "text": "Sistema di data streaming • Soluzione tecnologica che consente la trasmissione in tempo reale di grandi volumi di dati all'interno di un'azienda. • Questi dati vengono continuamente generati da diverse fonti aziendali, come macchine, dispositivi IoT, applicazioni, sensori, e altre fonti di dati. • Questi dati vengono trasmessi in modo continuo a piattaforme di streaming sicure come Apache Kafka o AWS Kinesis. • I dati vengono elaborati in tempo reale tramite tecnologie di stream processing. • I dati elaborati vengono archiviati su piattaforme cloud o locali per ulteriori analisi . Infine , il sistema può attivare azioni automatiche per rispondere rapidamente a eventi o situazioni aziendali . Mentre una IoT platform gestisce principalmente dispositivi e sensori , un sistema di data streaming aziendale è pensato per l'elaborazione e la gestione dei flussi di dati provenienti da molteplici fonti aziendali in tempo reale . Cos’è Benefici • Garantisce elevata scalabilità delle soluzioni • Consente di acquisire e trasmettere dati istantaneamente , per garantire decisioni basate su informazioni aggiornate. • I dati vengono trasmessi e archiviati in modo sicuro , utilizzando protocolli di sicurezza per proteggere le informazioni sensibili.",
+    "start": 0,
+    "end": 1252,
+    "length": 1252,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 6.255,
+      "keywords": [
+        "dati",
+        "vengono",
+        "sistema",
+        "streaming",
+        "tempo",
+        "reale",
+        "fonti",
+        "aziendali",
+        "data",
+        "consente"
+      ]
+    }
+  },
+  {
+    "id": "p758_c0",
+    "page": 758,
+    "text": "Stampanti 3D in manutenzione • Tecnologia che utilizza la stampa tridimensionale per produrre pezzi di ricambio, componenti o strumenti necessari per la riparazione e la manutenzione di macchinari e impianti industriali. • Il processo di stampa 3D per manutenzione inizia con la progettazione digitale del pezzo da sostituire , ottenuta tramite scansione 3D o disegno CAD . Il modello viene poi stampato strato per strato utilizzando materiali adatti come plastica o metallo . Infine , il pezzo stampato viene testato e installato per sostituire o riparare il componente danneggiato .",
+    "start": 0,
+    "end": 585,
+    "length": 585,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.92,
+      "keywords": [
+        "manutenzione",
+        "stampa",
+        "pezzo",
+        "sostituire",
+        "viene",
+        "stampato",
+        "strato",
+        "stampanti",
+        "tecnologia",
+        "utilizza"
+      ]
+    }
+  },
+  {
+    "id": "p759_c0",
+    "page": 759,
+    "text": "Digital literacy training • Programma formativo progettato per migliorare le competenze digitali di individui o gruppi, aiutandoli a utilizzare in modo efficace strumenti e tecnologie digitali. • Favorisce l’adozione e utilizzo di tecnologie avanzate come Industry 4. 0, IoT e automazione industriale. • Comprende contenuti quali: alfabetizzazione digitale di base, software e strumenti per la produzione (e. g. , MES, ERP, approcci manutentivi), automazione digitale e IoT, comunicazione e collaborazione digitale, sicurezza informatica e protezione dati. Viene erogato in sessioni teoriche e pratiche, adattando i contenuti a ruolo e funzione.",
+    "start": 0,
+    "end": 646,
+    "length": 646,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 8.225,
+      "keywords": [
+        "digitale",
+        "digitali",
+        "strumenti",
+        "tecnologie",
+        "automazione",
+        "contenuti",
+        "digital",
+        "literacy",
+        "training",
+        "programma"
+      ]
+    }
+  },
+  {
+    "id": "p760_c0",
+    "page": 760,
+    "text": "Esperti digitali • Piano di assunzioni mirato all’integrazione di figure esperte in data science, ingegneria dei dati e tecnologie digitali. • Il piano potrebbe comprendere: • 2 - 3 data scientists , con compiti principali di sviluppo di modelli di machine learning per l’ottimizzazione dei processi produttivi, analisi predittiva su dati di produzione/manutenzione/qualità • 2 - 3 data engineers per la creazione di pipeline di dati per raccogliere e processare dati in tempo reale, gestendo database, sistemi IoT, architetture cloud e on - premise • 2 digital manufacturing engineers per lo svuluppo di soluzioni di monitoraggio intelligente delle linee produttive ( digital twin, integrazione MES) • 1 - 2 cybersecurity specialist per garantire la protezione dati aziendali Il team inoltre gestirà collaborazioni con service provider esterni.",
+    "start": 0,
+    "end": 846,
+    "length": 846,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 14.225,
+      "keywords": [
+        "dati",
+        "data",
+        "digitali",
+        "piano",
+        "integrazione",
+        "engineers",
+        "digital",
+        "esperti",
+        "assunzioni",
+        "mirato"
+      ]
+    }
+  },
+  {
+    "id": "p761_c0",
+    "page": 761,
+    "text": "Digital leadership • Piano strutturato di Digital Leadership Development aiuta i manager a sviluppare competenze per integrare tecnologie avanzate, ottimizzare i processi produttivi e favorire l’innovazione. • La formazione mira allo sviluppo di competenze su tecnologie emergenti e analisi dei dati, al potenziamento delle soft skills per la gestione del cambiamento, alla creazione di una cultura aziendale orientata all’innovazione digitale. • Include l’affiancamento in progetti pilota e applicazioni pratiche. Iniziativa dedicata a middle e senior manager, responsabili IT e automazione industriale, supervisori e ingegneri di produzione.",
+    "start": 0,
+    "end": 644,
+    "length": 644,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 3.215,
+      "keywords": [
+        "digital",
+        "leadership",
+        "manager",
+        "competenze",
+        "tecnologie",
+        "innovazione",
+        "piano",
+        "strutturato",
+        "development",
+        "aiuta"
+      ]
+    }
+  },
+  {
+    "id": "p762_c0",
+    "page": 762,
+    "text": "Agile project management • Creazione di un team di Agile Project Management per guidare il percorso di trasformazione digitale con un approccio flessibile, iterativo e focalizzato sul valore . • Formazione del personale chiave sui principi di Agile Project Management e sulle metodologie Scrum , Kanban e Lean . • Creazione struttura agile su misura per l’azienda • Sviluppo di strumenti e framework Favorisce approcci per sperimentare soluzioni innovative con cicli iterativi.",
+    "start": 0,
+    "end": 478,
+    "length": 478,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 12.385,
+      "keywords": [
+        "agile",
+        "project",
+        "management",
+        "creazione",
+        "team",
+        "guidare",
+        "percorso",
+        "trasformazione",
+        "digitale",
+        "approccio"
+      ]
+    }
+  },
+  {
+    "id": "p763_c0",
+    "page": 763,
+    "text": "Organizational design IT/OT • Creazione di una struttura organizzativa integrata IT/OT • Definizione ruoli dedicati, tra cui: • Chief Information Officer (CIO) e Chief Operations Officer (COO): i due responsabili aziendali principali collaborano per garantire la sinergia tra IT e OT. • Chief Digital Officer (CDO) : Guida l’intera trasformazione digitale • IT/OT Manager : Responsabile per l'integrazione quotidiana e la gestione operativa • Creazione di team operativi misti tra IT e OT (es. per progettazione e sviluppo e manutenzione e supporto).",
+    "start": 0,
+    "end": 551,
+    "length": 551,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 7.75,
+      "keywords": [
+        "chief",
+        "officer",
+        "creazione",
+        "organizational",
+        "design",
+        "struttura",
+        "organizzativa",
+        "integrata",
+        "definizione",
+        "ruoli"
+      ]
+    }
+  },
+  {
+    "id": "p764_c0",
+    "page": 764,
+    "text": "Standardizzazione processi • Revisionare e standardizzare i processi aziendali per ottimizzare le operazioni esistenti, ridurre i costi, migliorare l'efficienza e preparare l'organizzazione a integrare nuove tecnologie come IoT, AI, Big Data, e automazione. • Le attività consistono in: • Mappatura dei processi esistenti • Analisi dettagliata e identificazione delle aree di miglioramento • Standardizzazione (definizione standard operativi, documentazione, strumenti digitali a supporto, test) • Integrazione tecnologie digitali • Formazione • Introduzione, monitoraggio, miglioramento Il processo può avvenire in parallelo all’introduzione di tecnologie digitali.",
+    "start": 0,
+    "end": 667,
+    "length": 667,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 8.33,
+      "keywords": [
+        "processi",
+        "tecnologie",
+        "digitali",
+        "standardizzazione",
+        "esistenti",
+        "miglioramento",
+        "introduzione",
+        "revisionare",
+        "standardizzare",
+        "aziendali"
+      ]
+    }
+  },
+  {
+    "id": "p765_c0",
+    "page": 765,
+    "text": "Industry 4. 0 PMS • Performance measurement system per la misurazione, l’analisi e il miglioramento delle prestazioni aziendali in un ambiente manifatturiero digitalizzato. • Benchmarking con altre aziende manifatturiere per l’identificazione di best practice e aree di miglioramento • Identificazione KPI multilivello (individuo, reparto, plant ) per la misurazione dello stato di avanzamento dei progetti e delle performance ottenute Da sviluppare con il supporto di consulenti esterni . Di solito prevede la realizzazione di un masterplan di trasformazione digitale che indichi priorità strategiche, obiettivi e azioni chiave.",
+    "start": 0,
+    "end": 630,
+    "length": 630,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 18.145,
+      "keywords": [
+        "performance",
+        "misurazione",
+        "miglioramento",
+        "delle",
+        "identificazione",
+        "industry",
+        "measurement",
+        "system",
+        "analisi",
+        "prestazioni"
+      ]
+    }
+  },
+  {
+    "id": "p766_c0",
+    "page": 766,
+    "text": "Partnership strategy Costo • Sviluppo di una strategia di partnership per l’adozione di soluzione Industry 4. 0 • Definizione degli obiettivi e identificazione dei partner tra fornitori di tecnologia , centri di ricerca e università , partner di consulenza e system integrator , start - up digitali • Definizione di accordi e struttura di governance Temi chiave sono l’ appropriabilità dell’innovazione e la gestione di eventuali dipendenze esterne .",
+    "start": 0,
+    "end": 451,
+    "length": 451,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 22.25,
+      "keywords": [
+        "partnership",
+        "definizione",
+        "partner",
+        "strategy",
+        "costo",
+        "sviluppo",
+        "strategia",
+        "adozione",
+        "soluzione",
+        "industry"
+      ]
+    }
+  },
+  {
+    "id": "p767_c0",
+    "page": 767,
+    "text": "SmartTurn : key learnings • Come avete prioritizzato gli interventi tecnologici ? Quali criteri avete usato? • Come avete prioritizzato gli interventi organizzativi ? Quali criteri avete usato? • Anche in base alla vostra esperienza, quali sono i do’s and don’ts di Industry 4. 0 nelle operations?",
+    "start": 0,
+    "end": 298,
+    "length": 298,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 6.485,
+      "keywords": [
+        "avete",
+        "quali",
+        "come",
+        "prioritizzato",
+        "interventi",
+        "criteri",
+        "usato",
+        "smartturn",
+        "learnings",
+        "tecnologici"
+      ]
+    }
+  },
+  {
+    "id": "p769_c0",
+    "page": 769,
+    "text": "Do’s and don’ts : le aziende più avanzate Fonte: WEF Global Lighthouse Network Sviluppano una roadmap tecnologica con priorità chiare (attraverso più siti produttivi) 1. Prevengono il « process debt » 2. Investono nelle capability 3. Diffondono digitalizzazione 4. Pensano in modo scalare Quali processi e soluzioni devo cambiare? Quali capabilities digitali devo sviluppare (internamente)? Come coinvolgo gli operativi nella trasformazione digitale? Come posso scalare le soluzioni attraverso più siti produttivi?",
+    "start": 0,
+    "end": 515,
+    "length": 515,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 7.57,
+      "keywords": [
+        "attraverso",
+        "siti",
+        "produttivi",
+        "scalare",
+        "quali",
+        "soluzioni",
+        "devo",
+        "come",
+        "aziende",
+        "avanzate"
+      ]
+    }
+  },
+  {
+    "id": "p770_c0",
+    "page": 770,
+    "text": "1. Process debt : la «tassa» sull’inefficienza • «Technical debt » - Chief Information Officer (CIO) Si accumula quando, nel tempo, vengono implementate diverse soluzioni scollegate tra loro. Questo porta a un aumento dei costi necessari per correggerle e integrarle in un sistema più coeso. Alla lunga, si rende necessario pagare una sorta di “tassa” per migliorare le prestazioni complessive del sistema, un ostacolo costoso che può limitare la scalabilità delle iniziative aziendali. • « Process debt » - Chief Operating Officer (COO) Il vero valore di una nuova tecnologia non risiede solo nella tecnologia stessa, ma nei miglioramenti dei processi che essa può abilitare. Per questo motivo, esistono massime come: \" Non automatizzare un processo inefficace \" o \" Non ottimizzare ciò che non dovrebbe esistere \". Quando nuove tecnologie vengono implementate senza adeguati cambiamenti nei processi, si accumula debito di processo.",
+    "start": 0,
+    "end": 935,
+    "length": 935,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 9.67,
+      "keywords": [
+        "debt",
+        "process",
+        "tassa",
+        "chief",
+        "officer",
+        "accumula",
+        "quando",
+        "vengono",
+        "implementate",
+        "questo"
+      ]
+    }
+  },
+  {
+    "id": "p772_c0",
+    "page": 772,
+    "text": "Human - to - Human 1. Process debt : Ripensare attività/flussi dati Human - to - Machine Machine - to - Machine • Riunioni improduttive : Assistente digitale basato su GenAI per il passaggio di consegne nei turni, ottimizzato per risolvere le problematiche di produzione. • Task - skill mismatch : \"Smart Andon \" basato su IoT, integrato con matrici di competenze per la riallocazione automatizzata dei compiti. • Inefficienze: Apprendimento automatico non supervisionato per l’allocazione della forza lavoro sulla linea, basato su esperienza, competenze, compatibilità di gruppo, dati demografici e altri parametri (es. anzianità, competenze tecniche). • Errori trasferimento dati: Federated knowledge graph per l'analisi dei dati distribuiti tra sistemi frammentati e laboratori globali, facilitando la diagnosi rapida dei difetti. • Ritardi di sincronizzazione : Algoritmo genetico per sincronizzare lo stato delle postazioni di lavoro con i compiti e i percorsi degli AGV.",
+    "start": 0,
+    "end": 977,
+    "length": 977,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 9.879999999999999,
+      "keywords": [
+        "dati",
+        "human",
+        "machine",
+        "basato",
+        "competenze",
+        "compiti",
+        "lavoro",
+        "process",
+        "debt",
+        "ripensare"
+      ]
+    }
+  },
+  {
+    "id": "p773_c0",
+    "page": 773,
+    "text": "2. Capabilities : il giusto mix • La trasformazione digitale richiede skills che sono rare sul mercato Trovare competenze tecniche digitali per l’Industria 4. 0 rappresenta una sfida critica per le aziende manifatturiere, a causa della rapida evoluzione delle tecnologie e della carenza di professionisti qualificati. Tecnologie come intelligenza artificiale, IoT, robotica avanzata e cybersecurity richiedono competenze specialistiche difficili da reperire nel mercato del lavoro. • Necessario sviluppare strategie di collaborazione Lo sviluppo di strategie di collaborazione ecosistemica per le aziende manifatturiere è fondamentale per affrontare le sfide della trasformazione digitale e dell’Industria 4. 0. Un approccio ecosistemico prevede la creazione di reti di partner, tra cui fornitori, startup, università, centri di ricerca e altre imprese, per condividere risorse, competenze e innovazioni. I temi sono: co - sviluppo di soluzioni, piattaforme digitali condivise, formazione e upskilling congiunti.",
+    "start": 0,
+    "end": 1013,
+    "length": 1013,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 25.06,
+      "keywords": [
+        "competenze",
+        "della",
+        "trasformazione",
+        "digitale",
+        "sono",
+        "mercato",
+        "digitali",
+        "industria",
+        "aziende",
+        "manifatturiere"
+      ]
+    }
+  },
+  {
+    "id": "p774_c0",
+    "page": 774,
+    "text": "2. Capabilities : esempio 69 9. 8 11 10. 2 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% Basic digital skills ICT specialists Digital skills in Europa Fonte: Digital decade 2024 report (EU) Target 2030 • 80% individui con basic digital skills • 20M ICT specialist Italia sotto media europea. Costo annuale 3 esperti AI: 0. 5 Milioni Euro!",
+    "start": 0,
+    "end": 337,
+    "length": 337,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 6.68,
+      "keywords": [
+        "digital",
+        "skills",
+        "basic",
+        "2024",
+        "2030",
+        "capabilities",
+        "esempio",
+        "specialists",
+        "europa",
+        "fonte"
+      ]
+    }
+  },
+  {
+    "id": "p776_c0",
+    "page": 776,
+    "text": "2. Capabilities : mix esterno/interno Perché? Partnership esterne Sviluppo interno • Potenziare le capacità per sviluppare conoscenze o proprietà intellettuale attraverso collaborazioni esterne. • Valorizzare le competenze interne e integrarle con fornitori esterni secondo necessità. Esempio • Posizionamento guidato da machine vision e feedback di forza, in sostituzione dei fissaggi tradizionali nella saldatura. • Esperienza di formazione gamificata con realtà mista e simulazione modellata per un feedback realistico.",
+    "start": 0,
+    "end": 523,
+    "length": 523,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": true,
+      "importance": 7.609999999999999,
+      "keywords": [
+        "interno",
+        "esterne",
+        "feedback",
+        "capabilities",
+        "esterno",
+        "perch",
+        "partnership",
+        "sviluppo",
+        "potenziare",
+        "capacit"
+      ]
+    }
+  },
+  {
+    "id": "p777_c0",
+    "page": 777,
+    "text": "2. Capabilities : mantra! Domain competence: La competenza nel dominio –– cioè, la conoscenza specializzata necessaria per la selezione delle variabili e l'ingegneria delle caratteristiche –– è fondamentale! “A key distinction is that we possess the product know - how. For any analysis, it’s crucial to have a deep understanding of your product and how it functions; without that knowledge, you will be completely lost. Without this insight, you might select variables that don’t actually impact performance, and waste months trying to derive value from them — ultimately achieving nothing. Before incorporating variables into algorithms, you must understand if they actually affect performance. If you choo se the wrong variables, you’ll only get false predictions. Suppliers won’t be able to achieve this — they don’t know our products as well as we do. They understand their own machines far better than we do. “ Intervista a responsabile di produzione Bosch per progetto di ricerca UniUD – 2021 Risultati dello studio disponibili su: Culot, G. , Orzes , G. , Sartor, M. , & Nassimbeni , G. (2024). The data sharing conundrum: revisiting established theory in the age of digital transformation . Supply Chain Management: An International Journal , 29(7), 1 - 27.",
+    "start": 0,
+    "end": 1267,
+    "length": 1267,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 36.33,
+      "keywords": [
+        "that",
+        "variables",
+        "they",
+        "delle",
+        "product",
+        "know",
+        "without",
+        "this",
+        "actually",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "p778_c0",
+    "page": 778,
+    "text": "3. Digitalizzazione diffusa: human centricity • Non è detto che comprare la tecnologia significhi usare la tecnologia Spesso le tecnologie vengono acquistate per stimoli esterni (hype, incentivi) ma poi non utilizzate/sfruttate appieno. Guardando alle dinamiche di stabilimento, uno dei motivi è la riluttanza da parte degli operatori a cambiare le routine e gli schemi mentali. • Tecnologie Industry 4. 0 prevedono un’adozione »centrata sull’umano» Human centricity nell’Industria 4. 0 si riferisce a un approccio in cui la tecnologia e l'automazione sono progettate per potenziare le capacità umane, migliorare le condizioni di lavoro e aumentare il benessere degli operatori, piuttosto che semplicemente sostituire la forza lavoro. Le aziende devono ripensare l’equilibrio dei compiti della forza lavoro, trasformandola in un team di tecnici e analisti, mentre si automatizzano le attività più gravose, prive di valore aggiunto o pericolose.",
+    "start": 0,
+    "end": 945,
+    "length": 945,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 9.719999999999999,
+      "keywords": [
+        "tecnologia",
+        "lavoro",
+        "human",
+        "centricity",
+        "tecnologie",
+        "degli",
+        "operatori",
+        "forza",
+        "digitalizzazione",
+        "diffusa"
+      ]
+    }
+  },
+  {
+    "id": "p779_c0",
+    "page": 779,
+    "text": "3. Digitalizzazione diffusa: esempi “Solutions are not just for the workforce... they are with the workforce” Foxconn Industrial Internet, Vietnam • Prima: reset dei macchinari in caso di errore, no analisi cause/soluzioni • Adozione di LLM machine failure handling system • Dashboard intuitive dove gli operatori possono essere attivi in attività di problem solving e risoluzione guasti ( - 90% riduzione fermi macchina non programmati) “Cultivating change agents is critical as they function as conduits between frontline and management in both directions.",
+    "start": 0,
+    "end": 559,
+    "length": 559,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.79,
+      "keywords": [
+        "workforce",
+        "they",
+        "digitalizzazione",
+        "diffusa",
+        "esempi",
+        "solutions",
+        "just",
+        "with",
+        "foxconn",
+        "industrial"
+      ]
+    }
+  },
+  {
+    "id": "p780_c0",
+    "page": 780,
+    "text": "3. Digitalizzazione diffusa: leve Integrazione di esperienza • Piattaforma che incentiva i dipendenti a condividere idee e sfide, sfruttando insight generati dall’Intelligenza Artificiale. Sviluppo di skills Sicurezza Skill augmentation Connessione remota Tecnologie Applicazioni illustrative Digital engagement platforms , apps • Centro di formazione tecnica che ha ridotto i tempi di qualificazione per nuovi ruoli, aumentando la versatilità della forza lavoro. Digital platforms , apps, VR/AR/MR • Valutazioni ergonomiche supportate dalla tecnologia, che hanno ridotto gli infortuni muscolo - scheletrici sul lavoro e i tempi di analisi dei casi. Tool fisici, simulazione, automazione, sensori VR/AR/MR, tool fisici, connettività • Dispositivi indossabili per supportare la formazione e l' upskilling , migliorando l’efficienza operativa, riducendo le attività prive di valore aggiunto e diminuendo gli scarti. • Tecnologie AR/VR per connettere da remoto gli esperti ai tecnici, con programmi di formazione personalizzati sulle aree di miglioramento individuali.",
+    "start": 0,
+    "end": 1066,
+    "length": 1066,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 10.325,
+      "keywords": [
+        "formazione",
+        "tecnologie",
+        "digital",
+        "platforms",
+        "apps",
+        "ridotto",
+        "tempi",
+        "lavoro",
+        "tool",
+        "fisici"
+      ]
+    }
+  },
+  {
+    "id": "p781_c0",
+    "page": 781,
+    "text": "4. Scalabilità: sperimentare e diffondere • Le tecnologie non sono « plug&play », necessario customizzare e scalare La scalabilità in Industry 4. 0 è ostacolata dalla necessità di integrare tecnologie complesse, gestire enormi quantità di dati, formare la forza lavoro, sostenere investimenti costosi e garantire la sicurezza, il tutto mentre si personalizzano i processi per adattarsi a un mercato in continua evoluzione • Presenza di roadmap strutturate aiuta, con chiara strategia di diffusione Dal punto di vista tecnologico, l’approccio è quello di strutturare soluzioni standardizzate e modulari, consentendo l’applicazione personalizzata attraverso diversi use - case/siti produttivi. Importante definire il processo di diffusione all’interno del plant /network, bilanciando sviluppo centralizzato e soluzioni che vengono suggerite «dal basso».",
+    "start": 0,
+    "end": 852,
+    "length": 852,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 24.255,
+      "keywords": [
+        "scalabilit",
+        "tecnologie",
+        "diffusione",
+        "soluzioni",
+        "sperimentare",
+        "diffondere",
+        "sono",
+        "plug",
+        "play",
+        "necessario"
+      ]
+    }
+  },
+  {
+    "id": "p782_c0",
+    "page": 782,
+    "text": "4. Scalabilità: esempio Leonardo, Pomigliano d’Arco/Nola (NA): Progetto Nemesi • 6 asset di automazione • 3. 500 nuove attrezzature • > 530. 000 ore di ingegneria • > 20. 000 ore di formazione sui nuovi macchinari • > 1.",
+    "start": 0,
+    "end": 221,
+    "length": 221,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 6.1,
+      "keywords": [
+        "scalabilit",
+        "esempio",
+        "leonardo",
+        "pomigliano",
+        "arco",
+        "nola",
+        "progetto",
+        "nemesi",
+        "asset",
+        "automazione"
+      ]
+    }
+  },
+  {
+    "id": "p783_c0",
+    "page": 783,
+    "text": "4. Scalabilità: impostare la transizione Strategia • Allineare la senior leadership sulla visione : quale valore si desidera trarre dalla trasformazione digitale?",
+    "start": 0,
+    "end": 163,
+    "length": 163,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.8100000000000005,
+      "keywords": [
+        "scalabilit",
+        "impostare",
+        "transizione",
+        "strategia",
+        "allineare",
+        "senior",
+        "leadership",
+        "sulla",
+        "visione",
+        "quale"
+      ]
+    }
+  },
+  {
+    "id": "p784_c0",
+    "page": 784,
+    "text": "4. Scalabilità : infrastruttura dati 2 - 3x m ole dati in aziende I4. 0 Fonte: WEF Global Lighthouse Network nuove connessioni con tech vendor, ottimizzazione e update frequenti Es.",
+    "start": 0,
+    "end": 182,
+    "length": 182,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 15.905,
+      "keywords": [
+        "dati",
+        "scalabilit",
+        "infrastruttura",
+        "aziende",
+        "fonte",
+        "global",
+        "lighthouse",
+        "network",
+        "nuove",
+        "connessioni"
+      ]
+    }
+  },
+  {
+    "id": "p785_c0",
+    "page": 785,
+    "text": "4. Scalabilità: aspetti tecnologici Standardizzazione Flessibilità CENTRALIZZAZIONE • Orchestrazione sviluppo e la condivisione best practice per garantire controllo centralizzato e supervisione. • Linee guida sulle migliori pratiche di integrazione API per creare pipeline di dati coerenti. • Journey services per orchestrare l’interazione tra diversi servizi di dominio. MODULARITA’ • Sistemi con componenti intercambiabili, facilmente riconfigurabili o sostituibili, per massimizzare il riutilizzo dei moduli esistenti. • Utilizzo API modulari, decoupling dell'architettura per test e implementazioni indipendenti. • Architettura a microservizi, con applicazioni leggere e autonome. ASSETTIZZAZIONE • Approccio sistematico per sviluppare, gestire e distribuire asset riutilizzabili • Si basa su manuali, procedure e strumenti modulari e universalmente accessibili, che consentono agli operatori di sfruttare il potenziale delle soluzioni digitali senza necessitare di competenze specialistiche. AUTONOMIA • Sviluppo indipendente per potenziare continuamente le capacità interne. • Utilizzo infrastrutture cloud - native, Infrastructure as code e automazione per un’architettura flessibile.",
+    "start": 0,
+    "end": 1193,
+    "length": 1193,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 18.96,
+      "keywords": [
+        "architettura",
+        "sviluppo",
+        "utilizzo",
+        "modulari",
+        "scalabilit",
+        "aspetti",
+        "tecnologici",
+        "standardizzazione",
+        "flessibilit",
+        "centralizzazione"
+      ]
+    }
+  },
+  {
+    "id": "p790_c0",
+    "page": 790,
+    "text": "Concludendo: parliamo di PMI 21. 30% 68. 10% 0. 00% 10. 00% 20. 00% 30. 00% 40. 00% 50. 00% 60. 00% 70. 00% 80. 00% PMI Grandi aziende Livelli di digitalizzazione (alto/molto alto) Italia Fonte: ISTAT L'adozione di tecnologie digitali nelle aziende italiane ha mostrato segnali di crescita, sebbene persistano differenze significative tra le grandi imprese e PMI • Nel 2024 l'8,2% delle imprese con almeno 10 addetti utilizza tecnologie di intelligenza artificiale (IA), rispetto al 5,0% del 2023 (13. 5% UE27) • 33% ha incrementato investimenti in trasformazione digitale • Carenza di competenze ostacolo per 55.",
+    "start": 0,
+    "end": 614,
+    "length": 614,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.065,
+      "keywords": [
+        "grandi",
+        "aziende",
+        "alto",
+        "tecnologie",
+        "imprese",
+        "2023",
+        "2024",
+        "concludendo",
+        "parliamo",
+        "livelli"
+      ]
+    }
+  },
+  {
+    "id": "p791_c0",
+    "page": 791,
+    "text": "• Implementare tecnologie avanzate può essere oneroso e richiedere un ritorno sugli investimenti a lungo termine Concludendo: sfide per le PMI Costi di investimento Competenze Sicurezza informatica Resistenza al cambiamento Legacy systems • Il gap di competenze tecniche rende difficile l’adozione e l’integrazione delle nuove tecnologie . • La digitalizzazione espone le PMI a maggiori rischi di attacchi informatici , spesso senza adeguate misure di protezione . • L’adozione di nuove tecnologie richiede un cambio culturale , che può incontrare resistenze interne. • Le PMI spesso operano con infrastrutture legacy che non sono facilmente compatibili con le nuove tecnologie .",
+    "start": 0,
+    "end": 680,
+    "length": 680,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 3.395,
+      "keywords": [
+        "tecnologie",
+        "nuove",
+        "competenze",
+        "legacy",
+        "adozione",
+        "spesso",
+        "implementare",
+        "avanzate",
+        "essere",
+        "oneroso"
+      ]
+    }
+  },
+  {
+    "id": "p793_c0",
+    "page": 793,
+    "text": "Benefici su tutte le performance operative manifatturiere (tempo, qualità , costo , flessibilità ) Aspettative alte in termini di sostenibilità (ma con qualche ”dark side”) Quali risultati attesi?",
+    "start": 0,
+    "end": 197,
+    "length": 197,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.98,
+      "keywords": [
+        "benefici",
+        "tutte",
+        "performance",
+        "operative",
+        "manifatturiere",
+        "tempo",
+        "qualit",
+        "costo",
+        "flessibilit",
+        "aspettative"
+      ]
+    }
+  }
+]

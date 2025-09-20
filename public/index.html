@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Quiz Assistant V4</title>
+    <style>
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
+            background: #ffffff;
+            min-height: 100vh;
+            color: #1d1d1f;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+        
+        @media (max-width: 430px) {
+            .container {
+                padding: 0 12px;
+            }
+        }
+        
+        .header {
+            text-align: center;
+            padding: 41px 0 27px;
+            border-bottom: 1px solid #d2d2d7;
+        }
+        
+        .header h1 {
+            font-size: 41px;
+            font-weight: 600;
+            letter-spacing: -0.003em;
+            line-height: 1.08349;
+            margin-bottom: 14px;
+            color: #1d1d1f;
+        }
+        
+        .header p {
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.011em;
+            line-height: 1.381;
+            color: #86868b;
+        }
+        
+        .version-badge {
+            display: inline-block;
+            background: #34c759;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .main-content {
+            padding: 27px 0;
+        }
+        
+        .section {
+            margin-bottom: 27px;
+        }
+        
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0.007em;
+            line-height: 1.14286;
+            margin-bottom: 14px;
+            color: #1d1d1f;
+            text-align: center;
+        }
+        
+        .mode-selector {
+            background: #f5f5f7;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .mode-selector label {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #1d1d1f;
+        }
+        
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 51px;
+            height: 31px;
+        }
+        
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 31px;
+        }
+        
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 27px;
+            width: 27px;
+            left: 2px;
+            bottom: 2px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        
+        input:checked + .slider {
+            background-color: #34c759;
+        }
+        
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+        
+        .mode-info {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #86868b;
+        }
+        
+        .upload-area {
+            border: 1px solid #d2d2d7;
+            border-radius: 15px;
+            padding: 34px 27px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background: #fbfbfd;
+            position: relative;
+        }
+        
+        .upload-area:hover {
+            background: #f5f5f7;
+            border-color: #86868b;
+        }
+        
+        .upload-area:active {
+            transform: scale(0.995);
+        }
+        
+        .upload-area.loaded {
+            background: #ffffff;
+            border-color: #86868b;
+        }
+        
+        .upload-label {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.011em;
+            line-height: 1.381;
+            color: #1d1d1f;
+            margin-bottom: 7px;
+        }
+        
+        .upload-sublabel {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: -0.022em;
+            line-height: 1.47059;
+            color: #86868b;
+        }
+        
+        .status-text {
+            font-size: 14px;
+            font-weight: 400;
+            color: #86868b;
+            margin-top: 10px;
+        }
+        
+        .status-text.active {
+            color: #1d1d1f;
+        }
+        
+        .actions {
+            display: flex;
+            gap: 14px;
+            justify-content: center;
+            padding: 20px 0;
+            border-top: 1px solid #d2d2d7;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 980px;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: -0.022em;
+            line-height: 1.17648;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: center;
+            min-width: 119px;
+            text-decoration: none;
+            font-family: inherit;
+        }
+        
+        .btn:active {
+            transform: scale(0.97);
+        }
+        
+        .btn-primary {
+            background: #000000;
+            color: #ffffff;
+        }
+        
+        .btn-primary.v4-active {
+            background: #34c759;
+        }
+        
+        .btn-primary:hover {
+            background: #1d1d1f;
+        }
+        
+        .btn-primary.v4-active:hover {
+            background: #30d158;
+        }
+        
+        .btn-secondary {
+            background: #ffffff;
+            color: #000000;
+            border: 1px solid #d2d2d7;
+        }
+        
+        .btn-secondary:hover {
+            background: #f5f5f7;
+            border-color: #86868b;
+        }
+        
+        .btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+        
+        .btn:disabled:hover {
+            background: #000000;
+        }
+        
+        .btn:disabled:active {
+            transform: scale(1);
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 34px 0;
+        }
+        
+        .loading.show {
+            display: block;
+        }
+        
+        .spinner {
+            width: 27px;
+            height: 27px;
+            border: 2px solid #d2d2d7;
+            border-top-color: #000000;
+            border-radius: 50%;
+            animation: spin 0.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+            margin: 0 auto 20px;
+        }
+        
+        .loading-text {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: -0.022em;
+            color: #86868b;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .results {
+            display: none;
+            padding: 27px 0;
+            border-top: 1px solid #d2d2d7;
+        }
+        
+        .result-item {
+            background: #fbfbfd;
+            border: 1px solid #d2d2d7;
+            border-radius: 15px;
+            padding: 24px;
+            margin-bottom: 14px;
+        }
+        
+        .result-header {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.011em;
+            color: #1d1d1f;
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #d2d2d7;
+        }
+        
+        .result-content {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: -0.022em;
+            line-height: 1.47059;
+            color: #1d1d1f;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .error-message {
+            background: #fee;
+            border: 1px solid #fcc;
+            border-radius: 18px;
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+        
+        .error-title {
+            font-size: 21px;
+            font-weight: 600;
+            color: #c00;
+            margin-bottom: 16px;
+        }
+        
+        .error-content {
+            font-size: 14px;
+            line-height: 1.47059;
+            color: #600;
+        }
+        
+        input[type="file"] {
+            display: none;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px 0 60px;
+            border-top: 1px solid #d2d2d7;
+            color: #86868b;
+            font-size: 14px;
+            letter-spacing: -0.016em;
+            line-height: 1.42859;
+        }
+        
+        .footer a {
+            color: #515154;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Debug console */
+        .debug-console {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.9);
+            color: #0f0;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 11px;
+            max-width: 300px;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+            z-index: 9999;
+        }
+        
+        .debug-console.show {
+            display: block;
+        }
+        
+        .debug-line {
+            margin: 2px 0;
+            padding: 2px;
+            border-left: 2px solid #0f0;
+            padding-left: 5px;
+        }
+        
+        .debug-error {
+            color: #f00;
+            border-left-color: #f00;
+        }
+        
+        .debug-warn {
+            color: #ff0;
+            border-left-color: #ff0;
+        }
+        
+        /* Responsive */
+        @media (max-width: 430px) {
+            .header h1 {
+                font-size: 28px;
+            }
+            
+            .header p {
+                font-size: 15px;
+            }
+        }
+        
+        /* Drag and drop states */
+        .upload-area.dragover {
+            background: #f5f5f7;
+            border-color: #86868b;
+        }
+        
+        /* Focus states for accessibility */
+        .btn:focus-visible {
+            outline: 2px solid #0071e3;
+            outline-offset: 2px;
+        }
+        
+        .upload-area:focus-visible {
+            outline: 2px solid #0071e3;
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Quiz Assistant</h1>
+            <p>Analisi intelligente basata su corso completo</p>
+            <div class="version-badge" id="versionBadge">Standard Mode</div>
+        </header>
+        
+        <main class="main-content">
+            <!-- Mode Selector -->
+            <div class="mode-selector">
+                <label for="useV4Toggle">
+                    <span>Modalità Standard</span>
+                    <div class="toggle-switch">
+                        <input type="checkbox" id="useV4Toggle" onchange="toggleV4Mode()">
+                        <span class="slider"></span>
+                    </div>
+                    <span>Modalità V4 RAG + Vision</span>
+                </label>
+                <div class="mode-info" id="modeInfo">
+                    Utilizza l'analisi standard con indice invertito
+                </div>
+            </div>
+            
+            <!-- Images Section -->
+            <section class="section">
+                <h2 class="section-title">Carica le foto del quiz</h2>
+                <div id="imgUploadArea" class="upload-area" tabindex="0" role="button" aria-label="Carica immagini del quiz">
+                    <input type="file" id="imgInput" accept="image/*" multiple aria-hidden="true">
+                    <div class="upload-label" id="imgLabel">Seleziona immagini</div>
+                    <div class="upload-sublabel" id="imgSublabel">Puoi selezionare più file contemporaneamente</div>
+                    <div class="status-text" id="imgStatus"></div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Actions -->
+        <div class="actions">
+            <button id="analyzeBtn" class="btn btn-primary" disabled>
+                Analizza
+            </button>
+            <button id="clearBtn" class="btn btn-secondary">
+                Cancella
+            </button>
+            <button id="debugBtn" class="btn btn-secondary" style="display: none;">
+                Debug
+            </button>
+        </div>
+        
+        <!-- Loading -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <div class="loading-text" id="loadingText">Analisi in corso</div>
+        </div>
+        
+        <!-- Results -->
+        <div id="results" class="results">
+            <div id="resultsContent"></div>
+        </div>
+        
+        <footer class="footer">
+            <p id="footerText">Powered by <a href="https://anthropic.com" target="_blank">Claude</a></p>
+        </footer>
+    </div>
+    
+    <!-- Debug Console -->
+    <div id="debugConsole" class="debug-console">
+        <div id="debugContent"></div>
+    </div>
+
+    <script>
+        // State
+        let images = [];
+        let debugMode = false;
+        let useV4Mode = false;
+        
+        // DOM Elements
+        const imgUploadArea = document.getElementById('imgUploadArea');
+        const imgInput = document.getElementById('imgInput');
+        const imgLabel = document.getElementById('imgLabel');
+        const imgSublabel = document.getElementById('imgSublabel');
+        const imgStatus = document.getElementById('imgStatus');
+        
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const debugBtn = document.getElementById('debugBtn');
+        const loading = document.getElementById('loading');
+        const loadingText = document.getElementById('loadingText');
+        const results = document.getElementById('results');
+        const resultsContent = document.getElementById('resultsContent');
+        const debugConsole = document.getElementById('debugConsole');
+        const debugContent = document.getElementById('debugContent');
+        const versionBadge = document.getElementById('versionBadge');
+        const modeInfo = document.getElementById('modeInfo');
+        const footerText = document.getElementById('footerText');
+        const useV4Toggle = document.getElementById('useV4Toggle');
+        
+        // V4 Mode Toggle
+        function toggleV4Mode() {
+            useV4Mode = useV4Toggle.checked;
+            localStorage.setItem('useV4Mode', useV4Mode);
+            
+            if (useV4Mode) {
+                versionBadge.textContent = 'V4 RAG + VISION';
+                versionBadge.style.background = '#34c759';
+                modeInfo.textContent = 'Utilizza RAG con Pinecone e dati arricchiti da GPT-4 Vision (95%+ accuratezza)';
+                analyzeBtn.classList.add('v4-active');
+                footerText.innerHTML = 'Powered by <a href="https://openai.com" target="_blank">GPT-4</a> + <a href="https://www.pinecone.io" target="_blank">Pinecone</a>';
+                debugLog('V4 Mode attivato - RAG + Vision enhanced', 'info');
+            } else {
+                versionBadge.textContent = 'Standard Mode';
+                versionBadge.style.background = '#86868b';
+                modeInfo.textContent = 'Utilizza l\'analisi standard con indice invertito';
+                analyzeBtn.classList.remove('v4-active');
+                footerText.innerHTML = 'Powered by <a href="https://anthropic.com" target="_blank">Claude</a>';
+                debugLog('Standard Mode attivato', 'info');
+            }
+        }
+        
+        // Debug logging
+        function debugLog(message, type = 'info') {
+            console.log(`[${type.toUpperCase()}] ${message}`);
+            
+            if (debugMode) {
+                const line = document.createElement('div');
+                line.className = `debug-line ${type === 'error' ? 'debug-error' : type === 'warn' ? 'debug-warn' : ''}`;
+                line.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+                debugContent.appendChild(line);
+                debugContent.scrollTop = debugContent.scrollHeight;
+                
+                // Limita le linee di debug
+                while (debugContent.children.length > 50) {
+                    debugContent.removeChild(debugContent.firstChild);
+                }
+            }
+        }
+        
+        // Toggle debug mode
+        function toggleDebug() {
+            debugMode = !debugMode;
+            debugConsole.classList.toggle('show', debugMode);
+            debugBtn.textContent = debugMode ? 'Nascondi Debug' : 'Debug';
+        }
+        
+        // Test endpoint disponibilità con timeout
+        async function testEndpoint() {
+            debugLog('Testing endpoint availability...');
+            
+            // Determina quale endpoint testare
+            const endpoint = useV4Mode ? '/api/analyze-v4-rag' : '/api/analyze-enhanced';
+            
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 5000);
+                
+                const response = await fetch(endpoint, {
+                    method: 'GET',
+                    signal: controller.signal
+                });
+                
+                clearTimeout(timeoutId);
+                
+                if (!response.ok) {
+                    debugLog(`Endpoint ${endpoint} returned status ${response.status}`, 'warn');
+                    return null;
+                }
+                
+                const data = await response.json();
+                debugLog(`Endpoint ${endpoint} test successful`);
+                
+                if (data) {
+                    if (useV4Mode) {
+                        debugLog(`V4 Services - Pinecone: ${data.services?.pinecone ? 'OK' : 'MISSING'}`, 
+                                data.services?.pinecone ? 'info' : 'warn');
+                        debugLog(`V4 Services - OpenAI: ${data.services?.openai ? 'OK' : 'MISSING'}`,
+                                data.services?.openai ? 'info' : 'warn');
+                    } else {
+                        debugLog(`API Key configured: ${data.apiKeyConfigured ? 'YES' : 'NO'}`, 
+                                data.apiKeyConfigured ? 'info' : 'warn');
+                    }
+                }
+                
+                return data;
+            } catch (error) {
+                if (error.name === 'AbortError') {
+                    debugLog('Endpoint test timeout', 'error');
+                } else {
+                    debugLog(`Endpoint test failed: ${error.message}`, 'error');
+                }
+                return null;
+            }
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async function() {
+            debugLog('App initialized');
+            
+            // Load saved mode preference
+            const savedV4Mode = localStorage.getItem('useV4Mode') === 'true';
+            useV4Toggle.checked = savedV4Mode;
+            useV4Mode = savedV4Mode;
+            toggleV4Mode(); // Apply saved mode
+            
+            // Enable debug button with keyboard shortcut
+            document.addEventListener('keydown', (e) => {
+                if (e.ctrlKey && e.shiftKey && e.key === 'D') {
+                    debugBtn.style.display = debugBtn.style.display === 'none' ? 'inline-block' : 'none';
+                }
+            });
+            
+            if (debugBtn) {
+                debugBtn.addEventListener('click', toggleDebug);
+            }
+            
+            // Test endpoint all'avvio
+            const endpointStatus = await testEndpoint();
+            if (endpointStatus) {
+                if (useV4Mode && (!endpointStatus.services?.pinecone || !endpointStatus.services?.openai)) {
+                    alert('⚠️ ATTENZIONE: Servizi V4 non configurati.\n\nConfigura OPENAI_API_KEY e PINECONE_API_KEY su Vercel per usare V4 Mode.');
+                } else if (!useV4Mode && !endpointStatus.apiKeyConfigured) {
+                    alert('⚠️ ATTENZIONE: API Key non configurata su Vercel.\n\nVai su Vercel Dashboard → Settings → Environment Variables\ne aggiungi ANTHROPIC_API_KEY');
+                }
+            } else {
+                debugLog('Could not verify endpoint status', 'warn');
+            }
+            
+            // Click handlers
+            imgUploadArea.addEventListener('click', () => imgInput.click());
+            
+            // Keyboard accessibility
+            imgUploadArea.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    imgInput.click();
+                }
+            });
+            
+            // File input handlers
+            imgInput.addEventListener('change', handleImages);
+            
+            // Button handlers
+            analyzeBtn.addEventListener('click', analyze);
+            clearBtn.addEventListener('click', clearAll);
+            
+            // Drag and drop
+            setupDragAndDrop(imgUploadArea, handleImagesDrop);
+        });
+        
+        // Drag and drop setup
+        function setupDragAndDrop(element, handler) {
+            element.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                element.classList.add('dragover');
+            });
+            
+            element.addEventListener('dragleave', () => {
+                element.classList.remove('dragover');
+            });
+            
+            element.addEventListener('drop', (e) => {
+                e.preventDefault();
+                element.classList.remove('dragover');
+                handler(e.dataTransfer.files);
+            });
+        }
+        
+        // Handle images drop
+        function handleImagesDrop(files) {
+            const imageFiles = Array.from(files).filter(f => f.type.startsWith('image/'));
+            if (imageFiles.length > 0) {
+                imgInput.files = files;
+                handleImages({ target: { files: imageFiles } });
+            }
+        }
+        
+        // Handle images
+        async function handleImages(e) {
+            const files = Array.from(e.target.files);
+            
+            debugLog(`Processing ${files.length} files`);
+            
+            images = [];
+            imgLabel.textContent = 'Elaborazione...';
+            imgSublabel.textContent = 'Compressione immagini...';
+            imgStatus.textContent = '';
+            
+            try {
+                for (let i = 0; i < files.length; i++) {
+                    const file = files[i];
+                    if (!file.type.startsWith('image/')) continue;
+                    
+                    imgStatus.textContent = `Immagine ${i + 1} di ${files.length}`;
+                    debugLog(`Compressing image ${i + 1}/${files.length}: ${file.name}`);
+                    
+                    const compressedBase64 = await compressImage(file);
+                    images.push(compressedBase64);
+                    
+                    debugLog(`Image compressed: ${Math.round(compressedBase64.length / 1024)}KB`);
+                }
+                
+                if (images.length > 0) {
+                    imgUploadArea.classList.add('loaded');
+                    imgLabel.textContent = `${images.length} ${images.length === 1 ? 'immagine' : 'immagini'}`;
+                    imgSublabel.textContent = 'Pronte per l\'analisi';
+                    imgStatus.textContent = '';
+                    debugLog(`${images.length} images ready`);
+                }
+            } catch (err) {
+                debugLog(`Error processing images: ${err.message}`, 'error');
+                imgLabel.textContent = 'Errore';
+                imgSublabel.textContent = err.message;
+                images = [];
+            }
+            
+            checkReady();
+        }
+        
+        // Compress image
+        async function compressImage(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        try {
+                            const canvas = document.createElement('canvas');
+                            const ctx = canvas.getContext('2d');
+                            
+                            let width = img.width;
+                            let height = img.height;
+                            const maxDim = 1200;
+                            
+                            if (width > height && width > maxDim) {
+                                height = (maxDim / width) * height;
+                                width = maxDim;
+                            } else if (height > maxDim) {
+                                width = (maxDim / height) * width;
+                                height = maxDim;
+                            }
+                            
+                            canvas.width = width;
+                            canvas.height = height;
+                            
+                            ctx.fillStyle = 'white';
+                            ctx.fillRect(0, 0, width, height);
+                            ctx.drawImage(img, 0, 0, width, height);
+                            
+                            const dataUrl = canvas.toDataURL('image/jpeg', 0.75);
+                            const base64 = dataUrl.split(',')[1];
+                            
+                            resolve(base64);
+                        } catch (err) {
+                            reject(err);
+                        }
+                    };
+                    img.onerror = () => reject(new Error('Impossibile caricare l\'immagine'));
+                    img.src = e.target.result;
+                };
+                reader.onerror = () => reject(new Error('Errore lettura file'));
+                reader.readAsDataURL(file);
+            });
+        }
+        
+        // Clear all
+        function clearAll() {
+            debugLog('Clearing all data');
+            
+            // Clear images
+            images = [];
+            imgUploadArea.classList.remove('loaded');
+            imgLabel.textContent = 'Seleziona immagini';
+            imgSublabel.textContent = 'Puoi selezionare più file contemporaneamente';
+            imgStatus.textContent = '';
+            imgInput.value = '';
+            
+            // Clear results
+            results.style.display = 'none';
+            resultsContent.innerHTML = '';
+            
+            checkReady();
+        }
+        
+        // Check if ready
+        function checkReady() {
+            const hasImages = images && images.length > 0;
+            analyzeBtn.disabled = !hasImages;
+        }
+        
+        // Analyze with improved error handling
+        async function analyze() {
+            if (images.length === 0) return;
+            
+            debugLog(`Starting analysis in ${useV4Mode ? 'V4 RAG' : 'Standard'} mode...`);
+            
+            loading.classList.add('show');
+            results.style.display = 'none';
+            resultsContent.innerHTML = '';
+            
+            // Determina quale endpoint usare basato sulla modalità
+            let endpointToUse = useV4Mode ? '/api/analyze-v4-rag' : '/api/analyze-enhanced';
+            
+            // Aggiorna testo di loading
+            loadingText.textContent = useV4Mode ? 
+                'Analisi con RAG + Vision in corso...' : 
+                'Analisi in corso...';
+            
+            try {
+                debugLog(`Using endpoint: ${endpointToUse}`);
+                debugLog(`Processing ${images.length} image(s)`);
+                
+                for (let i = 0; i < images.length; i++) {
+                    debugLog(`Analyzing image ${i + 1}/${images.length}`);
+                    
+                    // Prepara la richiesta
+                    const requestContent = [
+                        {
+                            type: "image",
+                            source: {
+                                type: "base64",
+                                media_type: "image/jpeg",
+                                data: images[i]
+                            }
+                        }
+                    ];
+                    
+                    const requestBody = {
+                        model: "claude-3-haiku-20240307",
+                        max_tokens: 4000,
+                        messages: [{
+                            role: "user",
+                            content: requestContent
+                        }]
+                    };
+                    
+                    debugLog(`Request size: ${Math.round(JSON.stringify(requestBody).length / 1024)}KB`);
+                    
+                    // Esegui la richiesta con timeout migliorato
+                    let response;
+                    try {
+                        const controller = new AbortController();
+                        const timeoutId = setTimeout(() => controller.abort(), 45000); // 45 secondi per V4
+                        
+                        debugLog('Sending request to API...');
+                        
+                        response = await fetch(endpointToUse, {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify(requestBody),
+                            signal: controller.signal
+                        });
+                        
+                        clearTimeout(timeoutId);
+                        
+                        debugLog(`Response status: ${response.status}`);
+                        
+                    } catch (fetchError) {
+                        if (fetchError.name === 'AbortError') {
+                            throw new Error('Richiesta timeout - il server non risponde');
+                        }
+                        throw new Error(`Errore di rete: ${fetchError.message}`);
+                    }
+                    
+                    // Gestisci la risposta
+                    if (!response.ok) {
+                        let errorMessage = `Errore HTTP ${response.status}`;
+                        
+                        try {
+                            const contentType = response.headers.get("content-type");
+                            if (contentType && contentType.includes("application/json")) {
+                                const errorData = await response.json();
+                                debugLog(`API Error: ${JSON.stringify(errorData)}`, 'error');
+                                errorMessage = errorData.error || errorData.message || errorMessage;
+                            } else {
+                                const errorText = await response.text();
+                                debugLog(`Error text: ${errorText}`, 'error');
+                                errorMessage = errorText || errorMessage;
+                            }
+                        } catch (e) {
+                            debugLog(`Could not parse error response: ${e.message}`, 'error');
+                        }
+                        
+                        throw new Error(errorMessage);
+                    }
+                    
+                    // Parse successful response
+                    const data = await response.json();
+                    debugLog('Response received successfully');
+                    
+                    // Process and display results
+                    let resultText = '';
+                    if (data.content && Array.isArray(data.content) && data.content[0]) {
+                        resultText = data.content[0].text || '';
+                    } else if (typeof data === 'string') {
+                        resultText = data;
+                    } else if (data.result) {
+                        resultText = data.result;
+                    }
+                    
+                    // Display result
+                    const resultItem = document.createElement('div');
+                    resultItem.className = 'result-item';
+                    
+                    const resultHeader = document.createElement('div');
+                    resultHeader.className = 'result-header';
+                    resultHeader.textContent = `Analisi ${i + 1} di ${images.length}`;
+                    
+                    const resultContent = document.createElement('div');
+                    resultContent.className = 'result-content';
+                    resultContent.innerHTML = resultText || 'Nessun risultato trovato';
+                    
+                    resultItem.appendChild(resultHeader);
+                    resultItem.appendChild(resultContent);
+                    
+                    // Add metadata if available
+                    if (data.metadata) {
+                        const metadataDiv = document.createElement('div');
+                        metadataDiv.style.cssText = 'font-size: 12px; color: #86868b; margin-top: 12px; padding-top: 12px; border-top: 1px solid #d2d2d7;';
+                        
+                        let metadataInfo = [];
+                        if (data.metadata.questionsAnalyzed) {
+                            metadataInfo.push(`${data.metadata.questionsAnalyzed} domande analizzate`);
+                        }
+                        if (data.metadata.method) {
+                            metadataInfo.push(`Metodo: ${data.metadata.method}`);
+                        }
+                        if (data.metadata.accuracy) {
+                            metadataInfo.push(`Accuratezza: ${data.metadata.accuracy}`);
+                        }
+                        
+                        if (metadataInfo.length > 0) {
+                            metadataDiv.innerHTML = metadataInfo.join(' • ');
+                            resultItem.appendChild(metadataDiv);
+                        }
+                    }
+                    
+                    resultsContent.appendChild(resultItem);
+                }
+                
+                debugLog('Analysis completed successfully');
+                results.style.display = 'block';
+                results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                
+            } catch (err) {
+                debugLog(`Analysis error: ${err.message}`, 'error');
+                
+                // Display error message
+                resultsContent.innerHTML = `
+                    <div class="error-message">
+                        <div class="error-title">⚠️ Errore durante l'analisi</div>
+                        <div class="error-content">
+                            <strong>Errore: ${err.message}</strong>
+                            
+                            <p style="margin-top:10px">
+                                ${useV4Mode ? 
+                                'Verifica che OPENAI_API_KEY e PINECONE_API_KEY siano configurate su Vercel.' :
+                                'Verifica che ANTHROPIC_API_KEY sia configurata su Vercel.'}
+                            </p>
+                            
+                            <p style="margin-top:10px">
+                                Puoi provare a:
+                                <br>• ${useV4Mode ? 'Passare alla modalità Standard' : 'Provare la modalità V4'}
+                                <br>• Ricaricare la pagina (F5)
+                                <br>• Verificare la connessione internet
+                            </p>
+                        </div>
+                    </div>
+                `;
+                results.style.display = 'block';
+                
+            } finally {
+                loading.classList.remove('show');
+            }
+        }
+    </script>
+</body>
+</html>

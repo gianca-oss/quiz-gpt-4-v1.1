@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p466_c0",
+    "page": 466,
+    "text": "EVOLUTIONARY COMPUTATION 47 WHAT IS EVOLUTIONARY COMPUTATION? A broad set of general-purpose computational techniques that attempt to copy the process of natural evolution → generally called Evolutionary Algorithms or Arti fi cial Evolution algorithms WHY COPYING NATURAL EVOLUTION? • Nature has always served as a source of inspiration for engineers and scientists • The best problem solver known in nature is: • The (human) brain that created “ the wheel, New York, wars and so on ” → Neural Networks • The evolutionary process that created the human brain → Evolutionary Computing",
+    "start": 0,
+    "end": 583,
+    "length": 583,
+    "hash": "5oiloz"
+  },
+  {
+    "id": "p467_c0",
+    "page": 467,
+    "text": "EVOLUTIONARY COMPUTATION 48 SIMILARITIES BETWEEN NATURAL AND ARTIFICIAL EVOLUTION • Individual : encodes a potential (candidate) solution for a given problem problem: phenotype (computer program, object shape, electronic circuit, robot, etc.) + genotype (i.e., the genetic representation of the phenotype) • Population : a set of individuals • Diversity : a measure of how individuals in a population differ (at genotype or phenotype level) • Selection : a mechanism to select which individuals “survive” and “reproduce” • Inheritance : a mechanism to (partially) transmit the properties of a solution to another",
+    "start": 0,
+    "end": 612,
+    "length": 612,
+    "hash": "ict2qe"
+  },
+  {
+    "id": "p468_c0",
+    "page": 468,
+    "text": "EVOLUTIONARY COMPUTATION 49 EVOLUTIONARY ALGORITHM A stochastic population-based metaheuristic that uses some mechanisms inspired by biological evolution: • Reproduction • Inheritance • Mutation • Selection REQUIREMENTS – (a lot of) simulations → natural evolution works over millions of generations! – (inexpensive) computer technology → needed for running thousands of simulations",
+    "start": 0,
+    "end": 382,
+    "length": 382,
+    "hash": "qpexnl"
+  },
+  {
+    "id": "p469_c0",
+    "page": 469,
+    "text": "EVOLUTIONARY COMPUTATION 50 THE KEY ELEMENTS: INDIVIDUAL & FITNESS An individual encodes a potential solution for a given problem, e.g.: – A list of real numbers – A sequence of cities – A bit string – Etc. Each individual has a fi tness , that is a metric of how good that solution is for a speci fi c problem. 10011010100 NOTE : mixed representations are also possible! E.g. a part of the genotype is binary, another real-valued, etc.",
+    "start": 0,
+    "end": 436,
+    "length": 436,
+    "hash": "iz0hjp"
+  },
+  {
+    "id": "p470_c0",
+    "page": 470,
+    "text": "EVOLUTIONARY COMPUTATION 51 DISCRETE REPRESENTATIONS The genotype is a sequence (or an array of sequences) of n discrete symbols drawn from alphabet with cardinality k. E.g., a binary string of 8 digits ( n =8, k =2), such as 01010100, can be mapped into different phenotypes, depending on the optimization problem (just to give some examples): 3. A binary assignment, such as a job schedule problem • job=gene position • time=gene value 2. To real value r in range [ min , max ]: r = min + ( i /255)( max - min ) 1. To integer i using binary code",
+    "start": 0,
+    "end": 547,
+    "length": 547,
+    "hash": "74jhea"
+  },
+  {
+    "id": "p471_c0",
+    "page": 471,
+    "text": "EVOLUTIONARY COMPUTATION 52 SEQUENCE REPRESENTATIONS It is a particular case of discrete representation used e.g. for Traveling Salesman Problems (TSP), i.e., plan a path to visit n cities under some constraints, and problems alike. In this case the individual is a permutation of n different symbols (e.g. integers, letters, or labels), each of which occurs exactly once. E.g., planning ski holidays with lowest transportation costs:",
+    "start": 0,
+    "end": 434,
+    "length": 434,
+    "hash": "wf0o5"
+  },
+  {
+    "id": "p472_c0",
+    "page": 472,
+    "text": "EVOLUTIONARY COMPUTATION 53 REAL-VALUED REPRESENTATIONS The genotype is a sequence of real values that represent the problem parameters. • Used when high-precision parameter optimization is required • For example, genetic encoding of wing pro fi le for shape optimization: Evolvable wing made of deformable material with pressure tubes. In this case the genotype is a vector representing the pressure values of 14 tubes.",
+    "start": 0,
+    "end": 420,
+    "length": 420,
+    "hash": "e2sve3"
+  },
+  {
+    "id": "p473_c0",
+    "page": 473,
+    "text": "EVOLUTIONARY COMPUTATION 54 population evaluation of fi tness parents selection offspring (new individuals) replacement reproduction (genetic operators) CENSORED A GENERIC EVOLUTIONARY ALGORITHM FLOW",
+    "start": 0,
+    "end": 199,
+    "length": 199,
+    "hash": "5qpo0n"
+  },
+  {
+    "id": "p474_c0",
+    "page": 474,
+    "text": "EVOLUTIONARY COMPUTATION 55 INITIAL POPULATION Should be suf fi ciently large to cover the search space (!), but suf fi ciently small in terms of evaluations (typical size: between 10s and 1000s individuals). Uniform sample of search space: • Binary strings: 0 or 1 with probability 0.5 (similarly for other discrete representations) • Real-valued representations: uniform on a given interval if bounded phenotype (e.g., +2.0, -2.0), otherwise “best guess” (based on domain knowledge). Alternatively, use a DoE (Design of Experiments) algorithm. • Trees are built recursively starting from root: root is randomly chosen from Function set; for every branch, randomly choose among all elements of Function set and of Terminal set; if terminal is chosen, it becomes leaf. A maximum tree depth must be chosen. IMPORTANT : hand-designed genotypes may cause a loss of genetic diversity and/or an unrecoverable bias in the evolutionary process!",
+    "start": 0,
+    "end": 937,
+    "length": 937,
+    "hash": "iskdrb"
+  },
+  {
+    "id": "p475_c0",
+    "page": 475,
+    "text": "EVOLUTIONARY COMPUTATION 56 population evaluation of fi tness parents selection offspring (new individuals) replacement reproduction (genetic operators) CENSORED A GENERIC EVOLUTIONARY ALGORITHM FLOW",
+    "start": 0,
+    "end": 199,
+    "length": 199,
+    "hash": "2za7u3"
+  },
+  {
+    "id": "p476_c0",
+    "page": 476,
+    "text": "EVOLUTIONARY COMPUTATION 57 FITNESS FUNCTION = OBJECTIVE FUNCTION Evaluates the performance of a phenotype with (one or more) numerical scores. • Choice of components; e.g., lift and drag of a wing • Combination of components; e.g. (lift + 1.0/drag) or (lift - drag) • Extensive test of each phenotype (with noise, repeated evaluations are needed) • The more the fi tness function can discriminate (return different values), the better • Warning! “You Get What You Evaluate” AN INTERESTING CONCEPT Subjective fi tness : select phenotype by human inspection (basis of IEC, Interactive Evolution Computation) • Used when aesthetic properties cannot be quanti fi ed objectively (e.g. visual art, music, design, etc.) • Can be combined with an objective fi tness function • E.g., Picbreeder http://picbreeder.org/",
+    "start": 0,
+    "end": 809,
+    "length": 809,
+    "hash": "7le81a"
+  },
+  {
+    "id": "p477_c0",
+    "page": 477,
+    "text": "EVOLUTIONARY COMPUTATION 58 population evaluation of fi tness parents selection offspring (new individuals) replacement reproduction (genetic operators) CENSORED A GENERIC EVOLUTIONARY ALGORITHM FLOW",
+    "start": 0,
+    "end": 199,
+    "length": 199,
+    "hash": "bpa3ot"
+  },
+  {
+    "id": "p478_c0",
+    "page": 478,
+    "text": "EVOLUTIONARY COMPUTATION 59 FITNESS-PROPORTIONATE SELECTION (ROULETTE-WHEEL SELECTION) The probability that an individual makes an offspring is proportional to how good its fi tness is with respect to the population fi tness: p ( i ) = f ( i )/ Σ f ( i ), i is the individual index → Biases selection towards the most- fi t individuals! Problems: • Fitness must be non-negative (otherwise must be shifted to positive values) • Uniform fi tness values (values are too close) = random selection • Few high- fi tness individuals = high selection pressure (low- fi tness individuals have close-to-zero chance of reproduction)",
+    "start": 0,
+    "end": 621,
+    "length": 621,
+    "hash": "t6atb2"
+  },
+  {
+    "id": "p479_c0",
+    "page": 479,
+    "text": "EVOLUTIONARY COMPUTATION 60 TOURNAMENT SELECTION For every offspring to be generated: 1. Pick randomly k individuals from the population, where k is the tournament size < N, N being the population size (larger k = larger selection pressure, i.e., individual have a higher chance to compete against individuals with higher fi tness) 2. Choose the individual with the highest fi tness and make a copy 3. Put all individuals back in the population",
+    "start": 0,
+    "end": 444,
+    "length": 444,
+    "hash": "s93rs5"
+  },
+  {
+    "id": "p480_c0",
+    "page": 480,
+    "text": "EVOLUTIONARY COMPUTATION 61 population evaluation of fi tness parents selection offspring (new individuals) replacement reproduction (genetic operators) CENSORED A GENERIC EVOLUTIONARY ALGORITHM FLOW",
+    "start": 0,
+    "end": 199,
+    "length": 199,
+    "hash": "poze0r"
+  },
+  {
+    "id": "p481_c0",
+    "page": 481,
+    "text": "EVOLUTIONARY COMPUTATION 62 RECOMBINATION (CROSSOVER) • Emulates recombination of genetic material from two parents during meiosis • Exploitation of synergy of sub-solutions (building blocks) from parents • Applied to randomly paired offspring with a given probability Pc One point Uniform Arithmetic For sequences For trees",
+    "start": 0,
+    "end": 324,
+    "length": 324,
+    "hash": "e45bcl"
+  },
+  {
+    "id": "p482_c0",
+    "page": 482,
+    "text": "EVOLUTIONARY COMPUTATION 63 MUTATION • Emulates genetic mutations • Exploration of variation of existing solutions • Applied to each gene in the genotype with a given probability Pm For trees Binary genotypes Sequence genotypes Real-valued genotypes",
+    "start": 0,
+    "end": 249,
+    "length": 249,
+    "hash": "7jo0kh"
+  },
+  {
+    "id": "p483_c0",
+    "page": 483,
+    "text": "EVOLUTIONARY COMPUTATION 64 population evaluation of fi tness parents selection offspring (new individuals) replacement reproduction (genetic operators) CENSORED A GENERIC EVOLUTIONARY ALGORITHM FLOW",
+    "start": 0,
+    "end": 199,
+    "length": 199,
+    "hash": "clzk8o"
+  },
+  {
+    "id": "p484_c0",
+    "page": 484,
+    "text": "EVOLUTIONARY COMPUTATION 65 REPLACEMENT (OR “SURVIVOR SELECTION”) • Generational replacement : old population is entirely replaced by offspring (also called “aged-based” replacement, or “non-overlapping” replacement, most frequent method) • Generational rollover : insert offspring “in place”, i.e., replace worse individuals in the current generation. A special case is the Steady-State scheme (Whitley et al., 1988): one offspring is generated per generation, one member of the population (the worst one) is replaced. • Elitism : maintain n best individuals from previous generation to prevent loss of best individuals by effects of mutations or sub-optimal fi tness evaluation (the higher n , the less diversity)",
+    "start": 0,
+    "end": 715,
+    "length": 715,
+    "hash": "g00dsi"
+  },
+  {
+    "id": "p485_c0",
+    "page": 485,
+    "text": "EVOLUTIONARY COMPUTATION 66 DATA ANALYSIS: MONITORING PERFORMANCE • Track best/worst and/or population average fi tness (+/- std. dev.) of each generation • Multiple runs are necessary plot average data and standard error (“anytime behavior”) • Fitness graphs (also called “ fi tness trends”) are meaningful only if the problem is stationary, i.e., the fi tness function does not change over time • These plots can be used to detect if the algorithm stagnated or (prematurely) converged Stagnation : no further evolution possible even if the population remains diverse (individuals are far from each other, but new individuals are worse). Premature convergence : no further evolution possible since the population lost diversity (individuals are too close to each other.)",
+    "start": 0,
+    "end": 771,
+    "length": 771,
+    "hash": "se88gg"
+  },
+  {
+    "id": "p486_c0",
+    "page": 486,
+    "text": "EVOLUTIONARY COMPUTATION 67 WHY EVOLUTIONARY ALGORITHMS WORK • Classic optimization algorithms (“local search” methods) work on a single solution at a time, perturbed according to some logics • They can be very good at exploitation (fast convergence to local optimum close to the starting point), but not at exploration (they may miss the global optimum) • They are not parallelizable single-solution algorithms: like a single “hill-climber",
+    "start": 0,
+    "end": 440,
+    "length": 440,
+    "hash": "291xsp"
+  },
+  {
+    "id": "p487_c0",
+    "page": 487,
+    "text": "EVOLUTIONARY COMPUTATION 68 population-based algorithms: multiple, parallel hill-climbers variable step-sizes WHY EVOLUTIONARY ALGORITHMS WORK • They are inherently parallel(izable) • They are both good at exploitation AND exploration • Each solution may be perturbed differently (different search perspectives/search strategies) • Interactions (i.e., exchange of information, e.g. crossover) among solutions can be bene fi cial",
+    "start": 0,
+    "end": 428,
+    "length": 428,
+    "hash": "fba9x5"
+  },
+  {
+    "id": "p488_c0",
+    "page": 488,
+    "text": "EVOLUTIONARY COMPUTATION 69 SOME APPLICATIONS • Parameters optimization • Finance/portfolio optimization • Model & neural network training • Forecast • Scheduling • Telecom/Networking • CAD/CAE problems • Database/Data mining • Bioinformatics • Bug identi fi cation • Art (music, design, websites, etc.) • ALife studies",
+    "start": 0,
+    "end": 319,
+    "length": 319,
+    "hash": "tcrxoc"
+  },
+  {
+    "id": "p490_c0",
+    "page": 490,
+    "text": "SWARM INTELLIGENCE 71 WHAT IS SWARM INTELLIGENCE? Some “social” animals live and operate in groups. When these animals perform some tasks together can make things that wouldn’t be able to do when they are alone (showing a form of collective intelligence , as opposed to individual intelligence). E.g.: foraging, defending from predators, building complex structures, etc. Swarm : a group of “simple” agents (not necessarily animals) that communicate with each other (either directly or indirectly), by changing their own state or acting on their local environment. Swarm Intelligence : the property of a system whereby the collective behaviors of “simple” agents interacting locally cause coherent functional global patterns to emerge ( emergent behavior ). Main principles • Agents perceive and act based only on local information • Agents cooperate by means of local information • Information propagates through the entire swarm • This interaction results in distributed collective problem-solving",
+    "start": 0,
+    "end": 999,
+    "length": 999,
+    "hash": "2w3gtw"
+  },
+  {
+    "id": "p491_c0",
+    "page": 491,
+    "text": "COMPUTATIONAL SWARM INTELLIGENCE 72 ANT COLONY OPTIMIZATION • Mimics the navigation strategy used by foraging ants (Dorigo et al., 1991) – At fi rst: ants move at random ( → exploration) – Later, ants deposit pheromones to “reinforce” the path-following along some speci fi c “good” trails – Pheromones along a trail evaporate when that trail is not followed anymore – Indirect agent communication of search experience via the environment ( stigmergy ) • Typically applied to TSP and other combinatorial (graph-based) problems",
+    "start": 0,
+    "end": 526,
+    "length": 526,
+    "hash": "ikwtzj"
+  },
+  {
+    "id": "p492_c0",
+    "page": 492,
+    "text": "COMPUTATIONAL SWARM INTELLIGENCE 73 ANT COLONY OPTIMIZATION • Notes on algorithmic performance - Finds best solution on “small” problems (e.g. TSP of up to 30 cities) - Finds good solutions on large problems compared to other techniques - Finds best solution on large problems when coupled with other search techniques - Can operate on dynamic problems (e.g., node malfunctioning) that require fast rerouting (ant trails are adaptive!)",
+    "start": 0,
+    "end": 435,
+    "length": 435,
+    "hash": "e7qtff"
+  },
+  {
+    "id": "p494_c0",
+    "page": 494,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 75 MULTI-OBJECTIVE OPTIMIZATION PROBLEMS (MOPS) A wide range of problems (virtually all real-world problems) are characterized by the presence of a number of n possibly con fl icting objectives, e.g.: • buying a car: comfort vs price • buying a house: location vs size vs quality vs price • choosing a job: location vs salary vs fl exibility vs duration of the contract • engineering design: lightness vs strength For instance, when we buy a car, we would like the car to be as cheap as possible (minimize cost) and as comfortable as possible (maximize comfort). If we consider the two objectives separately , we’ll probably obtain two different optimal solutions. BUT, neither of them is likely what we want... ?",
+    "start": 0,
+    "end": 742,
+    "length": 742,
+    "hash": "kc9ycy"
+  },
+  {
+    "id": "p495_c0",
+    "page": 495,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 76 MULTI-OBJECTIVE OPTIMIZATION PROBLEMS (MOPS) Car Price Comfort A 15k 4 B 20k 6 C 25k 7 D 30k 6 E 30k 8 F 40k 8 1 2 3 4 5 6 7 9 8 15k 20k 25k 30k 35k 40k 45k Price Comfort ... what if there was a car with cost 15k and comfort 9?",
+    "start": 0,
+    "end": 259,
+    "length": 259,
+    "hash": "w40hzr"
+  },
+  {
+    "id": "p496_c0",
+    "page": 496,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 77 CONVENTIONAL APPROACHES (“A PRIORI” METHODS) Characterized by the fact that some decisions must be made a priori, i.e. before optimization , in order to solve the MOP as (one or more) single-objective problems. 1. Scalarization : different objectives are combined into one (non-)linear function. E.g. (for two objectives f 1 and f 2 ): f = α × f 1 -(1- α ) × f 2 f =( f 1 +1.0/ f 2 ) f = f 1 α × f 2 (1- α ) ... The most common scalarization function is a weighted sum of the objectives : f= w 1 × f 1 + w 2 × f 2 +... Important to take into account : - how each objective increases/decreases when f is minimized or maximized - different orders of magnitudes for each objective → magnitude of weights is crucial! - different weights correspond to different rankings (importance) of the objectives - this approach corresponds to an a priori restriction of the fi tness space , i.e., in order to fi nd different trade-off solutions the problem must be solved with different weights w i",
+    "start": 0,
+    "end": 1015,
+    "length": 1015,
+    "hash": "ibzyul"
+  },
+  {
+    "id": "p497_c0",
+    "page": 497,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 78 Vilfredo Pareto, Manual of Political Economy , 1896 CONVENTIONAL APPROACHES (“A PRIORI” METHODS) 2. Lexicographic ordering : the objectives < f 1 , f 2 , ... f k > are ranked in a user-de fi ned order of importance , so that f 1 is the most important and f k is the least important. Then a sequence of single-objective optimization problems is solved, where fi rst f 1 is optimized (ignoring f 2 , ... f k ) to get an optimum f 1 * , then f 2 is optimized imposing a constraint f 1 ≤ f 1 * (in case of maximization), then f 3 is optimized with constraints f 1 ≤ f 1 * and f 2 ≤ f 2 * , and so on so forth. 3. ε -constraint method : k single-objective optimization problems are solved separately, one for each objective, imposing for each problem k -1 constraints corresponding to the other k -1 problems, i.e. f j ≤ ε j where ε j are user-de fi ned thresholds. Some questions to ask: 1) How should the single objectives be ranked? 2) What is the effect of ranking on the resulting trade-off? 3) Is it possible to consider all the objectives simultaneously ?",
+    "start": 0,
+    "end": 1089,
+    "length": 1089,
+    "hash": "mqnjc1"
+  },
+  {
+    "id": "p498_c0",
+    "page": 498,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 79 MULTI-OBJECTIVE OPTIMIZATION PROBLEMS (MOPS) SCALARIZATION (MAXIMIZATION) f=(40k-price) + 10k × comfort 25k + 40k = 65k 20k + 60k = 80k 15k + 70k = 85k 10k + 60k = 80k 10k + 80k = 90k Optimum: E 0 + 80k = 80k f=(40k-price) + 1k × comfort 25k + 4k = 29k Optimum: A 20k + 6k = 26k 15k + 7k = 22k 10k + 6k = 16k 10k + 8k = 18k 0 + 8k = 8k Car Price Comfort A 15k 4 B 20k 6 C 25k 7 D 30k 6 E 30k 8 F 40k 8",
+    "start": 0,
+    "end": 433,
+    "length": 433,
+    "hash": "b595xt"
+  },
+  {
+    "id": "p499_c0",
+    "page": 499,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 80 MULTI-OBJECTIVE OPTIMIZATION PROBLEMS (MOPS) LEXICOGRAPHIC ORDERING Price more important than comfort 1. Minimize price: {A} 2. Maximize comfort in {A}: A Optimum: A Comfort more important than price 1. Maximize comfort: {E, F} 2. Minimize price in {E, F}: E Optimum: E ε -CONSTRAINT METHOD - Minimize price (s.t. comfort ≥ 7): { C , E, F} - Maximize comfort (s.t. price < 30k): {A, B, C } Optimum: C Car Price Comfort A 15k 4 B 20k 6 C 25k 7 D 30k 6 E 30k 8 F 40k 8",
+    "start": 0,
+    "end": 498,
+    "length": 498,
+    "hash": "isvxrm"
+  },
+  {
+    "id": "p500_c0",
+    "page": 500,
+    "text": "500 1000 1500 2000 2500 3000 3500 cost water supply 5 10 15 20 MULTI-OBJECTIVE OPTIMIZATION 81 PARETO-DOMINANCE Given a certain solution, we can identify solutions that are certainly better (worse) than it, i.e. they are better (worse) for all objectives, or solutions that are “incomparable”, i.e. they are better w.r.t. at least one objective, but worse w.r.t. to the others. better better better worse incomparable",
+    "start": 0,
+    "end": 417,
+    "length": 417,
+    "hash": "fd6b5l"
+  },
+  {
+    "id": "p501_c0",
+    "page": 501,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 82 PARETO-DOMINANCE De fi nition : A solution i is said to “Pareto-dominate” a solution j if (both conditions must hold!): - i no worse than j on all objectives - i is better than j on at least one objective better better 500 1000 1500 2000 2500 3000 3500 cost water supply 5 10 15 20 dominating dominated incomparable",
+    "start": 0,
+    "end": 347,
+    "length": 347,
+    "hash": "pwi13q"
+  },
+  {
+    "id": "p502_c0",
+    "page": 502,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 83 better better 500 1000 1500 2000 2500 3000 3500 cost water supply 5 10 15 20 PARETO-DOMINANCE There is no single optimal solution , BUT: some solutions (red dots) are better than all others (gray dots). These solutions are exactly those that are not dominated by any others. They form the so- called non-dominated (Pareto) front .",
+    "start": 0,
+    "end": 362,
+    "length": 362,
+    "hash": "c687lc"
+  },
+  {
+    "id": "p503_c0",
+    "page": 503,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION MULTI-OBJECTIVE OPTIMIZATION (MOO) VS MULTI-CRITERIA DECISION MAKING (MCDM) Multi-objective optimization problems (MOPs) are usually solved in two steps: 1. Find the “good” solutions, i.e. the solutions belonging to the Pareto front (optimization) finding the good solutions optimization 84 better better 500 1000 1500 2000 2500 3000 3500 cost water supply 5 10 15 20",
+    "start": 0,
+    "end": 396,
+    "length": 396,
+    "hash": "cvgajx"
+  },
+  {
+    "id": "p504_c0",
+    "page": 504,
+    "text": "500 1000 1500 2000 2500 3000 3500 cost water supply 5 10 15 20 MULTI-OBJECTIVE OPTIMIZATION MULTI-OBJECTIVE OPTIMIZATION (MOO) VS MULTI-CRITERIA DECISION MAKING (MCDM) Multi-objective optimization problems (MOPs) are usually solved in two steps: 2. Select the solution that is needed for the particular interest (decision making) selecting a solution decision making 85 better better",
+    "start": 0,
+    "end": 383,
+    "length": 383,
+    "hash": "r20tn5"
+  },
+  {
+    "id": "p505_c0",
+    "page": 505,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION WHEN TO MAKE A DECISION The main difference between “a priori” methods (scalarization, lexicographic method) and “a posteriori” methods (based on Pareto dominance) is when decisions about a problem are made: before or after optimization. 86 After Optimization: search for a set of (Pareto - optimal) solutions select one solution considering constraints, etc. Before Optimization: rank objectives, define constraints,... search for one solution Focus: learning about a problem § trade - off surface § interactions among criteria § structural information",
+    "start": 0,
+    "end": 582,
+    "length": 582,
+    "hash": "r7wx0v"
+  },
+  {
+    "id": "p506_c0",
+    "page": 506,
+    "text": "MULTI-OBJECTIVE OPTIMIZATION 87 NON-DOMINATED SORTING GENETIC ALGORITHM-II (NSGA-2 or NSGA-II) • Originally proposed by Deb et al. in 2002, it represents a milestone in multi-objective optimization. y 2 y 1 • Main features – Typically used for binary or real-valued representations – The genetic operators (mutation and crossover) are essentially the same used for single-objective optimization – The selection mechanism (with elitism ) is composed of two parts: 1) Pareto rank based on non-dominated sorting , to select the non-dominated solutions according to their dominance levels 2) crowding-distance sorting to prefer “isolated” solutions to better represent the Pareto front → acts also as a diversity preservation mechanism • Applied widely and successfully, but like other multi- objective evolutionary algorithms its performance breaks down as the number of objectives increases (curse of dimensionality!) better better",
+    "start": 0,
+    "end": 929,
+    "length": 929,
+    "hash": "kkqbw1"
+  },
+  {
+    "id": "p507_c0",
+    "page": 507,
+    "text": "WHAT WE HAVE SEEN SO FAR APPLIES TO... 88 NONLINEAR PROGRAMMING • The most general optimization problem occurs when both the objective function and constraints are nonlinear/non-convex, a case referred to as nonlinear programming (NLP). • No speci fi c methods for this class of problems: in practice, one often falls back on metaheuristics (e.g., Simulated Annealing, Evolutionary Algorithms, etc.) • To get an exact solution, “backtracking” search methods can be used, which recursively divide up the space into regions can be used. These are applicable if it is possible to compute informative “optimistic” bounds on the best solution within a region, e.g., by linear approximations. but not but not",
+    "start": 0,
+    "end": 702,
+    "length": 702,
+    "hash": "wk34li"
+  },
+  {
+    "id": "p508_c0",
+    "page": 508,
+    "text": "OPTIMIZATION 89 SPECIAL CLASSES OF OPTIMIZATION PROBLEMS Name Vars Constraints Objective Constraint Programming (CP) discrete any N/A Linear Programming (LP) real linear inequalities linear function Integer (Linear) Programming (IP/ILP) integer linear inequalities linear function Mixed Integer (linear) Programming (MIP/MILP) integer & real linear inequalities linear function Semide fi nite Programming (SDP) real linear inequalities + semide fi niteness linear function Quadratic Programming (QP) real linear inequalities quadratic function Quadratically Constrained Quadratic Programming (QCQP) real quadratic inequalities quadratic function Convex Programming real convex region convex function Nonlinear Programming (NLP) real any any",
+    "start": 0,
+    "end": 740,
+    "length": 740,
+    "hash": "u5fcba"
+  },
+  {
+    "id": "p510_c0",
+    "page": 510,
+    "text": "LINEAR PROGRAMMING 91 EXAMPLE: MANUFACTURING A large factory makes tables and chairs. Each table returns a pro fi t of 200 EUR and each chair a pro fi t of 100 EUR. Each table takes 1 unit of metal and 3 units of wood and each chair takes 2 units of metal and 1 unit of wood. The factory has 600 units of metal and 900 units of wood. How many tables and chairs should the factory make to maximize pro fi t? NOTE: x(1) and x (2) here are expressed in hundreds",
+    "start": 0,
+    "end": 458,
+    "length": 458,
+    "hash": "tgfl7r"
+  },
+  {
+    "id": "p511_c0",
+    "page": 511,
+    "text": "LINEAR PROGRAMMING 92 EXAMPLE: MANUFACTURING We can write our manufacturing problem formally as:",
+    "start": 0,
+    "end": 96,
+    "length": 96,
+    "hash": "lu1enl"
+  },
+  {
+    "id": "p512_c0",
+    "page": 512,
+    "text": "LINEAR PROGRAMMING 93 WHY “LINEAR PROGRAMMING”? Linear : the objective functions and constraints are linear. Programming : does not refer to computer programming but rather “planning” - planning of activities to obtain an optimal result i.e., it reaches the speci fi ed goal in the best possible way (according to the given mathematical model) among all feasible alternatives.",
+    "start": 0,
+    "end": 376,
+    "length": 376,
+    "hash": "245n9g"
+  },
+  {
+    "id": "p513_c0",
+    "page": 513,
+    "text": "LINEAR PROGRAMMING 94 SIMPLEX ALGORITHM Basic idea of the simplex algorithm is to move along the edges of the polytope from corner to corner, in directions of decreasing cost. In worst case, move along an exponentially large number of corners, but typically much better in practice (the fi rst “practical” algorithm for linear programming). Guaranteed to fi nd a globally optimal solution (ignoring some possible degenerate cases): if simplex returns, then it has found a point that cannot be further improved locally; since linear programs are convex , this is a global optimum. Since there are a fi nite (but exponential) number of vertices in the polytope, the algorithm must return after a fi nite number of steps, improving at each iteration.",
+    "start": 0,
+    "end": 747,
+    "length": 747,
+    "hash": "h2v6ar"
+  },
+  {
+    "id": "p514_c0",
+    "page": 514,
+    "text": "LINEAR PROGRAMMING 95 ALTERNATIVES TO SIMPLEX Interior point methods (they scale better than simplex)",
+    "start": 0,
+    "end": 101,
+    "length": 101,
+    "hash": "e6dla9"
+  },
+  {
+    "id": "p515_c0",
+    "page": 515,
+    "text": "LINEAR PROGRAMMING 96 MANY PROBLEMS AND APPLICATIONS CAN BE TACKLED BY LP • Min-cut / max- fl ow network problems • Resource allocation problems • Cost-bene fi t trade-off problems • Distribution network problems • Economic portfolio optimization • Robotic control • Scheduling generation • ... and much more! Many commercial and open-source solvers available, see https://en.wikipedia.org/wiki/Linear_programming https://docs.scipy.org/doc/scipy/reference/optimize.html#global-optimization",
+    "start": 0,
+    "end": 490,
+    "length": 490,
+    "hash": "92bh78"
+  },
+  {
+    "id": "p517_c0",
+    "page": 517,
+    "text": "98 EXAMPLE: MANUFACTURING Let’s consider the example seen in the previous lecture, buy adding a constraint of integerness: x 1 and x 2 indicate batches of production that cannot be fractioned, i.e., x 1 and x 2 are integer values. Recall linear program 6K units of metal and 9K units of wood. How many tables 6 x 1 \u000f[HISLZ\u0010 x 2 \u000fJOHPYZ\u0010 Recall linear program A large factory makes tables and chairs. Each table returns $200 and each chair a profit of $100. Each table takes 1 un 3 units of wood and each chair takes 2 units of metal and 1 The factory has 6 units of metal and 9 units of wood. How and chairs should the factory make to maximize profit? x 1 \u000f[HISLZ\u0010 x 2 \u000fJOHPYZ\u0010 INTEGER (LINEAR) PROGRAMMING 98",
+    "start": 0,
+    "end": 709,
+    "length": 709,
+    "hash": "pwc2ac"
+  },
+  {
+    "id": "p518_c0",
+    "page": 518,
+    "text": "INTEGER (LINEAR) PROGRAMMING 99 CHALLENGES OF INTEGER PROGRAMMING The above example was “easy” in that the rounded solution to the LP happened to also be a solution to the integer program. In general, integer solution can be arbitrarily far from the LP solution: Can be hard to even fi nd a feasible solution that is integer valued, e.g., imagine the task of fi nding an integer solution to some arbitrary set of linear equations Ax = b.",
+    "start": 0,
+    "end": 437,
+    "length": 437,
+    "hash": "s3rtvs"
+  },
+  {
+    "id": "p519_c0",
+    "page": 519,
+    "text": "INTEGER (LINEAR) PROGRAMMING 100 CHALLENGES OF INTEGER PROGRAMMING",
+    "start": 0,
+    "end": 66,
+    "length": 66,
+    "hash": "s01xlm"
+  }
+]

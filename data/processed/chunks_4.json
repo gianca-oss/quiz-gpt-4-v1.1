@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p215_c0",
+    "page": 215,
+    "text": "28 Andamento del progetto lean t Insuccesso Successo Sviluppo Contrazione 0 0 ? t 182 Come scongiurare il rallentamento? • Esplicitazione a tutti della strategia • Commitment e allineamento del top management • Formazione a tutti i dipendenti • Sensei che insegnano il miglioramento e NON sensei che fanno il miglioramento • Coaching , pazienza, un passo alla volta, rispetto dell’individuo, leadership individuale, micro - obiettivi raggiungibili, non dare soluzioni ma un metodo: Toyota kata 183",
+    "start": 0,
+    "end": 497,
+    "length": 497,
+    "hash": "noqrty"
+  },
+  {
+    "id": "p216_c0",
+    "page": 216,
+    "text": "29 Segnali pericolosi... • Lavagne con indicatori di prestazione negativi e senza note di motivazione: “anche se segnaliamo i problemi, nessuno risolve” • Lavagne vuote, prestazioni non misurate routinariamente • Standard non seguiti • Sfoghi (“noi vorremmo ma loro...”) • Arretramento su ordine, pulizia, meticolosità (“ma sì, va là”) • Impiegati che non vanno nel gemba • Settimane kaizen rinviate perché c’è sempre qualcosa di più urgente ( popcorn kaizen ) 184 Rimuovere gli ostacoli • MANAGER IPERPRODUTTIVO: hard worker , manager operativo, di solito riconosciuto come leader dagli operatori (“lavora con noi”), “non ha tempo per la lean” perché insegue sempre l’operatività • Fermare il delirium faciendi del manager produttivo • Coinvolgere questa figura nei kaizen event • Cercare di fargli capire che non c’è nulla di più importante del progetto lean (“neppure i camion che devono partire oggi”) 185",
+    "start": 0,
+    "end": 909,
+    "length": 909,
+    "hash": "v992wx"
+  },
+  {
+    "id": "p217_c0",
+    "page": 217,
+    "text": "30 Rimuovere gli ostacoli • TESTE DI CEMENTO: lavoratore mediocre, anti - azienda, resiste alla lean col non svolgere i compiti assegnati, guarda alla lean con uno spirito “Ha da passà ‘a nuttata” • Formazione e comunicazione • Allineamento di tutto il management a copertura dei dipendenti “pionieri” nello sperimentare la lean production • Metterlo in condizione di non nuocere e demotivare • Deve ricevere un segnale forte che l’azienda non ha intenzione di fermarsi di fronte a niente (“ci servi se cambi”) 186 Come iniziare la trasformazione lean ? 1. TROVATI UN LEAN AGENT § Può essere una risorsa dell’azienda ( da formare ) o una risorsa esterna da acquisire formata (o da formare ) 2. OTTIENI LA CONOSCENZA LEAN § Ricorda che il lean non è solo un insieme di tecniche e che la maggior parte dei “ fallimenti ” dei progetti lean sono dovuti a problemi relazionali ( il “lean fai da te ” non funziona !) § Cerca un “sensei” ( es . un ex - Toyota o un consulente con reputazione lean) che possa affiancare il tuo lean agent nella trasformazione § Fa in modo che tutto il personale possa seguire dei corsi di formazione sul lean management § Frequenta i manager, consulenti , docenti che si occupano di lean 3. CREA UNA CRISI 187",
+    "start": 0,
+    "end": 1234,
+    "length": 1234,
+    "hash": "avck3m"
+  },
+  {
+    "id": "p218_c0",
+    "page": 218,
+    "text": "31 Come iniziare la trasformazione lean ? 4. DIMENTICA MOMENTANEAMENTE LE GRANDI STRATEGIE § Partire dalle cose semplici (es. 5S per riordinare e pulire una linea di produzione ) 5. MAPPA IL FLUSSO DEL VALORE § Impara ad usare e usa la tecnica VSM 6. INIZIA SUBITO: NON ASPETTARE 7. PRETENDI RISULTATI IMMEDIATI E DOCUMENTATI 8. NON APPENA PUOI CERCA DI ESTENDERE L’APPLICAZIONE DELLE PRATICHE LEAN AD ALTRE AREE AZIENDALI 188",
+    "start": 0,
+    "end": 426,
+    "length": 426,
+    "hash": "zes9tx"
+  },
+  {
+    "id": "p219_c0",
+    "page": 219,
+    "text": "SUPPLY NETWORK CONFIGURATION AND MANAGEMENT PROF. PIETRO ROMANO (UNIVERSITÀ DI UDINE)",
+    "start": 0,
+    "end": 85,
+    "length": 85,
+    "hash": "lx1rvv"
+  },
+  {
+    "id": "p220_c0",
+    "page": 220,
+    "text": "Agenda • Concetti introduttivi: supply network, supply chain e supply chain management • Le decisioni del SCM • Configurazione dei supply network • Struttura fisica e struttura relazionale • Gestione dei processi nei supply network: • Acquisti , approvvigionamenti e gestione dei fornitori • Logistica , logistica integrata e distribuzione fisica • G estione dei materiali • S upply chain management",
+    "start": 0,
+    "end": 399,
+    "length": 399,
+    "hash": "52nvxl"
+  },
+  {
+    "id": "p221_c0",
+    "page": 221,
+    "text": "Microfibra Teijin (Giappone) Suole (Treviso, Taiwan) FORNITORI PRODUZIONE DISTRIBUZIONE Lab. Serigrafia tomaia (Treviso) Italia Taglio materiale di serigrafia; montaggio finale Materiale di serigrafia Tomaia serigrafata Bosnia Taglio fodere ed imbottiture; assemblaggio chassis; giunteria tomaia; preassemblaggio suole Tomaia serigrafata Suole preassemblate e tomaie giuntate Sacchetti per imballaggio (Cina) L’OGGETTO DI STUDIO SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 452,
+    "length": 452,
+    "hash": "4dvsso"
+  },
+  {
+    "id": "p222_c0",
+    "page": 222,
+    "text": "STRUTTURA LEAN DEI SN: I KEIRETSU § “Società d’affari” (partecipazioni azionarie del leader) § Struttura a tiers § 3 dimensioni chiave – Ripartizione dei compiti tra le aziende – Competizione tra i fornitori – Caratteristiche delle transazioni tra le aziende ! Assemblatore giapponese Produzione interna di parti=25% Fornitori di primo l ivello Parti del motore, parti elettriche, sospensioni, freni, ecc. F ornitori di secondo/terzo livello S tampaggio e taglio, saldatura, forgiatura, fusione, verniciatura, ecc Parti dell’auto relative ad altri settori: batterie, vetri, ecc. SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 602,
+    "length": 602,
+    "hash": "umi5ea"
+  },
+  {
+    "id": "p223_c0",
+    "page": 223,
+    "text": "§ Struttura del supplier network che rispecchia l’architettura modulare del prodotto § Struttura piramidale : scendendo aumenta il numero di imprese e diminuisce la dimensione media § Il leader e i fornitori di primo livello partecipano al kyoryoku kay (circolo cooperativo) e operano in codesign § Analogamente ai livelli più bassi KEIRETSU: RIPARTIZIONE DEI COMPITI TRA LE AZIENDE SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 406,
+    "length": 406,
+    "hash": "4h2d2g"
+  },
+  {
+    "id": "p224_c0",
+    "page": 224,
+    "text": "§ Competizione di sviluppo (kaihatsu konpe) – Ogni fornitore viene valutato ed eventualmente scelto prima che la progettazione dettagliata del componente da parte del cliente sia terminata – La selezione non si basa solo sul prezzo, ma anche sulla capacità del fornitore di sviluppo del componente, dimostrata tramite le proposte dettagliate di progettazione – In pratica il fornitore viene selezionato in funzione delle sue capacità dinamiche di lungo termine KEIRETSU: TIPO E LIVELLO DI COMPETIZIONE TRA I FORNITORI SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 541,
+    "length": 541,
+    "hash": "h6s7lh"
+  },
+  {
+    "id": "p225_c0",
+    "page": 225,
+    "text": "§ Il contratto tra leader e fornitori di primo livello dura finché c’è domanda per i componenti forniti (es . ciclo di vita del modello di auto) § La relazione si protrae oltre la durata del contratto § Fornitore = partner junior – Assistenza tecnica, coordinamento, scambi informativi e incontri personali sia durante lo sviluppo del prodotto che durante la produzione KEIRETSU: NATURA E CARATTERISTICHE DELLE TRANSAZIONI TRA LE AZIENDE SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 461,
+    "length": 461,
+    "hash": "k49wi5"
+  },
+  {
+    "id": "p226_c0",
+    "page": 226,
+    "text": "§ Struttura di fornitura a livelli (“tiered”) (keiretsu) § Elevato grado di collaborazione tra clienti e fornitori nella progettazione dei componenti § Presenza di strette relazioni di lungo termine tra i membri del supplier network § Uso di un rigoroso sistema di selezione dei fornitori § Elevato livello di coordinamento tra fornitori e cliente ad ogni livello del supplier network § Significativo sforzo da parte dei clienti in ogni livello del supplier network per sviluppare individualmente i propri fornitori § Cliente dominante nella relazione cliente - fornitore : il fornitore è un partner junior NETWORK SOURCING MODEL (HINES, 1994) SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 667,
+    "length": 667,
+    "hash": "q9tmig"
+  },
+  {
+    "id": "p227_c0",
+    "page": 227,
+    "text": "§ Mette in discussione il modello di partnership giapponese (Beyond Partnership) che prevede un partner senior (cliente) e uno junior (fornitore) § Modello della subfornitura snella – Essendo la relazione un’entità “posseduta” in comune da cliente e fornitore, non c’è motivo per cui la ricerca del miglioramento debba andare in un’unica direzione, solo verso il miglioramento del fornitore (sviluppo del fornitore) § Anche il fornitore può essere in grado di sviluppare il cliente APPROCCI INNOVATIVI PER LA GESTIONE DEI FORNITORI: LA LEAN SUPPLY ( LAMMING , 1993) SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 589,
+    "length": 589,
+    "hash": "u7r6uu"
+  },
+  {
+    "id": "p228_c0",
+    "page": 228,
+    "text": "1) Il fornitore deve sviluppare le sue tecnologie in modo proattivo (senza attendere le richieste del cliente) divenendo così nella relazione un partner innovativo e trainante 2) Open - book negotiation a due vie : trasparenza sui costi e sui processi anche da parte del cliente (così anche il fornitore può dare suggerimenti per migliorare i processi del cliente) 3) Valutazione della relazione cliente - fornitore e non solo del fornitore da parte del cliente (si veda esempio - >) ESEMPI DI DIFFERENZE TRA PARTNERSHIP ALLA GIAPPONESE E LEAN SUPPLY SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 574,
+    "length": 574,
+    "hash": "13lhrt"
+  },
+  {
+    "id": "p229_c0",
+    "page": 229,
+    "text": "CLIENTE PRODOTTI FORNITORE EVENTO DATA INIZIO EVENTO DATA FINE EVENTO COMMENTO Distributore Belgio ZINACEF INJECTION VIAL 250 MG Sito produttivo di Verona Scorte basse 05 gen 2003 07 gen 2003 Do manda superiore al previsto Distributore Brasile FORTUM INJECTION VIAL 1 G FORTAZ 1G/17ML Sito produttivo di Verona Scorte basse 06 gen 2003 Mancanza del materiale per il confezionamento secondario Distributore Bulgaria ZINNAT TABLET 500 MG 2 X 7 Sit o produttivo di Verona Scorte basse 09 gen 2003 10 gen 2003 Domanda superiore al previsto ! A volte il fornitore sbaglia per colpa dei dati forniti dal cliente! NON SEMPRE LA COLPA È DEL FORNITORE... SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 669,
+    "length": 669,
+    "hash": "omz0qb"
+  },
+  {
+    "id": "p230_c0",
+    "page": 230,
+    "text": "Fonte: adattato da Slack et al. (2001) ‘ First - tier’ The operation ‘ Purchasing and supplier management Physical distribution management Logistics Materials management Supply chain management SUPPLY NETWORK SUPPLY CHAIN MANAGEMENT “Second - tier” suppliers “First - tier” suppliers “First - tier” customers “Second - tier” customers",
+    "start": 0,
+    "end": 334,
+    "length": 334,
+    "hash": "4q3h0c"
+  },
+  {
+    "id": "p231_c0",
+    "page": 231,
+    "text": "Fonte: Romano e Danese (2010) SUPPLY CHAIN MANAGEMENT SVILUPPO DI UNA SUPPLY CHAIN INTEGRATA Fase 1: Indipendenza tra i membri della supply chain Fornitori Acquisti Produzione Vendite Clienti Fase 2: Integrazione interna Fornitori Acquisti Produzione Vendite Clienti Catena Interna (Gestione dei Materiali) Fase 3: Integrazione della supply chain Fornitori Acquisti Produzione Vendite Clienti Catena Esterna (Supply Chain Management)",
+    "start": 0,
+    "end": 433,
+    "length": 433,
+    "hash": "1u3lwq"
+  },
+  {
+    "id": "p232_c0",
+    "page": 232,
+    "text": "Fonte: Romano e Danese (2010) SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 53,
+    "length": 53,
+    "hash": "3g55no"
+  },
+  {
+    "id": "p233_c0",
+    "page": 233,
+    "text": "Fonte: Romano e Danese (2010) SVILUPPO DI UNA SUPPLY CHAIN INTEGRATA SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 92,
+    "length": 92,
+    "hash": "8s0mry"
+  },
+  {
+    "id": "p234_c0",
+    "page": 234,
+    "text": "§ Tutte le imprese fanno parte di reti di fornitura § Le reti di fornitura sono complesse Ø Numerosi soggetti autonomi o semi - autonomi Ø Singole fasi dei processi svolte da imprese diverse Ø Aziende disomogenee per settore, nazionalità, cultura § La gestione del solo perimetro aziendale non è in grado di assicurare il vantaggio competitivo ALCUNE CONSIDERAZIONI SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 389,
+    "length": 389,
+    "hash": "oadvkc"
+  },
+  {
+    "id": "p235_c0",
+    "page": 235,
+    "text": "0 20 40 60 80 100 120 Raw material Bought-out Parts In-house built Parts Pre-Assemby WIP Assembly WIP Finished Components Inbound Transit On-site Part (VM) Vehicle Production WIP Loading & Despatch Outbound Transit Dealer Days Minimum Average Maximum Source: Holweg (2002): Inventory Profile in the Automotive Supply Chain, UK 1999 ANCHE I SISTEMI LEAN NON SONO IMMUNI DALL’OTTIMIZZAZIONE LOCALE SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 419,
+    "length": 419,
+    "hash": "rrkh2e"
+  },
+  {
+    "id": "p236_c0",
+    "page": 236,
+    "text": "q Facciamo macchine elettriche per uso civile, industriale e marino – motori asincroni e alternatori – fino a 5 MW di potenza q La vera sfida per la nostra supply chain è sincronizzare i flussi a monte e a valle della nostra azienda q Sul piano locale applichiamo il JIT, il lean manufacturing, ecc . e mettiamo ben in tiro i processi q Poi andiamo ad acquistare in Cina e tutto il sistema va in crisi ... CITANDO UN MANAGER... SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 451,
+    "length": 451,
+    "hash": "t4gxta"
+  },
+  {
+    "id": "p237_c0",
+    "page": 237,
+    "text": "q Supply network globale, tempi lunghi à molte attività “al buio” q Frequenti modifiche dei piani di acquisto, produzione, spedizione Ø Il cliente all’ultimo momento modifica gli ordini rispetto alle previsioni Ø Pianificazione complessa, difficile stimare a priori quantità/tempi per i prodotti nuovi Ø Difficoltà di allineamento con gli altri membri del supply network (“tra ordine e consegna c’è il buio”) I PROBLEMI PER LA PMI DELL’ESEMPIO SUPPLY CHAIN MANAGEMENT",
+    "start": 0,
+    "end": 467,
+    "length": 467,
+    "hash": "l2ukth"
+  },
+  {
+    "id": "p238_c0",
+    "page": 238,
+    "text": "q Romano, P . e Danese , P . , Supply Chain Management , McGraw - Hill, 2023 ( 3 ed) q Chopra, S . e Meindl , P . , Supply Chain Management : Strategy, Planning and Operation , Prentice Hall, 2019 ( 7 ed) q Simchi - Levi, D . , Kaminsky, P . e Simchi - Levi, E . , Designing and Managing the Supply Chain : Concepts, Strategies, and Case Studies , Irwin McGraw - Hill, 2007 ( 3 ed) q Romano, P . , Gestione dei materiali nelle operations , CEDAM, 2009 q Slack, N . , Brandon - Jones, A . e Johnstron R . , Operations Management , Pearson, 2016 ( 8 ed) SUPPLY CHAIN MANAGEMENT BIBLIOGRAFIA E RIFERIMENTI",
+    "start": 0,
+    "end": 602,
+    "length": 602,
+    "hash": "rg8yyd"
+  },
+  {
+    "id": "p239_c0",
+    "page": 239,
+    "text": "Responsabile del Corso di Laurea Magistrale in Ingegneria Gestionale dell’Università di Trento",
+    "start": 0,
+    "end": 94,
+    "length": 94,
+    "hash": "3tqfqz"
+  },
+  {
+    "id": "p242_c0",
+    "page": 242,
+    "text": "come il nuovo paradigma per l’industria nell’UE, basato su 3 pilastri: → ridurre l’inquinamento dei processi produttivi e aumentarne la → “maggiore robustezza nella produzione industriale, capace di momenti di crisi” Centralità dell’essere umano → ripensare il ruolo dell’operatore umano all’interno della fabbrica, potenziandolo con nuove tecnologie digitali, con un focus prioritario sul benessere piuttosto che sull’efficienza",
+    "start": 0,
+    "end": 429,
+    "length": 429,
+    "hash": "5shyzy"
+  },
+  {
+    "id": "p243_c0",
+    "page": 243,
+    "text": "▪ ▪ ▪ L’Europa e l’Italia stanno iniziando ad affrontare • • Aumento dell’età media e degli anni lavorati della popolazione attiva •",
+    "start": 0,
+    "end": 132,
+    "length": 132,
+    "hash": "nrp3tt"
+  },
+  {
+    "id": "p244_c0",
+    "page": 244,
+    "text": "ruolo dell’operatore umano nell’industria è considerare L’affaticamento fisico L’ è l’utilizzo della propria capacità muscolare sotto sforzo durante l’esecuzione di attività manuali: • • Lo sforzo muscolare dipende da fattori ergonomici e caratteristiche dell’attività da",
+    "start": 0,
+    "end": 271,
+    "length": 271,
+    "hash": "982cd6"
+  },
+  {
+    "id": "p245_c0",
+    "page": 245,
+    "text": "• • • • misurare, ridurre e prevedere l’affaticamento",
+    "start": 0,
+    "end": 53,
+    "length": 53,
+    "hash": "3mgek3"
+  },
+  {
+    "id": "p247_c0",
+    "page": 247,
+    "text": "l’esecuzione del dell’operatore. Valutare l’impatto delle operazioni industriali sul benessere fisico di un operatore durante il",
+    "start": 0,
+    "end": 128,
+    "length": 128,
+    "hash": "2lgnkg"
+  },
+  {
+    "id": "p248_c0",
+    "page": 248,
+    "text": "OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle ➢ ➢ Valutare l’impatto delle operazioni industriali sul benessere fisico di un operatore durante il l’esecuzione del dell’operatore.",
+    "start": 0,
+    "end": 200,
+    "length": 200,
+    "hash": "7aq8s6"
+  },
+  {
+    "id": "p253_c0",
+    "page": 253,
+    "text": "Ogni antenna e’ in grado di coprire un’area di circa 10 mq L’accuratezza di posizionamento dell’operatore rispetto ad entità nel tempo dall’operatore",
+    "start": 0,
+    "end": 149,
+    "length": 149,
+    "hash": "9yzpzl"
+  },
+  {
+    "id": "p255_c0",
+    "page": 255,
+    "text": "Il sistema digitale fornito all’operatore consente di correlare i movimenti dell’operatore alle varie fasi",
+    "start": 0,
+    "end": 106,
+    "length": 106,
+    "hash": "8u13k9"
+  },
+  {
+    "id": "p256_c0",
+    "page": 256,
+    "text": "specifica assunta dal braccio o dalla schiena dell’operatore. E’ possibile rilevare se l’operatore assume una postura scorretta, per",
+    "start": 0,
+    "end": 132,
+    "length": 132,
+    "hash": "au0mbz"
+  },
+  {
+    "id": "p257_c0",
+    "page": 257,
+    "text": "E’ possibile valutare del corpo durante l’esecuzione di attività manuali. dell’operatore.",
+    "start": 0,
+    "end": 89,
+    "length": 89,
+    "hash": "dj7j6g"
+  },
+  {
+    "id": "p259_c0",
+    "page": 259,
+    "text": "che è correlata all’attività corporea compiuta da un operatore.",
+    "start": 0,
+    "end": 63,
+    "length": 63,
+    "hash": "o8br7u"
+  },
+  {
+    "id": "p262_c0",
+    "page": 262,
+    "text": "dell’ dell’attivazione μ dell’attivazione muscolare",
+    "start": 0,
+    "end": 51,
+    "length": 51,
+    "hash": "j750d7"
+  },
+  {
+    "id": "p264_c0",
+    "page": 264,
+    "text": "valutare l’utilizzo o l’interazione con l’operatore L’utilizzo degli strumenti",
+    "start": 0,
+    "end": 78,
+    "length": 78,
+    "hash": "1h5o1g"
+  },
+  {
+    "id": "p266_c0",
+    "page": 266,
+    "text": "Ruolo dell’operatore algoritmi che compongono questa tecnologia, l’operatore deve passare la mano dopo l’esecuzione del compito. Ogni posizione di lavoro in cui opera l’operatore è dotata di 5 TAG “speciali”,",
+    "start": 0,
+    "end": 208,
+    "length": 208,
+    "hash": "4jq87x"
+  },
+  {
+    "id": "p267_c0",
+    "page": 267,
+    "text": "OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle operazioni i valori di affaticamento dichiarati dall’operatore. FASE DEL PROCESSO PARAMETRI DI MOVIMENTO PARAMETRI FISIOLOGICI STRUMENTI/ COMPONENTI LIVELLI DI FATICA PERCEPITA Strumento A Strumento B Strumento C",
+    "start": 0,
+    "end": 280,
+    "length": 280,
+    "hash": "e6soyy"
+  },
+  {
+    "id": "p268_c0",
+    "page": 268,
+    "text": "FASE DEL PROCESSO PARAMETRI DI MOVIMENTO PARAMETRI FISIOLOGICI STRUMENTI/ COMPONENTI LIVELLI DI AFFATICAMENTO PERCEPITO • dell’operatore • Strumento A Strumento B Strumento C OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle operazioni i valori di affaticamento dichiarati dall’operatore.",
+    "start": 0,
+    "end": 306,
+    "length": 306,
+    "hash": "59cblz"
+  },
+  {
+    "id": "p269_c0",
+    "page": 269,
+    "text": "FASE DEL PROCESSO PARAMETRI DI MOVIMENTO PARAMETRI FISIOLOGICI STRUMENTI/ COMPONENTI Chiave dinamometrica Box con dadi Avvitatore L IVELLO DI FATICA PERCEPITA OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle operazioni i valori di affaticamento dichiarati dall’operatore.",
+    "start": 0,
+    "end": 290,
+    "length": 290,
+    "hash": "cmjazy"
+  },
+  {
+    "id": "p270_c0",
+    "page": 270,
+    "text": "FASE DEL PROCESSO PARAMETRI DI MOVIMENTO PARAMETRI FISIOLOGICI STRUMENTI/ COMPONENTI Chiave dinamometrica Box con dadi Avvitatore l’andamento L IVELLO DI FATICA PERCEPITA OBBIETTIVO Correlare i segnali acquisiti durante l’esecuzione delle operazioni i valori di affaticamento dichiarati dall’operatore.",
+    "start": 0,
+    "end": 302,
+    "length": 302,
+    "hash": "egm8uw"
+  },
+  {
+    "id": "p273_c0",
+    "page": 273,
+    "text": "La predizione del IA modello Y’ è uguale al valore reale Y? Y’: Predizione Y’ • → • →",
+    "start": 0,
+    "end": 85,
+    "length": 85,
+    "hash": "dgdx8u"
+  },
+  {
+    "id": "p275_c0",
+    "page": 275,
+    "text": "Grazie per l’attenzione Responsabile del Corso di Laurea Magistrale in Ingegneria Gestionale dell’Università di Trento",
+    "start": 0,
+    "end": 118,
+    "length": 118,
+    "hash": "dubd0o"
+  },
+  {
+    "id": "p276_c0",
+    "page": 276,
+    "text": "Project Management Loris Gaio Sabato 14 giugno 202 5 Executive MBA",
+    "start": 0,
+    "end": 66,
+    "length": 66,
+    "hash": "66n462"
+  },
+  {
+    "id": "p278_c0",
+    "page": 278,
+    "text": "L’esercizio in classe: realizzare un Project Charter “Il project charter è [il processo di sviluppo di] un documento che formalmente autorizza un progetto o una fase e documenta i requisiti iniziali che soddisfano le esigenze e le aspettative degli stakeholder. Stabilisce una partnership tra l'organizzazione esecutrice e il cliente. Il project charter approvato formalmente avvia il progetto.” PMI (2013) Body of Knowledge",
+    "start": 0,
+    "end": 424,
+    "length": 424,
+    "hash": "x9b48m"
+  },
+  {
+    "id": "p279_c0",
+    "page": 279,
+    "text": "DOCUMENTO DI SINTESI DEL PROGETTO Contenuto Una possibile checklist ü Obiettivi, limiti, vincoli ü Indicatori di performance (KPI) ü Stakeholder rilevanti ü WBS • risultati attesi (deliverable) • principali attività (work package) ü Budget di massima ü Calendario (schedule ) STRUTTURA DI UN PROJEC CHARTER",
+    "start": 0,
+    "end": 306,
+    "length": 306,
+    "hash": "s62fan"
+  },
+  {
+    "id": "p280_c0",
+    "page": 280,
+    "text": "Benefici attesi del project charter q Realizzato durante o alla fine dell’ideazione o pianificazione q Accettazione formale (impegno sulle risorse) q Comunicazione (partner, investitori, utenti, ...) q Gestione degli stakeholder q Ruoli e responsabilità organizzative q Limitazioni delle attività (evitare estensioni successive) q Identificazione dei processi/aree gestionali più importanti",
+    "start": 0,
+    "end": 390,
+    "length": 390,
+    "hash": "ocgdv5"
+  },
+  {
+    "id": "p282_c0",
+    "page": 282,
+    "text": "il nocciolo della questione (HBS, 2004) “. . . a project, namely , a set of activities that (1) aims to produce a unique deliverable (for example , a new commercial airframe ) and (2) is time - bound within clear beginning and ending points ” (PMI, 2013, p.3) “A project is a temporary endeavor undertaken to create a unique product, service, or result . The temporary nature of projects indicates that a project has a definite beginning and end . The end is reached when the project’s objectives have been achieved or when the project is terminated because its objectives will not or cannot be met , or when the need for the project no longer exists .”",
+    "start": 0,
+    "end": 653,
+    "length": 653,
+    "hash": "4q9i73"
+  }
+]

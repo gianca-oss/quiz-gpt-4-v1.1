@@ -1,0 +1,1343 @@
+[
+  {
+    "id": "p660_c0",
+    "page": 660,
+    "text": "• Miglior equilibrio tra reattività e capitale circolante (riduce il rischio e i costi associati alla specificazione di un mix di varietà errato in un ambiente di produzione basato sulle previsioni) • Riduzione dei costi di inventario • Riduzione dei costi logistici • Maggiore flessibilità • Maggiori prestazioni EFFETTI POSITIVI tempo Attività di differenziazione prodotto Ingresso ordine cliente Consegna prodotto Attività di differenziazione prodotto RINVIO Effetti L8 Form postponement Gli effetti possono essere diversi nei diversi tipi di rinvio della forma di prodotto",
+    "start": 0,
+    "end": 577,
+    "length": 577,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": false,
+      "importance": 2.88,
+      "keywords": [
+        "prodotto",
+        "costi",
+        "effetti",
+        "riduzione",
+        "attivit",
+        "differenziazione",
+        "rinvio",
+        "diversi",
+        "miglior",
+        "equilibrio"
+      ]
+    }
+  },
+  {
+    "id": "p661_c0",
+    "page": 661,
+    "text": "Form postponement – livello maturità L8 Mantenere le scorte a livelli ottimali Standardizzazione delle sequenze di produzione Livello di maturità II V 11 3 Non abbiamo un sistema di pianificazione e controllo della produzione che assicuri un livello di servizio accettabile nella fase successiva (produzione di parti, assemblaggio di prodotti finali o consegna del prodotto al cliente) e mantenga il capitale circolante (prodotti finiti, moduli, componenti, parti e materie prime) a un livello accettabile Nessuna attenzione viene prestata alla proliferazione dei cicli di produzione da parte dell'organizzazione e dei singoli ingegneri di progettazione e produzione 1 Abbiamo un sistema di pianificazione e controllo della produzione che assicura un livello di servizio accettabile nella fase successiva (... ) e mantiene il capitale circolante (... ) a un livello accettabile (1) È facile per gli ingegneri di progettazione / produzione riutilizzare gli stessi cicli di produzione (perché il database dei cicli di produzione è ben organizzato e perché i cicli sono raggruppati in classi) 2 Abbiamo un sistema di pianificazione e controllo della produzione che assicura un livello di servizio nella fase successiva veramente buono (... ) e mantiene il capitale circolante (... ) a un livello molto basso (1) ............... E (2) Esistono regole e supporto SW per limitare l'introduzione di nuovi cicli di produzione 3 Abbiamo un sistema di pianificazione e controllo della produzione che assicura un livello di servizio ottimale nella fase successiva (... ) e mantiene il capitale circolante (... ) a un livello ottimale (1) ............... E (2) ...............",
+    "start": 0,
+    "end": 1665,
+    "length": 1665,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 21.32,
+      "keywords": [
+        "produzione",
+        "livello",
+        "cicli",
+        "abbiamo",
+        "sistema",
+        "pianificazione",
+        "controllo",
+        "della",
+        "servizio",
+        "accettabile"
+      ]
+    }
+  },
+  {
+    "id": "p662_c0",
+    "page": 662,
+    "text": "Virtual-build-to-order L9 Virtual-build-to-order (VBTO) \"è una forma di sistema di evasione degli ordini in cui il produttore ha la possibilità di effettuare ricerche nell'intera pipeline di scorte finite, prodotti in produzione e quelli nel piano di produzione, al fine di trovare il prodotto migliore per un cliente\" (Brabazon and MacCarthy 2004, 155) . Questo approccio riduce il compromesso tra customizzazione, tempi di consegna e capitale circolante.",
+    "start": 0,
+    "end": 457,
+    "length": 457,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.279999999999999,
+      "keywords": [
+        "virtual",
+        "build",
+        "order",
+        "produzione",
+        "2004",
+        "vbto",
+        "forma",
+        "sistema",
+        "evasione",
+        "degli"
+      ]
+    }
+  },
+  {
+    "id": "p665_c0",
+    "page": 665,
+    "text": "Perche Virtual-build-to-order? L9 VBTO • Il make-to-order (MTO) è una strategia legittima per le industrie che affrontano i problemi menzionati, ma i tempi di consegna sono spesso troppo lunghi per i clienti (Elias, 2002) • Per aumentare la flessibilità nel soddisfare le esigenze dei clienti, le aziende hanno finora applicato due strategie (Holweg & Pil, 2001) : – Locate-to-order - il produttore cerca le scorte di prodotti finiti in diverse località (es.",
+    "start": 0,
+    "end": 459,
+    "length": 459,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 7.29,
+      "keywords": [
+        "order",
+        "clienti",
+        "2001",
+        "2002",
+        "perche",
+        "virtual",
+        "build",
+        "vbto",
+        "make",
+        "strategia"
+      ]
+    }
+  },
+  {
+    "id": "p666_c0",
+    "page": 666,
+    "text": "Principali meccanismi di adempimento del VBTO L9 VBTO • VBTO ha tre principali meccanismi di adempimento (Brabazon & MacCarthy, 2006) : 1. Build-to-order – pianificazione della produzione 2. Produzione attuale (pipeline) - che rappresenta i prodotti che saranno prodotti o che sono già in produzione 3.",
+    "start": 0,
+    "end": 303,
+    "length": 303,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6.51,
+      "keywords": [
+        "vbto",
+        "produzione",
+        "principali",
+        "meccanismi",
+        "adempimento",
+        "prodotti",
+        "2006",
+        "brabazon",
+        "maccarthy",
+        "build"
+      ]
+    }
+  },
+  {
+    "id": "p667_c0",
+    "page": 667,
+    "text": "VBTO vs Form postponement L9 VBTO • Form postponement – punto di disaccoppiamento fisso • VBTO – punto di disaccoppiamento mobile (Brabazon & MacCarthy, 2004)  Il prodotto può essere influenzato in qualsiasi momento, dalla pianificazione della produzione all'inventario dei prodotti finiti • Dovrebbe esistere una soluzione software in grado di analizzare l'intero sistema di un'azienda manifatturiera, compresi i suoi magazzini (Brabazon & MacCarthy, 2004)",
+    "start": 0,
+    "end": 459,
+    "length": 459,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.29,
+      "keywords": [
+        "vbto",
+        "2004",
+        "form",
+        "postponement",
+        "punto",
+        "disaccoppiamento",
+        "brabazon",
+        "maccarthy",
+        "fisso",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": "p668_c0",
+    "page": 668,
+    "text": "VBTO e riconfigurazione del prodotto L9 VBTO • Un'altra caratteristica importante di VBTO è la possibilità di riconfigurare il prodotto dopo che è stato identificato nel sistema di produzione, indipendentemente da dove si trovasse in quel momento. • La maggior parte delle riconfigurazioni del prodotto può essere eseguita prima che il prodotto lasci il sistema di produzione, ma alcune vengono eseguite dopo che il prodotto ha lasciato la produzione. (Alford et al. , 2000) Brabazon and MacCarthy, (2004) 1 2 3 Gli ordini bloccati dai rivenditori vengono spediti direttamente alle reti di rivenditori. Gli ordini aperti vengono stoccati nel magazzino aziendale.",
+    "start": 0,
+    "end": 663,
+    "length": 663,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 23.31,
+      "keywords": [
+        "prodotto",
+        "vbto",
+        "produzione",
+        "vengono",
+        "dopo",
+        "sistema",
+        "ordini",
+        "rivenditori",
+        "2000",
+        "2004"
+      ]
+    }
+  },
+  {
+    "id": "p669_c0",
+    "page": 669,
+    "text": "Virtual-build-to-order positive effects L9 VBTO • Riduce il compromesso tra personalizzazione, tempi di consegna e capitale circolante • Riduce i tempi di attesa del cliente • Riduce le scorte necessarie di prodotti finiti (Brabazon, MacCarthy, Woodcock, & Hawkins, 2010) • Riduce la necessità di scorte di prodotti semilavorati (Brabazon, MacCarthy, Woodcock, & Hawkins, 2010) • Consente al personale di vendita dell'azienda di negoziare con i clienti e di prendere decisioni e proposte informate per l'emanazione degli ordini EFFETTI POSITIVI",
+    "start": 0,
+    "end": 545,
+    "length": 545,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.720000000000001,
+      "keywords": [
+        "riduce",
+        "2010",
+        "tempi",
+        "scorte",
+        "prodotti",
+        "brabazon",
+        "maccarthy",
+        "woodcock",
+        "hawkins",
+        "virtual"
+      ]
+    }
+  },
+  {
+    "id": "p671_c0",
+    "page": 671,
+    "text": "• Ma come dovrebbero essere implementate nella pratica queste MC leve? • È disponibile una raccomandazione su come implementare MC?",
+    "start": 0,
+    "end": 132,
+    "length": 132,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": true,
+      "hasExample": true,
+      "importance": 0.655,
+      "keywords": [
+        "come",
+        "dovrebbero",
+        "essere",
+        "implementate",
+        "nella",
+        "pratica",
+        "queste",
+        "leve",
+        "disponibile",
+        "raccomandazione"
+      ]
+    }
+  },
+  {
+    "id": "p673_c0",
+    "page": 673,
+    "text": "PP B - A 1 B 6 A - B - A 1 B - A 1 B 1 A 1 B - A 1 B - A - E 12 M - E - M - E 6 M - E - M - E - M - E - M - E - M - P - NS - P - NS - P - NS - P 1 NS - P 1 NS 1 P - NS - P - NS - B 7 A - B - A 2 B - A 2 B 1 A - B 1 A - B - A - E - M - E 1 M - E - M - E 1 M 1 E - M - E - M - P - NS - P 1 NS 1 P - NS - P - NS - P - NS - P 1 NS - B - A 3 B - A 2 B - A 1 B - A - B - A - E - M - E 1 M - E - M - E - M - E - M - P - NS - P - NS - P - NS 1 P - NS - P - NS - B - A 1 B 1 A 1 B 1 A - B - A - E - M 1 E - M 1 E - M - E - M - P - NS - P - NS - P - NS - P - NS - B 1 A - B 1 A - B - A - E - M - E - M - E - M - P 1 NS - P - NS - P - NS - B - A 1 B - A - E - M - E - M - P - NS - P - NS - B - A - E - M - P - NS - 4 PM 1 1 - 1 1 1 1 1 CE - 1 - - - - - GT 2 2 3 2 5 P 3 3 1 3 2 PC 6 7 9 S 7 4 3 8 CE PP 16 M 13 15 M PC S GT P PM 129 Complesse relazioni tra leve di MC (Suzic, Forza et al.",
+    "start": 0,
+    "end": 878,
+    "length": 878,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 14.385,
+      "keywords": [
+        "complesse",
+        "relazioni",
+        "leve",
+        "suzic",
+        "forza"
+      ]
+    }
+  },
+  {
+    "id": "p674_c0",
+    "page": 674,
+    "text": "130 Sfida alla logica sequenziale Implementazione dipendente dal contesto (contingency theory) Risultati da ricerca (Suzic, Forza et al.",
+    "start": 0,
+    "end": 137,
+    "length": 137,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.68,
+      "keywords": [
+        "sfida",
+        "alla",
+        "logica",
+        "sequenziale",
+        "implementazione",
+        "dipendente",
+        "contesto",
+        "contingency",
+        "theory",
+        "risultati"
+      ]
+    }
+  },
+  {
+    "id": "p676_c0",
+    "page": 676,
+    "text": "132 Approccio olistico per l'implementazione della MC nelle PMI • L'obiettivo era sviluppare aree di griglia \" mutualmente esclusive e collettivamente esaustive \" • Le interviste con manager e consulenti hanno dimostrato che le leve di MC non potevano essere utilizzati come aree di griglia • Abbiamo proceduto con il perfezionamento della griglia, ottenendo 12 aree di griglia Griglia di maturità MC sviluppata",
+    "start": 0,
+    "end": 412,
+    "length": 412,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.055,
+      "keywords": [
+        "griglia",
+        "aree",
+        "della",
+        "approccio",
+        "olistico",
+        "implementazione",
+        "nelle",
+        "obiettivo",
+        "sviluppare",
+        "mutualmente"
+      ]
+    }
+  },
+  {
+    "id": "p677_c0",
+    "page": 677,
+    "text": "133 Approccio olistico per l'implementazione della MC nelle PMI Procedura per l'utilizzo degli MC- IG sviluppati",
+    "start": 0,
+    "end": 113,
+    "length": 113,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.56,
+      "keywords": [
+        "approccio",
+        "olistico",
+        "implementazione",
+        "della",
+        "nelle",
+        "procedura",
+        "utilizzo",
+        "degli",
+        "sviluppati"
+      ]
+    }
+  },
+  {
+    "id": "p678_c0",
+    "page": 678,
+    "text": "134 Implementazione dell'approccio olistico nelle PMI Analisi della situazione attuale (as/is) In che forma siamo? Quali passi intraprendere? Dove fa male?",
+    "start": 0,
+    "end": 156,
+    "length": 156,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.775,
+      "keywords": [
+        "implementazione",
+        "dell",
+        "approccio",
+        "olistico",
+        "nelle",
+        "analisi",
+        "della",
+        "situazione",
+        "attuale",
+        "forma"
+      ]
+    }
+  },
+  {
+    "id": "p679_c0",
+    "page": 679,
+    "text": "135 Implementazione dell'approccio olistico nelle PMI Metalmech Inc  Famiglia di prodotti di centraline idrauliche",
+    "start": 0,
+    "end": 116,
+    "length": 116,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.575,
+      "keywords": [
+        "implementazione",
+        "dell",
+        "approccio",
+        "olistico",
+        "nelle",
+        "metalmech",
+        "famiglia",
+        "prodotti",
+        "centraline",
+        "idrauliche"
+      ]
+    }
+  },
+  {
+    "id": "p680_c0",
+    "page": 680,
+    "text": "136 Implementazione dell'approccio olistico nelle PMI Metalmech Inc Famiglia di prodotti di tubi flessibili",
+    "start": 0,
+    "end": 108,
+    "length": 108,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.535,
+      "keywords": [
+        "implementazione",
+        "dell",
+        "approccio",
+        "olistico",
+        "nelle",
+        "metalmech",
+        "famiglia",
+        "prodotti",
+        "tubi",
+        "flessibili"
+      ]
+    }
+  },
+  {
+    "id": "p681_c0",
+    "page": 681,
+    "text": "137 Implementazione dell'approccio olistico nelle PMI Metalmech Inc  Famiglia di prodotti per linee di assemblaggio",
+    "start": 0,
+    "end": 117,
+    "length": 117,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.58,
+      "keywords": [
+        "implementazione",
+        "dell",
+        "approccio",
+        "olistico",
+        "nelle",
+        "metalmech",
+        "famiglia",
+        "prodotti",
+        "linee",
+        "assemblaggio"
+      ]
+    }
+  },
+  {
+    "id": "p683_c0",
+    "page": 683,
+    "text": "139 Implementazione dell'approccio olistico nelle PMI Piani di implementazione generati Metalmech Inc Soft Automation Inc",
+    "start": 0,
+    "end": 122,
+    "length": 122,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.605,
+      "keywords": [
+        "implementazione",
+        "dell",
+        "approccio",
+        "olistico",
+        "nelle",
+        "piani",
+        "generati",
+        "metalmech",
+        "soft",
+        "automation"
+      ]
+    }
+  },
+  {
+    "id": "p684_c0",
+    "page": 684,
+    "text": "140 Grazie per la vostra attenzione! Mass customization/Product variety management Nikola Suzic nikola. suzic@unitn.",
+    "start": 0,
+    "end": 117,
+    "length": 117,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.58,
+      "keywords": [
+        "nikola",
+        "suzic",
+        "grazie",
+        "vostra",
+        "attenzione",
+        "mass",
+        "customization",
+        "product",
+        "variety",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "p686_c0",
+    "page": 686,
+    "text": "Digital transformation in manufacturing Executive Master of Business Administration – Trento ANNO ACCADEMICO 2024/2025 DOCENTE: Giovanna Culot, Ph. D. , MBA - giovanna. culot@uniud.",
+    "start": 0,
+    "end": 182,
+    "length": 182,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 10.905,
+      "keywords": [
+        "giovanna",
+        "culot",
+        "2024",
+        "2025",
+        "digital",
+        "transformation",
+        "manufacturing",
+        "executive",
+        "master",
+        "business"
+      ]
+    }
+  },
+  {
+    "id": "p688_c0",
+    "page": 688,
+    "text": "Qualche domanda per voi Quali esperienze avete avuto con soluzioni Industry 4. 0 (implementazione/utilizzo, tecnologie specifiche)? Cosa vi aspettate da questa lezione?",
+    "start": 0,
+    "end": 169,
+    "length": 169,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.84,
+      "keywords": [
+        "qualche",
+        "domanda",
+        "quali",
+        "esperienze",
+        "avete",
+        "avuto",
+        "soluzioni",
+        "industry",
+        "implementazione",
+        "utilizzo"
+      ]
+    }
+  },
+  {
+    "id": "p691_c0",
+    "page": 691,
+    "text": "Facciamo chiarezza sul vocabolario 2011 Politica industriale INDUSTRIE 4. 0 2020 Accademia Policy di rinascita manifatturiera Germania diventa il benchmark Industria Solutions providers white papers (es. GE) Consulting firms (BCG) 2015 Organizzazioni internazionali WEF forum 2016 OECD 2017 Studi sulle implicazioni delle single tecnologie 2013 Manufacturing paradigms / models Industry 4.",
+    "start": 0,
+    "end": 390,
+    "length": 390,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 6.945,
+      "keywords": [
+        "2011",
+        "2013",
+        "2015",
+        "2016",
+        "2017",
+        "2020",
+        "facciamo",
+        "chiarezza",
+        "vocabolario",
+        "politica"
+      ]
+    }
+  },
+  {
+    "id": "p693_c0",
+    "page": 693,
+    "text": "Un reminder: la policy tedesca Strumenti sistemici Innovation pull Tecnology push • Rendere la Germania il Paese leader nello sviluppo/fornitura di soluzioni 4.",
+    "start": 0,
+    "end": 161,
+    "length": 161,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.8,
+      "keywords": [
+        "reminder",
+        "policy",
+        "tedesca",
+        "strumenti",
+        "sistemici",
+        "innovation",
+        "pull",
+        "tecnology",
+        "push",
+        "rendere"
+      ]
+    }
+  },
+  {
+    "id": "p694_c0",
+    "page": 694,
+    "text": "Altri concetti: Industry 4. 0, digital transformation, Industry 5. 0, twin transition Digital transformation Industry 5.",
+    "start": 0,
+    "end": 121,
+    "length": 121,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.6,
+      "keywords": [
+        "industry",
+        "digital",
+        "transformation",
+        "altri",
+        "concetti",
+        "twin",
+        "transition"
+      ]
+    }
+  },
+  {
+    "id": "p697_c0",
+    "page": 697,
+    "text": "Limited (Firm / department) Extended (Supply chain) Network connectivity Technological elements Hardware Software A B Tecnologie abilitanti Fonte: Culot et al.",
+    "start": 0,
+    "end": 160,
+    "length": 160,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.795,
+      "keywords": [
+        "limited",
+        "firm",
+        "department",
+        "extended",
+        "supply",
+        "chain",
+        "network",
+        "connectivity",
+        "technological",
+        "elements"
+      ]
+    }
+  },
+  {
+    "id": "p698_c0",
+    "page": 698,
+    "text": "A B Internet of Things Cyber - physical systems Visualization technologies Limited (Firm / department) Extended (Supply chain) Network connectivity Technological elements Hardware Software Digitalizzare il reale A B Tecnologie abilitanti Fonte: Culot et al.",
+    "start": 0,
+    "end": 258,
+    "length": 258,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.285,
+      "keywords": [
+        "internet",
+        "things",
+        "cyber",
+        "physical",
+        "systems",
+        "visualization",
+        "technologies",
+        "limited",
+        "firm",
+        "department"
+      ]
+    }
+  },
+  {
+    "id": "p699_c0",
+    "page": 699,
+    "text": "A B A B Cloud computing Blockchain technology Interoperability / cybersecurity solutions Internet of Things Cyber - physical systems Visualization technologies Limited (Firm / department) Extended (Supply chain) Network connectivity Technological elements Hardware Software Rendere accessibili i dati attraverso diversi sistemi informativi A B Tecnologie abilitanti Digitalizzare il reale Fonte: Culot et al.",
+    "start": 0,
+    "end": 409,
+    "length": 409,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.04,
+      "keywords": [
+        "cloud",
+        "computing",
+        "blockchain",
+        "technology",
+        "interoperability",
+        "cybersecurity",
+        "solutions",
+        "internet",
+        "things",
+        "cyber"
+      ]
+    }
+  },
+  {
+    "id": "p700_c0",
+    "page": 700,
+    "text": "A B 1. Physical/digital interface technologies 2. Network technologies 3. Data - processing technologies Cloud computing Blockchain technology Interoperability / cybersecurity solutions Simulation and modelling Machine learning and Artificial intelligence Big data analytics Internet of Things Cyber - physical systems Visualization technologies Limited (Firm / department) Extended (Supply chain) Network connectivity Technological elements Hardware Software Analizzare i dati (es. in tempo reale , predittivo , prescrittivo ) A B Tecnologie abilitanti Digitalizzare il reale Rendere accessibili i dati attraverso diversi sistemi informativi Fonte: Culot et al.",
+    "start": 0,
+    "end": 663,
+    "length": 663,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 8.31,
+      "keywords": [
+        "technologies",
+        "physical",
+        "network",
+        "data",
+        "dati",
+        "reale",
+        "digital",
+        "interface",
+        "processing",
+        "cloud"
+      ]
+    }
+  },
+  {
+    "id": "p701_c0",
+    "page": 701,
+    "text": "A B A B 1. Physical/digital interface technologies 2. Network technologies 3. Data - processing technologies 4. Physical/digital process technologies Cloud computing Blockchain technology Interoperability / cybersecurity solutions Simulation and modelling Big data analytics Energy storage solutions 3d printing New materials Advanced robotics Internet of Things Cyber - physical systems Visualization technologies Limited (Firm / department) Extended (Supply chain) Network connectivity Technological elements Hardware Software Automatizzare la produzione / nuovi metodi Nuovi materiali Machine learning and Artificial intelligence A B Tecnologie abilitanti Digitalizzare il reale Rendere accessibili i dati attraverso diversi sistemi informativi Analizzare i dati (es. in tempo reale , predittivo , prescrittivo ) Fonte: Culot et al.",
+    "start": 0,
+    "end": 836,
+    "length": 836,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 9.175,
+      "keywords": [
+        "technologies",
+        "physical",
+        "digital",
+        "network",
+        "data",
+        "solutions",
+        "nuovi",
+        "reale",
+        "dati",
+        "interface"
+      ]
+    }
+  },
+  {
+    "id": "p704_c0",
+    "page": 704,
+    "text": "Fonte: adattato da Frank et al. (2019) Mercato Tecnologie front - end Tecnologie base Soluzioni applicative 2. Prodotti 3. Produzione 4. Supply Chains IoT CPS AI AMT Cybersecurity Advanced robotics...",
+    "start": 0,
+    "end": 201,
+    "length": 201,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 6,
+      "keywords": [
+        "tecnologie",
+        "2019",
+        "fonte",
+        "adattato",
+        "frank",
+        "mercato",
+        "front",
+        "base",
+        "soluzioni",
+        "applicative"
+      ]
+    }
+  },
+  {
+    "id": "p706_c0",
+    "page": 706,
+    "text": "GPT General Purpose Technologies Pervasività Miglioramento Stimolo ad altre innovazioni - Attraverso diversi settori industriali - Maggiori performance - Minori costi - Abilita l’invenzione di nuove innovazioni di prodotto e di processo Tecnologie ad ampio spettro",
+    "start": 0,
+    "end": 265,
+    "length": 265,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.32,
+      "keywords": [
+        "innovazioni",
+        "general",
+        "purpose",
+        "technologies",
+        "pervasivit",
+        "miglioramento",
+        "stimolo",
+        "altre",
+        "attraverso",
+        "diversi"
+      ]
+    }
+  },
+  {
+    "id": "p709_c0",
+    "page": 709,
+    "text": "GPT General Purpose Technologies Innovazione in ambito organizzativo Evoluzione del contesto sociale e abitudini di consumo Interdipendenze tra tecnologia e società",
+    "start": 0,
+    "end": 165,
+    "length": 165,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 0.82,
+      "keywords": [
+        "general",
+        "purpose",
+        "technologies",
+        "innovazione",
+        "ambito",
+        "organizzativo",
+        "evoluzione",
+        "contesto",
+        "sociale",
+        "abitudini"
+      ]
+    }
+  },
+  {
+    "id": "p716_c0",
+    "page": 716,
+    "text": "Analisi di caso: contesto Trasformazione digitale: opportunità per un’azienda nell’ambito dei macchinari industriali (GE) • Cosa cercano le aziende clienti? • Perché le aziende clienti si rivogono a service provider esterni?",
+    "start": 0,
+    "end": 225,
+    "length": 225,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 1.12,
+      "keywords": [
+        "aziende",
+        "clienti",
+        "analisi",
+        "caso",
+        "contesto",
+        "trasformazione",
+        "digitale",
+        "opportunit",
+        "azienda",
+        "nell"
+      ]
+    }
+  },
+  {
+    "id": "p717_c0",
+    "page": 717,
+    "text": "Analisi di caso: GED Strategia – es. Cosa fa GE? Dove investe? Come approccia il cliente? Organizzazione – es. Quali unità organizzative sono coinvolte ? Come sono integrate le competenze ?",
+    "start": 0,
+    "end": 190,
+    "length": 190,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 0.945,
+      "keywords": [
+        "come",
+        "sono",
+        "analisi",
+        "caso",
+        "strategia",
+        "cosa",
+        "dove",
+        "investe",
+        "approccia",
+        "cliente"
+      ]
+    }
+  },
+  {
+    "id": "p718_c0",
+    "page": 718,
+    "text": "Analisi di caso: GED Strategia – es. Cosa fa GE? Dove investe? Come approccia il cliente? Organizzazione – es. Quali unità organizzative sono coinvolte ? Come sono integrate le competenze ?",
+    "start": 0,
+    "end": 190,
+    "length": 190,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 0.945,
+      "keywords": [
+        "come",
+        "sono",
+        "analisi",
+        "caso",
+        "strategia",
+        "cosa",
+        "dove",
+        "investe",
+        "approccia",
+        "cliente"
+      ]
+    }
+  },
+  {
+    "id": "p719_c0",
+    "page": 719,
+    "text": "Dal caso alla teoria: digital servitization Raccolta dati utente (consumer/user firm ): • Sensori/devices • Applicazioni • Sistemi informativi aziendali Eventuale matching con dati esterni: • Data markets/data aggregators Quattro livelli progressivi: 1. Monitoraggio: stato di prodotto, utilizzo, interazione con ambiente esterno → Invio di alert e notifiche di cambiamento 2. Controllo: software (embedded/cloud) → Personalizzazione dell’user experience /controllo di funzionalità prodotto 3. Ottimizzazione: algoritmi per operatività/uso di prodotto → Migliore performance di prodotto, diagnostica/manutenzione predittiva, ottimizzazione processi 4.",
+    "start": 0,
+    "end": 652,
+    "length": 652,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 8.254999999999999,
+      "keywords": [
+        "prodotto",
+        "dati",
+        "user",
+        "data",
+        "controllo",
+        "ottimizzazione",
+        "caso",
+        "alla",
+        "teoria",
+        "digital"
+      ]
+    }
+  },
+  {
+    "id": "p721_c0",
+    "page": 721,
+    "text": "Quali servizi? Manutenzione Finanziamento Fisici: pieno a casa, corso di guida Digitali: infotainment, parking Mobility as a service Servizi per il prodotto Servizi per il cliente Consumer Industrial Servizi di base (es. fornitura di pezzi di ricambio) Servizi intermedi (es. assistenza prodotto, monitoraggio condizioni) Servizi avanzati (es.",
+    "start": 0,
+    "end": 344,
+    "length": 344,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 1.715,
+      "keywords": [
+        "servizi",
+        "prodotto",
+        "quali",
+        "manutenzione",
+        "finanziamento",
+        "fisici",
+        "pieno",
+        "casa",
+        "corso",
+        "guida"
+      ]
+    }
+  },
+  {
+    "id": "p722_c0",
+    "page": 722,
+    "text": "Digital servitization (B2B): implicazioni • Accesso a tecnologie avanzate/aggiornate • Ottimizzazione dei flussi di cassa (da CAPEX a OPEX) • Aumento efficienza operativa (OEE) • Condivisione del rischio con il fornitore • Concentrazione delle risorse su core capabilities ClienteE Fornitore Possibili benefici Aree critiche • Proprietà intellettuale e condivisione dati con provider • Appropriabilità • Cybersecurity • Differenziazione strategica, nuove proposte di valore • Stabilità rispetto a cicli macroeconomici • Relazione a lungo termine con il cliente • Estensione del ciclo di vita di prodotto • Accesso a dati (es.",
+    "start": 0,
+    "end": 626,
+    "length": 626,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 3.125,
+      "keywords": [
+        "accesso",
+        "condivisione",
+        "fornitore",
+        "dati",
+        "digital",
+        "servitization",
+        "implicazioni",
+        "tecnologie",
+        "avanzate",
+        "aggiornate"
+      ]
+    }
+  },
+  {
+    "id": "p723_c0",
+    "page": 723,
+    "text": "Le aziende devono gestire nuovi ecosistemi... “With BMW points , we give customers transparency. So, basically, every time they switch on electric mode we register and track the length of those trip. BMW points is kind of a littler reward system, you can convert into charging station credits. The customers are buying hybrid vehicles because they want to be sustainable, in this case we are tacking the data and turn them into a service to achieve their targets . Another part of the project is that we have e - zones, so cities can set up. We can have your vehicle automatically switching to electric mode in ezones . ... This are ways we work with customers to collect data and use data, but these are not data for data sake: what is the job that the customer is trying to do, and how can we as a company help the customer to achieve those goals better ways ” Intervista a responsabile BMW per progetto di ricerca UniUD – 2021 Risultati dello studio disponibili su: Culot, G. , Orzes , G. , Sartor, M. , & Nassimbeni , G. (2024). The data sharing conundrum: revisiting established theory in the age of digital transformation . Supply Chain Management: An International Journal , 29(7), 1 - 27.",
+    "start": 0,
+    "end": 1197,
+    "length": 1197,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 20.98,
+      "keywords": [
+        "data",
+        "customers",
+        "with",
+        "points",
+        "they",
+        "electric",
+        "mode",
+        "those",
+        "into",
+        "this"
+      ]
+    }
+  },
+  {
+    "id": "p724_c0",
+    "page": 724,
+    "text": "e nuovi partner (o competitor)? “I think where you get more challenges into sharing data is the ecosystem platforms, Android, Apple Car Play. Those two players are quite aggressive in terms of what data they are asking for as part of the service usage to the manufacturer . This might be crossing over to the space where its is basically part of the OEM customer relationship , not the infotainment part of the relationship. They have strong position, they have strong assets, and they are working to leverage them to further reinforce their position. ... I think it is particularly hard for German OEMs, who have invested. If you are a smaller manufacturer or a different class of products, that’s not where you are competing. Even if you look at Volvo, the new Pulse Star, they go very deep with the Google Experience as they are gonna focus on electromobility and not focus on the in - car entertainment. They are sharing a lot more data with Google than we are doing with our own implementation. ” Intervista a responsabile BMW per progetto di ricerca UniUD – 2021 Risultati dello studio disponibili su: Culot, G. , Orzes , G. , Sartor, M. , & Nassimbeni , G. (2024). The data sharing conundrum: revisiting established theory in the age of digital transformation . Supply Chain Management: An International Journal , 29(7), 1 - 27.",
+    "start": 0,
+    "end": 1336,
+    "length": 1336,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 21.675,
+      "keywords": [
+        "they",
+        "data",
+        "where",
+        "sharing",
+        "part",
+        "have",
+        "with",
+        "think",
+        "more",
+        "manufacturer"
+      ]
+    }
+  },
+  {
+    "id": "p725_c0",
+    "page": 725,
+    "text": "Il ruolo dell’ ecosystem orchestrator L’ecosistema è definito dalla struttura di allineamento tra una serie multilaterale di partner che devono interagire per dare vita a una value proposition comune ( Adner , 2016) Quale value proposition per il cliente? Chi fa parte dell’ecosistema? Quali relazioni con altri ecosistemi? Come distribuire costi e benefici? Come strutturare le interfacce digitali? • Definizione di una focal value proposition • Comprensione della prospettiva del cliente • Ecosistema aperto/chiuso • Multi - homing • Boundary resources (es.",
+    "start": 0,
+    "end": 560,
+    "length": 560,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 12.795,
+      "keywords": [
+        "ecosistema",
+        "value",
+        "proposition",
+        "dell",
+        "cliente",
+        "come",
+        "2016",
+        "ruolo",
+        "ecosystem",
+        "orchestrator"
+      ]
+    }
+  },
+  {
+    "id": "p726_c0",
+    "page": 726,
+    "text": "E ’ facile? Solo il 15% ha successo 100 - 10 - 18 - 34 - 5 - 8 - 10 Launched ecosystem Insfficient problem to solve Wrong ecosystem ... Inadequate monetization Weak launch strategy Weak defensibility Bad execution Survived ecosystems 0 20 40 60 80 100 120 Fonte: BCG 2020 ( https://www. bcg.",
+    "start": 0,
+    "end": 292,
+    "length": 292,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 11.455,
+      "keywords": [
+        "ecosystem",
+        "weak",
+        "2020",
+        "facile",
+        "solo",
+        "successo",
+        "launched",
+        "insfficient",
+        "problem",
+        "solve"
+      ]
+    }
+  },
+  {
+    "id": "p727_c0",
+    "page": 727,
+    "text": "Torniamo al caso GED: key learnings • Quali punti di forza/punti di debolezza vedete nella loro strategia ? • Quali punti di forza/punti di debolezza vedete nella loro organizzazione ? • Come il caso GED si relaziona con la vostra esperienza ?",
+    "start": 0,
+    "end": 244,
+    "length": 244,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 1.215,
+      "keywords": [
+        "punti",
+        "caso",
+        "quali",
+        "forza",
+        "debolezza",
+        "vedete",
+        "nella",
+        "loro",
+        "torniamo",
+        "learnings"
+      ]
+    }
+  },
+  {
+    "id": "p729_c0",
+    "page": 729,
+    "text": "Ripartiamo dalle tecnologie: alcuni esempi Autonomous guided robots Digital production Co - bot Flessibilità, automazione , integrazione di meccanismi di risposta, movimentazione remota Virtual reality Smart sensors Digitalizzazione , sensorizzazione , augmented operator Gemelli digitali (Digital twin) Manutenzione predittiva Intelligenza , riconoscimento automatoco degli eventi, scenari, decisioni data - driven Advanced process control Data lake Connessione , link e interoperabilità, repository di dati Data streaming",
+    "start": 0,
+    "end": 524,
+    "length": 524,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 2.615,
+      "keywords": [
+        "data",
+        "digital",
+        "ripartiamo",
+        "dalle",
+        "tecnologie",
+        "alcuni",
+        "esempi",
+        "autonomous",
+        "guided",
+        "robots"
+      ]
+    }
+  },
+  {
+    "id": "p730_c0",
+    "page": 730,
+    "text": "Alla fine... è un puzzle “Another key aspect is system integration . Internally, we developed a communication layer that seamlessly connects all assets on our shop floor with various systems. This automation layer functions like a jigsaw puzzle — each system effortlessly plugs in and plays. For example, our quality system is now integrated with our production sequencing system, which connects to the shop floor runners, human - machine interfaces, and AGVs. This interconnected network has been a major enabler for our data analytics and augmented reality initiatives. At the end of the day, everything works together as a cohesive ecosystem . ” Intervista a responsabile Industry 4. 0 di stabimento Daimler Brasile per progetto di ricerca UniUD – 2021 Risultati dello studio disponibili su: Culot, G. , Orzes , G. , Sartor, M. , & Nassimbeni , G. (2024). The data sharing conundrum: revisiting established theory in the age of digital transformation . Supply Chain Management: An International Journal , 29(7), 1 - 27.",
+    "start": 0,
+    "end": 1023,
+    "length": 1023,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": true,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 20.11,
+      "keywords": [
+        "system",
+        "puzzle",
+        "layer",
+        "connects",
+        "shop",
+        "floor",
+        "with",
+        "this",
+        "data",
+        "2021"
+      ]
+    }
+  },
+  {
+    "id": "p732_c0",
+    "page": 732,
+    "text": "E l’intelligenza artificiale? AI per il momento non porta a grandi benefici in termini di efficienza : • 96% C - suite executive s si aspettano maggiore produttività • 77% dei dipendenti riporta maggiore carico di Lavoro (Fonte: Forbes, Luglio 2024) “Just five years ago, there was similar hype around IIoT and its promise of real - time connectivity. Today, mindful of the costs of connection, sites deploy IoT selectively in domains offering the highest returns – such as predictive maintenance, inventory management and asset tracking.",
+    "start": 0,
+    "end": 539,
+    "length": 539,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 7.6899999999999995,
+      "keywords": [
+        "maggiore",
+        "2024",
+        "intelligenza",
+        "artificiale",
+        "momento",
+        "porta",
+        "grandi",
+        "benefici",
+        "termini",
+        "efficienza"
+      ]
+    }
+  },
+  {
+    "id": "p733_c0",
+    "page": 733,
+    "text": "Lavoro di gruppo: SmartTurn • Siete dei consulenti specializzati in Industry 4. 0 • Vi viene richiesto di proporre una roadmap per lo stabilimento di punta di Givaudan • Quali carte giocherete?",
+    "start": 0,
+    "end": 194,
+    "length": 194,
+    "metadata": {
+      "hasDefinition": false,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": false,
+      "importance": 5.965,
+      "keywords": [
+        "lavoro",
+        "gruppo",
+        "smartturn",
+        "siete",
+        "consulenti",
+        "specializzati",
+        "industry",
+        "viene",
+        "richiesto",
+        "proporre"
+      ]
+    }
+  },
+  {
+    "id": "p735_c0",
+    "page": 735,
+    "text": "Manufacturing Execution System (MES) • Sistema informatizzato progettato per gestire e monitorare la produzione aziendale , con l'obiettivo di ottimizzare e controllare l'intero processo produttivo. • Principali funzioni : gestione degli ordini, monitoraggio degli avanzamenti in termini di quantità e tempi, gestione dei flussi di materiale verso il magazzino e integrazione diretta con i macchinari, controllo real - time del processo produttivo. • Connessione diretta ai dispositivi di automazione (come PLC e SCADA), alcuni software permettono di trasmettere i dati raccolti direttamente al sistema gestionale . • Soluzioni modulari , che permettono di personalizzare l'implementazione in base alle esigenze specifiche dell'azienda. Alcune funzionalità di base possono essere integrate nei sistemi informativi già esistenti, mentre le piattaforme MES più avanzate sono caratterizzate da una gestione in tempo reale e da un elevato grado di automazione , offrendo così una visibilità costante e un controllo preciso sulla produzione. Cos’è Benefici • Visibilità sui processi produttivi e KPI di produzione • Integrazione con soluzioni IoT (macchine, tablet, wearables ) • Abilitazione di analytics (es.",
+    "start": 0,
+    "end": 1206,
+    "length": 1206,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 6.025,
+      "keywords": [
+        "produzione",
+        "gestione",
+        "sistema",
+        "processo",
+        "produttivo",
+        "degli",
+        "integrazione",
+        "diretta",
+        "controllo",
+        "automazione"
+      ]
+    }
+  },
+  {
+    "id": "p736_c0",
+    "page": 736,
+    "text": "Process Historian • Sistema software progettato per raccogliere, archiviare e analizzare i dati storici provenienti da impianti industriali , macchinari e dispositivi di automazione (come PLC, SCADA, sensori, ecc. ). Questi dati riguardano parametri di processo, come temperature, pressioni, velocità, livelli, altri KPI, che vengono monitorati durante il ciclo produttivo. • I dati sono archiviati in grandi volumi (time - stamped , crittografati, compressi, puliti e aggregati). • Consente l’accesso rapido ai dati da sistemi centralizzati. Può essere incluso nel MES .",
+    "start": 0,
+    "end": 572,
+    "length": 572,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 2.855,
+      "keywords": [
+        "dati",
+        "come",
+        "process",
+        "historian",
+        "sistema",
+        "software",
+        "progettato",
+        "raccogliere",
+        "archiviare",
+        "analizzare"
+      ]
+    }
+  },
+  {
+    "id": "p737_c0",
+    "page": 737,
+    "text": "Data Lake • Architettura cloud - based di archiviazione dati centralizzata progettata per raccogliere, conservare e gestire grandi volumi di dati provenienti da diverse fonti all'interno dell'ambiente di produzione. • Consente di raccogliere dati non strutturati, semi - strutturati e strutturati , senza la necessità di pre - processarli o di organizzarli in modo rigoroso al momento dell'acquisizione. Una volta che i dati sono stati raccolti nel data lake , è possibile applicare strumenti avanzati di analisi dei dati, come l'analisi predittiva, l'analisi delle tendenze, e l'intelligenza artificiale (AI) per ottenere informazioni utili per il miglioramento dei processi produttivi. I dati possono essere integrati con altre piattaforme aziendali come Business Intelligence (BI) o strumenti di visualizzazione dei dati. Supporta batch processing dei dati per analisi approfondite e predittive.",
+    "start": 0,
+    "end": 899,
+    "length": 899,
+    "metadata": {
+      "hasDefinition": true,
+      "hasFormula": false,
+      "hasList": false,
+      "hasExample": true,
+      "importance": 4.49,
+      "keywords": [
+        "dati",
+        "analisi",
+        "strutturati",
+        "data",
+        "lake",
+        "raccogliere",
+        "dell",
+        "strumenti",
+        "come",
+        "architettura"
+      ]
+    }
+  }
+]
