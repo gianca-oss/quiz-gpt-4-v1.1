@@ -1,6 +1,6 @@
 {
-  "name": "Quiz v4.1",
-  "version": "4.0.0",
+  "name": "Quiz v4.1.1",
+  "version": "4.1.1",
   "description": "Quiz Assistant con RAG, GPT-4 Vision e Pinecone",
   "type": "module",
   "scripts": {
@@ -26,7 +26,7 @@
     "vercel": "^32.7.2"
   },
   "engines": {
-    "node": "v22.19.0"
+    "node": "^22.19.0"
   }
 }
 
