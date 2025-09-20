@@ -24,6 +24,17 @@ let pineconeIndex = null;
 let openaiClient = null;
 
 async function initServices() {
+    // Verifica le chiavi API
+    if (!CONFIG.pinecone.apiKey) {
+        throw new Error('PINECONE_API_KEY non configurata');
+    }
+    if (!CONFIG.openai.apiKey) {
+        throw new Error('OPENAI_API_KEY non configurata');
+    }
+    if (!CONFIG.anthropic.apiKey) {
+        throw new Error('ANTHROPIC_API_KEY non configurata');
+    }
+    
     if (!pineconeIndex) {
         const pc = new Pinecone({ apiKey: CONFIG.pinecone.apiKey });
         pineconeIndex = pc.index(CONFIG.pinecone.indexName);
@@ -35,28 +46,40 @@ async function initServices() {
 
 // Cerca nel database vettoriale
 async function searchKnowledge(questionText, options) {
-    // Genera embedding della domanda
-    const queryText = questionText + ' ' + Object.values(options).join(' ');
-    
-    const embeddingResponse = await openaiClient.embeddings.create({
-        model: CONFIG.openai.embeddingModel,
-        input: queryText
-    });
-    
-    // Cerca in Pinecone
-    const results = await pineconeIndex.query({
-        vector: embeddingResponse.data[0].embedding,
-        topK: 5,
-        includeMetadata: true
-    });
-    
-    // Estrai contesto rilevante
-    const context = results.matches
-        .filter(m => m.score > 0.7)
-        .map(m => m.metadata.text)
-        .join('\n\n');
-    
-    return context;
+    try {
+        // Genera embedding della domanda
+        const queryText = questionText + ' ' + Object.values(options).join(' ');
+        
+        const embeddingResponse = await openaiClient.embeddings.create({
+            model: CONFIG.openai.embeddingModel,
+            input: queryText
+        });
+        
+        // Verifica risposta embedding
+        if (!embeddingResponse?.data?.[0]?.embedding) {
+            console.error('Invalid embedding response:', embeddingResponse);
+            return '';
+        }
+        
+        // Cerca in Pinecone
+        const results = await pineconeIndex.query({
+            vector: embeddingResponse.data[0].embedding,
+            topK: 5,
+            includeMetadata: true
+        });
+        
+        // Estrai contesto rilevante
+        const context = results.matches
+            .filter(m => m.score > 0.7)
+            .map(m => m.metadata?.text || '')
+            .filter(text => text.length > 0)
+            .join('\n\n');
+        
+        return context;
+    } catch (error) {
+        console.error('Error in searchKnowledge:', error);
+        return '';
+    }
 }
 
 // Analizza domanda con RAG
@@ -64,7 +87,7 @@ async function analyzeQuestionWithRAG(question, context) {
     const prompt = `Basandoti ESCLUSIVAMENTE sul seguente contesto del corso, rispondi alla domanda.
 
 CONTESTO:
-${context}
+${context || 'Nessun contesto disponibile'}
 
 DOMANDA: ${question.text}
 OPZIONI:
@@ -82,7 +105,9 @@ Quale è la risposta corretta? Rispondi SOLO con la lettera (A, B, C o D).`;
         max_tokens: 10
     });
     
-    return response.choices[0].message.content.trim().toUpperCase();
+    // Gestisci risposta
+    const answer = response?.choices?.[0]?.message?.content?.trim().toUpperCase() || 'N/A';
+    return answer.match(/^[ABCD]$/) ? answer : 'N/A';
 }
 
 export default async function handler(req, res) {
@@ -90,6 +115,7 @@ export default async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    res.setHeader('Content-Type', 'application/json; charset=utf-8');
     
     if (req.method === 'OPTIONS') {
         return res.status(200).end();
@@ -113,25 +139,21 @@ export default async function handler(req, res) {
     
     try {
         console.log('🚀 Analisi con RAG v4...');
+        
+        // Inizializza servizi
         await initServices();
         
         // Validazione request body
-        if (!req.body || !req.body.messages || !Array.isArray(req.body.messages) || req.body.messages.length === 0) {
+        if (!req.body?.messages?.[0]?.content) {
             return res.status(400).json({ 
                 error: 'Invalid request body',
-                details: 'Expected messages array' 
+                details: 'Expected messages with content' 
             });
         }
         
         const messageContent = req.body.messages[0].content;
-        if (!messageContent || !Array.isArray(messageContent)) {
-            return res.status(400).json({ 
-                error: 'Invalid message content',
-                details: 'Expected content array' 
-            });
-        }
-        
         const imageContent = messageContent.find(c => c.type === 'image');
+        
         if (!imageContent) {
             return res.status(400).json({ 
                 error: 'No image found',
@@ -139,7 +161,8 @@ export default async function handler(req, res) {
             });
         }
         
-        // Estrai domande con Claude (più economico)
+        // Estrai domande con Claude
+        console.log('Calling Claude API...');
         const extractResponse = await fetch('https://api.anthropic.com/v1/messages', {
             method: 'POST',
             headers: {
@@ -157,94 +180,109 @@ export default async function handler(req, res) {
                         imageContent,
                         { 
                             type: 'text', 
-                            text: `Estrai le domande. Formato JSON:
+                            text: `Extract all quiz questions from the image. Return ONLY valid JSON in this exact format:
 {
   "questions": [
     {
       "number": 1,
-      "text": "testo domanda",
-      "options": {"A": "", "B": "", "C": "", "D": ""}
+      "text": "question text here",
+      "options": {"A": "option A", "B": "option B", "C": "option C", "D": "option D"}
     }
   ]
-}`
+}
+Do not include any text outside the JSON.`
                         }
                     ]
                 }]
             })
         });
         
-        // Controlla response status
         if (!extractResponse.ok) {
             const errorText = await extractResponse.text();
-            console.error('Claude API error:', errorText);
+            console.error('Claude API error:', extractResponse.status, errorText);
             return res.status(500).json({ 
                 error: 'Claude API error',
+                status: extractResponse.status,
                 details: errorText 
             });
         }
         
         const extractData = await extractResponse.json();
-        console.log('Claude response:', JSON.stringify(extractData, null, 2));
+        console.log('Claude response received');
         
-        // Validazione risposta Claude
-        if (!extractData || !extractData.content || !Array.isArray(extractData.content) || extractData.content.length === 0) {
-            console.error('Invalid Claude response structure:', extractData);
-            return res.status(500).json({ 
-                error: 'Invalid response from Claude',
-                details: 'Missing content array',
-                response: extractData
-            });
+        // Trova il contenuto testuale nella risposta
+        let questionsText = '';
+        if (extractData?.content) {
+            for (const content of extractData.content) {
+                if (content.type === 'text' && content.text) {
+                    questionsText = content.text;
+                    break;
+                }
+            }
         }
         
-        // Trova il contenuto testuale
-        const textContent = extractData.content.find(c => c.type === 'text');
-        if (!textContent || !textContent.text) {
-            console.error('No text content in Claude response:', extractData.content);
+        if (!questionsText) {
+            console.error('No text found in Claude response:', extractData);
             return res.status(500).json({ 
                 error: 'No text in Claude response',
-                details: 'Expected text content',
-                content: extractData.content
+                details: 'Could not extract questions from image'
             });
         }
         
-        // Parsing JSON con gestione errori
+        // Parse JSON
         let questions;
         try {
-            const parsedContent = JSON.parse(textContent.text);
-            questions = parsedContent.questions;
-            
-            if (!questions || !Array.isArray(questions)) {
-                throw new Error('Questions array not found in parsed content');
+            // Pulisci il testo da eventuali caratteri extra
+            questionsText = questionsText.trim();
+            if (questionsText.startsWith('```json')) {
+                questionsText = questionsText.replace(/```json\s*/, '').replace(/```\s*$/, '');
             }
+            
+            const parsed = JSON.parse(questionsText);
+            questions = parsed.questions || [];
         } catch (parseError) {
-            console.error('Failed to parse Claude response:', textContent.text);
+            console.error('JSON parse error:', parseError.message);
+            console.error('Raw text:', questionsText);
             return res.status(500).json({ 
                 error: 'Failed to parse questions',
-                details: parseError.message,
-                rawText: textContent.text
+                details: parseError.message
             });
         }
         
-        console.log(`✅ Estratte ${questions.length} domande`);
+        console.log(`✅ Extracted ${questions.length} questions`);
+        
+        // Se non ci sono domande
+        if (questions.length === 0) {
+            return res.status(200).json({
+                content: [{
+                    type: 'text',
+                    text: '<div style="text-align:center;padding:20px;color:#86868b;">Nessuna domanda trovata nell\'immagine</div>'
+                }],
+                metadata: {
+                    questionsAnalyzed: 0,
+                    method: 'rag-v4-vision'
+                }
+            });
+        }
         
         // Analizza ogni domanda con RAG
         const results = [];
         for (const question of questions) {
             try {
-                const context = await searchKnowledge(question.text, question.options);
+                const context = await searchKnowledge(question.text, question.options || {});
                 const answer = await analyzeQuestionWithRAG(question, context);
                 
                 results.push({
-                    number: question.number,
+                    number: question.number || results.length + 1,
                     answer: answer,
-                    confidence: context.length > 100 ? 95 : 80
+                    confidence: context && context.length > 100 ? 95 : 80
                 });
                 
                 console.log(`Q${question.number}: ${answer}`);
-            } catch (questionError) {
-                console.error(`Error processing question ${question.number}:`, questionError);
+            } catch (err) {
+                console.error(`Error processing question ${question.number}:`, err);
                 results.push({
-                    number: question.number,
+                    number: question.number || results.length + 1,
                     answer: 'ERROR',
                     confidence: 0
                 });
@@ -273,7 +311,7 @@ export default async function handler(req, res) {
         html += '✨ Powered by RAG v4 with Vision-enhanced knowledge base';
         html += '</div>';
         
-        res.status(200).json({
+        return res.status(200).json({
             content: [{
                 type: 'text',
                 text: html
@@ -286,10 +324,10 @@ export default async function handler(req, res) {
         });
         
     } catch (error) {
-        console.error('❌ Errore:', error);
-        console.error('Stack trace:', error.stack);
-        res.status(500).json({ 
-            error: error.message,
+        console.error('❌ Error:', error);
+        console.error('Stack:', error.stack);
+        return res.status(500).json({ 
+            error: error.message || 'Internal server error',
             stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
         });
     }
