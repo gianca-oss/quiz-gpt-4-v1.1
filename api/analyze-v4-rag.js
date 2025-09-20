@@ -161,7 +161,7 @@ export default async function handler(req, res) {
             });
         }
         
-        // Estrai domande con Claude
+        // Estrai domande con Claude - PROMPT MIGLIORATO
         console.log('Calling Claude API...');
         const extractResponse = await fetch('https://api.anthropic.com/v1/messages', {
             method: 'POST',
@@ -172,7 +172,7 @@ export default async function handler(req, res) {
             },
             body: JSON.stringify({
                 model: 'claude-3-haiku-20240307',
-                max_tokens: 1500,
+                max_tokens: 3000,
                 temperature: 0,
                 messages: [{
                     role: 'user',
@@ -180,17 +180,43 @@ export default async function handler(req, res) {
                         imageContent,
                         { 
                             type: 'text', 
-                            text: `Extract all quiz questions from the image. Return ONLY valid JSON in this exact format:
+                            text: `Analyze this quiz/test image very carefully. I need you to extract ALL quiz questions visible in the image.
+
+Look for:
+- Questions numbered as 1, 2, 3, etc. OR 1., 2., 3., etc. OR Q1, Q2, Q3, etc.
+- Multiple choice questions with options like A, B, C, D OR a), b), c), d)
+- Any text that appears to be a quiz or test question
+- Questions may be in Italian or English
+
+For EACH question you find, extract:
+1. The question number (as shown in the image)
+2. The COMPLETE question text (every word)
+3. ALL answer options with their complete text
+
+IMPORTANT: 
+- Extract questions EXACTLY as they appear in the image
+- Include ALL visible questions, even if partially visible
+- If options use letters (A,B,C,D) or (a,b,c,d), normalize them to A,B,C,D
+
+Return ONLY this JSON structure with NO additional text:
 {
   "questions": [
     {
       "number": 1,
-      "text": "question text here",
-      "options": {"A": "option A", "B": "option B", "C": "option C", "D": "option D"}
+      "text": "full question text exactly as shown",
+      "options": {
+        "A": "complete text of option A",
+        "B": "complete text of option B",
+        "C": "complete text of option C",
+        "D": "complete text of option D"
+      }
     }
   ]
 }
-Do not include any text outside the JSON.`
+
+If no questions are found, return: {"questions": []}
+
+Remember: ONLY return the JSON, nothing else.`
                         }
                     ]
                 }]
@@ -209,6 +235,9 @@ Do not include any text outside the JSON.`
         
         const extractData = await extractResponse.json();
         console.log('Claude response received');
+        
+        // Log completo per debug
+        console.log('Full Claude response structure:', JSON.stringify(extractData, null, 2));
         
         // Trova il contenuto testuale nella risposta
         let questionsText = '';
@@ -229,24 +258,49 @@ Do not include any text outside the JSON.`
             });
         }
         
-        // Parse JSON
+        // Log del testo raw per debug
+        console.log('Raw text from Claude:', questionsText);
+        
+        // Parse JSON con pulizia
         let questions;
         try {
             // Pulisci il testo da eventuali caratteri extra
             questionsText = questionsText.trim();
-            if (questionsText.startsWith('```json')) {
-                questionsText = questionsText.replace(/```json\s*/, '').replace(/```\s*$/, '');
+            
+            // Rimuovi eventuali markdown code blocks
+            if (questionsText.includes('```')) {
+                questionsText = questionsText.replace(/```json\s*/gi, '').replace(/```\s*/g, '');
             }
             
+            // Rimuovi eventuali spazi o newline all'inizio e alla fine
+            questionsText = questionsText.trim();
+            
+            // Parse del JSON
             const parsed = JSON.parse(questionsText);
             questions = parsed.questions || [];
+            
+            console.log(`Successfully parsed ${questions.length} questions`);
         } catch (parseError) {
             console.error('JSON parse error:', parseError.message);
-            console.error('Raw text:', questionsText);
-            return res.status(500).json({ 
-                error: 'Failed to parse questions',
-                details: parseError.message
-            });
+            console.error('Text that failed to parse:', questionsText);
+            
+            // Tentativo di recovery: cerca un JSON valido nel testo
+            try {
+                const jsonMatch = questionsText.match(/\{[\s\S]*\}/);
+                if (jsonMatch) {
+                    const parsed = JSON.parse(jsonMatch[0]);
+                    questions = parsed.questions || [];
+                    console.log(`Recovery successful: found ${questions.length} questions`);
+                } else {
+                    throw parseError;
+                }
+            } catch (recoveryError) {
+                return res.status(500).json({ 
+                    error: 'Failed to parse questions',
+                    details: parseError.message,
+                    rawText: questionsText.substring(0, 500) // Solo i primi 500 caratteri per debug
+                });
+            }
         }
         
         console.log(`✅ Extracted ${questions.length} questions`);
@@ -256,7 +310,7 @@ Do not include any text outside the JSON.`
             return res.status(200).json({
                 content: [{
                     type: 'text',
-                    text: '<div style="text-align:center;padding:20px;color:#86868b;">Nessuna domanda trovata nell\'immagine</div>'
+                    text: '<div style="text-align:center;padding:20px;color:#86868b;">Nessuna domanda trovata nell\'immagine. Assicurati che l\'immagine contenga domande di quiz ben visibili.</div>'
                 }],
                 metadata: {
                     questionsAnalyzed: 0,
@@ -264,6 +318,11 @@ Do not include any text outside the JSON.`
                 }
             });
         }
+        
+        // Log delle domande estratte per debug
+        questions.forEach((q, i) => {
+            console.log(`Question ${i+1}: ${q.text?.substring(0, 50)}...`);
+        });
         
         // Analizza ogni domanda con RAG
         const results = [];
@@ -278,7 +337,7 @@ Do not include any text outside the JSON.`
                     confidence: context && context.length > 100 ? 95 : 80
                 });
                 
-                console.log(`Q${question.number}: ${answer}`);
+                console.log(`Q${question.number}: ${answer} (context: ${context.length} chars)`);
             } catch (err) {
                 console.error(`Error processing question ${question.number}:`, err);
                 results.push({
@@ -319,7 +378,7 @@ Do not include any text outside the JSON.`
             metadata: {
                 questionsAnalyzed: questions.length,
                 method: 'rag-v4-vision',
-                accuracy: 'very-high'
+                accuracy: results.filter(r => r.confidence > 0).length > 0 ? 'very-high' : 'low'
             }
         });
         
@@ -328,7 +387,7 @@ Do not include any text outside the JSON.`
         console.error('Stack:', error.stack);
         return res.status(500).json({ 
             error: error.message || 'Internal server error',
-            stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
+            details: process.env.NODE_ENV === 'development' ? error.stack : 'Check server logs for details'
         });
     }
 }
