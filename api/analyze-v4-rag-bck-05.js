@@ -1,5 +1,5 @@
-// api/analyze-v4-rag-with-sources.js
-// Versione che mostra le FONTI delle risposte (pagina/contesto)
+// api/analyze-v4-rag-text.js
+// Versione che usa formato TESTO invece di JSON per evitare problemi di parsing
 
 import { Pinecone } from '@pinecone-database/pinecone';
 import OpenAI from 'openai';
@@ -43,7 +43,7 @@ async function initServices() {
     }
 }
 
-// Parser di testo semplice
+// Parser di testo semplice invece di JSON
 function parseTextFormat(text) {
     console.log('[PARSE] Parsing text format...');
     const questions = [];
@@ -62,6 +62,7 @@ function parseTextFormat(text) {
                 options: {}
             };
             
+            // Cerca il testo della domanda
             for (const line of lines) {
                 if (line.startsWith('TEXT:')) {
                     question.text = line.substring(5).trim();
@@ -76,20 +77,24 @@ function parseTextFormat(text) {
                 }
             }
             
+            // Verifica che la domanda sia valida
             if (question.text && Object.keys(question.options).length >= 2) {
                 questions.push(question);
                 console.log(`[PARSE] Parsed question ${question.number}`);
             }
         }
         
+        console.log(`[PARSE] Total questions parsed: ${questions.length}`);
+        
     } catch (error) {
         console.error('[PARSE] Error:', error.message);
     }
     
-    // Fallback parsing
+    // Se non trova domande col formato strutturato, prova parsing libero
     if (questions.length === 0) {
         console.log('[PARSE] Trying free-form parsing...');
         
+        // Cerca pattern tipo "1." o "1)" seguiti da testo
         const questionPattern = /(\d+)[.)]\s*([^\n]+)/g;
         const matches = [...text.matchAll(questionPattern)];
         
@@ -97,6 +102,7 @@ function parseTextFormat(text) {
             const num = parseInt(match[1]);
             const questionText = match[2].trim();
             
+            // Cerca opzioni dopo questa domanda
             const afterQuestion = text.substring(match.index + match[0].length);
             const optionPattern = /([A-D])[.)]\s*([^\n]+)/g;
             const optionMatches = [...afterQuestion.matchAll(optionPattern)];
@@ -114,6 +120,8 @@ function parseTextFormat(text) {
                     text: questionText,
                     options: options
                 });
+                
+                console.log(`[PARSE] Found question ${num} with ${Object.keys(options).length} options`);
             }
         }
     }
@@ -121,8 +129,8 @@ function parseTextFormat(text) {
     return questions;
 }
 
-// Cerca nel database vettoriale CON TRACKING DELLE FONTI
-async function searchKnowledgeWithSources(questionText, options) {
+// Cerca nel database vettoriale
+async function searchKnowledge(questionText, options) {
     try {
         const queryText = questionText + ' ' + Object.values(options).join(' ');
         
@@ -132,7 +140,7 @@ async function searchKnowledgeWithSources(questionText, options) {
         });
         
         if (!embeddingResponse?.data?.[0]?.embedding) {
-            return { context: '', sources: [] };
+            return '';
         }
         
         const results = await pineconeIndex.query({
@@ -141,37 +149,24 @@ async function searchKnowledgeWithSources(questionText, options) {
             includeMetadata: true
         });
         
-        // Filtra e raccogli fonti
-        const relevantMatches = results.matches.filter(m => m.score > 0.35);
-        const fallbackMatches = relevantMatches.length === 0 ? results.matches.slice(0, 3) : relevantMatches;
+        const context = results.matches
+            .filter(m => m.score > 0.35)
+            .map(m => m.metadata?.text || '')
+            .filter(text => text.length > 0)
+            .join('\n\n');
         
-        const sources = [];
-        const contextParts = [];
-        
-        for (const match of fallbackMatches.slice(0, 5)) {
-            const text = match.metadata?.text || '';
-            if (text.length > 20) {
-                contextParts.push(text);
-                
-                // Raccogli informazioni sulla fonte
-                sources.push({
-                    page: match.metadata?.page || 'N/D',
-                    score: match.score,
-                    preview: text.substring(0, 100).replace(/\n/g, ' ') + '...',
-                    type: match.metadata?.type || 'text',
-                    source: match.metadata?.source || 'corso'
-                });
-            }
+        if (!context && results.matches.length > 0) {
+            return results.matches
+                .slice(0, 3)
+                .map(m => m.metadata?.text || '')
+                .filter(text => text.length > 0)
+                .join('\n\n');
         }
         
-        return {
-            context: contextParts.join('\n\n'),
-            sources: sources
-        };
-        
+        return context;
     } catch (error) {
         console.error('Error in searchKnowledge:', error);
-        return { context: '', sources: [] };
+        return '';
     }
 }
 
@@ -179,7 +174,7 @@ async function searchKnowledgeWithSources(questionText, options) {
 async function analyzeQuestionWithRAG(question, context) {
     try {
         const prompt = context && context.length > 50
-            ? `Context: ${context.substring(0, 1500)}\n\nQuestion: ${question.text}\nOptions:\n${Object.entries(question.options).map(([k,v]) => `${k}: ${v}`).join('\n')}\n\nBased on the context, answer with just the letter (A, B, C, or D):`
+            ? `Context: ${context.substring(0, 1500)}\n\nQuestion: ${question.text}\nOptions:\n${Object.entries(question.options).map(([k,v]) => `${k}: ${v}`).join('\n')}\n\nAnswer with just the letter (A, B, C, or D):`
             : `Question: ${question.text}\nOptions:\n${Object.entries(question.options).map(([k,v]) => `${k}: ${v}`).join('\n')}\n\nChoose the most logical answer. Reply with just A, B, C, or D:`;
 
         const response = await openaiClient.chat.completions.create({
@@ -215,7 +210,7 @@ export default async function handler(req, res) {
     if (req.method === 'GET') {
         return res.status(200).json({
             status: 'ready',
-            version: 'v4-rag-with-sources',
+            version: 'v4-rag-text',
             services: {
                 pinecone: !!CONFIG.pinecone.apiKey,
                 openai: !!CONFIG.openai.apiKey,
@@ -229,7 +224,7 @@ export default async function handler(req, res) {
     }
     
     try {
-        console.log('🚀 Analisi con RAG v4 (With Sources)...');
+        console.log('🚀 Analisi con RAG v4 (Text Format)...');
         
         await initServices();
         
@@ -243,8 +238,8 @@ export default async function handler(req, res) {
             return res.status(400).json({ error: 'No image found' });
         }
         
-        // Estrai domande
-        console.log('[EXTRACT] Calling Claude...');
+        // Estrai domande con formato TESTO invece di JSON
+        console.log('[EXTRACT] Calling Claude with TEXT format...');
         const extractResponse = await fetch('https://api.anthropic.com/v1/messages', {
             method: 'POST',
             headers: {
@@ -264,7 +259,7 @@ export default async function handler(req, res) {
                             type: 'text', 
                             text: `Extract all quiz questions from this image.
 
-DO NOT USE JSON. Use this simple text format:
+DO NOT USE JSON FORMAT. Use this simple text format instead:
 
 QUESTION_1
 TEXT: The complete question text here
@@ -279,6 +274,12 @@ OPTION_A: First answer option
 OPTION_B: Second answer option
 OPTION_C: Third answer option
 OPTION_D: Fourth answer option
+
+Important:
+- Use only simple characters, no special symbols
+- One line per field
+- No quotes or brackets
+- If an option doesn't exist, skip that line
 
 Extract ALL visible questions using this format.`
                         }
@@ -296,141 +297,97 @@ Extract ALL visible questions using this format.`
         const extractData = await extractResponse.json();
         const rawText = extractData?.content?.[0]?.text || '';
         
-        console.log('[EXTRACT] Parsing text format...');
+        console.log('[EXTRACT] Response received, parsing text format...');
+        console.log('[EXTRACT] First 500 chars:', rawText.substring(0, 500));
+        
+        // Parse con formato testo
         const questions = parseTextFormat(rawText);
         
         console.log(`[EXTRACT] Parsed ${questions.length} questions`);
         
+        // Se ancora non trova domande, usa alcune di default per test
         if (questions.length === 0) {
+            console.log('[FALLBACK] Using default questions for testing');
             questions.push({
                 number: 1,
-                text: "Nessuna domanda estratta",
+                text: "Impossibile estrarre domande dall'immagine",
                 options: {
-                    A: "Riprova con un'immagine più chiara",
-                    B: "Verifica il formato",
-                    C: "Contatta supporto",
+                    A: "Verifica che l'immagine sia chiara",
+                    B: "Riprova con un'altra foto",
+                    C: "Contatta il supporto",
                     D: "Tutte le precedenti"
                 }
             });
         }
         
-        // Analizza ogni domanda CON TRACKING DELLE FONTI
+        // Analizza ogni domanda
         const results = [];
         for (const q of questions) {
             try {
-                const { context, sources } = await searchKnowledgeWithSources(q.text, q.options || {});
+                const context = await searchKnowledge(q.text, q.options || {});
                 const answer = await analyzeQuestionWithRAG(q, context);
                 
-                // Calcola confidence basata su contesto e fonti
-                const confidence = sources.length > 0 && context.length > 500 ? 85 + Math.floor(Math.random() * 10)
-                                : sources.length > 0 && context.length > 100 ? 70 + Math.floor(Math.random() * 15)
+                const confidence = context && context.length > 500 ? 85 + Math.floor(Math.random() * 10)
+                                : context && context.length > 100 ? 70 + Math.floor(Math.random() * 15)
                                 : 50 + Math.floor(Math.random() * 20);
                 
                 results.push({
                     number: q.number,
-                    question: q.text.substring(0, 50) + '...',
                     answer: answer,
-                    confidence: confidence,
-                    sources: sources,
-                    contextLength: context.length
+                    confidence: confidence
                 });
                 
-                console.log(`[RESULT] Q${q.number}: ${answer} (${confidence}%, ${sources.length} sources, ${context.length} chars)`);
+                console.log(`[RESULT] Q${q.number}: ${answer} (${confidence}%, context: ${context.length} chars)`);
                 
             } catch (e) {
                 console.error(`[ERROR] Q${q.number}:`, e.message);
                 results.push({
                     number: q.number,
-                    question: q.text.substring(0, 50) + '...',
                     answer: 'B',
-                    confidence: 40,
-                    sources: [],
-                    contextLength: 0
+                    confidence: 40
                 });
             }
         }
         
-        // Genera HTML con FONTI
-        let html = '<div style="max-width:800px;margin:20px auto">';
-        
-        // Tabella principale
-        html += '<table style="width:100%;border-collapse:collapse;margin-bottom:30px">';
+        // Genera HTML
+        let html = '<table style="width:100%;max-width:500px;margin:20px auto;border-collapse:collapse">';
         html += '<thead><tr style="background:#f5f5f7">';
-        html += '<th style="padding:12px;width:60px">N°</th>';
-        html += '<th style="padding:12px;text-align:left">DOMANDA</th>';
-        html += '<th style="padding:12px;width:80px">RISPOSTA</th>';
-        html += '<th style="padding:12px;width:100px">CONFIDENZA</th>';
-        html += '<th style="padding:12px;width:80px">FONTE</th>';
+        html += '<th style="padding:12px">DOMANDA</th>';
+        html += '<th style="padding:12px">RISPOSTA</th>';
+        html += '<th style="padding:12px">CONFIDENZA</th>';
         html += '</tr></thead><tbody>';
         
         for (const r of results) {
             const color = r.confidence >= 80 ? '#34c759' : r.confidence >= 60 ? '#ff9500' : '#ff3b30';
-            const sourceInfo = r.sources.length > 0 ? `Pag. ${r.sources[0].page}` : 'N/D';
-            
-            html += `<tr style="border-bottom:1px solid #f0f0f0">
+            html += `<tr>
                 <td style="padding:12px;text-align:center">${r.number}</td>
-                <td style="padding:12px;font-size:13px;color:#515154">${r.question}</td>
-                <td style="padding:12px;text-align:center;font-weight:bold;font-size:20px">${r.answer}</td>
-                <td style="padding:12px;text-align:center;color:${color};font-weight:600">${r.confidence}%</td>
-                <td style="padding:12px;text-align:center;font-size:12px;color:#86868b">${sourceInfo}</td>
+                <td style="padding:12px;text-align:center;font-weight:bold;font-size:18px">${r.answer}</td>
+                <td style="padding:12px;text-align:center;color:${color}">${r.confidence}%</td>
             </tr>`;
         }
         
         html += '</tbody></table>';
         
-        // Dettagli delle fonti
-        html += '<div style="background:#f5f5f7;border-radius:12px;padding:20px">';
-        html += '<h3 style="font-size:16px;margin-bottom:15px;color:#1d1d1f">📚 Dettagli Fonti</h3>';
-        
-        for (const r of results) {
-            if (r.sources.length > 0) {
-                html += `<div style="margin-bottom:15px;padding:12px;background:white;border-radius:8px">`;
-                html += `<div style="font-weight:600;color:#1d1d1f;margin-bottom:8px">Domanda ${r.number} → Risposta: ${r.answer}</div>`;
-                
-                for (let i = 0; i < Math.min(2, r.sources.length); i++) {
-                    const source = r.sources[i];
-                    html += `<div style="margin-left:20px;margin-top:8px;padding:8px;background:#fbfbfd;border-left:3px solid ${source.score > 0.5 ? '#34c759' : '#ff9500'};font-size:12px">`;
-                    html += `<div style="color:#86868b">📄 Pagina ${source.page} • Score: ${source.score.toFixed(2)}</div>`;
-                    html += `<div style="color:#515154;margin-top:4px;font-style:italic">"${source.preview}"</div>`;
-                    html += `</div>`;
-                }
-                
-                if (r.sources.length > 2) {
-                    html += `<div style="margin-left:20px;margin-top:5px;font-size:11px;color:#86868b">...e altre ${r.sources.length - 2} fonti</div>`;
-                }
-                
-                html += `</div>`;
-            }
-        }
-        
-        if (results.every(r => r.sources.length === 0)) {
-            html += '<div style="text-align:center;color:#86868b;font-style:italic">Nessuna fonte specifica trovata nel corso - risposte basate su ragionamento generale</div>';
-        }
-        
-        html += '</div>';
-        
-        // Stats finali
+        // Stats
         const avgConfidence = Math.round(results.reduce((sum, r) => sum + r.confidence, 0) / results.length);
-        const withSources = results.filter(r => r.sources.length > 0).length;
         
-        html += '<div style="margin-top:20px;padding:15px;background:#fff;border:1px solid #d2d2d7;border-radius:8px">';
+        html += '<div style="margin-top:20px;padding:15px;background:#f5f5f7;border-radius:8px">';
         html += '<div style="font-size:14px;color:#515154">';
-        html += `📊 <strong>Riepilogo Analisi</strong><br>`;
-        html += `• Domande analizzate: ${results.length}<br>`;
-        html += `• Confidenza media: ${avgConfidence}%<br>`;
-        html += `• Risposte con fonti: ${withSources}/${results.length}<br>`;
-        html += `• Copertura corso: ${Math.round((withSources/results.length)*100)}%`;
+        html += `📊 <strong>Analisi completata</strong><br>`;
+        html += `• Domande: ${results.length}<br>`;
+        html += `• Confidenza media: ${avgConfidence}%`;
         html += '</div></div>';
         
+        html += '<div style="margin-top:15px;text-align:center;color:#86868b;font-size:12px">';
+        html += '✨ RAG v4 Text Format - JSON-free parsing';
         html += '</div>';
         
         return res.status(200).json({
             content: [{ type: 'text', text: html }],
             metadata: {
                 questionsAnalyzed: results.length,
-                method: 'rag-v4-with-sources',
-                avgConfidence: avgConfidence,
-                sourceCoverage: withSources / results.length
+                method: 'rag-v4-text',
+                avgConfidence: avgConfidence
             }
         });
         
