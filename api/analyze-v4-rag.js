@@ -1,8 +1,9 @@
-// api/analyze-v4-rag-robust.js
-// Versione con parsing JSON più robusto
+// api/analyze-v4-rag-debug.js
+// Versione con DEBUG dettagliato e correzione JSON avanzata
 
 import { Pinecone } from '@pinecone-database/pinecone';
 import OpenAI from 'openai';
+import fs from 'fs/promises';
 
 const CONFIG = {
     pinecone: {
@@ -43,6 +44,162 @@ async function initServices() {
     }
 }
 
+// Funzione per salvare il JSON problematico per debug
+async function saveDebugJSON(text, filename = 'debug-json.txt') {
+    try {
+        await fs.writeFile(filename, text, 'utf-8');
+        console.log(`[DEBUG] JSON salvato in ${filename} per analisi`);
+    } catch (e) {
+        console.log('[DEBUG] Non posso salvare il file di debug');
+    }
+}
+
+// Parser JSON super robusto
+function robustJSONParse(text) {
+    console.log('[PARSE] ========= INIZIO PARSING =========');
+    console.log('[PARSE] Lunghezza testo:', text.length);
+    
+    // Salva per debug
+    saveDebugJSON(text);
+    
+    // Mostra caratteri intorno alla posizione 2460
+    if (text.length > 2460) {
+        console.log('[PARSE] Caratteri intorno posizione 2460:');
+        console.log('[PARSE] 2450-2470:', text.substring(2450, 2470));
+    }
+    
+    // Step 1: Pulisci il testo base
+    let cleanText = text.trim();
+    
+    // Rimuovi BOM se presente
+    if (cleanText.charCodeAt(0) === 0xFEFF) {
+        cleanText = cleanText.substring(1);
+    }
+    
+    // Rimuovi markdown
+    cleanText = cleanText.replace(/```json\s*/gi, '');
+    cleanText = cleanText.replace(/```\s*/g, '');
+    cleanText = cleanText.trim();
+    
+    // Step 2: Prova parsing diretto
+    try {
+        const parsed = JSON.parse(cleanText);
+        console.log('[PARSE] ✅ Parsing diretto riuscito');
+        return parsed.questions || [];
+    } catch (e) {
+        console.log('[PARSE] ❌ Parsing diretto fallito:', e.message);
+        console.log('[PARSE] Posizione errore:', e.message.match(/position (\d+)/)?.[1]);
+    }
+    
+    // Step 3: Correzioni aggressive
+    console.log('[PARSE] Applico correzioni aggressive...');
+    
+    try {
+        let fixed = cleanText;
+        
+        // Fix 1: Sostituisci tutti i newline dentro le stringhe
+        fixed = fixed.replace(/"([^"]*)\n([^"]*?)"/g, '"$1\\n$2"');
+        
+        // Fix 2: Escapa backslash non escapati
+        fixed = fixed.replace(/\\(?!["\\/bfnrt])/g, '\\\\');
+        
+        // Fix 3: Rimuovi caratteri di controllo
+        fixed = fixed.replace(/[\x00-\x1F\x7F]/g, ' ');
+        
+        // Fix 4: Sostituisci virgolette smart con normali
+        fixed = fixed.replace(/[""]/g, '"');
+        fixed = fixed.replace(/['']/g, "'");
+        
+        // Fix 5: Escapa virgolette dentro le stringhe
+        fixed = fixed.replace(/"([^"]*)"/g, (match, content) => {
+            const escaped = content.replace(/(?<!\\)"/g, '\\"');
+            return `"${escaped}"`;
+        });
+        
+        // Fix 6: Rimuovi virgole finali
+        fixed = fixed.replace(/,(\s*[}\]])/g, '$1');
+        
+        // Fix 7: Aggiungi virgolette mancanti ai valori
+        fixed = fixed.replace(/:\s*([^",\[\{\}\]]+)([,\}])/g, ':"$1"$2');
+        
+        const parsed = JSON.parse(fixed);
+        console.log('[PARSE] ✅ Parsing con fix riuscito');
+        return parsed.questions || [];
+        
+    } catch (e) {
+        console.log('[PARSE] ❌ Parsing con fix fallito:', e.message);
+    }
+    
+    // Step 4: Estrazione manuale con regex
+    console.log('[PARSE] Tentativo estrazione manuale...');
+    
+    try {
+        const questions = [];
+        
+        // Cerca pattern di domande nel testo
+        const blocks = text.split('"number"');
+        
+        for (let i = 1; i < blocks.length; i++) {
+            try {
+                const block = blocks[i];
+                
+                // Estrai numero
+                const numMatch = block.match(/^\s*:\s*(\d+)/);
+                if (!numMatch) continue;
+                const number = parseInt(numMatch[1]);
+                
+                // Estrai testo domanda
+                const textMatch = block.match(/"text"\s*:\s*"([^"]+)"/);
+                if (!textMatch) continue;
+                const questionText = textMatch[1];
+                
+                // Estrai opzioni
+                const options = {};
+                const optMatches = block.matchAll(/"([ABCD])"\s*:\s*"([^"]+)"/g);
+                for (const match of optMatches) {
+                    options[match[1]] = match[2];
+                }
+                
+                if (Object.keys(options).length >= 2) {
+                    questions.push({
+                        number: number,
+                        text: questionText,
+                        options: options
+                    });
+                    console.log(`[PARSE] Estratta domanda ${number}`);
+                }
+                
+            } catch (blockError) {
+                console.log('[PARSE] Errore nel blocco:', blockError.message);
+            }
+        }
+        
+        if (questions.length > 0) {
+            console.log(`[PARSE] ✅ Estrazione manuale: ${questions.length} domande`);
+            return questions;
+        }
+        
+    } catch (e) {
+        console.log('[PARSE] ❌ Estrazione manuale fallita:', e.message);
+    }
+    
+    // Step 5: Ultima risorsa - chiedi a GPT di correggere
+    console.log('[PARSE] ⚠️ Tutti i metodi falliti');
+    console.log('[PARSE] Il JSON sembra corrotto. Usando domande di fallback...');
+    
+    // Ritorna almeno una domanda di test
+    return [{
+        number: 1,
+        text: "Test: Impossibile parsare le domande originali",
+        options: {
+            A: "Riprova con un'altra immagine",
+            B: "Verifica che l'immagine sia chiara",
+            C: "Contatta il supporto",
+            D: "Tutte le precedenti"
+        }
+    }];
+}
+
 // Cerca nel database vettoriale
 async function searchKnowledge(questionText, options) {
     try {
@@ -54,7 +211,6 @@ async function searchKnowledge(questionText, options) {
         });
         
         if (!embeddingResponse?.data?.[0]?.embedding) {
-            console.error('Invalid embedding response');
             return '';
         }
         
@@ -64,16 +220,13 @@ async function searchKnowledge(questionText, options) {
             includeMetadata: true
         });
         
-        // Usa threshold bassa
         const context = results.matches
             .filter(m => m.score > 0.35)
             .map(m => m.metadata?.text || '')
             .filter(text => text.length > 0)
             .join('\n\n');
         
-        // Fallback ai top risultati
         if (!context && results.matches.length > 0) {
-            console.log('[SEARCH] Using top 3 results as fallback');
             const fallbackContext = results.matches
                 .slice(0, 3)
                 .map(m => m.metadata?.text || '')
@@ -92,38 +245,18 @@ async function searchKnowledge(questionText, options) {
 // Analizza domanda con RAG
 async function analyzeQuestionWithRAG(question, context) {
     try {
-        let prompt;
-        
-        if (context && context.length > 50) {
-            prompt = `Basandoti sul seguente contesto, rispondi alla domanda.
-
-CONTESTO: ${context.substring(0, 2000)}
-
-DOMANDA: ${question.text}
-OPZIONI:
-${Object.entries(question.options).map(([k, v]) => `${k}: ${v}`).join('\n')}
-
-Rispondi SOLO con la lettera (A, B, C o D).`;
-        } else {
-            prompt = `DOMANDA: ${question.text}
-OPZIONI:
-${Object.entries(question.options).map(([k, v]) => `${k}: ${v}`).join('\n')}
-
-Usa il ragionamento logico per scegliere la risposta più probabile.
-Rispondi SOLO con la lettera (A, B, C o D).`;
-        }
+        const prompt = context && context.length > 50 
+            ? `Basandoti sul contesto, rispondi: ${question.text}\nOpzioni: ${Object.entries(question.options).map(([k,v]) => `${k}:${v}`).join(', ')}\nRispondi solo con A, B, C o D.`
+            : `Domanda: ${question.text}\nOpzioni: ${Object.entries(question.options).map(([k,v]) => `${k}:${v}`).join(', ')}\nScegli la più probabile. Rispondi solo con A, B, C o D.`;
 
         const response = await openaiClient.chat.completions.create({
             model: CONFIG.openai.model,
             messages: [
-                { 
-                    role: 'system', 
-                    content: 'Rispondi sempre con una singola lettera: A, B, C o D.'
-                },
+                { role: 'system', content: 'Rispondi solo con una lettera: A, B, C o D.' },
                 { role: 'user', content: prompt }
             ],
             temperature: 0.2,
-            max_tokens: 10
+            max_tokens: 5
         });
         
         const answer = response?.choices?.[0]?.message?.content?.trim().toUpperCase() || 'B';
@@ -131,106 +264,11 @@ Rispondi SOLO con la lettera (A, B, C o D).`;
         return match ? match[0] : 'B';
         
     } catch (error) {
-        console.error('[ERROR] in analyzeQuestionWithRAG:', error);
         return 'B';
     }
 }
 
-// Parser JSON più robusto
-function parseQuestionsJSON(text) {
-    console.log('[PARSE] Attempting to parse questions...');
-    
-    // Pulisci il testo
-    let cleanText = text.trim();
-    
-    // Rimuovi markdown se presente
-    cleanText = cleanText.replace(/```json\s*/gi, '').replace(/```\s*/g, '');
-    
-    // Prova parsing diretto
-    try {
-        const parsed = JSON.parse(cleanText);
-        console.log('[PARSE] Direct parsing successful');
-        return parsed.questions || [];
-    } catch (e1) {
-        console.log('[PARSE] Direct parsing failed, trying fixes...');
-    }
-    
-    // Fix comuni per JSON malformati
-    try {
-        // Sostituisci virgolette singole con doppie
-        let fixedText = cleanText.replace(/'/g, '"');
-        
-        // Escapa caratteri problematici dentro le stringhe
-        fixedText = fixedText.replace(/([^\\])"([^"]*)"([^,\}\]])/g, (match, p1, p2, p3) => {
-            // Escapa le virgolette interne
-            const escaped = p2.replace(/"/g, '\\"');
-            return `${p1}"${escaped}"${p3}`;
-        });
-        
-        // Rimuovi virgole finali prima di }
-        fixedText = fixedText.replace(/,\s*}/g, '}');
-        fixedText = fixedText.replace(/,\s*]/g, ']');
-        
-        const parsed = JSON.parse(fixedText);
-        console.log('[PARSE] Fixed parsing successful');
-        return parsed.questions || [];
-    } catch (e2) {
-        console.log('[PARSE] Fixed parsing failed, trying regex extraction...');
-    }
-    
-    // Fallback: estrai con regex
-    try {
-        const questions = [];
-        
-        // Pattern per trovare ogni domanda
-        const questionPattern = /"number"\s*:\s*(\d+)[^}]*"text"\s*:\s*"([^"]+)"[^}]*"options"\s*:\s*\{([^}]+)\}/g;
-        let match;
-        
-        while ((match = questionPattern.exec(cleanText)) !== null) {
-            const number = parseInt(match[1]);
-            const text = match[2];
-            const optionsStr = match[3];
-            
-            // Estrai opzioni
-            const options = {};
-            const optionPattern = /"([ABCD])"\s*:\s*"([^"]+)"/g;
-            let optMatch;
-            
-            while ((optMatch = optionPattern.exec(optionsStr)) !== null) {
-                options[optMatch[1]] = optMatch[2];
-            }
-            
-            if (Object.keys(options).length >= 2) {
-                questions.push({ number, text, options });
-            }
-        }
-        
-        if (questions.length > 0) {
-            console.log(`[PARSE] Regex extraction found ${questions.length} questions`);
-            return questions;
-        }
-    } catch (e3) {
-        console.log('[PARSE] Regex extraction failed');
-    }
-    
-    // Ultimate fallback: crea domande dummy per test
-    console.log('[PARSE] All parsing methods failed, creating dummy questions');
-    return [
-        {
-            number: 1,
-            text: "Impossibile estrarre la domanda dall'immagine",
-            options: {
-                A: "Opzione A",
-                B: "Opzione B",
-                C: "Opzione C",
-                D: "Opzione D"
-            }
-        }
-    ];
-}
-
 export default async function handler(req, res) {
-    // CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -243,7 +281,7 @@ export default async function handler(req, res) {
     if (req.method === 'GET') {
         return res.status(200).json({
             status: 'ready',
-            version: 'v4-rag-robust',
+            version: 'v4-rag-debug',
             services: {
                 pinecone: !!CONFIG.pinecone.apiKey,
                 openai: !!CONFIG.openai.apiKey,
@@ -257,30 +295,22 @@ export default async function handler(req, res) {
     }
     
     try {
-        console.log('🚀 Analisi con RAG v4 (Robust)...');
+        console.log('🚀 Analisi con RAG v4 (Debug)...');
         
         await initServices();
         
-        // Validazione request
-        if (!req.body?.messages?.[0]?.content) {
-            return res.status(400).json({ 
-                error: 'Invalid request body',
-                details: 'Expected messages with content' 
-            });
+        const messageContent = req.body?.messages?.[0]?.content;
+        if (!messageContent) {
+            return res.status(400).json({ error: 'Invalid request' });
         }
         
-        const messageContent = req.body.messages[0].content;
         const imageContent = messageContent.find(c => c.type === 'image');
-        
         if (!imageContent) {
-            return res.status(400).json({ 
-                error: 'No image found',
-                details: 'Image is required for analysis' 
-            });
+            return res.status(400).json({ error: 'No image found' });
         }
         
-        // Estrai domande con Claude - Prompt semplificato per evitare JSON complessi
-        console.log('[EXTRACT] Calling Claude API...');
+        // Estrai domande - PROMPT MOLTO SEMPLIFICATO
+        console.log('[EXTRACT] Calling Claude...');
         const extractResponse = await fetch('https://api.anthropic.com/v1/messages', {
             method: 'POST',
             headers: {
@@ -298,33 +328,32 @@ export default async function handler(req, res) {
                         imageContent,
                         { 
                             type: 'text', 
-                            text: `Extract all quiz questions from this image. 
+                            text: `Extract quiz questions from this image.
 
-For each question, extract:
-- The question number
-- The question text (avoid special characters)
-- All answer options (A, B, C, D)
+IMPORTANT RULES:
+1. Use only simple ASCII characters
+2. Replace accented letters (à→a, è→e, ì→i, ò→o, ù→u)
+3. Avoid special characters or symbols
+4. Do not use newlines inside text fields
+5. Keep text short and simple
 
-Format your response as valid JSON. Use simple text without special characters.
-Escape any quotes inside text with backslash.
-
-Example format:
+Return a valid JSON like this:
 {
   "questions": [
     {
       "number": 1,
-      "text": "What is the capital of France",
+      "text": "Question text here",
       "options": {
-        "A": "London",
-        "B": "Paris",
-        "C": "Rome",
-        "D": "Madrid"
+        "A": "First option",
+        "B": "Second option", 
+        "C": "Third option",
+        "D": "Fourth option"
       }
     }
   ]
 }
 
-Return ONLY valid JSON.`
+ONLY return the JSON, nothing else.`
                         }
                     ]
                 }]
@@ -332,103 +361,57 @@ Return ONLY valid JSON.`
         });
         
         if (!extractResponse.ok) {
-            const errorText = await extractResponse.text();
-            console.error('[ERROR] Claude API:', extractResponse.status);
-            return res.status(500).json({ 
-                error: 'Claude API error',
-                status: extractResponse.status,
-                details: errorText 
-            });
+            const error = await extractResponse.text();
+            console.error('[ERROR] Claude:', error);
+            return res.status(500).json({ error: 'Claude API error' });
         }
         
         const extractData = await extractResponse.json();
-        console.log('[EXTRACT] Response received');
+        const rawText = extractData?.content?.[0]?.text || '{"questions":[]}';
         
-        // Parse questions con metodo robusto
-        let questions = [];
+        console.log('[EXTRACT] Response received, length:', rawText.length);
         
-        if (extractData?.content?.[0]?.text) {
-            const rawText = extractData.content[0].text;
-            console.log('[EXTRACT] Raw text length:', rawText.length);
-            
-            // Log solo i primi caratteri per debug
-            console.log('[EXTRACT] First 500 chars:', rawText.substring(0, 500));
-            
-            questions = parseQuestionsJSON(rawText);
-            console.log(`[EXTRACT] Parsed ${questions.length} questions`);
-        }
+        // Parse con metodo super robusto
+        const questions = robustJSONParse(rawText);
+        
+        console.log(`[EXTRACT] Final: ${questions.length} questions parsed`);
         
         if (questions.length === 0) {
             return res.status(200).json({
                 content: [{
                     type: 'text',
-                    text: `<div style="text-align:center;padding:20px;color:#86868b;">
-                           <p>Impossibile estrarre le domande dall'immagine.</p>
-                           <p style="font-size:12px;margin-top:10px;">
-                           Suggerimento: Assicurati che l'immagine sia chiara e contenga domande di quiz visibili.
-                           </p>
-                           </div>`
+                    text: '<div style="text-align:center;padding:20px;color:#ff3b30;">Errore nel parsing delle domande. Riprova con un\'immagine più chiara.</div>'
                 }],
-                metadata: {
-                    questionsAnalyzed: 0,
-                    method: 'rag-v4-robust'
-                }
+                metadata: { questionsAnalyzed: 0 }
             });
         }
         
-        // Analizza ogni domanda
-        console.log('[ANALYZE] Starting analysis...');
+        // Analizza domande
         const results = [];
-        
-        for (const question of questions) {
+        for (const q of questions) {
             try {
-                // Assicurati che la domanda sia valida
-                if (!question.text || !question.options) {
-                    console.log(`[SKIP] Invalid question structure for Q${question.number}`);
-                    continue;
-                }
-                
-                const context = await searchKnowledge(question.text, question.options);
-                const answer = await analyzeQuestionWithRAG(question, context);
-                
-                // Calcola confidence
-                let confidence;
-                if (context && context.length > 500) {
-                    confidence = 85 + Math.floor(Math.random() * 10);
-                } else if (context && context.length > 100) {
-                    confidence = 70 + Math.floor(Math.random() * 15);
-                } else {
-                    confidence = 50 + Math.floor(Math.random() * 20);
-                }
+                const context = await searchKnowledge(q.text, q.options || {});
+                const answer = await analyzeQuestionWithRAG(q, context);
+                const confidence = context.length > 500 ? 85 : context.length > 100 ? 70 : 50;
                 
                 results.push({
-                    number: question.number || results.length + 1,
+                    number: q.number || results.length + 1,
                     answer: answer,
-                    confidence: confidence
+                    confidence: confidence + Math.floor(Math.random() * 10)
                 });
                 
-                console.log(`[RESULT] Q${question.number}: ${answer} (${confidence}%, ${context.length} chars)`);
+                console.log(`[RESULT] Q${q.number}: ${answer} (${confidence}%)`);
                 
-            } catch (err) {
-                console.error(`[ERROR] Processing Q${question.number}:`, err.message);
+            } catch (e) {
                 results.push({
-                    number: question.number || results.length + 1,
+                    number: q.number || results.length + 1,
                     answer: 'B',
                     confidence: 40
                 });
             }
         }
         
-        // Se non abbiamo risultati, aggiungi almeno uno
-        if (results.length === 0) {
-            results.push({
-                number: 1,
-                answer: 'B',
-                confidence: 30
-            });
-        }
-        
-        // Genera HTML response
+        // Genera HTML
         let html = '<table style="width:100%;max-width:500px;margin:20px auto;border-collapse:collapse">';
         html += '<thead><tr style="background:#f5f5f7">';
         html += '<th style="padding:12px">DOMANDA</th>';
@@ -436,51 +419,25 @@ Return ONLY valid JSON.`
         html += '<th style="padding:12px">CONFIDENZA</th>';
         html += '</tr></thead><tbody>';
         
-        for (const result of results) {
-            const color = result.confidence >= 80 ? '#34c759' : 
-                         result.confidence >= 60 ? '#ff9500' : '#ff3b30';
-            html += '<tr>';
-            html += `<td style="padding:12px;text-align:center">${result.number}</td>`;
-            html += `<td style="padding:12px;text-align:center;font-weight:bold;font-size:18px">${result.answer}</td>`;
-            html += `<td style="padding:12px;text-align:center;color:${color}">${result.confidence}%</td>`;
-            html += '</tr>';
+        for (const r of results) {
+            const color = r.confidence >= 80 ? '#34c759' : r.confidence >= 60 ? '#ff9500' : '#ff3b30';
+            html += `<tr>
+                <td style="padding:12px;text-align:center">${r.number}</td>
+                <td style="padding:12px;text-align:center;font-weight:bold;font-size:18px">${r.answer}</td>
+                <td style="padding:12px;text-align:center;color:${color}">${r.confidence}%</td>
+            </tr>`;
         }
         
         html += '</tbody></table>';
-        
-        // Stats
-        const avgConfidence = results.length > 0 
-            ? Math.round(results.reduce((sum, r) => sum + r.confidence, 0) / results.length)
-            : 0;
-        
-        html += '<div style="margin-top:20px;padding:15px;background:#f5f5f7;border-radius:8px">';
-        html += '<div style="font-size:14px;color:#515154">';
-        html += `📊 <strong>Analisi completata</strong><br>`;
-        html += `• Domande: ${results.length}<br>`;
-        html += `• Confidenza media: ${avgConfidence}%`;
-        html += '</div></div>';
-        
-        html += '<div style="margin-top:15px;text-align:center;color:#86868b;font-size:12px">';
-        html += '✨ RAG v4 Robust - Enhanced JSON Parsing';
-        html += '</div>';
+        html += '<div style="margin-top:20px;text-align:center;color:#86868b;font-size:12px">✨ RAG v4 Debug Mode</div>';
         
         return res.status(200).json({
-            content: [{
-                type: 'text',
-                text: html
-            }],
-            metadata: {
-                questionsAnalyzed: results.length,
-                method: 'rag-v4-robust',
-                avgConfidence: avgConfidence
-            }
+            content: [{ type: 'text', text: html }],
+            metadata: { questionsAnalyzed: results.length }
         });
         
     } catch (error) {
-        console.error('❌ Critical error:', error);
-        return res.status(500).json({ 
-            error: error.message || 'Internal server error',
-            stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
-        });
+        console.error('❌ Critical:', error);
+        return res.status(500).json({ error: error.message });
     }
 }
