@@ -15,7 +15,7 @@ const CONFIG = {
         embeddingModel: 'text-embedding-3-small'
     },
     anthropic: {
-        apiKey: process.env.ANTHROPIC_API_KEY
+        apiKey: process.env.ANTHROPIC_API_KEY_EVO
     }
 };
 
@@ -32,7 +32,7 @@ async function initServices() {
         throw new Error('OPENAI_API_KEY non configurata');
     }
     if (!CONFIG.anthropic.apiKey) {
-        throw new Error('ANTHROPIC_API_KEY non configurata');
+        throw new Error('ANTHROPIC_API_KEY_EVO non configurata');
     }
     
     if (!pineconeIndex) {
