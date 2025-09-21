@@ -15,7 +15,7 @@ const CONFIG = {
         embeddingModel: 'text-embedding-3-small'
     },
     anthropic: {
-        apiKey: process.env.ANTHROPIC_API_KEY_EVO  // Manteniamo il tuo nome
+        apiKey: process.env.ANTHROPIC_API_KEY_EVO  
     }
 };
 
